@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "Issue 65"
+permalink: "/65"
+---
+
+## Audiograph ##
+
+Matt DesLauriers Audiograph is a "visual exploration of Pilotpriest's
+2016 album, TRANS". It uses WebGL and Web Audio to create a
+visualization for each of the album's tracks, and also makes use of
+Dolby's Digital Plus where supported. Matt has also made the code available on Github.
+
+- [http://audiograph.xyz/?cc](http://audiograph.xyz/?cc)
+- [https://github.com/mattdesl/audiograph.xyz](https://github.com/mattdesl/audiograph.xyz)
+
+## genish.js ##
+
+The Web Audio API is designed around the idea of "per block"
+sampling. If you connect an `Oscillator` node to the destination, for
+example, the underlying audio engine is actually creating a block of
+128 sample at a time to the output. In practice this limitation is not
+too significant, and it vastly improves the efficiency of the
+implementation.
+
+However for some operations, if you want to create a delay node with a
+delay time shorter than 128 samples, for example, the block-passing
+technique is not suitable. In these cases, `genish.js` is a library
+that can help. It processes samples through the audio graph one sample
+at a time.
+
+It does this by generating a callback function that can be passed to a
+`ScriptProcessor` node - an approach that currently has its own
+limitations as the documentation explains.
+
+This is an exciting project, one that will appeal to people coming to
+Web Audio from a PD or MAX/MSP background, and it looks set to see
+dramatic efficiency boosts with the arrival of the `ScriptProcessor`
+replacement `AudioWorklet`.
+
+- [http://www.charlie-roberts.com/genish/](http://www.charlie-roberts.com/genish/)
+
+## Tiny 808 ##
+
+Joe Sullivan has been working on some accurate synthesised recreations
+of the original Roland TR-808 drum sounds. You can play with the whole
+set using his "Tiny 808" synth, or install them as individual `npm`
+packages from his github page.
+
+- [http://tiny-808.com/](http://tiny-808.com/)
+- [https://github.com/itsjoesullivan?tab=repositories](https://github.com/itsjoesullivan?tab=repositories)
+
+## Theremin ##
+
+A fun Web Audio Theremin application - also available in the chrome store.
+
+- [http://femurdesign.com/theremin/](http://femurdesign.com/theremin/)
+
+## Chrome Music Lab: Making Kandinski ##
+
+Kandinsky is a musical toy from Chrome Music Labs that lets you draw
+shapes and see them come alive as funny, music-making creatures. In
+this blog post the developers go into detail about the WebGL and Web
+Audio techniques they used to create it.
+
+- [Chrome Music Lab: Making ‘Kandinsky’](https://medium.com/@activetheory/chrome-music-lab-making-kandinsky-7de5ab04f4fe#.o3nrxvf2p)
+
+## Scribble Audio ##
+
+Turn your scribbles into tunes with this new Web Audio tool from Kyle
+Stetz. I love the "record wav file" button which immediately creates a
+recording of your composition for download.
+
+- [http://scribble.audio/](http://scribble.audio/)
+
+## Pixel Synth ##
+
+Turn images - ones you've drawn or uploaded - into glitchy
+compositions.
+
+- [https://ojack.github.io/PIXELSYNTH/](https://ojack.github.io/PIXELSYNTH/)
