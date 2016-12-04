@@ -7,10 +7,10 @@
 
 # Site settings
 title: Web Audio Weekly
-email: info@webaudioweekly.com
-description: Web Audio Weekly is an email newsletter bringing you all of the latest news and links about the Web Audio API, the Web MIDI API and audio on the web in general.
+email: chris@webaudioweekly.com
+description: Web Audio Weekly brings you the latest news and links about the Web Audio API, the Web MIDI API and the future of audio on the web.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://webaudioweekly.com" # the base hostname & protocol for your site
+url: "https://www.webaudioweekly.com" # the base hostname & protocol for your site
 twitter_username: webaudioweekly
 
 # Build settings
