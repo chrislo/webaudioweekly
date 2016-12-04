@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Issue 13"
+permalink: "/13"
+---
+
+## Soundslice ##
+
+Soundslice is an interactive sheet music and guitar tabulator viewer
+that uses Canvas and Web Audio together to help musicians learn songs
+and share their transcriptions and compositions. As the music plays
+the sheet music highlights the current note in real time. If a
+particular passage is proving tricky to master, the tempo can be
+reduced. Synthesised sounds can replace real sounds, making it
+pleasant to listen to even at low tempos. The polish and ease of use
+is really impressive, and it's great to see Web Audio technology being
+used in a commercial product. I'm hoping to interview Adrian at
+Soundslice for a future issue of this newsletter to get an insight
+into the technical implementation - so watch this space.
+
+- [http://www.soundslice.com/](http://www.soundslice.com/)
+
+## Connecting external devices to smartphones using Web Audio ##
+
+Connecting external devices to smartphones is not an easy task for the
+independent developer. Licensing the technology to use the "lightning"
+connector on an iOS device can be prohibitively expensive, for
+example. Colin Bookman has an interesting idea - use the Web Audio API
+to decode signals sent over the audio jack. In this blog post Colin
+presents the software and hardware required to transfer data at
+16bits/s with an error rate of around 5% encoded as a stream of sine
+wave pulses.
+
+- [http://colinbookman.com/2014/03/23/micio/](http://colinbookman.com/2014/03/23/micio/)
+
+## MIDI HACK ##
+
+MIDI HACK is a hackday hosted by Spotify in their HQ in Sweden in
+May. It looks to have a hardware-focus, but I'm sure there'll be
+plenty of interesting things you could build using the Web Audio or
+Web MIDI APIs. Applications are open until the 13th April, so if you
+can make it to Sweden in May, go and sign up.
+
+- [http://www.midihack.com/](http://www.midihack.com/)
+
+## Listen to sorting algorithms ##
+
+Daniel Stocks, a web developer from Sweden, has taken the
+visualisation of sorting algorithms one step further - he's used the
+Web Audio API to turn them into strangely compelling random
+compositions.
+
+- [http://webcloud.se/Assortment](http://webcloud.se/Assortment)
+
+## The drum machine that changed music ##
+
+"For a person like me that's spent years around music technology,
+these humble little boxes tend to take on personalities."
+
+In this short BBC Radio 4 documentary, Graham Massey gives a
+fascinating overview of the influence of the Roland TR-808 machine on
+music, with plenty of technical detail and great examples of the
+machine in use.
+
+- [http://www.bbc.co.uk/programmes/p01vzj7v](http://www.bbc.co.uk/programmes/p01vzj7v) (/via @andrewn)

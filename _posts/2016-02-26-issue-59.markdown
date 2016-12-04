@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "Issue 59"
+permalink: "/59"
+---
+
+## Interview with Paul Adenot, Web Audio Spec Editor ##
+
+An in-depth interview with Paul Adenot, who co-edits the Web Audio
+specification with Chris Wilson of Google, and works on the Web Audio
+implementation in Firefox. Paul talks about some of the current
+challenges, some upcoming features and improvements that need to be
+made before a "Version 1" of the API can be cut, and what to expect in
+"Version next". For those who have been eagerly awaiting the proposed
+`AudioWorker` replacement for `ScriptProcessorNode`, Paul goes into
+some detail on the challenges of that work, technically and from a
+specification point of view, and talks about the relationship to the
+work of the wonderfully named "CSS WG Houdini Task Force".
+
+- [Interview with Paul Adenot, Web Audio Spec Editor](https://webaudiotech.com/2016/02/17/interview-with-paul-adenot-web-audio-spec-editor/)
+
+## Senior Ruby Developer at Samplephonics ##
+### Sponsored post ###
+
+Samplephonics are looking for a Ruby on Rails developer with Web Audio
+experience to join them in building a new platform for music
+producers, initially on a contract basis with potential to go full
+time once contract has expired. They are based in Leeds, UK but open
+to remote working if necessary. Payment is £40p/h for contract work
+and £35-£45k per year full time and the contract is expected to last
+2-3 months. Experience in software architecture, leading a development
+team and working in a technology startup are all desirable. To apply, please send
+across your information to [hr@samplephonics.com](mailto:hr@samplephonics.com).
+
+- [More details](https://www.linkedin.com/jobs2/view/103894032)
+
+## Web Audio Updates in Chrome 49 ##
+
+There's a number of small but significant improvements to the Web
+Audio support in the very latest version of
+Chrome. `OfflineAudioContext` can now be suspended and resumed, which
+helps with memory consumption when working with very large node
+graphs. There's a new low-level `IIRFilterNode` for when the
+`BiquadFilterNode` doesn't give you enough control, and
+`decodeAudioData` now returns a `Promise` to make it easier to work
+with in asynchronous code. There's more details in Chris Wilson's blog
+post.
+
+- [Web Audio Updates in Chrome 49](https://developers.google.com/web/updates/2016/02/webaudio)
+
+## Manta: a ClojureScript library for making music with the Web Audio API ##
+
+Manta is a higher-level wrapper around the Web Audio API that lets you
+write synthesis code in ClojureScript. The Clojure-based live coding
+environment
+[https://github.com/overtone/overtone](https://github.com/overtone/overtone)
+is very popular in that community, and I can see a browser based
+version also making inroads. Or for those developers who prefer to use
+Clojure on both the client and server, this looks like an interesting
+bridge to Web Audio.
+
+- [https://github.com/daveyarwood/mantra](https://github.com/daveyarwood/mantra)
+
+## Using Web Audio API to decode and play an MP3 file ##
+
+A tutorial on how to load and decode MP3 files using the features of
+the Web Audio API. A neat trick here is the use of the File API so
+that the user can select a file to be decoded from their local
+file system. Follow on to part 2 of the tutorial to learn how to play
+back the file and add effects.
+
+- [Using Web Audio API to decode and play an MP3 file](http://nicdoescode.distinctive.com.au/2015/12/26/using-web-audio-api-to-decode-and-play-an-mp3-file-part-1/)
+
+## Web Audio API snippets for Atom ##
+
+If your editor of choice is Atom, this collection of snippets might
+help you to write Web Audio code faster and with less errors.
+
+- [https://atom.io/packages/web-audio-api-snippets](https://atom.io/packages/web-audio-api-snippets)
+
+## Basic concepts behind Web Audio API ##
+
+The Mozilla Developer Network documentation is constantly edited and
+improved. One page that has been worked on a lot since I last saw it
+is the "Basic concepts behind the Web Audio API". It's a really good
+overview of the fundamentals.
+
+- [Basic concepts behind Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API)
+
+## TonalHub: Listen to a Github project ##
+
+Tonalhub takes the commit history for a Github project and turns that
+into a melody. It uses the
+[Pizzicato.js](https://alemangui.github.io/pizzicato/) Web Audio
+wrapper, which provides a terser and more expressive interface for
+playing melodies and controlling effects. The Tonalhub
+[source code is available too](https://github.com/alemangui/Tonalhub)
+
+- [Tonalhub](https://alemangui.github.io/Tonalhub/?user=webaudio&repository=web-audio-api)

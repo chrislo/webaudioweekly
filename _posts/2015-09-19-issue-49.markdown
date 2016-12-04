@@ -1,0 +1,124 @@
+---
+layout: post
+title:  "Issue 49"
+permalink: "/49"
+---
+
+## Sound Design in Web Audio ##
+
+I love articles about sound design, the process of creating new sounds
+from scratch using simple synthesis building blocks. In this in-depth
+two-part article Nick Thompson recreates the bass sounds common in
+"NeuroFunk" music using a subtractive synthesis approach. There's some
+great theoretical detail about resampling, waveshaping and oscillator
+phasing as well as loads of code to dig into. Great stuff!
+
+- [http://nickwritesablog.com/sound-design-in-web-audio-neurofunk-bass-part-1/](http://nickwritesablog.com/sound-design-in-web-audio-neurofunk-bass-part-1/)
+- [http://nickwritesablog.com/sound-design-in-web-audio-neurofunk-bass-part-2/](http://nickwritesablog.com/sound-design-in-web-audio-neurofunk-bass-part-2/)
+
+## Senior Frontend Developer for IDAGIO ##
+### Sponsored post ###
+
+Our mission at IDAGIO is to help classical music become a leader in the
+digital entertainment market. We work with some of the world's leading
+musicians, including the Vienna Philharmonic and the London Philharmonia
+Orchestra. Within the next weeks we will gradually roll out our web app
+into beta testing. As a senior frontend developer you join a small,
+interdisciplinary team that builds and owns all aspects of this app. We use
+a technology stack based around React, Redux and Node.js.
+
+The job is based in Berlin, full-time. We do offer help with visas and
+relocation.
+
+- [http://idagio.com/work](http://idagio.com/work)
+
+## A Tale of no clocks ##
+
+Joe Sullivan discusses the use of offline audio rendering in this blog
+post. The article talks about a variation of the all-at-once
+scheduling strategy, as outlined in Chris Wilson's blog post 'A tale
+of two clocks', that works particularly well with loops. It avoids
+on-going interaction with the UI thread by scheduling events in
+advance for offline rendering in an OfflineAudioContext. As we start
+to build more sophisticated applications in Web Audio, performance
+will become more and more important and articles like this will be
+incredibly useful.
+
+- [http://joesul.li/van/tale-of-no-clocks/](http://joesul.li/van/tale-of-no-clocks/)
+
+## Visualising audio waveforms in polar coordinates ##
+
+This project from Matt DesLauriers generates beautiful visualisations
+in real time using Canvas2D and the Web Audio API. On the
+[demo page](http://mattdesl.github.io/spins/), if you open up a
+console, you can change the parameters and choose a different
+Soundcloud track to render.
+
+- [https://github.com/mattdesl/spins](https://github.com/mattdesl/spins)
+
+## The Pentaphone ##
+
+We first met Bill Gathen's Pentaphone back in
+[issue 33](http://blog.chrislowis.co.uk/waw/2015/02/28/web-audio-weekly-33.html). It's
+a music performance tool that uses pentatonic scales to make it easier
+to play great-sounding harmonies and chord sequences. Bill's updated
+the app, using the Web MIDI API, to support Novation's Launchpad MIDI
+controller. If you have one of those the video tutorial shows you how
+to use it with Pentaphone.
+
+- [http://billgathen.github.io/pentaphone/](http://billgathen.github.io/pentaphone/)
+
+## Virtual Audio Graph ##
+
+Virtual Audio Graph is library by Ben Hall for the declarative
+manipulation of Web Audio node graphs, in a similar way to how
+[React](https://github.com/facebook/react) or the
+[virtual-dom](https://github.com/Matt-Esch/virtual-dom) work for the
+HTML DOM API. Rather than connecting nodes together using the
+standard, imperative calls to the API, we can instead declare the
+state we want the node graph to be in, for example:
+
+<pre>
+<code>
+virtualAudioGraph.update({
+  0: ['oscillator', 'output'],
+  1: ['gain', {key: 0, destination: 'frequency'}, {gain: 10}],
+  2: ['oscillator', [1, 'output'], {type: 'triangle', frequency: 1}],
+});
+</code>
+</pre>
+
+and the library will figure out the changes it needs to make to
+achieve this. It's a very interesting approach, and if you want to see
+how the library works in practice it's worth reading the code for
+Ben's 'Elemental' synth which uses this library.
+
+- [https://github.com/benji6/virtual-audio-graph](https://github.com/benji6/virtual-audio-graph)
+- [https://github.com/benji6/elemental](https://github.com/benji6/elemental)
+
+## iOS 9 Problems with Web Audio ##
+
+With the release of Apple's iOS9 operating system some developers have
+noticed issues with Web Audio applications and 'user initiated
+interactions'. Adrian Holovarty is collecting some resources and
+workarounds as they appear.
+
+- [http://www.holovaty.com/writing/ios9-web-audio/](http://www.holovaty.com/writing/ios9-web-audio/)
+
+## Creating UIs for the Web Audio API ##
+
+A talk from Stephen Band at the SwissJS conference on creating user
+interfaces for live music performance using the Web Audio API. The
+talk starts with a live performance for saxophone and browsers,
+introduces the concepts of the Web Audio and Web MIDI APIs, and then
+goes on to introduce `sound.io` a live-performance tool which allows
+on-the-fly modification of microphone input.
+
+- [Creating UIs for the Web Audio API](https://www.youtube.com/watch?v=tSThM9Aw8ps)
+- [sound.io](https://sound.io/)
+
+## Find the invisible cow ##
+
+It's hiding behind the shouting.
+
+- [http://www.findtheinvisiblecow.com/](http://www.findtheinvisiblecow.com/)

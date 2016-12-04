@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Issue 7"
+permalink: "/7"
+---
+
+## Recreating THX’s Deep Note in JavaScript with the Web Audio API ##
+
+This is a sound that is familiar to many cinema-goers, the THX Ltd.'s
+"audio logo"
+[Deep Note](http://en.wikipedia.org/wiki/Deep_Note). Stuart Memo was
+asked to recreate it using the Web Audio API for last year's JSConf
+EU, and in this blog post he shares the sound and the code used to
+create it. Stuart's very prolific, and often creates interesting Web
+Audio experiments. He's created a newsletter to share them: you should
+[sign up](http://tinyletter.com/stuartmemo).
+
+- [http://stuartmemo.com/thx-deep-note-in-javascript/](http://stuartmemo.com/thx-deep-note-in-javascript/)
+
+## RSA Key Extraction via Low-Bandwidth Acoustic Cryptanalysis ##
+
+This crazy article caught my eye over the break. Researcher's have
+found a way to extract cryptographic keys using acoustic analysis of
+the high-pitched squeals our laptop computers make. The full paper has
+the fascinating details, but I'll link to the summary page to save you
+an 8Mb download.
+
+- [http://www.cs.tau.ac.il/~tromer/acoustic/](http://www.cs.tau.ac.il/~tromer/acoustic/)
+
+## Pitch detection ##
+
+A while ago Chris Wilson, developer evangelist at Google and all-round
+Web Audio good-guy, released a simple pitch detection demo using the
+Web Audio API. You'd use pitch detection to build a guitar tuner, for
+example. Pitch detection, especially in more complicated cases can get
+very difficult. In this post, Chris talks about how he improved his
+initial simple algorithm, and shares a lot of really useful tips for
+building Web Audio applications. Of particular interest is his advice
+on syncing animation with audio in our applications.
+
+- [https://plus.google.com/u/0/+ChrisWilson/posts/9zHsF9PCDAL](https://plus.google.com/u/0/+ChrisWilson/posts/9zHsF9PCDAL)
+
+## Metamath Music ##
+
+Finally, it wouldn't be Web Audio Weekly without something esoteric
+and MIDI-related. This time (via @andrewn), this article talks about
+the relationship between mathematical proofs and music. The author has
+derived musical pieces from automated analysis of mathematical
+proofs. Head the warning, however: "make sure your media player is set
+to a 'piano' sound and not an 'electronic organ' sound, otherwise it
+will sound horrible".
+
+- [http://us.metamath.org/mpegif/mmmusic.html](http://us.metamath.org/mpegif/mmmusic.html)

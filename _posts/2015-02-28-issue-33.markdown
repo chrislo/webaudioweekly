@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Issue 33"
+permalink: "/33"
+---
+
+## Web Audio Meetups in London and New York ##
+
+I've been talking to a few Web Audio enthusiasts in London about
+organising a meetup for us to share presentations, demos, code and
+good times with each other. If that sounds interesting to you, you
+have something to present, would like to attend or can offer a venue
+or sponsorship, please send me an email or a tweet for more
+information. When we've organised a date and time we'll let you all
+know!
+
+In the meantime, if you're in New York in March, Splice are hosting a
+"Web Audio Show and Tell" at their offices on 20th street. It sounds
+like it'll be a great event, and I look forward to hearing about what
+was shown!
+
+- [http://www.meetup.com/New-York-Web-Audio-Meetup/events/220655389/](http://www.meetup.com/New-York-Web-Audio-Meetup/events/220655389/)
+
+## Birdsongs, Musique Concrète, and the Web Audio API ##
+
+Using a combination of crowd-sourced field recordings and knowledge of
+your location Brian Belet and Bill Walker have created an application
+that creates soundscapes consisting of layers of birdsongs. The
+authors describe their use of various sources of data and the Web
+Audio API in a writeup on the Mozilla blog.
+
+- [oiseaux de même](http://birdwalker.com:9090/quartet.html)
+- [Birdsongs, Musique Concrète, and the Web Audio API](https://hacks.mozilla.org/2015/02/birdsongs-musique-concrete-and-the-web-audio-api/)
+
+## What's new in Web Audio in Firefox 37/38 ##
+
+If you're not tracking the small changes to the editors' draft of the
+Web Audio API, I don't blame you! Fortunately, Soledad Penadés and
+Chris Mills have, and in this article they give an overview of the
+latest additions to Firefox's Web Audio API support. The Firefox team
+have implemented some of the latest changes to the specification and
+including the new, simpler `StereoPannerNode` and promise-based
+versions of common Web Audio API calls.
+
+- [https://hacks.mozilla.org/2015/02/whats-new-in-web-audio/](https://hacks.mozilla.org/2015/02/whats-new-in-web-audio/)
+
+## Pentaphone ##
+
+A lot of the online tools for making music that we've talked about in
+the past in this newsletter are very complicated. They often require
+you to already understand how real-world synthesisers or computer
+music techniques work before making something that sounds good. In
+this demo Bill Gathan has taken an alternative approach. By
+restricting your musical choices to notes from a pentatonic scale,
+almost any combination of chords and notes sounds great!
+
+Bill is also combining [React.js](https://facebook.github.io/react/),
+Facebook's innovative javascript framework, with the Web Audio
+API. There's a lot of things to learn from this demo.
+
+- [https://billgathen.github.io/pentaphone/](https://billgathen.github.io/pentaphone/)
+
+## Web Looper ##
+
+Web Looper is a loop-based performance tool. It records sounds from
+your microphone (using the `getUserMedia` API), loops them and allows
+you to layer up the loops into a composition. There's some simple
+effects you can apply and interestingly it features "rooms" where you
+can listen to other people's experiments built using `WebRTC`. The code
+is open source, so it's also a good example of how you can connect all
+of these technologies together.
+
+- [http://weblooper.hackandstack.com/](http://weblooper.hackandstack.com/)
+
+## Babylon.js v2.0 ##
+
+[Babylon.js](http://babylonjs.com/) is a 3D game engine built using
+javascript and `WebGL`. It has just reached the `2.0` milestone, and
+with the new release the developers have added an audio engine using
+the Web Audio API. The tutorial on the Babylon.js documentation site
+gives a good overview of its capabilities. They've decided not to
+offer any fall-back support for browsers that do not support Web Audio
+which is a good indication of the level of support the API enjoys now
+in many browsers.
+
+- [Playing sounds and music tutorial for Babylon.js](http://doc.babylonjs.com/page.php?p=24824)

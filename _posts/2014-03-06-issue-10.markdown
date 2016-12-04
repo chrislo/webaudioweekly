@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "Issue 10"
+permalink: "/10"
+---
+
+## hya.io: A graph-based audio workstation ##
+
+Cristiano Belloni announced the alpha release of his Web Audio DAW
+(digital audio workstation) this week. It's already a very impressive
+tool, with the ability to combine a number of custom effects and
+instruments together using a graph-like interface, share and save your
+creations, and create new plugins using the javascript console and a
+custom set of libraries. MIDI support and the ability to connect a
+microphone are there too. I think this is going to be really powerful
+if people start developing plugins for it, but for now Cristiano will
+no doubt appreciate everyone having a play and sending feedback.
+
+- [hya.io](http://hya.io/)
+
+## webAudioContext --> AudioContext in Chrome ##
+
+The Blink team (that's the browser engine that inside Google's Chrome
+browser) have announced an Intent to Ship for unprefixed Web Audio
+context. That means that in an upcoming release of Chrome (TBC),
+AudioContext should be used in preference to webkitAudioContext. This
+is great news for interoperability with Firefox's Web Audio
+implementation. It seems like
+[for the time being](http://lists.w3.org/Archives/Public/public-audio/2014JanMar/0110.html),
+the prefixed, "legacy" implementation will remain, but if you have
+application that hasn't already made the switch, there's some tools
+out there to make sure your code will work in as many browsers as
+possible. Mozilla have
+[a handy guide](https://hacks.mozilla.org/2013/08/writing-web-audio-api-code-that-works-in-every-browser/)
+to help with the transition.
+
+- [Public Service Announcement: Blink unprefixing Web Audio](http://lists.w3.org/Archives/Public/public-audio/2014JanMar/0110.html)
+
+## WebAudiox.js ##
+
+Jerome Etienne describes WebAudiox.js as "a DRY library" - it's a
+collection of helper functions to make some common things easy when
+working with Web Audio applications. There's some helpers for drawing
+waveforms to a canvas from the AnalyserNode, some that help with the
+repetition of loading samples into buffers and playing them, and
+others for positioning sound in 3d spaces. They look really useful for
+game programming, and if your coding style matches Jerome's they'll
+probably fit neatly into your workflow.
+
+- [https://github.com/jeromeetienne/webaudiox](https://github.com/jeromeetienne/webaudiox)
+
+## A little tip about AudioContext.currentTime ##
+
+I'm in the process of writing an article about building a simple
+sequencer with Web Audio. I lost a couple of hours this week when I
+failed to realise that, in Chrome at least, currentTime on
+AudioContext doesn't advance until a node has been created. That is
+
+    var ctx = new AudioContext
+    ctx.currentTime
+
+will always return zero, until you do something like
+
+    ctx.createGain()
+
+It's unusual to create a context and then do nothing with it, but if
+you are just developing or debugging some timing code, it's something
+to watch out for. It's expected behaviour in Chrome for optimisation
+reasons, but probably something that should be clarified in the
+specification.
+
+- [AudioContext.currentTime stays locked at 0 for a period after creation](https://code.google.com/p/chromium/issues/detail?id=159359)
+
+## Read O'Reilly's Web Audio API book for free ##
+
+Boris Smus's book for O'Reilly "Web Audio API" is now available to
+read online for free! It's a fantastic overview of the API with some
+great demos to study as well. In HTML format it means that these demos
+work right alongside the text. As with all books about emerging web
+technologies, it has become a little out-of-date already in places but
+don't worry, you have Web Audio Weekly to keep you up to date ;).
+
+- [Web Audio API by Boris Smus](http://chimera.labs.oreilly.com/books/1234000001552) (/via @igrigorik)
+
+## "Biscuit tins made of sound" ##
+
+I left you last time with 90 minutes of synth geekery. This week the
+time-deprived among you might prefer this 10 minute Vinyl Factory
+documentary on the story of the BBC Radiophonic Workshop. Featuring
+interviews with some of the surviving members of the legendary BBC
+outfit.
+
+- [Pioneers of Sound](http://www.thevinylfactory.com/vinyl-factory-films/pioneers-of-sound-documentary-bbc-radiophonic-workshop/) (/via @pete_warren)

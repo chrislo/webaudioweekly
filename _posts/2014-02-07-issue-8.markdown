@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Issue 8"
+permalink: "/8"
+---
+
+## Granular Synthesiser ##
+
+A great granular synthesis demo from Ehsan Ziya (aka Ātour). It works
+very well on a multi-touch device too, so try it on an iOS device, or
+Chrome on an Android tablet.
+
+- [Granular Synthesiser](http://www.chromeexperiments.com/detail/granular-synthesiser/)
+
+## The Viability of the Web Browser as a Computer Music Platform ##
+
+Lonce Wyse and Srikumar Subramanian have written this academic paper
+for the influential Computer Music Journal. They discuss the web
+browser as a computer music platform, with particular emphasis on the
+Web Audio API. It's not a tutorial per-se, but it covers a lot of
+ground and attempts to answer some common questions about performance
+and scalability. A very interesting read if you have the time. Chris
+Rogers, the original developer of the Web Audio API and former editor
+of the W3C specification is thanked for technical input in the
+acknowledgments, so you know you're getting detailed, accurate
+information.
+
+-[The Viability of the Web Browser as a Computer Music Platform](http://www.mitpressjournals.org/doi/pdfplus/10.1162/COMJ_a_00213)
+
+## WebkitGTK enables Web Audio ##
+
+WebkitGTK, the version of the webkit browser engine with a GTK
+frontend, has shipped with Web Audio API support. An interesting
+development for Linux users, it may also allow the development of
+webkit-based audio applications on Linux.
+
+- [WebkitGTK enables Web Audio](http://news.softpedia.com/news/WebKitGTK-2-2-4-Enables-Web-Audio-by-Default-420048.shtml)
+
+## A brief history of sampling ##
+
+A quick but entertaining video looking at the history of sampling -
+reusing short snippets of audio to create new sounds and music.
+
+- [A brief history of sampling](http://www.openculture.com/2014/01/a-brief-history-of-sampling.html) (/via [@patrick_h_lauke](https://twitter.com/patrick_h_lauke))
+
+## Programming analog synthesizers ##
+
+A lot of the power of the Web Audio API lies in knowing how to connect
+the various building blocks together to create interesting sounds. As
+developers, we can take a lot of inspiration from the "programmers" of
+traditional analogue synthesisers. Here's two inspiring links. In the
+first, Ethan Winer, shows us how to create sounds using soft/analogue
+synths. Topics include oscillators, ADSR envelope generators, filters,
+LFOs, and more. It's a nice touch to show the waveforms being generated.
+
+The second link contains the owner's manual for the classic ARP 2500
+modular synthesiser. Part 2 of the manual in particular has a number
+of example patches - see if you can recreate them using the Web Audio
+API.
+
+- [How to program analog synthesizers](http://vimeo.com/1309545)
+- [ARP 2500 Owner's Manual](http://www.guitarfool.com/ARP2500.html)

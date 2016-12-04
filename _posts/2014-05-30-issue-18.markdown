@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Issue 18"
+permalink: "/18"
+---
+
+## Web Audio API coming to Internet Explorer ##
+
+The Next Web is reporting that Microsoft have announced that they are
+working on support for the Web Audio API in a future version of
+Internet Explorer, the browser that ships as standard with Microsoft
+Windows. This is great news for developers who want to build
+applications using the API, and good news for the technology itself as
+another inter-operable implementation will help drive the
+standardisation process. The W3C Audio Working Group
+[haven't had contact from Microsoft](http://lists.w3.org/Archives/Public/public-audio/2014AprJun/0065.html)
+at this time, but the
+[Modern IE status page](http://status.modern.ie/webaudioapi) is
+indicating that Web Audio is under development.
+
+- [Microsoft announces next IE version will feature Web Audio, Media Capture, ES6 Promises, and HTTP/2](http://thenextweb.com/microsoft/2014/05/28/next-ie-version-will-feature-web-audio-media-capture-es6-promises-http2-status-site-goes-open-source/)
+
+## Chrome Cube Lab ##
+
+The Chrome Cube Lab is a collection of hacks and variations of
+Google's recent
+[Rubik's cube doodle](https://www.google.com/doodles/rubiks-cube). There's
+a couple of experiments that use Web Audio. Synth cube synchronises
+music and visuals with the rotation of the parts of the cube, and I
+loved 808cube which turns the cube into a drum machine. Once you've
+created a pattern you like, spin the parts of the cube to create
+interesting variations.
+
+- [http://www.synthcu.be/](http://www.synthcu.be/)
+- [http://www.808cube.com/](http://www.808cube.com/)
+
+## An interview with Adrian Holovaty of Soundslice ##
+
+I linked to Soundslice, the Web Audio-powered sheet music application,
+in a previous issue of this newsletter. I caught up with the founder
+Adrian Holovaty and asked him some questions about his experiences
+working with the technology on a large commercial project.
+
+- [Interview with Adrian Holovaty of Soundslice](http://blog.chrislowis.co.uk/2014/05/30/interview-adrian-holovaty-soundslice.html)
+
+## Sophisticated Analogue Synth in Soundtrap ##
+
+Soundtrap, the collaborative digital audio workstation, have added a
+new instrument to their application. It's a sophisticated analogue
+synthesiser featuring two oscillators and some interesting LFO
+possibilities (including noise and sample-and-hold waveforms). You'll
+need a Soundtrap account to try it out, and sadly there's no details
+on the technical implementation - but from playing around with it it
+seems rock-solid and very responsive, so it makes for a good example
+of what is possible with the Web Audio API at the moment.
+
+- [Try the Soundtrap Synth '78](https://www.soundtrap.com/studio/fork/4070/)
+
+## BHUMP : an HTML5 Multitrack player ##
+
+An experimental multi-track recording application from Michel
+Buffa. The application itself is in the early stages but Michel plans
+to tidy up and open-source the code shortly, so it's certainly worth
+keeping an eye on if you're thinking of building something similar.
+
+-[BHUMP](http://mt5demo.gexsoft.com/)
+
+## Laurie Spiegel plays the Alles synth ##
+
+The Bell Labs
+[Alles synthesiser](https://en.wikipedia.org/wiki/Bell_Labs_Digital_Synthesizer)
+was one of the first purely digital synthesisers. In this video from
+1977, Laurie Spiegel, American electronic music composer, plays the
+synth and creates some wonderful analogue-sounding drones.
+
+- [Laurie Spiegel plays Alles synth](https://www.youtube.com/watch?v=NChqEEz31eE) (/via @MoogFoundation)

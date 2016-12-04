@@ -1,0 +1,167 @@
+---
+layout: post
+title:  "Issue 63"
+permalink: "/63"
+---
+
+This week is a very special issue co-written by my guest
+[Tony Wallace](https://twitter.com/tonywallace), creator of the music
+production tool [WebX0X](https://webx0x.com) and developer at
+[Irritant Creative Inc.](https://irritantcreative.ca). Tony attended
+the recent Web Audio Conference in Atlanta, Georgia and he shares his
+insights and highlights from the conference.
+
+We also have a special educational offer for readers of this
+newsletter, courtesy of Peer to Peer.
+
+## TweetFM ##
+
+An interesting experiment combining Twitter streams, websockets and
+the Web Audio API to render tweets in realtime using audio and a
+map-based visualisation.
+
+- [https://tweet-fm.herokuapp.com/](https://tweet-fm.herokuapp.com/)
+
+## Soledad Penadés Peer to Peer screencast ##
+
+If you love learning through videos, this excellent new tutorial from
+Soledad Penadés and Drew Neil is a great place to start learning about
+the Web Audio API. The screencast is beautifully produced and tackles
+a fun challenge - a Web Audio recreation of Steve Reich's "Clapping
+Music". The first three chapters are available for free, and
+subscribers to this newsletter can get a 1/3rd off this or any other
+peer-to-peer video using the code `precise-deaf-node` at checkout.
+
+- [Clapping Music, featuring Soledad Penadés](http://peertopeer.io/videos/10-soledad-penades/watch/)
+
+## Web Audio Conference 2016 ##
+
+And now over to Tony for his round up of WAC2016.
+
+### Day 1 ###
+
+#### Keynote ####
+
+The opening keynote address was given by Frank Melchior from BBC
+Research & Development. Frank provided fascinating insight into the
+BBC's transition away from traditional production studios towards the
+IP Studio, a system that streams the components of a broadcast (video
+and audio feeds, images, captioning, metadata, etc.) separately and
+combined at the time of delivery. This will allow the BBC to tailor
+their content to the needs of their audience on an individual basis.
+
+#### Papers session ####
+
+The papers session placed a strong emphasis on analysis and
+sonification of musical data. The semantic and geolocation adaptive
+music players designed by the Centre for Digital Music at Queen Mary
+University were of particular interest to me since they have potential
+to transform how we deliver and listen to recorded music.
+
+- [The Semantic Music Player: A Smart Mobile Player Based on Ontological Structures and Analytical Feature Metadata](https://smartech.gatech.edu/handle/1853/54596)
+- [Geolocation Adaptive Music Player](https://smartech.gatech.edu/handle/1853/54586)
+
+#### Lightning talks ####
+
+After lunch there was a quick session of lightning talks during which
+demo presenters introduced their work, followed by a series of talks
+covering event scheduling, live coding, symbolic notation of recorded
+music and Web MIDI, among other topics. Papers and talks were brief,
+which prevented presenters from going into deep technical
+detail. Whether that was due to the need to fit many presenters into
+each day, or an effort on the part of the organisers to keep the pace
+up, it was a wise decision that encouraged ad hoc discussions among
+those who were particularly interested in each topic, after the
+sessions.
+
+My WebX0X drum synth/sequencer project was among the demos and
+received a very positive response from the audience. The demo enabled
+me to collect a lot of feedback and suggestions which will help me to
+plan and prioritise features for future versions. Many of the audience
+members contributed to a collaborative WebX0X demo patch.
+
+- [WebX0X demo patch](https://webx0x.com/beats/69)
+
+The downside of being a demo presenter was missing everybody else’s
+demos, but I was able to catch a bit of Jason Sigal’s Olos visual
+music programming environment (a sort of Max/MSP for the browser)
+which looks like it has great potential to simplify web audio for
+non-programmers.
+
+- [Olos: Visual Music Programming](https://smartech.gatech.edu/handle/1853/54635 )
+
+Day 1 ended with a great concert of live coding and electronic music
+performed on software created by the performers.
+
+### Day 2 ###
+
+#### Keynote ####
+
+Day 2 began with Stop, Start, Begin Again, a personal story by Helen
+Thorington about her career in sound art with an undercurrent of
+commentary on digital decay. Many of the projects that she has been
+associated with are no longer usable due to technological progress,
+which is something that should give the rest of us pause when planning
+our projects.
+
+- [Helen Thorington](http://turbulence.org/people/helen-thorington/)
+
+#### Papers session ####
+
+The need for dependable synchronisation and reliable latency data from
+the Web Audio API was a common thread throughout the papers
+sessions. The talks covered a variety of practical topics, including
+synthesizer design, scheduling and streaming. Matt McKegg talked about
+the web audio desktop application that he performed on during the
+previous evening’s concert. Edward Costello’s presentation,
+Constructing Audio Unit Plugins on the Web using Csound was my
+personal favourite of the day, since it demonstrated a way to
+streamline an otherwise complicated and painful development process.
+
+- [Building Desktop Apps using Web Audio](https://smartech.gatech.edu/handle/1853/54656)
+- [Constructing AudioUnit Plugins on the Web using Csound](https://smartech.gatech.edu/handle/1853/54582)
+
+#### Demos and posters ####
+
+I was free to check out all the poster and demo presentations on
+day 2. My personal favourites were Tune.js, which facilitates the use
+of microtonal scales in Web Audio, the Flat.io music notation service
+and Charles Roberts’ Gibber live coding environment, which he
+performed with on day 1.
+
+- [Tune.js: A Microtonal Web Audio Library](https://smartech.gatech.edu/handle/1853/54580)
+- [Applications of Audio and MIDI API within a music notation editor](https://smartech.gatech.edu/handle/1853/54630)
+- [Improvisation in Gibber](https://smartech.gatech.edu/handle/1853/54655)
+
+Day 2 ended with a fun concert of pieces that involved audience
+participation via smartphones, and a casual reception on the Georgia
+Tech campus.
+
+### Day 3 ###
+
+#### W3C plenary session ####
+
+Day 3 opened with an informative plenary session during which members
+of the W3C Web Audio group gave an update on the current state of the
+Web Audio specification and listened to technical issues raised by the
+attendees.
+
+#### Tutorials and hackday ####
+
+The rest of the day was devoted to tutorial sessions and hack
+days. The notes from Paul Adenot’s tutorial, Optimizing and Debugging
+Web Audio API Applications are a must-read.
+
+- [http://padenot.github.io/web-audio-perf/](http://padenot.github.io/web-audio-perf/)
+
+I presented a tutorial on basic subtractive and FM percussion
+synthesis that was very well attended. I’ll admit that I was concerned
+that nobody would show up, so having 20+ participants was a nice
+surprise.
+
+- [https://github.com/irritant/WAC-2016-Tutorial](https://github.com/irritant/WAC-2016-Tutorial)
+
+The conference ended with an unofficial after party at a local bar. It
+was a nice opportunity to meet a few more people and bid farewell to
+those who I had gotten to know during the week. Web Audio Conference
+2016 was a blast and I hope to see everyone at next year’s event!

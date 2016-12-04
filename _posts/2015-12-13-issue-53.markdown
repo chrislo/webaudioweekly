@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "Issue 53"
+permalink: "/53"
+---
+
+## Recreating phone sounds with Web Audio ##
+
+A fantastic recreation of analogue and digital phone sounds including
+the UK dial tone and ringback tone, as well as the DTMF "touch
+tones". I love how [Ed Ball](http://ed-ball.com/) deconstructs the
+theory and physics of these sounds and then builds them up again using
+Web Audio nodes and techniques. The embedded Codepen demos are a great
+touch too.
+
+- [http://outputchannel.com/post/recreating-phone-sounds-web-audio/](http://outputchannel.com/post/recreating-phone-sounds-web-audio/)
+
+## The Indian Drone Instrument: Version 2 ##
+
+> Back in 2014, Indian Drone was one of the first generators featured
+> on this website. At that time, synthetic oscillators were used to
+> recreate the distinctive sound of the Indian tanpura (or
+> tambura). That sound became quite popular for meditation sessions.
+>
+> Two years later, I am recreating the same sound, but this time from
+> acoustic samples − sounds acquired from the real instrument.
+
+- [http://mynoise.net/NoiseMachines/tanpuraDroneGenerator.php](http://mynoise.net/NoiseMachines/tanpuraDroneGenerator.php)
+
+## 2nd Annual Web Audio Conference - registration now open ##
+
+Registration is now open for the next Web Audio Conference at Georgia
+Tech in Atlanta on April 4-6 2016.
+
+- [http://webaudio.gatech.edu/](http://webaudio.gatech.edu/)
+
+## Bringing your code to the streets ##
+
+Ruth John built a mobile video projecting platform using three.js, a
+small projector, a MIDI controller and the Web MIDI API. She then went
+out on the streets of Bristol and lit up the evening sky with her
+creations. The article on 24ways has the code and more details about
+the project.
+
+- [https://24ways.org/2015/bringing-your-code-to-the-streets/](https://24ways.org/2015/bringing-your-code-to-the-streets/)
+
+## 2Decks: HTML5 DJ App ##
+
+2Decks is described as "the world's first HTML5 DJ App". It certainly
+has an impressive feature set, and the team have spent a lot of time
+on the beat matching, syncing and cueing features. It also has support
+for a wide variety of hardware mixers that emit MIDI events. There's a
+public demo, and you can sign up for the beta.
+
+- [https://blog.2decks.com/2015/11/20/worlds-1st-html5-dj-app/](https://blog.2decks.com/2015/11/20/worlds-1st-html5-dj-app/)
+
+## Jam3 Web Audio Gotchas ##
+
+The Jam3 audio player is an attempt to find a work-around for a number
+of "gotchas" when playing audio using the Web Audio API particularly
+on mobile operating systems. If your application needs audio playback
+support, I think it'd be wise to start use this player and to
+contribute to the collective wisdom building up around some of the
+gnarlier edges of browser support for Web Audio.
+
+- [https://github.com/Jam3/web-audio-player#webaudio-gotchas](https://github.com/Jam3/web-audio-player#webaudio-gotchas)
+
+## Creative Strategies for Electronic Music Producers ##
+
+A great selection of clever ways to get you out of a creative rut, to
+help you find inspiration or to re-focus on the basics when making
+music. And, as
+[@andrewn says](https://twitter.com/andrewn/status/670516348255141889?s=09)
+"remove the word 'music', it applies to anything creative."
+
+- [https://makingmusic.ableton.com/](https://makingmusic.ableton.com/) (/via [@andrewn](https://twitter.com/andrewn))
+
+## Open source effects pedal with Web Audio patch auditioning ##
+
+The OWL is an open source, programmable effects pedal made for
+guitarists, musicians, hackers and programmers alike. Users can
+program their own effects or download ready-made patches from a
+growing online patch library. The patch library now supports cross
+compiling the effects that a user writes using FAUST, Puredata or C++
+to Javascript and the Web Audio API so that they can be auditioned in
+the browser before uploading them to the pedal.
+
+The whole project is fully open source from software to hardware, and
+funded by kickstarter. The link below has an example patch, clicking
+on the "test" tab and hitting "start" auditions the patch in the
+browser.
+
+- [http://hoxtonowl.com/patch-library/patch/Arp_with_Delay_and_Envelope/](http://hoxtonowl.com/patch-library/patch/Arp_with_Delay_and_Envelope/)
+
+## Watch Daedelus compare the TR-808 and TR-8 ##
+
+I enjoyed this video of producer Daedelus comparing the TR-808 drum
+machine with Roland's newer TR-8. While obviously a bit of a
+promotional piece for Roland's gear, his comments on the less tangible
+features of the 808's interface, it's style and unpredictability were
+a reminder to consider these elements in our own web-based projects.
+
+- [http://www.factmag.com/2015/10/27/daedelus-tr-808-tr-8-video/](http://www.factmag.com/2015/10/27/daedelus-tr-808-tr-8-video/)
+
+## Techno made entirely with physical, mechanical objects ##
+
+Spin, spin, spin. Clang, clang, clang. Bloop, bloop, bloop.
+
+- [http://createdigitalmusic.com/2015/11/watch-techno-made-entirely-with-physical-mechanical-objects/](http://createdigitalmusic.com/2015/11/watch-techno-made-entirely-with-physical-mechanical-objects/) (/via [@sonoport](https://twitter.com/sonoport))

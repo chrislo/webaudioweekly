@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "Issue 43"
+permalink: "/43"
+---
+
+## Viktor NV-1 Synthesiser ##
+
+[Nikolay Tsenkov](https://twitter.com/NikolayTsenkov)'s Viktor NV-1
+Synthesiser is a full-featured multi-oscillator analogue synthesiser
+simulation powered by Web Audio. It uses the familiar Moog-inspired
+architecture for the patching of modules, and also supports the Web
+MIDI API, so connecting a keyboard should work out of the box in the
+latest Chrome. I like how the synth comes with a selection of
+great-sounding presets, and changing any of the parameters allows you
+to save the changes as your own custom patch.
+
+- [https://www.chromeexperiments.com/experiment/viktor-nv-1-synthesizer](https://www.chromeexperiments.com/experiment/viktor-nv-1-synthesizer) (/via Chris Roos)
+
+## Learning how to read sheet music using the Web MIDI API ##
+
+Philipp Otto wanted to improve his sheet music sight-reading, so he
+built an application called Piano Trainer. It generates random pieces
+of sheet music, and then records the time it takes him to play them
+back accurately using a real digital piano connected to the browser
+using the Web MIDI API. The blog post has some of the technical
+details, and some analysis Philip did on how much the application has
+improved his skills.
+
+- [http://scm.io/blog/hack/2015/07/piano-trainer/](http://scm.io/blog/hack/2015/07/piano-trainer/)
+- [http://philippotto.github.io/Piano-Trainer/](http://philippotto.github.io/Piano-Trainer/)
+- [https://github.com/philippotto/Piano-Trainer](https://github.com/philippotto/Piano-Trainer)
+
+## BeatSketch ##
+
+BeatSketch from Sebastian Zimmer is a collaborative music production
+tool that Sebastian developed for his Master's degree in Computer
+Science. A song consists of multiple tracks, and each track is backed
+by a grid-based sequencer. Any changes you make are synchronised
+between connected collaborators immediately. It also supports mixing
+the final song down to a WAV file for downloading. An impressive set
+of features and a very useful exploration of possible methods of
+implementing collaborative working.
+
+- [http://www.beatsket.ch](http://www.beatsket.ch)
+
+## Beautiful Audio Editor ##
+
+The Beautiful Audio Editor is a audio editor for that works online or
+offline, and allows saving of edits to Google Drive. You can perform
+most of the operations you'd expect from an audio editor - such volume
+normalisation, sample-accurate editing of the recording and fading in
+and out using custom envelopes. The use of Web Audio and
+`getUserMedia` APIs means no additional plugins are required. I can
+see this being a very useful tool for someone who wants to make basic
+audio edits on any computer they can get access to.
+
+- [https://beautifulaudioeditor.appspot.com](https://beautifulaudioeditor.appspot.com)
+
+## Exploring the HTML5 Web Audio API: Filters ##
+
+This article looks at the filtering features provided by the Web Audio
+API. It discusses how a filter works, the different types, and the
+code you need to use to use them in your application. The demo
+application allows you to adjust the parameters of the Web Audio's
+`BiquadFilter` and see and hear the effects.
+
+- [http://www.webcodegeeks.com/html5/exploring-html5-web-audio-api-filters/](http://www.webcodegeeks.com/html5/exploring-html5-web-audio-api-filters/)
+
+## Keith McMillen: Making music in the browser ##
+
+A new post from Andrej Hronco at MIDI controller manufacturer Keith
+McMillen Instruments. This time Andrej introduces the Web Audio
+API. There's a lot of introductory articles to the Web Audio API out
+there, but this one is up-to-date with the latest API changes, and
+includes a selection of `JSFiddle` embedded applications to illustrate
+how different features of the API work.
+
+- [http://www.keithmcmillen.com/blog/making-music-in-the-browser-web-audio-api-part-1/](http://www.keithmcmillen.com/blog/making-music-in-the-browser-web-audio-api-part-1/)
+
+## Inside Synthesis: FM Synthesis ##
+
+This video from Inside Synthesis really helps to demystify FM
+synthesis and make it understandable if you're more familiar with
+analogue subtractive synths. I really enjoyed the explanations of how
+changing the parameters of the synth changes the sound. If you'd like
+to play with FM synthesis using the Web Audio API, take a look at my
+FM synthesis code samples from a recent talk I gave on the history of
+synthesis.
+
+- [Inside Synthesis - FM Synthesis](https://www.youtube.com/watch?t=363&v=ziFv00PegJg)
+- [https://github.com/chrislo/synth_history](https://github.com/chrislo/synth_history)

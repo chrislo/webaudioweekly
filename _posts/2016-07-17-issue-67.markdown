@@ -1,0 +1,103 @@
+---
+layout: post
+title:  "Issue 67"
+permalink: "/67"
+---
+
+## Djenerator: A metal breakdown generator ##
+
+Djenerator is an algorithmic generator for metal riffs. It comes with
+presets that generate riffs in the style of Tesseract, Sworn In, Thall
+and others. Clicking the "settings" link opens a huge range of options
+to tweak the generator, and your favourite presets can be
+saved. Although I'm not a huge fan of metal, this app is a
+seriously-impressive combination of algorithmic generation and web
+audio, and I still spent lots of time playing with it. The code is on github too.
+
+- [http://djen.co/](http://djen.co/)
+- [https://github.com/RossMcMillan92/djent](https://github.com/RossMcMillan92/djent)
+
+## DX7 Emulator ##
+
+A full-featured implementation of the Yamaha DX-7 synthesiser with
+support for MIDI input. This app also comes bundled with the original
+patches featured in the DX-7 including the classic "E.Piano 1". The
+DX-7 was notoriously hard to program, replacing the familiar knobs and
+sliders of analogue synths with a series of nested, digital menus. I
+find in most cases that replicating knobs and sliders in web
+applications makes virtual instruments harder to use. Here, however,
+replacing the nested menus of the original with a series of controls
+for each "operator" makes it much easier to experiment with than the
+original.
+
+- [http://mmontag.github.io/dx7-synth-js/](http://mmontag.github.io/dx7-synth-js/)
+
+## 108 ##
+
+108 is a minimal beat machine featuring 5 classic samples that can be
+arranged on a 16 step loop running 108 bpm. The "grid" in this case is
+a circle, with an indicator for the current time rotating around its
+perimeter. It's a simple way to start experimenting with drum
+patterns, it'd be nice to see the ability to switch between different
+loops but overall I love the simplicity of the approach. The animated
+page title is a nice touch too!
+
+- [http://martinwecke.de/108/](http://martinwecke.de/108/)
+
+## Space Bumps ##
+
+Space Bumps is an audio visual app for generating experimental
+arpeggios and ambient landscapes. The parameters of its synth engine
+are controlled by dragging "stars" around the constellation, and the
+resulting soundscape can be saved and shared on social networks.
+
+- [http://www.dreampipe.io/spacebumps/](http://www.dreampipe.io/spacebumps/)
+
+## Third International Conference on Technologies for Music Notation and Representation ##
+
+The call for papers for this conference, to be held in A Coruña, Spain
+on 24th-26th May 2007, is now open. The organisers are looking for
+submissions in many areas some of which are particularly interesting
+to readers of this newsletter:
+
+1. Notation in electronic and electroacoustic music
+2. Live coding
+3. Innovative computer applications for music notation
+4. Sound visualization
+
+- [http://www.udc.es/grupos/ln/tenor2017/index.html](http://www.udc.es/grupos/ln/tenor2017/index.html)
+
+## StepSequencer ##
+
+Adam Beck has just started playing with the Web Audio API and has
+built a fun step sequencer for creating short, looping melodies. It
+uses a single-oscillator synth, and as Adam asked for some feedback
+I'd suggest trying to extend the synth engine to include an additional
+oscillator, and some control over the envelope of each note. Take a
+look at Adam's app and see if you have any further suggestions - the
+code is on github.
+
+- [http://stepsequencer.herokuapp.com/](http://stepsequencer.herokuapp.com/)
+- [https://github.com/mradambeck/javascript-step-sequencer](https://github.com/mradambeck/javascript-step-sequencer)
+
+## VisualizerMicro ##
+
+VisualizerMicro is a micro JavaScript library to make it much easier
+to extract waveform and spectral data from audio. A great time saver
+if you're working on a audio visualisation project.
+
+- [https://github.com/likethemammal/visualizer-micro](https://github.com/likethemammal/visualizer-micro)
+
+## Electronic Ladyland ##
+
+Electronic Ladyland is a free compilation of 55 tracks from 35
+pioneering women in electronic music mixed together into a seamless 45
+minutes. The compilation took 18 months to put together and features
+over half-a-century of electronic music experimentation.
+
+And if you're a fan of Daphne Oram, who features on this compilation,
+you might also be interested in the recent project to rebuild her Mini
+Oramics machine.
+
+- [http://www.infine-music.com/news/374/podcast-024-arandel](http://www.infine-music.com/news/374/podcast-024-arandel)
+- [http://www.gold.ac.uk/news/mini-oramics/](http://www.gold.ac.uk/news/mini-oramics/)

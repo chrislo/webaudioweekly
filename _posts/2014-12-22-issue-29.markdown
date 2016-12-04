@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Issue 29"
+permalink: "/29"
+---
+
+## Web Audio and 3D Soundscapes ##
+
+A great tutorial on using the spatial-positioning features of the Web
+Audio API for game developers. It discusses how to load sounds and
+then arrange for them to play as if they were positioned somewhere in
+the 3-dimensional space surrounding the listener.
+
+- [Web Audio and 3D Soundscapes: Implementation](http://gamedevelopment.tutsplus.com/tutorials/web-audio-and-3d-soundscapes-implementation--cms-22651)
+
+## Web Audio Timing Tutorial ##
+
+The Web Audio API provides an accurate, predictable clock for
+triggering audio events. This is very important when building
+applications which require a steady rhythm, for example a drum
+machine. One of the issues you'll face in building this kind of
+application is how to synchronise the Web Audio clock with the regular
+JavaScript timer to allow changes in the user interface to influence
+the audio playback. This tutorial walks through the creation of a drum
+sequencer with particular emphasis on the timing aspects.
+
+- [Web Audio Timing Tutorial](https://catarak.github.io/blog/2014/12/02/web-audio-timing-tutorial/)
+
+## Tools for the 21st century musician ##
+
+Soledad Penadés gave a great presentation at the Full Frontal
+JavaScript Conference in Brighton this year. The video of her talk is
+now on YouTube and Soledad has put the slides online too. A great
+intro to the Web Audio API for newcomers, and an introduction to the
+[OpenMusic](https://github.com/openmusic) Web Audio toolkit for more
+experienced developers.
+
+- [Tools for the 21st century musician](https://www.youtube.com/watch?v=F0Iwvp_wtHE&feature=youtu.be)
+- [slides](http://soledadpenades.com/files/t/20141107_ffconf/)
+
+## Visualisations of live radio streams ##
+
+An experimental mash-up of live radio streams, sound analysis using
+the Web Audio API and animated GIFs. This seems to work on Google
+Canary only for now, although it will load without audio on FF
+nightly.
+
+- [dubterrain](http://www.trif.it/#/radio/dubterrain) (/via [@thelau](https://twitter.com/thelau))
+
+## How To Draw Mushrooms On An Oscilloscope With Sound ##
+
+Ever wondered how to draw pictures of mushrooms on analogue oscilloscopes? Me too! This YouTube video and blog post has your back.
+
+- [How To Draw Mushrooms On An Oscilloscope With Sound](https://www.youtube.com/watch?v=rtR63-ecUNo)
+- [How it works](http://www.jerobeamfenderson.net/post/101351329308/how-it-works)

@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Issue 28"
+permalink: "/28"
+---
+
+## Time Stretching with Web Audio ##
+
+[PaulStretch](http://hypermammut.sourceforge.net/paulstretch/) is an
+algorithm for extreme time stretching of audio. Sébastien Piquemal has
+ported the algorithm to javascript and built an
+[interesting application](https://sebpiq.github.io/paulstretch.js/examples/stretched-and-droned/dist/index.html)
+for creating drone-style soundscapes from music imported from
+SoundCloud. In the
+[accompanying blog post](http://funktion.fm/#post/paulstretch-algorithm-with-web-audio-api-and-how-to-delegate-audio-processing-to-web-workers)
+Sébastien explains how he used web workers to offload some of the
+heavy lifting to a background process which is an interesting
+technique in itself.
+
+## Web Audio Editor ##
+
+Jan Monschke has
+[published the source code](https://github.com/janmonschke/Web-Audio-Editor)
+for his collaborative multi-track audio editor on github. The README
+has a link to a presentation Jan gave at JSConf earlier this year, and
+a link to a working demo of the application. All of this work came out
+of Jan's excellent
+[MSc thesis](https://github.com/janmonschke/Master-s-Thesis---Web-Audio-DAW)
+which I covered in
+[WAW 15](http://blog.chrislowis.co.uk/waw/2014/04/27/web-audio-weekly-15.html).
+
+## Using Fourier Transforms with the Web Audio API ##
+
+In
+[this sitepoint article](http://www.sitepoint.com/using-fourier-transforms-web-audio-api)
+Sébastien Molines discusses the
+[createPeriodicWave](https://webaudio.github.io/web-audio-api/#widl-AudioContext-createPeriodicWave-PeriodicWave-Float32Array-real-Float32Array-imag)
+feature of the Web Audio API which lets you specify the parameters of
+an oscillator by way of the Fourier coefficients which make up your
+desired waveform. The article looks at how you can analyse an existing
+sound, such as a horn or police siren, and then use that analysis to
+create a convincing synthesis. It's a powerful technique, and if
+you're interested in exploring it further
+[Welsh's Synthesizer Cookbook](http://www.synthesizer-cookbook.com/)
+applies similar techniques to the programming of analog synthesisers.
+
+## How Speakers Make Sound ##
+
+> Speakers (also called loudspeakers) push and pull surrounding air
+> molecules in waves that the human ear interprets as sound. You could
+> even say that hearing is movement detection. So what makes a speaker
+> travel back and forth at just the right rate and distance, and how
+> does that make sound?
+
+A fantastic animated article by
+[Jacob O'Neal](http://animagraffs.com/about-me/) sent to me by
+[Tom Winter](https://twitter.com/tomajwinter).
+
+## Mechanical Signal Analysis ##
+
+[Thor Magnusson](https://twitter.com/thormagnusson) shared
+[this fascinating article and video series](http://boingboing.net/2014/11/16/mesmerizing-rebuild-of-a-mecha-2.html)
+on a 19th Century machine for performing Fourier Decomposition -
+breaking a signal down into its constituent sine waves - using cogs,
+gears and pulleys. I was reminded of this yesterday when
+[Ben Griffiths](https://twitter.com/beng) showed me Lord Kelvin's
+[tide-predicting machine](https://en.wikipedia.org/wiki/Tide-predicting_machine)
+which he'd seen at the Science Museum here in London.

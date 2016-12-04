@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Issue 11"
+permalink: "/11"
+---
+
+## Web Audio supports live performance by LCO and Jonny Greenwood ##
+
+At a recent performance by the London Contemporary Orchestra,
+featuring music composed by Radiohead's Jonny Greenwood, members of
+the audience were asked to contribute to the music by loading a web
+page on their smart phones and play a Web Audio-powered instrument
+along with the performers on stage. The instrument was devised and
+built by London agency With Associates, and their developer Jamie
+shares the experience and some of the code in this informative blog
+post.
+
+When I speak to people who build applications using Web Audio I often
+hear about its limitations and idiosyncrasies. But I think it's
+really important to remember that the API allows this kind of
+experimentation and mass-participation - everyone with a smartphone
+that runs a recent browser has a powerful, networked musical
+environment waiting to be used!
+
+- [http://2014.withassociates.com/projects/lco-and-jonny-greenwood](http://2014.withassociates.com/projects/lco-and-jonny-greenwood)
+
+## JSnode ##
+
+Tucked away in one of Srikumar Subramanian's repositories on Github is
+this really interesting library which extends Web Audio's
+ScriptProcessorNode in very useful ways. ScriptProcessorNode allows
+you to write custom audio processing code at the sample level using
+javascript. But the node provided by Web Audio has some limitations
+around connectivity and the ability to add AudioParams to control the
+output of the node based on the input from other nodes. Srikumar has a
+very neat approach to solving some of these limitations, and his
+library is sure to be useful to anyone who wants to implement their
+own custom processing but still use the built-in nodes alongside.
+
+- [https://github.com/srikumarks/steller/blob/experimental_buildsys/src/models/jsnode.js](https://github.com/srikumarks/steller/blob/experimental_buildsys/src/models/jsnode.js)
+
+## music.js ##
+
+Musicians are used to describing sound in terms of keys, scales and
+notes. The Web Audio API prefers us to use frequencies in Hertz. The
+solution? Music.js is simple but powerful javascript library that
+allows you to convert between the two.
+
+- [https://github.com/gregjopa/music.js](https://github.com/gregjopa/music.js)
+
+## Making car sounds with web audio synthesis ##
+
+For their recent
+[Red Bull racing game for Chrome on iOS](http://www.redbullracechallenge.se/),
+web development studio Earth People used the Web Audio API to generate
+the sound of the car's engine. The blog post is a little light on the
+details of the synthesis of the engine noise itself, but the demo they
+do link to is a compact example of frequency modulation (where one
+oscillator controls the frequency of another). It's great to see Web
+Audio being used for browser games too.
+
+- [http://labs.earthpeople.se/2014/02/making-car-sound-with-web-audio-synthesis/](http://labs.earthpeople.se/2014/02/making-car-sound-with-web-audio-synthesis/)
+
+## Roland announces successor to TR-808 ##
+
+The classic and much-emulated Roland TR-808 drum machine is now X
+years old. Roland have just announced its successor, the TR-8. What I
+find really interesting about this is that the lack of a screen is
+described in the demo video as a feature of the machine rather than a
+limitation. It is sometimes hard to imagine that on the web platform
+we will ever be able to have interfaces as powerful as desktop
+applications such as Pro Tools, Ableton Live or Logic Pro. But the
+continued popularity of machines such as the TR-808 and its successor,
+show us that music-making can be done with innovative, humane and
+simple interfaces - something which the web can excel at.
+
+- [http://www.theverge.com/2014/2/14/5405878/roland-aira-tr-8-return-of-the-808](http://www.theverge.com/2014/2/14/5405878/roland-aira-tr-8-return-of-the-808) (/via @bascule)

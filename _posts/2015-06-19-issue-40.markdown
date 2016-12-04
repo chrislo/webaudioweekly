@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "Issue 40"
+permalink: "/40"
+---
+
+## Loop Drop ##
+
+Loop Drop, the fantastic looping performance system from Matt McKegg
+that we covered in issue 37, now has its own website
+[http://loopjs.com/](http://loopjs.com/). Matt has turned the code
+into a stand-alone application which wraps his web application. He's
+created some compelling demos and documentation, and alongside the
+open-source code for developers there's also a paid-for,
+easy-to-install version for musicians. There's even a
+[soundcloud site](https://soundcloud.com/destroy-with-science/sets/destroy-with-science)
+with examples of music created using the application.
+
+- [http://loopjs.com/](http://loopjs.com/)
+
+## Fields: An exploration into the use of mobile devices as a medium for sound diffusion ##
+
+Tim Shaw and co-authors have written a paper on their collaborative
+sound diffusion performance *Fields*. In Fields, the smartphones held
+by audience members act as a diffuse array of loudspeakers,
+distributing the sound throughout the performance space. The paper has
+some details on the motivation for the piece, the use of Web Audio,
+some ideas on using motion sensors and gestures as instruments, and
+background references on this emerging type of performance.
+
+- [https://nime2015.lsu.edu/proceedings/196/0196-paper.pdf](https://nime2015.lsu.edu/proceedings/196/0196-paper.pdf)
+
+## wavesurfer.js ##
+
+Wavesurfer is a customisable waveform visualisation widget with a
+range of useful plugins to support region highlighting, split-channel
+waveforms and more. It analyses the audio data to create the waveform
+using Web Audio.
+
+If you're looking for a server-side solution to allow multiple levels
+of zoom resolution for longer audio files, there's also the
+[peaks.js](https://github.com/bbcrd/peaks.js/tree/master) library.
+
+- [http://www.wavesurfer.fm/](http://www.wavesurfer.fm/)
+
+## LabSound ##
+
+LabSound is a Web Audio implementation that has been extracted from
+the WebKit source code. It's designed as a stand-alone C++11 library
+which can be used as a general-purpose sound engine. The
+[wiki](https://github.com/meshula/LabSound/wiki) has a number of
+examples of JavaScript Web Audio code ported to use the LabSound
+library.
+
+- [https://github.com/meshula/LabSound](https://github.com/meshula/LabSound)
+
+## WebAssembly: A new binary format for the web ##
+
+Google, Microsoft, Mozilla and WebKit announced WebAssembly this
+week. It's designed to provide a cross-browser compile target for code
+that can run inside the browsers JavaScript engines. As someone who
+learnt how to do web development back in the 90's using "view source"
+I'm not sure how I feel about this development, but from the point of
+view of high-performance DSP code used for musical applications it may
+be an early vision of the future.
+
+- [WebAssembly: A new binary format for the web](http://techcrunch.com/2015/06/17/google-microsoft-mozilla-and-others-team-up-to-launch-webassembly-a-new-binary-format-for-the-web/)
+
+## Kadenze: Free online music courses ##
+
+Kadenze is a new MOOC (Massive Open Online Course) platform
+specialising in courses in the arts and creative technologies. In
+their initial lineup of courses there looks to be some of particular
+interest to audio developers including a Stanford course on
+[synthesis and signal processing](https://kadenze.com/courses/an-introduction-to-physics-based-digital-audio-synthesis-and-signal-processing/info),
+Lonce Wyse's
+[Web coding for artists](https://kadenze.com/courses/js450-web-coding-for-artists/info)
+course which has a Web Audio component, and a course on
+[loops and variation in music](https://kadenze.com/courses/loop-repetition-and-variation-in-music/info)
+from Cork University. The courses are free to take, but there are
+subscription-based plans if you want to have coursework graded, and a
+payment option for university credit.
+
+- [https://kadenze.com/](https://kadenze.com/courses/loop-repetition-and-variation-in-music/info)

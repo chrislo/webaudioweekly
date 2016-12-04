@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Issue 69"
+permalink: "/69"
+---
+
+## Systems Music ##
+
+This blog post from Tero Parviainen is one of my favourite posts about
+the Web Audio API. In it Tero recreates three classic pieces of
+Generative Music from Steve Reich ("It's gonna rain") and Brian Eno
+("Discreet Music" and "Ambient 1: Music for Airports"). Calling it a
+blog post is a bit of an injustice as the code and systems that
+generate the music are embedded right next to the text itself. Tero
+also does a fantastic job of explaining some fundamental concepts to
+working with the API too - including sequencing, sampling and
+constructing node graphs, so there's something in there for
+everyone. I highly recommend taking the time to read and play with
+this post.
+
+- [JavaScript Systems Music: Learning Web Audio by Recreating The Works of Steve Reich and Brian Eno](http://teropa.info/blog/2016/07/28/javascript-systems-music.html)
+
+## Make Dope Beats with ReactJS ##
+
+In this tutorial Ken Wheeler shows you how to combine Web Audio and
+the ReactJS framework to make a classic drum machine. I'm not very
+familiar with the framework but the concept of linking UI elements to
+the underlying audio graph in a declarative way seems to be a really
+good fit for audio applications.
+
+- [Make Dope Beats with ReactJS](https://formidable.com/blog/2016/08/22/make-dope-beats-with-reactjs/) (via [@andrewn](https://twitter.com/andrewn))
+- [https://github.com/FormidableLabs/react-music](https://github.com/FormidableLabs/react-music)
+
+## Learn Web Audio from the Ground Up ##
+
+If you enjoyed Tero Parviainen's Systems Music tutorial but found it a
+little advanced try Tero's introductory blog post series "Learn Web
+Audio from the Ground Up". The first 4 parts cover an introduction to
+the API, and the basics of creating sound by changing its pitch and
+volume.
+
+- [Learn Web Audio from the Ground Up](http://teropa.info/blog/2016/08/19/what-is-the-web-audio-api.html)
+
+## Work begins on AudioWorklet implementation in Chrome ##
+
+The
+[specification of the AudioWorklet](https://webaudio.github.io/web-audio-api/#AudioWorklet),
+the node type that will allow custom javascript code to be used to
+process audio in a way that is much more performant than the deprected
+ScriptProcessor node, is nearing agreement. The Google Chrome team
+have announced their intention to implement and while this addition to
+the API is a way away from production, you can get a feel for its
+capabilities by reading some of the example code.
+
+- [Chrome Platform Status: AudioWorklet](https://www.chromestatus.com/feature/4588498229133312)
+- [AudioWorklet example code](https://github.com/WebAudio/web-audio-api/wiki/AudioWorklet-Examples)
+
+## Bring the Beat Remixer ##
+
+Caribbean telecoms company Digicel's summer campaign involves an
+exclusive Machel Montano track "Bring the Beat" and a web-audio
+powered remix tool that lets you create and share your own mix of the
+song.
+
+- [bringthebeat2016](http://bringthebeat2016.com/remixer.html)

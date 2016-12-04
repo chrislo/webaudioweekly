@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "Issue 50"
+permalink: "/50"
+---
+
+## midi.space ##
+
+midi.space shows how friction-less applications built with the new Web
+MIDI API will be compared to their legacy, desktop-software
+counterparts. Open the browser, connect your MIDI devices, drop some
+samples onto the on-screen pads and start creating loop-based
+music. If you don't have a MIDI device, you can use your
+mouse/trackpad to trigger the samples.
+
+- [http://midi.space](http://midi.space)
+
+## The Future of Web Audio ##
+
+When Chris Wilson, co-editor of the Web Audio API specification for
+the W3C and developer evangelist for audio technologies at Google, was
+in London recently he and [Sam Dutton](https://twitter.com/sw12)
+invited me into the Google offices to have a chat about recent
+developments and the future of Web Audio.
+
+- [https://www.youtube.com/watch?v=vKGKJprJhkc](https://www.youtube.com/watch?v=vKGKJprJhkc)
+
+## Farfisa Fast 3 Organ Simulator ##
+
+A very convincing simulation of the Farfisa Fast 3 vintage analogue
+organ, complete with selectable tones and fast/slow vibrato. You can
+connect a MIDI keyboard too, and study the code on github.
+
+- [http://www.farfisaofthefuture.com/](http://www.farfisaofthefuture.com/)
+
+## Generative Jazz with Web Audio ##
+
+Don Veca emailed me to share the outputs of his Web Audio-powered
+generative jazz engine. The algorithm is based on "groove templates"
+and pattern generators and exposes a simple UI to control the
+parameters of the generation. At the moment we only have this
+intriguing recording to listen to, but I'm excited to see what Don
+decides to do with his application and whether we'll be able to get
+our hands on it!
+
+- [https://soundcloud.com/dveca/sets/generative-jazz](https://soundcloud.com/dveca/sets/generative-jazz)
+
+## Web MIDI wrapper library ##
+
+Using the Web MIDI API, especially beyond the basics, requires some
+knowledge of the MIDI spec and some fairly low-level
+programming. While having full support for the spec is exactly what
+the Web Platform needs, working with it can be a bit
+intimidating. This library from Jean-Philippe Côté abstracts some of
+this complexity away from you providing a simpler API to test for MIDI
+capability, send and receive note messages and work with controller
+events.
+
+- [https://github.com/cotejp/webmidi](https://github.com/cotejp/webmidi)
+
+## The Art of Arrangement for Dynamic Music Systems in Games ##
+
+A three-part article from composer Winifred Phillips on arranging
+music for computer games with particular emphasis on her work for the
+LittleBigPlanet series. I found it very interesting to learn about the
+considerations of composers when working with an atmosphere that is in
+constant flux due to the actions of the player of the game.
+
+- [Arrangement for Vertical Layers Pt. 1](http://gamasutra.com/blogs/WinifredPhillips/20150929/254892/Arrangement_for_Vertical_Layers_Pt_1.php)
+
+## TR-808 Cowbell and Hi-Hat recreation with Web Audio ##
+
+Two great articles from Ed Ball and Joe Sullivan respectively on how
+they recreated the TR-808's cowbell and hi-hat sounds by studying the
+circuit diagrams and processing schematics and then re-creating the
+signal path in Web Audio. Previously, I worked on recreations of the
+bass-drum and snare sound from the 808 - someone should really put all
+of this together!
+
+- [http://outputchannel.com/post/tr-808-cowbell-web-audio/](http://outputchannel.com/post/tr-808-cowbell-web-audio/)
+- [http://joesul.li/van/synthesizing-hi-hats/](http://joesul.li/van/synthesizing-hi-hats/)
+- [https://dev.opera.com/articles/drum-sounds-webaudio/](https://dev.opera.com/articles/drum-sounds-webaudio/)
+
+## 808: The Movie ##
+
+And in other 808 news, I'm very excited about this upcoming
+documentary about the classic drum machine and its influence on modern
+music. Featuring legendary producers and musicians such as Afrika
+Bambaataa, The Root's ?uestlove and er, Phil Collins, it looks set to
+be an vintage synth geek's dream!
+
+- [http://808themovie.com/](http://808themovie.com/)

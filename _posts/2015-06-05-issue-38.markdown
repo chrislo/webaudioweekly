@@ -1,0 +1,82 @@
+---
+layout: post
+title:  "Issue 38"
+permalink: "/38"
+---
+
+## Karplus-Strong String Synthesis ##
+
+In this blog post, Matthew Rahtz shows how to synthesise string sounds
+using the Web Audio API. He starts with a simple introduction into the
+physics of how guitars, for example, make sound using a series of
+interactive visualisations. He then gets into the Karplus-Strong
+algorithm itself, which is capable of generating an amazing variety of
+sounds from a simple set of principles. A great article.
+
+- [http://amid.fish/karplus-strong/](http://amid.fish/karplus-strong/)
+
+## Bringing Web Audio to Microsoft Edge ##
+
+The developers of the next version of Microsoft's new browser
+Microsoft Edge share their progress on an implementation of the Web
+Audio spec. They give an overview of the API and talk about the
+features they are currently working on.
+
+*Update*: I'd said previously that Microsoft would not be supporting
+`ScriptProcessorNode`. One of their developers got in touch to say
+that that wasn't the case, they will support it, but are keenly
+watching the developments with `AudioWorker` so they can properly
+deprecate when other browsers drop their support for
+`ScriptProcessorNode`.
+
+- [Bringing Web Audio to Microsoft Edge](http://blogs.windows.com/msedgedev/2015/05/19/bringing-web-audio-to-microsoft-edge-for-interoperable-gaming-and-enthusiast-media/)
+
+## SoundCite ##
+
+A very useful, simple idea from the Knight Lab at Northwestern
+University, SoundCite allows you to directly "cite" a piece of audio
+within the flow of your text, making it easy for your readers to
+quickly hear something without the distraction of an embedded
+player. The demos on the project page explain it better than I can.
+
+- [http://soundcite.knightlab.com/](http://soundcite.knightlab.com/)
+
+## Fun with the Web Audio API ##
+
+A collection of fun and informative Web Audio experiments implemented
+inside the [Codepen](http://codepen.io/) 'IDE in a browser'
+environment.
+
+- [http://codepen.io/DonKarlssonSan/blog/fun-with-web-audio-api](http://codepen.io/DonKarlssonSan/blog/fun-with-web-audio-api)
+
+## Keith McMillen make music in the browser ##
+
+With the
+[recent release of the Web MIDI API in Google Chrome](http://blog.chromium.org/2015/04/chrome-43-beta-web-midi-and-upgrading.html)
+we are starting to see music instrument manufacturers experimenting
+with the API to provide their customers a richer and more connected
+experience. In this post, Keith McMillen the MIDI controller
+manufacturer, introduce the Web MIDI API, give some useful code
+snippets and outline some of its advantages to the rest of the
+industry.
+
+- [http://www.keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/](http://www.keithmcmillen.com/blog/making-music-in-the-browser-web-midi-api/)
+
+## AudioDrop ##
+
+This handy library from Kyle Stetz allows the drag-and-drop loading
+and decoding of audio files into Web Audio `AudioBuffer` objects.
+
+- [https://github.com/kylestetz/AudioDrop](https://github.com/kylestetz/AudioDrop)
+
+## Raspberry PI as a Synthesiser ##
+
+Phil Atkin has been optimising the 1st generation Raspberry PI for
+sound generation, turning it into a powerful real-time 'analog' and
+wavetable synth and sampler. Watching the
+[demo on youtube](https://www.youtube.com/watch?v=dWoJIYdjbuA) is the
+best way to get a sense of how well this works, as at the moment the
+code isn't available to run it yourself. But I'm looking forward to
+having a play when it is!
+
+- [http://raspberrypisynthesizer.blogspot.nl/](http://raspberrypisynthesizer.blogspot.nl/)

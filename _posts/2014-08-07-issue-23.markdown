@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "Issue 23"
+permalink: "/23"
+---
+
+## Beat Detection Using JavaScript and the Web Audio API ##
+
+A great article from Joe Sullivan on performing beat detection using
+the Web Audio API. I like the way Joe takes us through the technique
+in an experimental way rather than just introducing the algorithm and
+its implementation.
+
+- [Beat Detection Using JavaScript and the Web Audio API](http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/)
+
+## Web Audio Hackday ##
+
+If you can get yourself to Berlin on the 12th September, SoundCloud
+are hosting what looks to be a fantastic day of workshops and Web
+Audio hacking. I'm really excited to see what comes out of the day,
+and will keep an eye on things to feature here in the newsletter. The
+hackday is happening just before JSConf.eu, so if you're in Berlin for
+that make sure to sign up.
+
+- [Web Audio Hack Day tickets](https://www.eventbrite.co.uk/e/web-audio-hack-day-tickets-12451959145)
+
+## jsaSound ##
+
+Lonce Wyse, professor at the National University of Singapore, has
+developed a new library to make sharing Web Audio code easier. It
+provides a consistent interface for a given group of Web Audio
+nodes. Working at a slightly higher level than native Web Audio allows
+more complicated building blocks to be connected together. The
+projects website gives a lot of different examples including a vowel
+synthesiser, a
+[Karplus-Strong](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis)
+string synthesiser.
+
+- [jsaSound for Interactive Sound on the Web](http://animatedsoundworks.com:8001/)
+- [https://github.com/lonce/jsaSound](https://github.com/lonce/jsaSound)
+
+## Audio Sort ##
+
+A visualisation of various sorting algorithms accompanied by
+synthesised "audibilizations". The project uses
+[timbre.js](https://mohayonao.github.io/timbre.js/) which is a
+pure-javascript audio library with a flash fallback for older
+browsers.
+
+- [http://skratchdot.com/projects/audio-sort/](http://skratchdot.com/projects/audio-sort/)
+
+## Qwerty Hancock ##
+
+Need an instant musical keyboard for your web audio project? Stuart
+Memo's spectacularly-named keyboard library, Qwerty Hancock has
+reached v0.4.1, with some visual tweaks and bug fixes but the same
+simple API and great documentation.
+
+- [Qwerty Hancock](http://stuartmemo.com/qwerty-hancock/)
+
+## Extracting audio from visual information ##
+
+"Researchers at MIT, Microsoft, and Adobe have developed an algorithm
+that can reconstruct an audio signal by analyzing minute vibrations of
+objects depicted in video. In one set of experiments, they were able
+to recover intelligible speech from the vibrations of a potato-chip
+bag photographed from 15 feet away through soundproof glass."
+
+- [Extracting audio from visual information](http://newsoffice.mit.edu/2014/algorithm-recovers-speech-from-vibrations-0804)

@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Issue 31"
+permalink: "/31"
+---
+
+## An introduction to Web MIDI and Web Audio ##
+
+This blog post from Stéphane Péricat is a comprehensive introduction
+to building applications that combine the Web Audio API with the Web
+MIDI API - allowing you to build applications that can be controlled
+by MIDI hardware. There's not a lot of documentation for the Web MIDI
+API out there yet, mainly due to its limited support in existing
+browsers (only Chrome has support at the moment). But tutorials such
+as this should let developers build some compelling demos of the
+potentials of the API.
+
+- [Creating Browser-Based Audio Applications Controlled by MIDI Hardware](http://www.toptal.com/web/creating-browser-based-audio-applications-controlled-by-midi-hardware)
+
+## Audio Visualisation with the Web Audio API ##
+
+A fun, clear tutorial that shows how to create animations that are
+synchronised to sound by leveraging the built in frequency analysis
+provided by the Web Audio API's AnalyserNode.
+
+- [Audio visualisation with the Web Audio API](http://fourthof5.com/audio-visualisation-with-the-web-audio-api)
+
+## Experiments with DART and Web Audio ##
+
+William Quartz wrote to tell me about his experiments building up the
+audio capabilities for his game engine using the new language Dart. In
+doing so, he's created a JavaScript version which can be generated
+from the Dart code. To be fair, I don't have any experience of Dart or
+how to get this working, but it's interesting to see how William has
+been able to generate complex Web Audio API Node graphs from his Dart
+code. Worth digging into in more detail if you're a Dart fan.
+
+-[https://plus.google.com/u/0/109136453872758385259/posts](https://plus.google.com/u/0/109136453872758385259/posts)
+
+## More highlights from the Web Audio Conference ##
+
+Bill Walker shares his personal highlights from last month's
+International Web Audio Conference in Paris. There's a lot of great
+talks, libraries and papers to explore from the event! Also, if you're
+a new subscriber to WAW you may have missed my write up of the
+conference from last week, so go and have a read of that too.
+
+- [Highlights of the first Web Audio Conference](http://softwarewalker.com/2015/02/03/highlights-of-the-first-web-audio-conference/)
+- [Web Audio Weekly #30](http://blog.chrislowis.co.uk/waw/2015/01/31/web-audio-weekly-30.html)
+
+## Web Audio Developer Tools for Chrome ##
+
+[Stuart Memo](http://stuartmemo.com/) opened a bug for Chrome
+bemoaning the lack of developer tools for Web Audio, similar to the
+wonderful
+[Web Audio Editor in Firefox](https://developer.mozilla.org/en-US/docs/Tools/Web_Audio_Editor). Worth
+a shot, Stuart!
+
+- [Issue 454238: Implement Web Audio developer tools](https://code.google.com/p/chromium/issues/detail?id=454238)
+
+## WebAudioSynth V2 ##
+
+A Web Audio synth inspired by the MiniMoog and rendered in glorious 3D
+using WebGL. I love the lighting effects when you hover over the
+controls, and the animated key presses on the keyboard.
+
+- [http://aikelab.net/websynthv2/](http://aikelab.net/websynthv2/)
+
+## Music Thing ##
+
+Music Thing is an open-source DIY modular synth toolkit, with full
+schematics and part lists available to view and clone on
+Github. There's a lot of great synth demos on the site and I
+particularly love the
+[reading list](http://musicthing.co.uk/modular/?cat=21).
+
+- [Music Thing Modular](http://musicthing.co.uk/modular)

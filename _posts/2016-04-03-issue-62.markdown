@@ -1,0 +1,114 @@
+---
+layout: post
+title:  "Issue 62"
+permalink: "/62"
+---
+
+## Tools for Thought: Graphical Algebra and Fourier Analysis  ##
+
+Steven Wittens likes to explain complicated mathematical concepts
+using simple, intuitive visualisations. He calls the process a
+"graphical algebra". In this slide deck, Steven explains how some of
+the simple mathematical identities we learned at school can be viewed
+as graphical translations - rotating, skewing and scaling. He then
+takes this concept further to explain the Fourier Transform - the
+mathematical function that allows us to convert time into
+frequency. The resulting explanation is fantastic - and it's all
+performed in real time using WebGL and the Web Audio API.
+
+- [https://acko.net/files/gltalks/toolsforthought/](https://acko.net/files/gltalks/toolsforthought/)
+
+## WAC 2016 ##
+
+As I write delegates are arriving in Atlanta, Georgia for the 2nd
+international Web Audio Conference (WAC). For those of us who can't be
+there, the conference proceedings have been published in advance and
+there should be a live-stream of the conference starting on Monday,
+April 4th at 9am (EST).
+
+There'll hopefully be a special issue of Web Audio Weekly with reports
+from the conference.
+
+- [Web Audio Conference accepted papers](https://smartech.gatech.edu/handle/1853/54577/browse?type=title)
+- [Web Audio Conference live stream](http://webaudio.gatech.edu/live-stream)
+
+## Procedural game music in BlockShip Wars ##
+
+BlockShip Wars is an experiment in procedural game generation built in
+JavaScript and WebGL. Having already generated planets, spaceships,
+character names and more, when it came to the game's audio there was
+only one choice - procedural generated Web Audio music. The blog post
+has all the details and a demo.
+
+- [BSWR - Procedural Music Generator](http://chadams77.tumblr.com/post/141022336683/bswr-procedural-music-generator)
+
+## MidiWriterJS  ##
+
+A neat and expressive library for generating multi-track MIDI
+files. Notes can be added to multiple tracks with their length and
+pitch specified in a familiar notation. The output can be written
+directly to a MIDI file for downloading, or turned into a `data-uri`
+for embedding directly into markup.
+
+- [https://github.com/grimmdude/MidiWriterJS](https://github.com/grimmdude/MidiWriterJS)
+
+## W3C online course on HTML5/Web Audio ##
+
+The online course platform EdX are hosting some new courses from the
+W3C including Michel Buffa's new course on advanced HTML5
+techniques. By making an in-browser game you'll learn about animation,
+drag-and-drop, persistence using IndexedDB, and (most importantly!)
+how to add audio using the Web Audio API. The next session starts in
+June, but sign up now to be reminded when it gets going.
+
+- [HTML5 Part 2: Advanced Techniques for Designing HTML5 Apps](https://www.edx.org/course/html5-part-2-advanced-techniques-w3cx-html5-2x-0#!)
+
+## Tascam Portastudio Simulation ##
+
+This authentic-looking simulation of a Tascam 8-track mixing desk took
+me back to my A Level music days! Switch the simulation into "playback
+mixer mode" and load the demo song, then hit "play" on the simulated
+Portastudio to get started. As fun as this is, I think linear editing
+and mixing is one piece of retro technology that I am glad has had its
+day!
+
+- [http://www.jdwilson.ca/8track/](http://www.jdwilson.ca/8track/)
+
+## 19 TET Keyboard ##
+
+Why is a standard piano keyboard divided into octaves of twelve notes
+each? It doesn't have to be this way, and in this post we learn about
+the common "equal temperament" tuning and have chance to play with a
+piano which uses a 19 note scale instead.
+
+- [https://academo.org/demos/19-tet-keyboard/](https://academo.org/demos/19-tet-keyboard/)
+
+## Tinyrave ##
+
+Tinyrave is a music-making-cum-code-sharing platform. You can write
+snippets of JavaScript or CoffeScript code to create sounds and
+compositions and then play back and share those on the site. Popular
+compositions are available on the homepage, where they can be "forked"
+and used as a starting point for your own compositions.
+
+- [http://tinyrave.com](http://tinyrave.com)
+
+## Play Drums Online ##
+
+Learn how to play drums online and compete with your friends through a
+series of "rhythm games". If you have a MIDI-compatible electronic
+drumset you can plug that into the browser to play along.
+
+This is a great idea for lowering the barrier to entry for young
+musicians to start learning an instrument, but I found it hard to
+understand how to get started. I'll be watching this site to see how
+it develops in the future.
+
+- [https://www.playdrumsonline.com](https://www.playdrumsonline.com)
+
+## Humpbacks synchronize their music across oceans, and there’s sheet music to prove it ##
+
+A beautiful essay which explores the musical sounds of the oceans
+largest creatures and the nature of music notation itself.
+
+- [Whale Song Explained](https://medium.com/@dealville/whales-synchronize-their-songs-across-oceans-and-theres-sheet-music-to-prove-it-b1667f603844#.t292bodyt) (/via [@therewasaguy](https://twitter.com/therewasaguy/))

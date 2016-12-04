@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Issue 56"
+permalink: "/56"
+---
+
+## Recreating the sound of night vision googles ##
+
+The popular video game Splinter Cell allows the player to wear a pair
+of night vision goggles. When they power up they make a distinctive
+sound. In this article Ed Ball recreates the sound using the Web Audio
+API. What's interesting about this is not the recreation of the sound
+itself per-se, but rather the approach Ed takes to first analysing the
+sound to recreate in the frequency and time-domain and then showing
+how to use that analysis to inform the Web Audio code you need to
+write. This technique, known as
+[resynthesis](https://en.wikipedia.org/wiki/Additive_synthesis#Additive_analysis.2Fresynthesis)
+has many useful applications.
+
+- [Night vision goggles sound](http://outputchannel.com/post/night-vision-sound-in-web-audio/)
+
+## Sampulator ##
+
+The sampulator is a sample-based instrument with a loop sequencer -
+ideal for making short grooves and beats. It comes pre-loaded with a
+sample pack and features several pre-made tunes to give you
+inspiration. An interesting innovation is the shop where you can
+purchase new samples.
+
+- [Sampulator](http://sampulator.com/)
+- [Sampulator shop](http://sampulator.com/shop)
+
+## Elements of Dance Music ##
+
+Paul Adenot is the lead developer of the Web Audio API in
+Firefox. He's also a talented computer musician. In this video from
+JSConf.Asia 2015 he combines the two talents to make a techno track
+from scratch using the synthesis capabilities of the Web Audio
+API. Paul concentrates on the timbre of the music rather than the
+melody or rhythm in the talk - which means a lot of synthesis
+techniques, filtering and effects.  There's a lot to learn from this
+video and the code on github.
+
+- [Paul Adenot: Elements of Dance Music](https://www.youtube.com/watch?v=Ww0jTafmd_w)
+- [padenot/jsconf.asia-15](https://github.com/padenot/jsconf.asia-15/)
+
+## Creating Virtual MIDI Ports On OSX for Web MIDI ##
+
+If you a keen to play with the Web MIDI API, or want to try out some
+Web MIDI-powered applications but don't have access to a MIDI
+controller, this article shows you how to use virtual MIDI ports and
+devices on OSX. You'll end up with a virtual on-screen "keyboard" that
+emits the correct MIDI messages.
+
+- [Creating Virtual MIDI Ports On OSX for WebMidi](http://skratchdot.com/2016/01/creating-virtual-midi-ports-on-osx/)
+
+## Audio glitches with a terminal ##
+
+If you're looking for some weird and wonderful sounds, look no further
+than the innards of your own laptop. Using some command-line utilities
+you can generate noises from the contents of databases and log files,
+or from the chatter on your local network.
+
+- [Audio glitches with a terminal](http://funktion.fm/#post/audio-glitches-with-a-linux-terminal)

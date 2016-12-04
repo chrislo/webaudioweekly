@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Issue 19"
+permalink: "/19"
+---
+
+## 1st Web Audio Conference ##
+
+IRCAM (Institut de Recherche et Coordination Acoustique/Musique), the
+music and acoustics research institute located in the Pompidou Centre
+in Paris, France, have opened the call for submissions for a Web Audio
+conference in 2015. As well as soliciting more technical or academic
+papers, they are also interested in demo and poster sessions, and are
+planning to organise a gig where performers use the Web Audio API or
+allow the audience to participate with devices. It's the first
+conference of its kind, so it will be interesting to see the line-up
+when it's announced. Submission is open now[^1].
+
+- [http://wac.ircam.fr/](http://wac.ircam.fr/)
+
+## CoffeeCollider ##
+
+CoffeeCollider is a SuperCollider-inspired live coding environment
+that supports many of the same noise generators and processing
+functions as SuperCollider but runs in the browser. The bundled
+examples are fun to play with, it takes a little while to figure out
+how to make real-time changes (select the whole function you've
+changed and hit ⌘-Enter on the Mac), but the system is powerful and
+quite responsive. The whole code is open source on Github too.
+
+- [CoffeeCollider Chord demo](https://mohayonao.github.io/CoffeeCollider/#chord.coffee)
+- [CoffeeCollider on Github](https://github.com/mohayonao/CoffeeCollider)
+
+## Tango Music Visualisations ##
+
+A beautiful but simple visualisation of a tango piece (I think it
+might be a tango version of Nirvana's Nevermind!) from
+[Bruno Imbrizi](https://twitter.com/brunoimbrizi). I like how the
+thickness of the lines change depending of the frequency content of
+the music - it works really when when the strings come in and they
+start to take the form of a violin bow.
+
+- [http://brunoimbrizi.com/experiments/#/08](http://brunoimbrizi.com/experiments/#/08)
+
+## Compress audio buffers with libvorbis.js and lago ##
+
+Joe Sullivan has written `libvorbis.js` which is a emscripten port of
+the Vorbis compression library. It allows you to create ogg-format
+compressed audio from PCM buffers, such as you'd create using the Web
+Audio API's BufferSource node, or from a users soundcard input using
+getUserMedia. This solves a major problem for creating music using the
+Web Audio API, as it allows creations to be moved across the network
+much more easily due to the reduced file size. `libvorbis.js` is a
+straight-forward port of the library, but Joe's `lago` project allows
+you to use it for real applications by off-loading the compression to
+a background Web Worker where available.
+
+- [lago](https://github.com/itsjoesullivan/iago)
+- [libvorbis.js](https://github.com/itsjoesullivan/libvorbis.js)
+
+## beeplay.js ##
+
+Beeplay is a simple library to allow you to write out multi-part
+compositions using a simple syntax and have them rendered using the
+Web Audio API. It looks like it'd be a really nice way of including
+some music with a simple game, while avoiding the additional overhead
+of having the player download an audio file. There's no documentation
+with the library, but the example is pretty self-explanatory. The
+music is rendered using generated `BufferSource` nodes - it might be a
+fun exercise to see if these could be replaced using the
+`OscillatorNode`.
+
+- [https://watilde.github.io/beeplay/](https://watilde.github.io/beeplay/)
+
+## The greatest electronic albums of the 1950s and 1960s ##
+
+Fact Magazine have compiled a list of early electronic music. Like
+many such lists, the angry comments from people who are disgusted that
+a certain album wasn't include also provide a great source of
+additional recommendations.
+
+- [The greatest electronic albums of the 1950s and 1960s](http://www.factmag.com/2014/05/29/the-greatest-electronic-albums-of-the-1950s-and-1960s/2/) (/via @MoogFoundation)
+
+
+[^1]: Disclaimer: I and a number of other members of the W3C Audio
+Working Group are on the technical committee.

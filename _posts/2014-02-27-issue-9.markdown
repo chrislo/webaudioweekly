@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Issue 9"
+permalink: "/9"
+---
+
+## A collection of Web Audio components built with d3.js ##
+
+D3.js is a framework for building "data driven documents". Prong is a
+collection of libraries that combine D3 with Web Audio to allow things
+like
+[visualisation of waveforms](http://forkaudio.org/prong/examples/waveform.html),
+[note onset detection](http://forkaudio.org/prong/examples/note-onset.html),
+and
+[multi-channel editing](http://forkaudio.org/prong/examples/comper.html). A
+great starting point for building more sophisticated applications.
+
+- [http://forkaudio.org/prong/](http://forkaudio.org/prong/)
+
+## Exploring the JP-8000 Supersaw ##
+
+I loved this forensic deconstruction of the "Supersaw" synths
+sound. The classic Roland sound is analysed in the frequency domain,
+with sound clips, and then reconstructed using a series of PureData
+patches. Plenty of inspiration for recreating the sound yourself using
+the Web Audio API's
+[OscillatorNode](http://www.w3.org/TR/webaudio/#OscillatorNode).
+
+- [http://www.ghostfact.com/jp-8000-supersaw/](http://www.ghostfact.com/jp-8000-supersaw/)
+
+## Recreation of Commodore 64 sounds ##
+
+The Commodore 64 computer had a
+[built-in sound chip](https://en.wikipedia.org/wiki/MOS_Technology_SID),
+the MOS Technology 6581/8580 SID (Sound Interface Device). The chip
+was pretty powerful for its day, having three independent oscillators
+and a filter. Igor Zinken has had a go emulating the chip, and the
+sounds of the C64 using the Web Audio API, and has added a keyboard to
+make it easy to create some sounds. It's not entirely faithful, but is
+very capable of creating some out-there 8-bit sounds.
+
+- [Commodore 64 Synthesizer](http://www.chromeexperiments.com/detail/websid-commodore-64-synthesizer/) (/via [@sarahbadr](http://twitter.com/sarahbadr))
+
+## Paul Adenot talks about Web Audio at FOSDEM ##
+
+Paul Adenot, the recently appointed co-author of the Web Audio API
+specification, and developer at Mozilla, gave an overview of the Web
+Audio API at this year's FOSDEM conference. As well as some use cases,
+code snippets and demos, he also talks about some of the work that's
+still to be done in the implementations and the specification.
+
+- [Paul Adenot talks about Web Audio at FOSDEM](http://ftp.osuosl.org/pub/fosdem//2014/UD2218A/Saturday/Web_Audio_API.webm)
+
+## Touch enabled Web Audio theremin ##
+
+A really nicely implemented "theremin" using Web Audio by Luke
+Phillips of Femur Design. It supports touch events too, so is a lot of
+fun to play with on a touch enabled device (try Safari on recent iOS,
+or Chrome on Android devices).
+
+- [http://www.femurdesign.com/theremin/](http://www.femurdesign.com/theremin/) (/via [@maboa](http://twitter.com/maboa))
+
+## Synth Britannia - the history of the synthesiser ##
+
+An hour-and-a-half of crazy synth noises and lingering footage of old
+hardware, you say? Go on then, you've earnt it.
+
+- [Synth Britannia](https://www.youtube.com/watch?v=LXm8O5cKrhI)

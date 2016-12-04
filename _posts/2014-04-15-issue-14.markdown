@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Issue 14"
+permalink: "/14"
+---
+
+## Echo ##
+
+Echo is part-game, part-composition tool. You have to solve a series
+of puzzles to unlock parts of a song. When complete you can remix the
+song by completing the puzzles in different ways. It's an interesting
+concept and quite hard to explain, but a lot of fun to play. The
+author Yotam Mann has also written a post about the technology behind
+the game, which is also well worth a read.
+
+- [http://tonenotone.com/ECHO/](http://tonenotone.com/ECHO/)
+- [http://tonenotone.com/technical/](http://tonenotone.com/technical/)
+
+## Patatap ##
+
+Patatap is a web-based instrument with a very beautiful combination of
+animations and sounds from Jono Brandel, of Google's Creative Lab. It
+uses Web Audio's buffer sources to play the pre-loaded samples, and as
+a result is very responsive to both keyboard presses on desktop and
+touches on tablet and mobile.
+
+- [http://www.patatap.com/](http://www.patatap.com/)
+
+## Bitcrushing ##
+
+Bitcrushing is an effect achieved by intentionally lowering the
+resolution of a sound, either by lowering the sample rate or by
+quantising the samples to a smaller number of bits, or both. Jason
+Frame's library uses a ScriptProcessorNode to achieve the effect, and
+is a nice example of how to write your own custom processors in javascript.
+
+- [https://github.com/jaz303/bitcrusher](https://github.com/jaz303/bitcrusher)
+
+## Retro game music ##
+
+A fun article on how to create classic 8-bit video game music using
+band.js and the Web Audio API.
+
+- [http://flippinawesome.org/2013/09/09/retro-game-music-using-web-audio-and-band-js/](http://flippinawesome.org/2013/09/09/retro-game-music-using-web-audio-and-band-js/)
+
+## Beat It ##
+
+"As Jackson couldn't fluently play any instruments, he would sing and
+beatbox out how he wanted his songs to sound by himself on tape,
+layering the vocals, harmonies and rhythm before having
+instrumentalists come in to complete the songs."
+
+- [http://nprmusic.tumblr.com/post/80985571808/as-jackson-couldnt-fluently-play-any-instruments](http://nprmusic.tumblr.com/post/80985571808/as-jackson-couldnt-fluently-play-any-instruments)

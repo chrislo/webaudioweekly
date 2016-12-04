@@ -1,0 +1,116 @@
+---
+layout: post
+title:  "Issue 68"
+permalink: "/68"
+---
+
+## BlockDust ##
+
+BlokDust is a very stylish web-based music making app. By joining
+blocks together, you can build synthesizers, put effects on your
+voice, remix & manipulate samples and arrange self-playing musical
+environments. The built in tutorial gets you over the initial learning
+curve. You can hook up MIDI controllers to help create your
+instruments, and share the results on social networks. It is made by
+three developers in Brighton, UK, who have also made the code open
+source.
+
+- [BlockDust](https://blokdust.com/)
+- [BockDust on Github](https://github.com/BlokDust/BlokDust/)
+
+## Google's Omnitone: Spatial audio on the web ##
+
+Google's new Omnitone project is a first-order ambisonic decoder that
+allows you to binaurally render an ambisonic recording directly in the
+browser. This means that sound that has been designed for a
+multi-channel surround-sound speaker setup can be experienced using a
+standard set of headphones.
+
+Hongchan Choi and Raymond Toy, the authors, gave me a demonstration of
+the technology using Google's "cardboard" VR setup, and it really is
+impressive. The positioning of the audio maps well to what the eyes
+can see in the virtual environment, tracking head movements and object
+movements in the 3D space very well.
+
+Get the full technical details and demos at Google's opensource blog
+and the Omnitone project page.
+
+- [Omnitone: Spatial audio on the web](https://google-opensource.blogspot.co.uk/2016/07/omnitone-spatial-audio-on-web.html)
+- [Omnitone project page](http://googlechrome.github.io/omnitone/)
+
+## What's new in Web Audio ##
+
+Mozilla's [Sole Penadés](https://soledadpenades.com/) takes a look at
+the new Web Audio features and performance enhancements that have been
+introduced in Mozilla's Firefox browser in the last 12 months. This
+includes a useful overview of the `disconnect` methods on audio
+nodes, the changes to lifecycle management of `AudioContext` and the
+move towards a more contructable syntax for node creation.
+
+- [What's new in Web Audio](https://hacks.mozilla.org/2016/08/whats-new-in-web-audio-2/)
+
+## Guitar Amp Simulator in Web Audio ##
+
+Michel Buffa has been pushing the boundaries of amplifier simulation
+creating ever-more realistic simulations using Web Audio. Michel
+describes the latest version of his guitar amp simulator:
+
+> With the help of the famous native amp sim coder LePou, we cloned the
+> Marshall JCM 800 premp schematic with WebAudio (tonestack, filters
+> between the preamp stages etc.). I also used asymetric + symetric
+> transfer functions for the two distortions in order to generate both
+> odd and even harmonics in a suitable way.
+
+If you don't have a suitable audio interface and electric guitar, the
+YouTube video has a good demonstration.
+
+- [Web Audio Guitar Amplifier Simulator](https://github.com/micbuffa/WebAudio-Guitar-Amplifier-Simulator)
+- [Guitar Amplifier Simulator YouTube demo](https://www.youtube.com/watch?v=7bf3Dgl-qGc)
+
+## midi-ports ##
+
+The midi-ports library provides a very useful set of simplifications
+and abstractions on top of the Web MIDI API allowing you to access
+devices by name as well as group ports by device.
+
+- [midi-ports](https://www.npmjs.com/package/midi-ports)
+
+## genish.js tutorial ##
+
+Charlie Roberts has written a comprehensive tutorial for their
+`genish.js` synthesis library. `genish.js` uses the Web Audio API to
+playback sound, but permits sample-by-sample manipulation of the
+audio. This allows some types of synthesis techniques that are
+impossible using Web Audio nodes - such as single-sample delay
+lines. To keep performance acceptable, `genish.js` optimises the
+generated JavaScript.
+
+- [genish.js tutorial](http://charlie-roberts.com/genish/tutorial/)
+
+## What does the harmonic series sound like? ##
+
+A simple but effective demonstration of the principles of
+[musical harmonics](https://en.wikipedia.org/wiki/Harmonic_series_(mathematics))
+from Google Create Lab's [Alexander Chen](http://www.chenalexander.com/).
+
+- [What does the harmonic series sound like?](https://alexanderchen.github.io/harmonics/)
+
+## Thoughts on improving Web Audio ##
+
+Carl Tashian has been playing with the Web Audio API and has some
+thoughts on how things could be improved. Most of Carl's points relate
+to extension libraries and possibilities for Web Audio-based
+technology rather than the API itself, but if you're working on tools
+for other developers to use, Carl has some interesting ideas.
+
+- [Thoughts on improving Web Audio](https://medium.com/@tashian/thoughts-on-improving-web-audio-54f48716da57#.o23llm8h0)
+
+## Talking Machines interview Doug Eck about Generative Art ##
+
+In this episode of the excellent Talking Machines podcast Katherine
+Gorman interviews Doug Eck of Google's Magenta project. They discuss
+the future of computer-generated art and music made possible by
+advances in neural networks and machine learning. The interview with
+Doug Eck starts at 15:30.
+
+- [Talking Machines Podcast: Generative Art](http://www.thetalkingmachines.com/blog/2016/8/4/generative-art-and-hamiltonian-monte-carlo)

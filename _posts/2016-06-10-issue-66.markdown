@@ -1,0 +1,119 @@
+---
+layout: post
+title:  "Issue 66"
+permalink: "/66"
+---
+
+## midi.city ##
+
+This simple but beautifully executed massive, multi-sampled instrument
+uses the [compifont](http://pphidden.wix.com/compifont) sample set to
+make over a hundred different instruments playable in the browser.
+
+- [https://midi.city/](https://midi.city/)
+
+## Beat Detection Using JavaScript and the Web Audio API ##
+
+Joe Sullivan has been tidying up and re-publishing his great
+collection of Web Audio tutorials, including this great one on
+implementing beat detection using filtering techniques.
+
+- [http://joesul.li/van/beat-detection-using-web-audio/](http://joesul.li/van/beat-detection-using-web-audio/)
+
+## Recreating Theremin With JS And Web Audio API ##
+
+This article from Smashing Magazine by Stuart Memo is a great
+introduction to the Web Audio API for beginners. Stuart describes and
+then builds from scratch an emulation of the Léon Theremin's famous
+eponymous instrument.
+
+- [https://www.smashingmagazine.com/2016/06/make-music-in-the-browser-with-a-web-audio-theremin/](https://www.smashingmagazine.com/2016/06/make-music-in-the-browser-with-a-web-audio-theremin/)
+
+## Loop Drop now free to download ##
+
+Matt McKegg's fantastic live performance software Loop Drop is now
+available for free download. Loop Drop uses Web Audio and Web MIDI,
+but packages up the technology in a standalone application that any
+musician can play with. You can support the continued development of
+Loop Drop at Matt's new Patreon page.
+
+- [http://loopjs.com/](http://loopjs.com/)
+- [Support Loop Drop](https://www.patreon.com/MattMcKegg)
+
+## Talks ##
+
+Ruth John gives an excellent overview of the MIDI specification and
+how to use it from your browser using the Web MIDI API.
+
+- [Ruth John: Let's Talk about MIDI](https://www.youtube.com/watch?v=x2v3mQOvOms)
+
+I gave a talk at SudWeb on the history of making music with unusual
+instruments, and the future of creativity in the browser.
+
+- [Chris Lowis: Unexpected Musical Instruments](https://vimeo.com/170005228)
+
+## The Great Outdoors ##
+
+A collection of visual and audio artworks from Andrew Bernstein.
+
+- [http://andrewbernste.in/thegreatoutdoors/](http://andrewbernste.in/thegreatoutdoors/)
+
+## Efflux ##
+
+Efflux is a tracker-based composition tool implemented in the
+browser. Trackers were a very popular form of music software on
+earlier computers, and were much loved in the demoscene. Each vertical
+column is an instrument, and each row is note. At the intersections
+you can vary the pitch and other note parameters to create full pieces
+of music. The keyboard controlled interface makes them suited to live
+performance as well as studio work.
+
+- [http://www.igorski.nl/experiment/efflux](http://www.igorski.nl/experiment/efflux)
+
+## Control Web Audio applications with Leap Motion ##
+
+Leap Motion is an innovative input device for your computer that allows hand movements to be translated into controls for games and other applications. In this article from the Keith McMillen blog, learn how to translate these commands into messages that can control Web Audio parameters.
+
+- [https://www.keithmcmillen.com/blog/k-mix-api-part-2-controlling-k-mix-leap-motion-web-midi-api/](https://www.keithmcmillen.com/blog/k-mix-api-part-2-controlling-k-mix-leap-motion-web-midi-api/)
+
+The Funk Machine from Alejandro Mantecon Guillen allows the effects
+applied to a piece of music to be controlled using the Leap Motion.
+
+- [https://alemangui.github.io/funk-machine/](https://alemangui.github.io/funk-machine/)
+
+## soundcompare ##
+
+A useful project by Titus Blair that allows two sound files to be
+compared visually. This looks like a useful tool for helping to debug
+applications.
+
+- [https://github.com/titusblair/soundcompare](https://github.com/titusblair/soundcompare)
+
+## Web Audio API may allow additional cross-site tracking ##
+
+This zdnet article explains some research conducted by researchers at
+Princeton which discovered that the Web Audio API could be used to
+build a "fingerprint" of your machine and browser, potentially
+allowing nefarious actors to track your browsing around the web even
+if you have disabled or rejected cookies. Similar techniques have
+already been used that exploit the Canvas API and WebRTC, and while
+there's little evidence that Web Audio in particular is being used in
+this way in the wild, it's likely to happen at some point. The
+backlash against such practices continues, with browser vendors and
+the [EFF](https://www.eff.org/privacybadger) providing tools to help
+you block these trackers.
+
+- [http://www.zdnet.com/article/think-youre-not-being-tracked-now-websites-turn-to-audio-fingerprinting-to-follow-you/](http://www.zdnet.com/article/think-youre-not-being-tracked-now-websites-turn-to-audio-fingerprinting-to-follow-you/)
+
+## ChiptuneBlaster ##
+
+Relive classic computer game music with ChiptuneBlaster - an all in
+one chiptune emulator with a huge library of songs.
+
+- [http://www.wothke.ch/blaster/](http://www.wothke.ch/blaster/)
+
+## What If There Was A Dubstep Song But Instead Of The Drop There Was Just The Seinfeld Theme Song ##
+
+Fortunately, there is now.
+
+- [https://soundcloud.com/chrstnandrkn](https://soundcloud.com/chrstnandrkn)

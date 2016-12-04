@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Issue 26"
+permalink: "/26"
+---
+
+## Tone.js ##
+
+Tone.js is a very well thought out wrapper library for the Web Audio
+API. It's targeted at two groups of users - those who want to build
+musical applications, and those familiar with traditional graph-based
+environments such as Pure Data or Max/MSP. For the former, Tone.js
+offers a robust, powerful sequencer library and some built in
+synthesisers with sensible presets. For the latter, it offers a
+comprehensive set of building blocks for performing signal processing
+tasks. Using the native nodes provided by the Web Audio API, the
+author, [Yotam Mann](http://yotammann.info/), has created wrappers
+that allow standard arithmetic operations (addition, modulo,
+multiplication), logic operations and signal routing. All of this has
+been achieved without relying on ScriptProcesserNodes so they can take
+advantage of the low-latency native audio generation. Tone.js looks
+like a very useful library at an ideal level of abstraction for any
+Web Audio project.
+
+- [Tone.js](https://github.com/TONEnoTONE/Tone.js/)
+
+## True, A Web Audio Music Video ##
+
+Brightly are an indie/electronic band who have been recording,
+performing and releasing music for several years. They also feature
+Charlie Gleason who has considerable programming talent! Their new
+video uses the Web Audio API to synchronise the music to the visuals,
+and is really very beautiful to look at and listen to.
+
+- [http://true.wearebrightly.com/](http://true.wearebrightly.com/)
+
+## Web Audio Hackdays ##
+
+There were two Web Audio-themed hackdays this month. Web
+Music Hackathon #3 was held in Tokyo, Japan and almost at the same
+time Web Audio-hackers convened for a special session at
+[jsfest.berlin](http://jsfest.berlin/). I'm hoping to cover this
+events in a bit more detail in the next newsletter, but for now here's
+a quick taster:
+
+- The winning hack from Tokyo was
+  [this face-tracking drum machine thing](https://himakan.github.io/facetracking-effector/).
+- Eiji Kitamura has written up a [full report of the event](http://blog.agektmr.com/2014/09/event-report-web-music-hackathon-3.html) too.
+- Over in Berlin, organiser
+  [Jan Monschke](https://twitter.com/thedeftone) pointed me at Jaume
+  Sanchez Elias's hack
+  [which combines d3.js with Web Audio](http://www.clicktorelease.com/tmp/wa-hook/)
+  to flexible interfaces.
+- [Soledad Penadés](http://soledadpenades.com/) produced a great
+  "intro to Web Audio"
+  [slide deck](http://soledadpenades.com/files/t/berlin-webaudio-hackday-2014/)
+  for attendees of the Berlin Hackday.
+
+## Leon Theremin - CIA Nemesis ##
+
+A recent Freedom of Information Act request to the CIA, resulted in
+the
+[release of many back issues](http://www.motherjones.com/mojo/2014/09/10-declassified-articles-cia-intelligence-journal)
+of the US intelligence organisation's in-house magazine /Studies in
+Intelligence/. Among the articles was this cracker on Leon Theremin,
+inventor of the eponymous instrument, and his role as a soviet spy.
+
+- [Leon Theremin - CIA Nemesis](http://www.foia.cia.gov/sites/default/files/DOC_0006122432.pdf)

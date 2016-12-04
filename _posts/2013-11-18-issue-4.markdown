@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Issue 4"
+permalink: "/4"
+---
+
+## Soundtrap ##
+
+Soundtrap is a collaborative online digital audio workstation. Featuring a multi-track recording and editing interface and a variety of sampled and synthesised instruments (created with Web Audio and with support for MIDI input devices for Web MIDI), it has the feel of something like Garageband in the browser.
+
+![Soundtrap screenshot](http://chrislowis.co.uk/waw/soundtrap-screenshot.png)
+
+The exciting thing about this application is the support for collaboration on a project with other people. To that end the application requires the creation of an account (or linking with your facebook profile). Hopefully the screenshot gives you and idea, but I'd encourage you to sign up and give it a try - it's already an impressive piece of work.
+
+- [https://www.soundtrap.com/](https://www.soundtrap.com/)
+
+## Audio sprites ##
+
+Audio sprites is a technique for loading a number of different sounds into your application using a single web request, in a similar way to how the CSS sprites technique allows multiple images to be used on a page. In this post from 2010 Remy Sharp explains how to achieve the effect with `<audio>` tags by controlling the `currentTime` property. There's a number of hoops to jump through to get it working reliably, and I'd be interested to see an update of the technique using Web Audio, and `AudioBufferSourceNode`.
+
+- [http://remysharp.com/2010/12/23/audio-sprites/](http://remysharp.com/2010/12/23/audio-sprites/) (/via @knotnicky)
+
+## TrueGrid ##
+
+ModularGrid is a website for modular synth enthusiasts to share patches, setups and plans. They also have an impressive modular synth implementation using Web Audio so that some of the patches can be evaluated in the browser. I think they'll be some interesting variations on this theme in the future whereby manufacturers can give a potential builder or buyer a feel for the sound of a piece of equipment before they pull the trigger.
+
+- [http://www.modulargrid.net/e/racks/synth](http://www.modulargrid.net/e/racks/synth) (/via @svgeesus)
+
+## Musical Chess ##
+
+Last week was Music Hackday in Boston. I enjoyed this hack which generates A minor pentatonic melodies from famous chess matches. There's something quite hypnotic listening to a game evolve, until finally the piece stops abruptly when one player loses.
+
+- [http://thesimplelogic.com/enpassant/](http://thesimplelogic.com/enpassant/) (/via @martynd)

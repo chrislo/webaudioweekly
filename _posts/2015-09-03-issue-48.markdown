@@ -1,0 +1,111 @@
+---
+layout: post
+title:  "Issue 48"
+permalink: "/48"
+---
+
+## Creating an accessible breakout game ##
+
+David Rousset writes about creating an accessible Breakout clone using
+Web Audio and SVG, with particular focus on making the game playable
+by blind and partially sighted players. By spatially positioning
+sounds relative to the player using the Web Audio's `PannerNode` the
+player can hear which direction to send a ball to break the
+blocks. The post covers some other accessibility techniques too, and I
+particularly enjoyed reading about how testing the game with users
+revealed further enhancements and ideas.
+
+- [Creating an accessible breakout game using Web Audio & SVG](http://blogs.msdn.com/b/davrous/archive/2015/08/27/creating-an-accessible-breakout-game-using-web-audio-amp-svg.aspx)
+
+## Kodo Games Web Audio Tutorial ##
+
+A great article from Nicola Hibbert introducing the Web Audio API to
+games developers. Nicola covers loading sounds, the creation of sound
+sprites, and how to cross-fade. It's good to see tutorials focused on
+that audience in particular because although the concepts introduced
+are similar to those used in musical applications, the use-cases and
+terminology are quite different.
+
+- [http://kodogames.com/web-audio-api-tutorial/](http://kodogames.com/web-audio-api-tutorial/)
+
+## Microtonal Web Synth ##
+
+Mitch Wells has been working hard on this Microtonal Web Synth since
+we last looked at it back in issue 27. It's a web synth with an
+emphasis on micro-tuning of the individual keys to allow the creation
+of custom scales and tunings. The synth supports Web MIDI, so you can
+hook up your controller keyboard, and has a comprehensive routing
+system for filters.
+
+If you're interested in microtuning and weird-and-wonderful scales
+from the history of music, the `tune.js` library from Andrew Bernstein
+and Ben Taylor includes a massive catalogue of over 3,000 of them. It
+comes complete with an API for accessing and creating new ones, and a
+demo synth to try them out.
+
+- [http://www.websynths.com/](http://www.websynths.com/)
+- [https://github.com/abbernie/tune](https://github.com/abbernie/tune)
+
+## Online course: Audio Signal Processing for Music Applications ##
+
+Stanford have announced this course on signal processing, with an
+emphasis on applications in music technology. It looks to have a
+comprehensive syllabus and covers practical applications using the
+Python programming language. The course starts on the 21st September
+and runs for 10 weeks.
+
+- [http://online.stanford.edu/course/audio-signal-processing-music-applications-Fall_2015](http://online.stanford.edu/course/audio-signal-processing-music-applications-Fall_2015)
+
+## Cat Purr Noise Generator ##
+
+Online noise machine specialist Dr. Ir. Stéphane Pigeon has added
+another noise machine to
+[his stable](http://mynoise.net/noiseMachines.php), this time to
+create the soothing sounds of a purring cat. You have control over the
+exact frequency content of the purring sound, or you can choose from a
+range of presets such as "Quiet Presence" or "Tiger Sleep".
+
+- [Frequency-Shaped Cat Purr Noise Generator](http://mynoise.net/NoiseMachines/catPurrNoiseGenerator.php)
+
+## Audio Sampling and the Delay Node ##
+
+In this article from Sonoport, Tommy Robinson shows how to build a
+sampler using the QWERTY keyboard library AudioKeys. The sound is made
+more interesting with the introduction of a delay effect, and Tommy
+goes into detail about how to use the various parameters of the Web
+Audio `DelayNode` to add depth to the sound.
+
+- [http://sonoport.github.io/sampler-and-delaynode.html](http://sonoport.github.io/sampler-and-delaynode.html)
+
+## Dub Siren ##
+
+Just in time for the Nottinghill Carnival last week, French sound
+system Zongo Sound wrote in to tell me that they'd created this simple
+Dub Siren.
+
+- [http://siren.zongosound.com/](http://siren.zongosound.com/)
+
+## Responsive Drum Machine ##
+
+This Web Audio drum machine from Vincent Choqueuse is particularly
+interesting for its clean bootstrap-powered user interface which
+scales to your screen size, and for its use of "pages" to flip between
+the step sequencer and the waveform editor.
+
+- [http://vincentchoqueuse.github.io/drum_machine/](http://vincentchoqueuse.github.io/drum_machine/)
+
+## WebMIDI "now working" on Firefox ##
+
+An intriguing tweet from Kyle Machulis showing the progress so far on
+bringing WebMIDI to Firefox. The patch still has to be cleaned up and
+reviewed before it can be considered for inclusion, but it's exciting
+to see the progress.
+
+- [https://twitter.com/qDot/status/639232553182892032](https://twitter.com/qDot/status/639232553182892032)
+
+## wOOfer-The Second Pie ##
+
+A live-coded music video demonstration made with SonicPi on the
+RaspberryPi.
+
+- [https://www.youtube.com/watch?v=-1ZjJkYtBz4](https://www.youtube.com/watch?v=-1ZjJkYtBz4)

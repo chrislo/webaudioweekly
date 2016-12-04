@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "Issue 61"
+permalink: "/61"
+---
+
+## Chrome Music Lab ##
+
+For Music in Our Schools Month a team at Google we wanted to help make
+learning about music a more accessible to everyone by using technology
+that’s open to everyone: the web. The experiments they have created
+cover many aspects central to music making - rhythm, tone and melody,
+all powered using the Web Audio API. To the team's credit they've also
+brought these experiments to Firefox as well as their own browser,
+which shows how far the standardisation effort has come.
+
+- [https://musiclab.chromeexperiments.com/](https://musiclab.chromeexperiments.com/)
+- [https://chrome.googleblog.com/2016/03/introducing-chrome-music-lab.html](https://chrome.googleblog.com/2016/03/introducing-chrome-music-lab.html?m=1)
+
+## Eye Conductor Brings MIDI To People With Disabilities ##
+
+Eye Conductor from Andreas Refsgaard uses affordable eye tracking
+software and a cheap webcam to translate facial gestures and eye
+movements to MIDI messages that can then be used to control
+instruments and musical applications. Andreas carried out user
+research in schools and housing communities to develop technology that
+would allow people with severe motor disabilities to make music.
+
+- [http://andreasrefsgaard.dk/project/eye-conductor/](http://andreasrefsgaard.dk/project/eye-conductor/)
+
+## Plan8 Throwerwall ##
+
+Use your phone to pick up members of Plan8's team and throw them
+screaming at a wall. A silly game with a very clever execution using
+both mobile and desktop browsers, augmented with Web Audio sounds.
+
+- [http://plan8.se/throwerwall/](http://plan8.se/throwerwall/)
+
+## Glitch: a noisy fusion of math and music ##
+
+> Bytebeat music has no conventional musical notation — there is no
+> notes or chords or even instruments. All you have is a mathematical
+> expression that is evaluated for each time frame to generate the next
+> amplitude value of the sound wave.
+
+- [http://naivesound.com/glitch/](http://naivesound.com/glitch/)
+- [Explanatory blog post](https://medium.com/@naive_sound/glitch-a-noisy-fusion-of-math-and-music-6a9b24e7f5b5#.r34c90zdr)
+
+## Clara Rockmore’s 105th Birthday ##
+
+Clara Rockmore was a famous player of Léon Theremin's eponymous
+instrument. In this Google doodle you first take a series of lessons
+to learn how to play the instrument, and then, as Clara, perform your
+own piece to a rapturous audience. I love the "settings" cog which
+allows you to select the scale and tone of the instrument.
+
+- [http://www.google.com/doodles/clara-rockmores-105th-birthday](http://www.google.com/doodles/clara-rockmores-105th-birthday)
+
+## jsSID ##
+
+jsSID is a ground-up emulator for the
+[Commodore 64 SID chip](https://en.wikipedia.org/wiki/MOS_Technology_SID). This
+legendary programmable synthesiser has taken on a life of its own long
+after the computers in which it first appeared have faded into
+obsolescence. With 3 oscillators, filters, a ring modulator and envelopes
+it was a surprisingly powerful synth in a compact package - and with
+jsSID Mihaly Horvath has brought the experience of programming for it
+to the web platform. You'll have to dig into the source code to make
+sense of it, but Mihaly has some samples of what it sounds like on the
+website.
+
+- [https://github.com/hermitsoft/jsSID](https://github.com/hermitsoft/jsSID)
+- [http://hermit.sidrip.com/](http://hermit.sidrip.com/)
+
+## WebGL and Web Audio = Fireworks ##
+
+Choose a song (or just stick with the ZZ Top default!) from this
+jukebox and enjoy the synchronised fireworks display. Best enjoyed in
+"presentation mode".
+
+- [http://ondras.github.io/fireworks-webgl/](http://ondras.github.io/fireworks-webgl/)

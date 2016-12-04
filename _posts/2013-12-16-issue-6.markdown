@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Issue 6"
+permalink: "/6"
+---
+
+## Make your browser dance ##
+
+24 ways "is the advent calendar for web geeks", and each article
+explores something new and exciting from the world of web
+development. In this article Ruth John creates a visualisation using
+CSS animations and the Web Audio API. She goes into some depth on how
+to analyse the audio to extract timing information and then how to
+syncronise the visuals with the music. The resulting demo is visually
+simple, but very effective.
+
+- [http://24ways.org/2013/make-your-browser-dance/](http://24ways.org/2013/make-your-browser-dance/) (/via @barrymcgee)
+
+## Octahedrone ##
+
+Another visualisation synced to the audio using the Web Audio
+API. This one uses WebGL and generates all of the sounds in response
+to mouse clicks. I was quite impressed with how smooth and glitch-free
+the sound was, but it does require a fairly fast computer. The author Ehsan Ziya has some more demos on his site which are well worth checking out.
+
+- [http://www.chromeexperiments.com/detail/octahedrone/](http://www.chromeexperiments.com/detail/octahedrone/)
+- [http://www.zya.cc/web-audio](http://www.zya.cc/web-audio)
+
+## Listen Up! Binaural Sound ##
+
+When positioning sound spatially using the Web Audio API, you can use
+the PannerNode. In it's simplest form sound can be positioned by
+cross-fading the left and right stereo channels. But there are more
+sophisticated and realistic ways to achieve the effect. In this
+article Chris Pike of BBC R&D talks about the history of Binaural
+Sound, and some of the latest advances in the technology. While not
+Web Audio specific the article should give you some of the background
+you need to understand a bit more about how the "HRTF" option in the
+PannerNode is implemented.
+
+- [http://www.bbc.co.uk/rd/blog/2013/03/listen-up-binaural-sound](http://www.bbc.co.uk/rd/blog/2013/03/listen-up-binaural-sound)
+
+## Everything You Need to Know About playbackRate ##
+
+In this post, Mark Boas talks about playbackRate, which is an option
+supported on HTML audio and video tags to adjust the playback
+speed. The cross-browser support is variable, and Mark explains how to
+use it and what level of support you can expect from the various
+browsers out there.
+
+- [http://blog.appsfuel.com/2013/12/04/everything-you-need-to-know-about-playbackrate/](http://blog.appsfuel.com/2013/12/04/everything-you-need-to-know-about-playbackrate/)
+
+## LiveCamp ##
+
+TOPLAP is a collective who encourage and support live coding - the art
+form which combines performance and code. They're organising an
+"informal summer camp" in 2014, which looks like a lot of fun.
+
+- [http://toplap.org/wiki/LiveCamp](http://toplap.org/wiki/LiveCamp)
+
+## Algorithmic Music subreddit ##
+
+I'm interested in computer programmes which can generate music, and
+especially in bringing some of the class algorithmic music techniques
+to the web. This subreddit seems to have a high signal to noise ratio, and a lot of interesting links.
+
+- [http://www.reddit.com/r/algorithmicmusic](http://www.reddit.com/r/algorithmicmusic)

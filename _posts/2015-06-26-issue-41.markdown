@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "Issue 41"
+permalink: "/41"
+---
+
+## Building a HTML5 Guitar Tuner ##
+
+An in-depth blog post from Google's Paul Lewis on how he built a
+guitar tuner application using Web Audio and other HTML5
+technologies. What I love about this post is how Paul details the
+various approaches he took to achieving a reliable tuning
+algorithm as well as how he went the extra mile to make it work
+offline (using Service Workers) and as a "home screen" app (using
+manifests). I spoke to Web Audio spec co-editor Chris Wilson today and
+he said he's now deleted all his other guitar tuning apps in favour of
+this one - high praise indeed!
+
+- [https://aerotwist.com/blog/guitar-tuner](https://aerotwist.com/blog/guitar-tuner)
+
+## A brief history of synthesis with the Web Audio API ##
+
+The video of a talk I gave at ScotlandJS is now available on
+YouTube. In preparing for this talk I spent some time building a set
+of sample applications to illustrate the basic principles of additive,
+subtractive, FM, sampling and granular synthesis which I hope will be
+a useful learning resource if you're getting started with synthesis in
+Web Audio.
+
+- [http://blog.chrislowis.co.uk/2015/06/26/a-brief-history-of-synthesis.html](http://blog.chrislowis.co.uk/2015/06/26/a-brief-history-of-synthesis.html)
+
+## beet.js - a polyrhythmic sequencer library ##
+
+Polyrhythms are formed when multiple simple rhythms are layered on top
+of each other. With this library from Ehsan Ziya you can build
+sequences of polyrhythms using a simple API.
+
+- [https://github.com/zya/beet.js](https://github.com/zya/beet.js)
+
+## Beat frequencies ##
+
+Frequency beating is the phenomena you hear when two monotonic sounds
+that have close but not identical frequencies are played
+together. When this happens, you hear a "beating" effect at a
+different frequency. In the first link you can read more about the
+beating effect and hear the results rendered using Web Audio. In the
+second learn more about whether, as some people believe, this
+phenomena can influence your brain waves.
+
+- [http://academo.org/demos/wave-interference-beat-frequency/](http://academo.org/demos/wave-interference-beat-frequency/)
+- [http://www.autodidacts.io/binaural-beat-openbci-eeg-experiment/](http://www.autodidacts.io/binaural-beat-openbci-eeg-experiment/)
+
+## Dynamic Sound with the Web Audio API ##
+
+A good introductory article on Web Audio from Robby Ingebretsen. This
+article is notable because it is part of a web development series from
+Microsoft, and it shows how the Web Audio API is finally available in
+all of the main browsers and platforms with the arrival of Microsoft's
+latest browser Edge.
+
+- [http://www.sitepoint.com/dynamic-sound-with-the-web-audio-api/](http://www.sitepoint.com/dynamic-sound-with-the-web-audio-api/)
+
+## Reverb and reverb design: a history ##
+
+A comprehensive slide deck from Sean Costello's recent AES
+presentation on the history of (artificial) reverberation - the effect
+used to give the illusion to the listener that a sound has been
+recorded in a different acoustical space. If you want to generate
+reverberation effects using Web Audio, the best place to start is with
+the `ConvolverNode`. The Web Audio spec has some useful informative
+sections on how to use the Convolver, and how to record impulse
+responses of real spaces to simulate their reverb characteristics. And
+Alan deLespinasse's `reverbGen` library uses JavaScript to generate
+"fake" impulse responses.
+
+- [https://valhalladsp.wordpress.com/2015/06/19/slides-from-my-aes-reverb-presentation/](https://valhalladsp.wordpress.com/2015/06/19/slides-from-my-aes-reverb-presentation/)
+- [The ConvolverNode interface](https://webaudio.github.io/web-audio-api/#the-convolvernode-interface)
+- [reverbGen](https://github.com/adelespinasse/reverbGen)
+
+## 120years.net ##
+
+120 years is an ambitious project from Simon Crab to document the
+history of electronic music and all of its key figures and
+movements. Warning: if this is your idea of fun be prepared to lose a
+few hours!
+
+- [http://120years.net/](http://120years.net/) (/via Chris Allen)

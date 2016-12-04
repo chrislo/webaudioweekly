@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Issue 3"
+permalink: "/3"
+---
+
+## MixBolt - Web Audio Turntables ##
+
+MixBolt is a DJ app in your browser. Featuring two virtual decks, and
+time stretching, it's a powerful tool already.
+
+- [http://mixbolt.com/](http://mixbolt.com/)
+
+I couldn't see any features for headphone cuing using Web Audio's
+multi-channel support, but I have seen @cwilso demo something like
+that using his demo DJ application, WubWubWub, so I'm sure MixBolt
+will be able to add that later.
+
+- [http://webaudiodemos.appspot.com/wubwubwub/](http://webaudiodemos.appspot.com/wubwubwub/)
+
+## SuperCollider-inspired live coding environments ##
+
+If DJ-ing isn't your thing, but you'd still like to perform music
+using your browser, maybe these two SuperCollider-inspired coding
+environments are what you need.
+
+The first, flocking.js, allows you to create sounds by declaring how
+individual blocks, or "unit generators", are connected using JSON. In
+many ways it's similar to how the Web Audio API works, but flocking
+provides some higher-level building blocks, and under the hood, uses
+the Web Audio ScriptProcessorNode to handle the sound output.
+
+- [http://flockingjs.org/](http://flockingjs.org/)
+
+Timbre.js is a similar-looking library, but allows the musician to
+write JavaScript directly to create sounds. Again, ScriptProcessorNode
+is being used where supported, but a flash fallback is available for
+other browsers.
+
+- [http://mohayonao.github.io/timbre.js/](http://mohayonao.github.io/timbre.js/)
+
+/via Dan Stowell (@mclduk)
+
+## Programming for Musicians ##
+
+If all this talk of coding environments for musicians has you
+scratching your head, a recently-started Coursera course might be the
+ticket. In "Introduction to Programming for Musicians and Digital
+Artists", Ajay Kapur from the California Institute of Arts is teaching
+programming using ChucK, the audio processing environment. Although
+not web-based I'm sure a lot of the principles taught in the course
+will be transferrable to the web and Web Audio.
+
+- [https://www.coursera.org/course/chuck101](https://www.coursera.org/course/chuck101)
+
+## Understanding the FFT ##
+
+At the heart of digital music and signal processing is a mathematical
+technique known as the Fast Fourier Transform. From additive
+synthesis, to digital filtering, knowledge of the FFT is invaluable in
+understanding some of the literature you may come across. In this
+post, Aatish Bhatia gives a great, graphical introduction
+
+- [http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face](http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face)
+
+## Build a real synth ##
+
+Sick of computers all together? Maybe it's time to break out the
+soldering iron and make your own synthesier!
+
+Befaco run workshops on building synthesisers, including one in London
+in December.
+
+- [http://www.befaco.org/en](http://www.befaco.org/en)
+
+Ray Wilson, author of "Make: Analog Synthesizers - A modern approach
+to old-school synthesis" is offering a webinar on synthesiser
+applications for the TL07X op-amp
+
+- [http://oreillynet.com/pub/e/2919?cmp=gplus-make-webcast-info-webcast_using_tl07x_op_amps_in_analog_synthesizers](http://oreillynet.com/pub/e/2919?cmp=gplus-make-webcast-info-webcast_using_tl07x_op_amps_in_analog_synthesizers) (/via @stuartmemo)
+
+And if all that sounds too hard, Korg have recently announced a
+snap-together, open source synthesiser kit, which looks like a lot of
+fun.
+
+- [http://createdigitalmusic.com/2013/11/littlebits-korg-snap-together-synth-magnets-149-module-module-details-qa/](http://createdigitalmusic.com/2013/11/littlebits-korg-snap-together-synth-magnets-149-module-module-details-qa/)

@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Issue 5"
+permalink: "/5"
+---
+
+## Word Problems ##
+
+Part of the Chrome Experiments series of demos, Felix Turner combines
+Web Audio and WebGL (using three.js) to create visualisations synced
+with music. The accompanying blog post is really instructive as he
+explains how the beat detection algorithm works and how it is
+implemented using Web Audio.
+
+- [http://www.airtightinteractive.com/demos/js/uberviz/wordproblems/](http://www.airtightinteractive.com/demos/js/uberviz/wordproblems/)
+- [http://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/](http://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/)
+
+## Audio Tags: Web Components + Web Audio ##
+
+In this talk from the CascadiaJS conference Soledad Penadés from
+Mozilla proposes a really interesting idea for building Web Audio
+applications by combining web audio with web components. The latter
+technology allows us to add custom tags which can have custom
+behaviour attached to them. Soledad expands on this concept to create
+the idea of Web Audio Components which allow audio applications to be
+created in markup, for example:
+
+```
+<audio-context>
+  <audio-chain>
+    <audio-oscillator frequency="220"></audio-oscillator>
+    <audio-waveshaper></audio-waveshaper>
+    <audio-oscilloscope></audio-oscilloscope>
+    <audio-vumeter></audio-vumeter>
+  </audio-chain>
+</audio-context>
+```
+
+It's a really interesting idea, and a great hack which brings together
+two web technologies in a surprising way. The presentation also
+includes an interesting section on the history of Google and Mozilla's
+Audio APIs and how the Web Audio API came to be implemented in
+Firefox.
+
+- [http://soledadpenades.com/2013/11/24/audio-tags-web-components-web-audio-love-the-video/](http://soledadpenades.com/2013/11/24/audio-tags-web-components-web-audio-love-the-video/)
+- [http://soledadpenades.com/files/t/cascadiajs-audio-tags/](http://soledadpenades.com/files/t/cascadiajs-audio-tags/)
+
+## This Exquisite Music Engine ##
+
+Swedish creative web studio DinahMoe worked on the audio engine for a
+collaborative art project called Exquisite Forest. This demo allows
+you to play with the audio engine to generate endless music from
+simple parameters.
+
+- [http://labs.dinahmoe.com/theme/](http://labs.dinahmoe.com/theme/)
+
+## Peaks.js ##
+
+The BBC have an internal software tool which allows staff to clip out
+sections of video for reuse from their extensive video archive. As
+part of adding audio support to the tool to make it usable for radio
+production, my former colleagues in R&D have open-sourced this
+waveform editor and generator. It looks to be a really useful library
+for building web-based audio applications with. More details and links
+to the source code can be found in their blog post.
+
+- [http://www.bbc.co.uk/rd/blog/2013/10/audio-waveforms](http://www.bbc.co.uk/rd/blog/2013/10/audio-waveforms)
+
+## Instant Audio Processing Book ##
+
+This new book from Chris Khoo gives an introduction to the Web Audio
+API by showing how to build some small applications - a looping audio
+player and an equaliser. Chris takes us through the building of the
+application from setting up a web server to writing the HTML
+interface. There's a nice section talking about the Bi-quad filter node
+in the Web Audio API, and how different types of filter work. The book
+reads more like a collection of blog posts than a comprehensive
+overview of Web Audio, but for those that prefer something longer form
+to read and program along with, its a good place to start. It's good
+that we're starting to see coverage of the technology in books as well
+as on the web.
+
+Disclaimer: I received a complimentary review copy of this book.
+
+- [http://www.packtpub.com/audio-processing-with-web-audio/](http://www.packtpub.com/audio-processing-with-web-audio/)

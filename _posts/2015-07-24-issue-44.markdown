@@ -1,0 +1,113 @@
+---
+layout: post
+title:  "Issue 44"
+permalink: "/44"
+---
+
+## Rain Today - your daily source of natural rain sounds ##
+
+If you work in a busy office, you might have found yourself reaching
+for headphones to help deal with the constant background noise. While
+music works well to mask background sounds, it can be
+distracting. Some people advocate listening to white noise due to its
+broad range of frequencies. But listening to white noise for long
+periods is fatiguing. This application generates a natural sound of
+rain falling. To avoid becoming repetitive the app uses the Web Audio
+API to seamlessly blend different sounds together to create a
+different backdrop every day.
+
+- [http://rain.today/](http://rain.today/)
+
+## Submissions open for the 2nd International Web Audio Conference ##
+
+Submissions are now open for talks, demos, tutorials, posters and live
+music events at the 2nd Web Audio Conference to be held next April in
+Atlanta, Georgia, USA. At the 1st conference in Paris earlier this
+year, there was a great mix of talks from developers and musicians as
+well as academics and I'm sure next year will be great too.
+
+- [http://webaudio.gatech.edu/](http://webaudio.gatech.edu/)
+
+## Smooth Fading in Web Audio ##
+
+A common problem when working with the Web Audio API concerns parameter
+automation. Once you've scheduled a series of parameter changes for a
+node, you cannot reliably know what the current value of its parameter
+is at any point in time, as there is no facility for introspection of
+calculated parameters. This makes it hard to reverse of change the
+parameters in a smooth way. This library from
+[Chinmay](https://twitter.com/ntt/) solves the problem by implementing
+the same parameter automation calculations as the scheduling methods
+in the Web Audio API and therefore to schedule new changes that will
+smoothly follow the scheduled ones.
+
+- [https://github.com/notthetup/smoothfade](https://github.com/notthetup/smoothfade)
+
+## Dynamic Sound with the Web Audio API in Microsoft Flight Simulator Arcade ##
+
+A great write up from the Microsoft development team on how they used
+the Web Audio API to provide the sounds for their new game Flight
+Simulator Arcade. There's some code samples showing how convolution
+can provide a realistic simulated acoustic environment, and how to use
+a `Waveshaper` node to simulate the effect of radio distortion on the
+cockpit instructor's voice.
+
+And in other Microsoft news, Windows 10 promises to ship with a fully
+overhauled audio and MIDI subsystem, which should improve performance
+and capabilities for desktop and Web Audio applications.
+
+- [http://www.noupe.com](http://www.noupe.com/design/how-we-created-dynamic-sound-with-the-web-audio-api-in-microsoft-flight-simulator-arcade-92578.html) (/via [@pete_otaqui](https://twitter.com/pete_otaqui)
+- [http://www.sonicstate.com/news/2015/07/21/why-microsofts-windows-10-audio-and-midi-apis-are-a-big-deal/](http://www.sonicstate.com/news/2015/07/21/why-microsofts-windows-10-audio-and-midi-apis-are-a-big-deal/)
+
+## Web Audio Basics ##
+
+A collection of small examples illustrating the basics of how to use
+the Web Audio API. A great idea from Kyle Stetz, who is looking for
+help and contributions.
+
+- [https://github.com/kylestetz/Web-Audio-Basics](https://github.com/kylestetz/Web-Audio-Basics)
+
+## Web Audio API auto-complete package for Sublime Text ##
+
+If you do your Web Audio development in Sublime Text grab this set of
+auto-complete functions to make your life a whole lot easier. The
+completion dictionary is based on the latest editors draft of the
+spec.
+
+- [https://packagecontrol.io](https://packagecontrol.io/packages/Web%20Audio%20API%20Autocomplete)
+
+## Social Media InterFace For Music ##
+
+A proof-of-concept project from Andrew Faraday showing how to build
+collaborative music-making experiences by combining social media
+inputs (such as from Twitter) and Web Audio.
+
+- [https://github.com/AJFaraday/smiff_music](https://github.com/AJFaraday/smiff_music)
+
+## Angular Synthesiser ##
+
+A Web Audio synthesiser built using the angular.js framework. If
+you're a fan of Angular, or have been meaning to learn more - this
+demo and its code might help.
+
+- [http://fuczak.github.io/RumcaJS/](http://fuczak.github.io/RumcaJS/)
+
+## Mentored Firefox Web Audio Improvements ##
+
+If you've always wanted to contribute to Firefox, but didn't know
+where to start, consider this improvement to the Web Audio API. The
+issue is mentored by Web Audio developer and W3C Web Audio
+specification editor Paul Adenot, and he offers to help newcomers to
+Firefox development get their first patch landed.
+
+- [Implement the optional normalization for AudioContext#createPeriodicWave](https://bugzilla.mozilla.org/show_bug.cgi?id=1186345)
+
+## Artist seminar with Tyler Marenyi ##
+
+A recording of a two-hour workshop with Tyler Marenyi (aka NGHTMRE) in
+which he covers many practical music production techniques (focusing
+on Ableton Live, but with applications elsewhere) and the realities of
+the music industry. The video is helpfully annotated so you can jump
+to specific points of interest.
+
+- [https://www.youtube.com/watch?v=7jl-LnAYjoM](https://www.youtube.com/watch?v=7jl-LnAYjoM)

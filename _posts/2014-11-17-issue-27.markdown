@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Issue 27"
+permalink: "/27"
+---
+
+## W3C Audio WG meets at TPAC ##
+
+The W3C Audio Working Group, the team responsible for developing the
+Web Audio and Web MIDI specifications, met recently at the W3C plenary
+meeting. Of particular interest to developers was some of the proposed
+changes and features expected to be added to the Web Audio API,
+including
+[a simpler, reworked panner node](https://github.com/WebAudio/web-audio-api/issues/372),
+support for low-latency custom nodes using
+[audio workers](https://github.com/WebAudio/web-audio-api/issues/113),
+[side-chain compression](https://github.com/WebAudio/web-audio-api/issues/246)
+in the DynamicsCompressor node, and support for
+[suspending AudioContext for battery performance](https://github.com/WebAudio/web-audio-api/issues/317)
+reasons. Although these changes have been agreed, it will take a while
+for them to specified and a little longer still before they start to
+appear in browsers, but they should make many more things possible
+when they arrive.
+
+## Meyda - audio feature extraction library ##
+
+If you're attempting to automatically detect the genre of a piece of
+music, want to separate 'sound' from 'silence', or build a Shazam-like
+music identification service, you'll need to perform feature
+extraction on the audio. This library calculates many useful features
+including spectral shape, loudness and MFCC using the Web Audio API.
+
+- [https://github.com/hughrawlinson/meyda](https://github.com/hughrawlinson/meyda)
+
+## Headphone Surround Sound ##
+
+The BBC recently [broadcast a play](http://rdmedia.bbc.co.uk/radio4/)
+which had been recorded for 5.1 surround sound. For those listeners
+who don't have such a listening setup, they provided a "headphone
+surround sound" feature built using the Web Audio API. The
+ConvolverNode is provided with impulse responses recorded using a
+dummy head to process the sound so that it sounds like it is coming
+from a particular point in space even when listened to on
+headphones. Chris Pike's post on the BBC R&D blog has more details.
+
+- [http://www.bbc.co.uk/rd/blog/2014/10/under-milk-wood-in-headphone-surround-sound](http://www.bbc.co.uk/rd/blog/2014/10/under-milk-wood-in-headphone-surround-sound)
+
+## Blip ##
+
+[Blip](https://jshanley.github.io/blip/) is an expressive sampling and looping API build on top of Web Audio. Its support for random scheduling of samples allows complex-sounding compositions to be created from simple building blocks.
+
+- [https://jshanley.github.io/blip/](https://jshanley.github.io/blip/)
+
+## Websynths ##
+
+I enjoyed playing with this [synthesizer](http://websynths.com/)
+developed by Mitch Wells. It allows micro-tuning of the individual
+keys, and has a variety of interesting patches.
+
+- [http://websynths.com/](http://websynths.com/)

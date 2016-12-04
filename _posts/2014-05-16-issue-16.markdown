@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Issue 16"
+permalink: "/16"
+---
+
+## Bandhub ##
+
+Bandhub is a collaborative recording environment. Anyone can record a
+track to create a new song, add tracks to existing songs, or start a
+song from a YouTube video. The recording app is a native application,
+but the playback and mixing interface is powered by Web Audio. The
+developer [Pablo Osinaga](https://twitter.com/posinaga) told me that
+they are working on adding per-track audio effects using the
+offlineAudioContext node to render the effects faster than real-time,
+which will be great to see.
+
+- [http://bandhub.us/](http://bandhub.us/)
+
+## Theresa's Sound World ##
+
+Stuart Memo, the prolific author of great Web Audio demos, has
+released the library he has developed to make working with the Web
+Audio API a little easier. It wraps up some of the node factory
+methods on AudioContext to allow nodes to be created with option
+objects, which cuts down on some of the boiler plate. It provides a
+neater syntax for connecting multiple nodes together, some
+convenience functions for loading and playing samples, and also has a
+selection of pre-built effects such as distortion and tremolo. It
+comes with the Stuart's customary great documentation and sense of
+humour.
+
+- [http://theresassoundworld.com/](http://theresassoundworld.com/)
+
+## ChucK demos ##
+
+ChucK is a popular music programming language often used for
+educational and live-coding applications. Arve Knudsen has developed a
+parser for the ChucK language in JavaScript that can also execute the
+ChucK code using Web Audio for playback. It's in its early stages at
+the moment, but Arve has put together a demo page of examples ported
+from the official ChucK documentation. It's an interesting development
+to see Web Audio being used to allow users of other musical
+programming languages to develop applications for the web platform.
+
+- [http://chuckdemos.com/](http://chuckdemos.com/)
+- [https://github.com/aknuds1/chuckjs](https://github.com/aknuds1/chuckjs)
+
+## Fields ##
+
+In Fields, Sébastien Piquemal has created a collaborative performance
+where the audience members become musicians, interacting and creating
+the performance using an array of musical devices. The tablets and
+smartphones themselves distribute the sound throughout the performance
+space. A great video on Vimeo explains it better than I can, and the
+live-performance web server powering the project, Rhizome, is
+available on Github. Sébastien promises a blog post with more details,
+so watch this space.
+
+- [http://vimeo.com/92586493](http://vimeo.com/92586493)
+- [https://github.com/sebpiq/rhizome](https://github.com/sebpiq/rhizome)
+
+## Two ways to see sound ##
+
+We know from school physics that sound travels in waves. I remember my
+physics teacher demonstrating the compression and rarefaction that
+causes sound to transmit using a slinky spring. But there are other
+fascinating ways to make sound visible. This blog post has videos
+showing two of them.
+
+- [http://blog.revolutionanalytics.com/2014/04/seeing-sound.html](http://blog.revolutionanalytics.com/2014/04/seeing-sound.html)

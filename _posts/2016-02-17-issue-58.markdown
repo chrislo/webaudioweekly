@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "Issue 58"
+permalink: "/58"
+---
+
+## Playing Fasttracker 2 files in JavaScript ##
+
+My first experiences with computer music were using "trackers" on the
+Amiga and MS-DOS PCs so this article takes me right back. A tracker is
+a combination of sampler, synth and sequencer with a distinctive user
+interface. All of the parameters and sounds are bundled together in a
+particular file format so they can be shared between musicians, or
+used in demos and games, for example. Andy Sloane has built a Web
+Audio based player for the popular Fasttracker file format and
+explained in some detail how he went about it. Thanks for the trip
+down memory lane, Andy!
+
+- [Playing Fasttracker 2 .XM files in JavaScript](https://www.a1k0n.net/2015/11/09/javascript-ft2-player.html)
+
+## Web Audio BBQ Party in Barcelona ##
+
+If you're in Barcelona this weekend, how about meeting up with other
+Web Audio enthusiasts for a BBQ? I'm looking forward to the one day
+this summer in London when the weather will be good enough to hold our
+own!
+
+- [Web Audio BBQ Barcelona](http://www.meetup.com/Web-Audio-Party-Barcelona/events/228060795/)
+
+## * Using Web Audio API to decode and play an MP3 file ##
+
+Learning how to play pre-recorded sounds is one of the first fun
+projects you can take on with the Web Audio API. In this 3-part series
+Nic Furgiuele shows how to take an MP3 file from the network, or the
+users file system, decode it and play it back.
+
+- [Using Web Audio API to decode and play an MP3 file (part 1)](http://nicdoescode.distinctive.com.au/2015/12/26/using-web-audio-api-to-decode-and-play-an-mp3-file-part-1/)
+
+## Glowsynth ##
+
+A simple but visually impressive synth with mouse, keyboard and MIDI
+support. The best thing about this is that all of the code has been
+made available on CodePen to study and change - a wonderful learning
+resource.
+
+- [Glowsynth](http://outputchannel.com/glowsynth/)
+
+## * An introduction to Web MIDI ##
+
+This is a great tutorial for getting started with the Web MIDI API. It
+provides a bit of background on what MIDI is and why, in 2016, we
+should care and then goes into detail on how to send and receive MIDI
+messages. The Web MIDI API is quite low level, mirroring as it does
+the MIDI specification itself. This makes it incredibly flexible, but
+also presents a bit of a learning curve if you just want to play
+around. This tutorial will get you up to speed quickly.
+
+- [An Introduction to Web MIDI](http://code.tutsplus.com/tutorials/an-introduction-to-web-midi--cms-22753)
+
+## * Understanding AudioParams ##
+
+A key concept in the Web Audio API is the `AudioParam`. This interface
+is applied to most of the parameters on Web Audio nodes and allows for
+the automation of node parameters - ramping the gain of a `GainNode`,
+controlling the filter frequency of a `BiquadFilter` node and so
+on. This tutorial introduces the `AudioParam` and gives you some
+pointers of things to be aware of when you're getting started.
+
+- [Understanding AudioParams: Precision control of web audio nodes](http://www.soundesign.info/2016/02/07/understanding-audioparams-precision-control-web-audio-nodes/)
+
+## Singular Value Decomposition: The Movie ##
+
+This 1976 Los Alamos film about the singular value decomposition
+algorithm, complete with squlechy-synth soundtrack, is surprisingly
+mesmeric. The SVD, used to decompose a matrix into parts, has
+applications for noise reduction in signal processing - but mostly I
+just like the retro computer graphics.
+
+- [1976 Matrix Singular Value Decomposition Film](https://www.youtube.com/watch?v=R9UoFyqJca8) (/via [@alnesbit](https://twitter.com/alnesbit/status/697522671400124418?s=09))

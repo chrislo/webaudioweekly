@@ -1,0 +1,100 @@
+---
+layout: post
+title:  "Issue 60"
+permalink: "/60"
+---
+
+## Web Audio Arpeggiator ##
+
+This arpeggiator-sequencer by David DeSandro has a very slick and
+playable interface, combining a simple single-oscillator synth with a
+arpeggiator pattern that applies to each note that is played (with the
+QWERTY keyboard). It is really easy to layer up repeating patterns and
+then adjust the speed and filter settings while the notes are
+held. The timing is a little shaky due to a reliance on standard
+JavaScript timers instead of the built in Web Audio clock. If you're
+looking to experiment with similar ideas, be sure to check out
+[this article on scheduling and timing with Web Audio](http://www.html5rocks.com/en/tutorials/audio/scheduling/)
+before you get started.
+
+- [http://arpeggiator.desandro.com/](http://arpeggiator.desandro.com/)
+
+## Klangmeister ##
+
+Klangmeister is a live coding environment for the browser. That is -
+you write code to synthesise sounds and compose melodies, but changing
+the code itself immediately influences the performance. The language
+you write in is Clojurescript - a compiler for the Clojure language
+that compiles to JavaScript. The
+[overtone](https://overtone.github.io/) live coding environment is
+also clojure-based, but Klangmeister has the advantage of running
+directly in the browser. And if live-coding interests you, but you're
+more comfortable with JavaScript take a look at
+[lissajous](http://lissajousjs.com/).
+
+- [http://ctford.github.io/klangmeister/](http://ctford.github.io/klangmeister/)
+
+## In brief ##
+
+- [http://scratchthecampaign.com/](http://scratchthecampaign.com/):
+  Remix and scratch US presidential campaign soundbites on your phone
+  or tablet.
+- [http://cadburyflavourites.co.uk/](http://cadburyflavourites.co.uk/):
+  Confectionary giants Cadbury use Web Audio to allow you to "mix" your
+  favourite chocolate bars.
+- [droptivist](https://destroywithscience.bandcamp.com/album/droptivist):
+  Matt McKegg AKA Destroy with Science releases his new album composed
+  entirely with JavaScript and Web Audio.
+
+## MediaRecorder API implemented in Google Chrome ##
+
+The MediaRecorder API is an exciting addition to the web platform
+media APIs. It allows you to record audio and video in your web
+applications from a variety of sources such as WebRTC, the screen, a
+webcam (via `getUserMedia`) or, soon, the output of a Web Audio API
+`audiocontext`. There's loads more details and code examples in the
+blog post on Google Developers.
+
+- [https://developers.google.com/web/updates/2016/01/mediarecorder](https://developers.google.com/web/updates/2016/01/mediarecorder)
+
+## Stochastic Synthesis ##
+
+[Nick Collins](http://composerprogrammer.com/) a researcher and
+composer with an interest in generative computer music and stochastic
+synthesis also experiments with the Web Audio API, including this
+implementation of
+[Iannis Xanakis's work GENDY](http://music.columbia.edu/cmc/courses/g6611/spring2012/week12/gendy3.pdf).
+
+- [http://composerprogrammer.com/livecode/bpsetlivecode.html](http://composerprogrammer.com/livecode/bpsetlivecode.html) /via [@thoragnusson](https://twitter.com/thormagnusson)
+
+## flat.io ##
+
+Flat.io is a collaborative, online sheet music editor designed to
+provide a simple and low-friction tool for music students, musicians
+and teachers. This combination of the web platform and Web Audio seems
+to be a interesting niche for the right applications; flat.io joins
+[Noteflight](https://www.noteflight.com/) and
+[Soundslice](https://www.soundslice.com/) in this space.
+
+- [https://flat.io](https://flat.io)
+
+## Angular 2 / TypeScript and Web Audio ##
+
+Leigh Caplan talks about building Web Audio applications using the
+Angular framework and the TypeScript JS compiler at a recent SeattleJS
+meetup. This looks like a really powerful combination of technologies
+for building robust, responsive Web Audio apps.
+
+- [Nothing Sounds Quite Like An (ng)808](https://channel9.msdn.com/Blogs/seattlejs/Monthly-Meetup-February-2016-Topic-2-Nothing-Sounds-Quite-Like-An-ng808)
+
+## Wintergatan Marble Machine ##
+
+The culmination of an amazing design and build process, this video
+from Swedish band Wintergatan is mesmerising. 2,000 ball bearings
+whirr inside a Heath Robinson-like wooden contraption hitting and
+bouncing off analogue and electronic instruments to produce
+techno-style music. The "making of"
+[videos](http://www.wintergatan.net/#/m.m.machine) are equally
+wonderful.
+
+- [http://www.wintergatan.net/](http://www.wintergatan.net/)

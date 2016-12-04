@@ -1,0 +1,107 @@
+---
+layout: post
+title:  "Issue 42"
+permalink: "/42"
+---
+
+## Building the Madeon Adventure Machine ##
+
+The critically-acclaimed companion website for Madeon's debut album
+Adventure (which we covered back in
+[issue 35](http://blog.chrislowis.co.uk/waw/2015/03/23/web-audio-weekly-35.html))
+was made by the creative studio
+[wemakeawesomesh.it](http://wemakeawesomesh.it/). In these two blog
+posts Syd Lawrence takes us behind the scenes of the audio aspects of
+their creation covering formats for gapless playback and how they
+synced the audio with the visuals. Keep an eye out for the 3rd
+instalment showing how they added support for the Novation Launchpad
+MIDI controller.
+
+- [http://blog.wemakeawesomesh.it/audio-formats-for-gapless-web-playback/](http://blog.wemakeawesomesh.it/audio-formats-for-gapless-web-playback/)
+- [http://blog.wemakeawesomesh.it/synced-web-audio-playback/](http://blog.wemakeawesomesh.it/synced-web-audio-playback/)
+
+## Serial communication using Web Audio ##
+
+A great write-up of a very clever hack using the Web Audio API to
+transmit UART serial data to an Arduino at 9600 baud. Their hack
+reminded me of the
+[MicIO.js](http://colinbookman.com/2014/03/23/micio/) project from
+[issue 13](http://blog.chrislowis.co.uk/waw/2014/04/03/web-audio-weekly-13.html),
+in that both authors talk about using audio channels of data as a way
+to avoid expensive or proprietary means of communication between
+browsers and smartphones.
+
+## Tone.js version 5 released ##
+
+Yotam Mann has released the latest version of his excellent Tone.js
+library. Tone.js wraps up many of the features of the Web Audio API in
+interfaces that make it much easier to build applications. For example
+rather than worrying about the details of synchronising sounds at a
+specific tempo, Tone.js allows you to express timing in more musical
+terms such as BPM (beats per minute). New features in version 5 include
+
+- A new drum synth with kick and tom sounds
+- AM and FM synth modules
+- Reverse playback for the sampler module
+- Updated documentation and examples.
+
+- [https://github.com/TONEnoTONE/Tone.js](https://github.com/TONEnoTONE/Tone.js)
+
+## Web Audio Meetup in Philadelphia ##
+
+Joining Berlin, London and New York, Philadelphia now has its own Web
+Audio meetup. If you can get to Philadelphia on July 19th you should.
+
+- [http://technical.ly/philly/2015/07/09/kyle-stetz-web-audio-meetup/](http://technical.ly/philly/2015/07/09/kyle-stetz-web-audio-meetup/)
+
+## MIDI file rendering in the browser ##
+
+Wild Web Midi is a wavetable software synthesiser capable of playing
+MIDI files directly in the browser. It can render the MIDI file to an
+audio file, or playback in realtime (using the Web Audio API) and is
+based on the [freepats](http://freepats.zenvoid.org/) software synth
+instrument collection.
+
+- [http://zz85.github.io/wild-web-midi/](http://zz85.github.io/wild-web-midi/)
+
+## Solarbeat ##
+
+Solarbeat, from White Vinyl design studios, generates ambient music
+using the orbital periodicity of the planets in our solar system. By
+playing with the parameters of the generator, such as the tempo and
+musical scales, you can generate a wide range of sounds. It's a remake
+of an earlier Flash-based application, ported to use the canvas and
+Web Audio APIs (I found Firefox would get redirected to the Flash
+version, so had to use Chrome to hear the new Web Audio-powered
+version).
+
+- [http://www.whitevinyldesign.com/solarbeat/](http://www.whitevinyldesign.com/solarbeat/)
+
+## Building a Realtime Music Sync Collaboration App With PubNub ##
+
+PubNub is a hosted message storage and synchronisation solution for
+building collaborative applications. In this article they show how it
+can be used to power the backend of a collaborative Web Audio app.
+
+- [http://www.pubnub.com/blog/building-a-realtime-music-sync-collaboration-app-with-pubnub/](http://www.pubnub.com/blog/building-a-realtime-music-sync-collaboration-app-with-pubnub/)
+
+## Learning: Think DSP ##
+
+I often get asked if I can recommend books to help learn digital
+signal processing. I wanted to call out Think DSP by Allen B. Downey
+(author of the excellent Think X series of books for O'Reilly). He
+teaches the concepts of signal processing from a programmers
+perspective, approaching topics such as spectral analysis, filtering,
+and the Fourier Transform from a practical, algorithmic point of view
+rather than a mathematical one. The exercises he develops are written
+using Python, but Downey doesn't assume a large amount of familiarity
+with the language.
+
+- [http://greenteapress.com/thinkdsp](http://greenteapress.com/thinkdsp/)
+
+## How I'd Redesign Sheet Music ##
+
+A beautifully illustrated set of ideas from Alex Couch on the design
+of notation for music, and the piano in particular.
+
+- [https://medium.com/happy-ninja/how-i-d-redesign-piano-sheet-music-355c4f9012f1](https://medium.com/happy-ninja/how-i-d-redesign-piano-sheet-music-355c4f9012f1)

@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "Issue 39"
+permalink: "/39"
+---
+
+## Recreating the Birdman opening credits with the Web Audio API ##
+
+Mark DiMarco has recreated the opening credits of the recent Alejandro
+González Iñárritu film Birdman using the Web Audio API. He uses beat
+detection to synchronise the jazz drumming with the appearance of the
+letters on screen. The code and some technical details are on
+github. Fantastic stuff!
+
+- [http://markmarkoh.com/birdman/](http://markmarkoh.com/birdman/) (/via [@tomstuart](https://twitter.com/tomstuart))
+- [https://github.com/markmarkoh/birdman](https://github.com/markmarkoh/birdman)
+
+## Web Audio premiere at the València Vox Festival ##
+
+Ben Houge wrote in to tell me about recent premiere of a piece of
+music that relied on the Web Audio API to immerse the performances and
+audience in a collective experience
+
+> The Berklee Valencia App Choir, an ensemble I founded last year as
+> part of Berklee's Music Technology Innovation master's program at our
+> campus here in Valencia, Spain, premiered my new piece "Ornithological
+> Blogpoem," a setting of a poem by Elisa Gabbert, at the first Vox
+> Festival, an event we organized around the visit of the great computer
+> music pioneer John Chowning.
+>
+> My piece is very similar in structure to "The Tomb of the Grammarian
+> Lysias," which I presented at the first WAC last January, only now
+> with a choir of singers.  The piece has 3 technical components.
+> Singers have a web app that displays each phrase of the piece in
+> standard musical notation; the singers' parts are unsynchronized, and
+> the app supplies different timings and repetitions of phrases for each
+> singer.  The audience has another app that plays fragments of the
+> singers' voices at different pitches, resulting in a gradually
+> building texture distributed throughout the venue that towards the end
+> of the piece evokes a tree full of chirping birds.  I have a third web
+> app that I use to step through different sections of the piece and
+> control everything.
+
+Ben has written more about his earlier work "The Tomb of the
+Grammarian Lysias" on his blog, and a recent article from Priceonomics
+gives a great introduction to the life and work of John Chowning.
+
+- [http://valencia.berklee.edu/concerts-and-events/vox-festival/](http://valencia.berklee.edu/concerts-and-events/vox-festival/)
+- [The Tomb of the Grammarian Lysias](http://www.benhouge.com/writings/?p=900)
+- [The Father of the Digital Synthesizer](http://priceonomics.com/the-father-of-the-digital-synthesizer/)
+
+## Music Visualisation with p5.js ##
+
+Jason Sigal regulary runs a workshop on visualising music using the
+Web Audio API and his p5.js library. He's made the slides, code and
+all of the demos available on Github, and they are a fantastic
+resource for learning how to syncronise visuals with audio using time
+and frequency domain analysis, beat detection, pitch tracking and
+other techniques.
+
+- [https://github.com/therewasaguy/p5-music-viz](https://github.com/therewasaguy/p5-music-viz)
+
+## The 2nd Web Audio Conference - Call for Submissions ##
+
+The 2nd Web Audio Conference will be held April 4-6 2016 at Georgia
+Tech in Atlanta, USA. The call for submissions is now open, and like
+the first conference in Paris earlier this year, they welcome
+submissions from developers, musicians, artists and researchers.
+
+- [http://webaudio.gatech.edu](http://webaudio.gatech.edu)
+
+## Browser MIDI Is About Hardware As Much As Music ##
+
+An interesting perspective from musician and developer Giles Bowkett
+on how the Web MIDI API isn't just about music, it also allows our
+browsers to be controlled with a much wider range of interfaces than
+previously possible.
+
+If you're interested in catching up on what's possible with Web MIDI,
+Create Digital magazine have recently published a great overview.
+
+- [http://gilesbowkett.blogspot.co.uk/2015/06/browser-midi-is-about-hardware-as-much.html](http://gilesbowkett.blogspot.co.uk/2015/06/browser-midi-is-about-hardware-as-much.html)
+- [Cool Things Chrome Can Do Now, Thanks to Hardware MIDI](http://createdigitalmusic.com/2015/05/hardware-midi-chrome-audiotool-free-code-coming-html5/)
+
+## Learning the Web Audio API ##
+
+A great collection of tools and resources to help you learn the Web
+Audio API from Singapore-based audio experience agency Sonoport.
+
+- [http://blog.sonoport.com/post/120993888887/learningwebaudioapi](http://blog.sonoport.com/post/120993888887/learningwebaudioapi)
+
+## Midem Hackday ##
+
+The music industry event Midem in Cannes featured a hackday where
+developers worked on musical applications in 48 hours. The Midem blog
+has a full round up together with videos of the demos, and of
+particular interest to Web Audio developers is Ben Fields, Sam Phippen
+and Hugh Rawlinson's hack rMIXr, an in-browser DAW for remixing
+contests.
+
+- [http://blog.midem.com/2015/06/midem-hack-day-the-hacks-revealed/](http://blog.midem.com/2015/06/midem-hack-day-the-hacks-revealed/)
+- [http://rmixr.com/](http://rmixr.com/)
+
+## A quick correction ##
+
+One of the developers on the Microsoft Edge browser project got in
+touch to say that they will be supporting `ScriptProcessorNode`, after
+I mistakenly reported them as not doing so last week. They're keeping
+a keen eye on the proposed Audio Worker replacement though, and intend
+to move forward with that and deprecate `ScriptProcessorNode` as soon
+as they are able to.
+
+## The sound of dialup ##
+
+Do you remember connecting to the internet using a dialup connection?
+Ever wondered what those weird sounds meant? Wonder no more!
+
+- [http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html](http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html) (/via [@igrigorik](https://twitter.com/igrigorik))

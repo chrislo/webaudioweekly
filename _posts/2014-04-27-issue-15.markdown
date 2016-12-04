@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Issue 15"
+permalink: "/15"
+---
+
+## Building a collaborative music production environment ##
+
+Jan Monschke has recently completed his Master's degree thesis which
+describes the design of a system for collaborative music making on the
+web. It's an approachable but detailed read with a great overview of
+the signal processing concepts behind the Web Audio API's various
+nodes, as well as some more specific sections on the details of his
+approach, including dealing with synchronisation and three-way merges
+in the context of a music editing environment.
+
+- [Building a collaborative music production environment using emerging web standards](https://github.com/janmonschke/Master-s-Thesis---Web-Audio-DAW)
+
+## Mixhub ##
+
+Mixhub is a collaborative multi-track mixer. You can upload short
+samples to create your own mix, or join another person's mix and add
+your own tracks on top. There's a simple interface for muting each
+track, and for adding some effects. You'll find these at the bottom of
+each mix page (it took me a little while to figure that out). You can
+import tracks from Soundcloud, and I can see this application as
+adding some collaborative features on top of Soundcloud to allow
+musicians to share ideas more easily.
+
+- [http://mixhub.mu/](http://mixhub.mu/)
+
+## Lissajous ##
+
+Lissajous is a live-coding, real-time performance environment which
+uses the developer console in Chrome as the instrument. It's worth
+watching the [video](https://www.youtube.com/watch?v=jBRqOp5ws58)
+before diving into the [code](https://github.com/kylestetz/lissajous)
+because you'll need to learn some details of the API Lissajous
+provides before it'll start to make sense. Lissajous provides multiple
+sequenced tracks which can trigger samples or synthesised instruments,
+and is in active development.
+
+- [https://github.com/kylestetz/lissajous](https://github.com/kylestetz/lissajous)
+
+## Shoreditch Experimental Music School (1969) ##
+
+"We go back to Shoreditch in 1969 and take a look at their
+experimental music school, teaching children about the methods of
+then-contemporary music."
+
+- [http://sampleface.co.uk/throwback-thursday-shoreditch-experimental-music-school-1969/](http://sampleface.co.uk/throwback-thursday-shoreditch-experimental-music-school-1969/)
+
+## BBC Outriders: World of Sound ##
+
+In last week's Outriders podcast Jamillah Knowles interviewed
+[Dev Moran](https://twitter.com/grigorisounds), the sound designer
+responsible for iOS game Monument Valley,
+[Rich Vreeland](https://twitter.com/Disasterpeace), composer of the
+music for indie game Fez and [me](https://twitter.com/chrislowis)
+about composition, sound in games and the future of audio on the web.
+
+- [http://downloads.bbc.co.uk/podcasts/fivelive/pods/pods_20140408-0424a.mp3](http://downloads.bbc.co.uk/podcasts/fivelive/pods/pods_20140408-0424a.mp3)

@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Issue 12"
+permalink: "/12"
+---
+
+## Visualising birdsong with Web Audio ##
+
+In this article Jim Vallandingham takes some simple, beautiful
+illustrations of bird song from an old book and creates a modern-day
+D3.js and Web Audio-powered interpretation. The resulting graphs show
+the frequency content of each individual chirp as a spectogram (a
+representation of the frequency content of sound), but arranged over
+time to give an indication of the rhythm of the whole bird song. The
+script processor and analyser nodes provided by the Web Audio API are
+used for the analysis, and canvas and SVG are used together for the
+visualisation.
+
+- [http://vallandingham.me/visualizing_bird_songs.html](http://vallandingham.me/visualizing_bird_songs.html)
+
+## Making charts accessible using the Web Audio API ##
+
+Doug Schepers, of the W3C, has been experimenting with using the Web
+Audio API to "play" the shape of SVG graphics. He's particularly
+interested in using this technology to make data visualisations more
+accessible to visually-impaired users by allowing them to hear the
+"shape" of a curve in a line plot. Doug demo'd this at the FluentJS
+conference this week, and there's some code to play with on Github.
+
+- [Invisible Visualization: Accessible Information Graphics on the Web](http://fluentconf.com/fluent2014/public/schedule/detail/32713)
+- [https://github.com/shepazu/svg-sonifier](https://github.com/shepazu/svg-sonifier) (/via @andreasbovens)
+
+## Audio Tags: Web Components + Web Audio ##
+
+We covered Soledad Penadés innovative Audio Tags concept back in
+[WAW #5](http://blog.chrislowis.co.uk/waw/2013/12/01/web-audio-weekly-5.html),
+when she presented at the CascadiaJS conference. Briefly, it's a way
+to define custom tags which can have associated audio behaviour and be
+combined in clever ways to build audio applications. She's now written
+up the idea on the Mozilla blog, complete with working demos.
+
+- [Audio Tags: Web Components + Web Audio](https://hacks.mozilla.org/2014/03/audio-tags-web-components-web-audio-%E2%99%A5/)
+
+## Generative music with graphs ##
+
+I really enjoyed this experiment from Szymon Kaliski. Click on the
+screen to add nodes, and drag between them to connect. Small blobs
+travelling between the nodes trigger sounds, with their pitch based on
+the distance of travel. You can create some interesting rhythmic
+compositions without the constraints of the typical "grid" structure
+used by a lot of audio software. The code is also available of Github
+and makes for interesting reading.
+
+- [https://nodation.herokuapp.com/](https://nodation.herokuapp.com/)
+- [https://github.com/szymonkaliski/nodation](https://github.com/szymonkaliski/nodation)
+
+## "like jQuery for your ears" ##
+
+WAD, which stands for Web Audio Digital Workstation, is a higher-level
+javascript library around the Web Audio API. It has a terser syntax
+for loading a source node and playing it, and some powerful
+constructor functions which create small web audio graphs for common
+synthesiser-type sounds.
+
+- [https://github.com/rserota/wad](https://github.com/rserota/wad)
+
+## Steve Reich: "Don't tell me you don't have the right equipment" ##
+
+In this video profile of the minimalist composer Steve Reich he
+discusses the importance of musical imagination over access to the
+latest, greatest equipment. We might not be able to do everything we'd
+like to do with audio on the web yet, but this is a reminder that with
+simple tools and imagination wonderful music is possible.
+
+- [http://www.synthtopia.com/content/2014/03/10/steve-reich-dont-tell-me-you-dont-have-the-right-equipment-what-matters-is-your-musical-imagination/](http://www.synthtopia.com/content/2014/03/10/steve-reich-dont-tell-me-you-dont-have-the-right-equipment-what-matters-is-your-musical-imagination/) (/via @pete_warren)

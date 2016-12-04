@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Issue 25"
+permalink: "/25"
+---
+
+## 1st Web Audio Conference submission deadline ##
+
+IRCAM, the famous Parisian centre for electronic music research, are
+hosting a Web Audio conference on the 26th-27th January 2015. The
+deadline for submissions is on the 10th October. The conference
+organiser Samuel Goldszmidt has contacted me to share the new
+guidelines for submission which clarify how to submit your talk. If
+you've built a demo or library using the Web Audio API, and can take
+some time to explain how and why you built it, I'd encourage you to
+submit. And I'll see you in Paris in January!
+
+- [http://wac.ircam.fr/](http://wac.ircam.fr/)
+- [http://wac.ircam.fr/guideline.html](http://wac.ircam.fr/guideline.html)
+
+## Oscilloscope  ##
+
+When debugging Web Audio applications it's often very helpful to be
+able to visualise the sound generated at particular points in the
+graph of nodes you have created. This code snippet from
+[Kevin Cennis](https://twitter.com/kevincennis) provides an
+"oscilloscope" that does just that. It has a useful sensitivity slider
+to help lock the refresh frequency of the scope to the frequency of
+sound you're creating - this freezes the waveform to make it easier to
+see what's going on.
+
+- [http://jsbin.com/kabodeqapuqu/4/edit](http://jsbin.com/kabodeqapuqu/4/edit)
+
+## Web Audio synthesizer by Luke Teaford ##
+
+[Luke Teaford](http://luketeaford.com/) has built this 2-oscillator
+synthesizer using the Web Audio API. It has some really fun presets,
+and enough flexibility to create your own sounds. It would be great to
+see this working with the Web MIDI API so that the synth could be
+controlled from an external MIDI controller.
+
+- [http://luketeaford.com/apps/tanguy/](http://luketeaford.com/apps/tanguy/)
+- [Source code on Github](https://github.com/luketeaford/TANGUY)
+
+## Web Audio Mock ##
+
+If you're building a large Web Audio application, you might have
+wondered how to write automated tests for your code to make it easier
+and safer to refactor, for example. Relying on the "real" Web Audio
+API in your tests is difficult as it restricts how quickly they can
+run, and requires a test environment which supports the API. This
+library from [mohayonao](http://the.mohayonao.com/) provides a "mock"
+Web Audio API implementation which you can rely on in place of the
+real thing.
+
+- [https://github.com/mohayonao/web-audio-mock](https://github.com/mohayonao/web-audio-mock)
+
+## NASA Scientists listen to data ##
+
+An interesting article from NASA on how their scientists turn the
+output from data collected by the sensors on satellites into audible
+frequencies. By playing them back very quickly, and training their
+ears to make sense of the sounds, they are able to review and find
+interesting signals in the data much more quickly than they could do
+if they relied on plots and other visualisations.
+
+- [NASA Scientists Listen to Data](http://www.nasa.gov/content/goddard/more-than-meets-the-eye-nasa-scientists-listen-to-data/)
+
+## Bob Moog Foundation pays tribute to Leon Theremin ##
+
+> In celebration of Leon Theremin's birthday, the Bob Moog Foundation
+> pays tribute to Bob's "virtual mentor", a titan pioneer of
+> electronic music technology. Michelle Moog-Koussa, Executive
+> Director of the Bob Moog Foundation, reads from Bob's foreword to
+> Albert Glinsky's "Theremin: Ether Music and Espionage".
+
+- [In Bob's Own Words: A Tribute to Leon Theremin](https://www.youtube.com/watch?v=91kS01NNnH0)

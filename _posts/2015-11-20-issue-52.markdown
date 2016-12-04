@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "Issue 52"
+permalink: "/52"
+---
+
+## Piano Phase ##
+
+A wonderful visualisation of Steve Reich's 1967 "Piano Phase" by
+Alexander Chen. Two pianists repeat the same twelve note sequence, but
+one gradually speeds up. Here the pianos are Web Audio-based, and the
+visualisation shows them drifting slowly in and out of sync. Chen is a
+Creative Director at Google Creative Lab and has produced some other
+amazing audio-visual projects, including the 2011 Les Paul Google
+Doodle.
+
+- [http://www.pianophase.com/](http://www.pianophase.com/)
+- [Alexander Chen's biography](http://www.chenalexander.com/Bio)
+
+## Web MIDI Application Developer at Novation ##
+### Sponsored post ###
+
+We're creating a simple Web MIDI powered app for a new Novation
+product, and we're looking for a seasoned web developer to help us
+deliver it on a contract basis. If you love the Web MIDI API, and
+you're familiar with Amazon AWS and front-end development, come and
+work with us! We anticipate a month or two to get our first version
+ready. After that, we'll see where it takes us! We're UK based, but
+happy with remote working - though the closer to GMT you are, the
+better.
+
+- [Contract Web MIDI Developer](http://jobs.focusrite.com/focusrite/Search/Vacancy/All/1/1815851?feedID=2149)
+
+## Typatone ##
+
+In Typatone, from the team that brought us the amazing
+[patatap](http://www.patatap.com/), text is turned into music as you
+type. Each key corresponds to a note and after a period of typing the
+tune you have composed is played back to you. You can download your
+composition, share it with friends using a permanent URL, or even
+embed the application elsewhere using an iframe.
+
+- [http://www.typatone.com/](http://www.typatone.com/)
+
+## Web Audio Advent Calendar: Call for Contributions ##
+
+Advent is nearly here, and the folks behind `wham-js` need your help
+in building 25 Web Audio synths for the festive season. The full
+details and how to contribute are in the link below.
+
+- [https://github.com/wham-js/web-audio-advent-calendar/issues/1](https://github.com/wham-js/web-audio-advent-calendar/issues/1)
+
+## Amplitude Modulation Synthesis ##
+
+A great tutorial and demo from the Keith McMillen Instruments blog on
+synthesising sounds using AM Synthesis. It's fascinating how complex
+sounds can be created from simply combining two oscillators in
+clever ways, and I love the new on-brand KMI virtual keyboard!
+
+- [http://www.keithmcmillen.com/blog/making-music-in-the-browser-web-audio-and-midi-api-amplitude-modulation/](http://www.keithmcmillen.com/blog/making-music-in-the-browser-web-audio-and-midi-api-amplitude-modulation/)
+
+## Web Audio Multiple Track Waveform Editor ##
+
+A multi-track waveform editor inspired by Audacity and implemented
+using the Web Audio API by Naomi Aro. This application already
+supports multiple tracks, waveform editing and drag-and-drop upload of
+files. There's also support for recording tracks directly into the app
+using your computers inputs (and the `getUserMedia` API), and the
+source code is available on github.
+
+- [http://naomiaro.github.io/waveform-playlist](http://naomiaro.github.io/waveform-playlist)
+
+## Working with the Babylon.js Game Engine ##
+
+In this article David Rousset from Microsoft shows us how to use the
+Web Audio API, and in particular the `babylon.js` open-source game
+engine, to create the sense of space in our web audio application by
+using directional sound and 3D sound models. It's great to see more
+game-oriented tutorials, and in particular to see how well Microsoft
+Edge now supports the Web Audio API.
+
+- [Creating fun & immersive audio experiences with Web Audio](http://blogs.msdn.com/b/davrous/archive/2015/11/05/creating-fun-amp-immersive-audio-experiences-with-web-audio.aspx)
+
+## Paul Adenot at jsconf.asia '15 ##
+
+Paul Adenot, co-editor of the W3C Web Audio spec and chief Web Audio
+hacker at Mozilla has been out in Singapore this week speaking at the
+jsconf.asia conference. He demo'd the Web Audio API and in particular
+how we can use it for live coding and demoscene applications. The
+videos of his talk aren't yet available, but the minimal
+demoscence-style literate program he's written, and the slides of his
+talk are well worth digging in to.
+
+- [https://github.com/padenot/litsynth](https://github.com/padenot/litsynth)
+- [https://github.com/padenot/jsconf.asia-15](https://github.com/padenot/jsconf.asia-15)
+
+## Tracking with Ultrasound Beacons ##
+
+I found this discussion on the W3C Audio Working Group mailing list
+interesting. Some companies are using inaudible, high-frequency sounds
+to allow them to link users devices together. For example, the fact
+that you've used your mobile to visit an advert you've just seen on TV
+might be recorded by embedding a high-frequency tone in the TV ad that
+your mobile device (surreptitiously) records. I don't think
+responsibility for preventing this lies within the scope of the Web
+Audio API, but it's an interesting challenge for the web platform as a
+whole.
+
+- [Tracking with ultrasound beacons. Web Audio API privacy considerations need updating?](https://lists.w3.org/Archives/Public/public-privacy/2015OctDec/0123.html)

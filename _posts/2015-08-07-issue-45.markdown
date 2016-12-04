@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "Issue 45"
+permalink: "/45"
+---
+
+## Introduction to Web Audio with Stuart Memo ##
+
+In this free 11-part video course from 'tuts+' Stuart Memo introduces
+you to the Web Audio API and shows you how to add some simple sounds
+to a web site. Stuart is a fun and engaging teacher, and learning Web
+Audio lends itself to the video format - being able to see the code
+and hear the sounds it creates at the same time is very useful.
+
+- [http://code.tutsplus.com/courses/add-sound-to-your-site-with-web-audio](http://code.tutsplus.com/courses/add-sound-to-your-site-with-web-audio)
+
+## Game of Reich ##
+
+Ben Taylor has cleverly combined Conway's Game of Life with the
+minimalist aesthetic of Steve Reich. The music is derived from the
+positions of tiles on the grid, but the sound can be filtered using
+the envelope at the bottom. Simple, effective and surprisingly fun to
+play with. I'd have liked a bigger grid so I could try and build a
+[gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton))!
+
+- [http://nexusosc.com/gameofreich/](http://nexusosc.com/gameofreich/)
+
+## Web Audio Recorder Node ##
+
+This library provides a custom 'node' to allow you to record the
+output of a web audio node graph, and schedule the recording at a
+precise time in the future.
+
+- [https://github.com/WhojamLab/WAARecorderNode/](https://github.com/WhojamLab/WAARecorderNode/)
+
+## Machines learn to play Tabla ##
+
+In this blog post Gaurav Trivedi explains how to train recurrent
+neural networks to learn the rhythms of the Tabla. The demonstrations
+sound very convincing to my untrained ear, and I also enjoyed learning
+about the informal notation system used to describe Tabla rhythms.
+
+- [http://www.trivedigaurav.com/blog/machines-learn-to-play-tabla/](http://www.trivedigaurav.com/blog/machines-learn-to-play-tabla/)
+
+## W3C Music Notation Community Group ##
+
+The W3C have recently formed a community group to examine the
+feasibility of standardising music document formats for the web. Joe
+Berkovitz, who is heading up the group, has also shared his thoughts
+on why this is an important step forward for musicians who work on the
+web.
+
+- [https://www.w3.org/community/music-notation/](https://www.w3.org/community/music-notation/)
+- [http://notes.noteflight.com/notation-standards-take-one-giant-step/](http://notes.noteflight.com/notation-standards-take-one-giant-step/)
+
+## 3D audio visualisations with three.js ##
+
+The 'dancing cube' in this demo is created using the WebGL wrapper
+library three.js. The positions of the cubes are synced to the
+frequency and tempo of the music performed using a Web Audio
+`Analyser` node.
+
+- [http://blog.neribarnini.me/3d-audio-analyser-with-three-js-and-web-audio-api/](http://blog.neribarnini.me/3d-audio-analyser-with-three-js-and-web-audio-api/)
+
+## Synthesisers ##
+
+No issue of Web Audio Weekly would be complete without some
+synthesiser-related links. This week, I enjoyed reading a long-form
+article from Rhodri Marsden on the recent re-invention of hackable
+synthesisers and how they relate to the modular synths of old.
+
+The 'Syntorial' is an innovative approach to learning how to play and
+program synths which combines a tutorial series of lessons with a
+built-in soft synth. This might work really well as a Web Audio
+application too.
+
+- [http://thelongandshort.org/issues/season-one/synths-new-found-sounds.html](http://thelongandshort.org/issues/season-one/synths-new-found-sounds.html)
+- [http://www.syntorial.com/](http://www.syntorial.com/)

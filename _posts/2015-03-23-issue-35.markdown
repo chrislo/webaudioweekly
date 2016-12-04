@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Issue 35"
+permalink: "/35"
+---
+
+## Making a boombap beat with dilla and the Web Audio API ##
+
+A brilliant tutorial from Adam Renklint on creating a hip hop beat
+from simple samples, the Web Audio API and a handful of effects. The
+tutorial uses Adam's Dilla library which takes its inspiration from
+the classic Akai MPC60 sequencer by allowing you to schedule beats in
+96th beat increments. I love the simple notation language for
+scheduling the beats and the way Adam uses it to create the groove.
+
+- [http://adamrenklint.com/making-boombap-beat-with-dilla/](http://adamrenklint.com/making-boombap-beat-with-dilla/)
+
+## Madeon's Adventure Machine ##
+
+The technique of combining simple loops into more complicated tracks
+is taken to a wonderful extreme in this interactive promotional piece
+for [Madeon](https://en.wikipedia.org/wiki/Madeon)'s debut album
+Adventure. You can create and share your own remix of a Madeon song
+using this slick
+app. [Apparently](https://plus.google.com/+ChrisWilson/posts/YmEyYL9rLAT),
+if you have a Novation Launchpad MIDI controller, you can also trigger
+the loops using that. If you'd like to send me one to test that
+theory, please get in touch!
+
+- [http://www.madeon.fr/adventuremachine/](http://www.madeon.fr/adventuremachine/)
+
+## Web MIDI spec update ##
+
+In other Web MIDI news, the W3C's Audio Working Group has just
+published a revised working draft of
+[the Web MIDI API](http://www.w3.org/blog/news/archives/4502). There's
+been some changes to how device states are monitored, and the changes
+coincide with Google's Chrome team announcing their
+[intent to ship](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/oPyFORhQ9jQ)
+which means Web Midi will be available without setting an `about:flag`
+in Chrome soon.
+
+## Web Audio Charity Hack Day in Scotland ##
+
+A Web Audio hack day is being run as part of ScotlandJS on Wednesday
+the 6th of May. All proceeds will be given to charity and attendees
+will have the opportunity to work with mentors to learn more about Web
+Audio. I'll be at the conference, so if you do make it along please
+come and say hello!
+
+- [http://scotlandjs.com/charity_tutorial/](http://scotlandjs.com/charity_tutorial/)
+
+## Vuvuzela Denoiser ##
+
+Hate Vuvuzelas? Love watching replays of 2010 world cup matches in
+your browser? This site is for you! Vincent Choqueuse uses the Web
+Audio API to explain lots of different signal processing concepts,
+including this creative use of a 5 band notch filter to help remove
+the sound of that infamous instrument.
+
+- [http://www.v-choqueuse.com/webapps/vuvuzela_denoiser](http://www.v-choqueuse.com/webapps/vuvuzela_denoiser)
+- [http://www.v-choqueuse.com/webapps/](http://www.v-choqueuse.com/webapps/)
+
+## 303 simulator ##
+
+A comprehensive simulation of a Roland TB-303, the machine responsible
+for countless acid-house tracks. The simulator allows two machines to
+play at the same time, and also has a drum sequencer with TR-808 style
+samples.
+
+- [http://errozero.co.uk/acid-machine/](http://errozero.co.uk/acid-machine/)
+
+## Hand-drawn schematics from the Bob Moog archive ##
+
+The Bob Moog foundation have released a new collection of schematics
+of early Moog synths and prototypes, some hand-drawn by Bob Moog
+himself. I particularly like the front panel layout for the
+Synthesizer 1P.
+
+- [http://moogfoundation.org/march-2015-schematics/](http://moogfoundation.org/march-2015-schematics/)

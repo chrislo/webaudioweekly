@@ -1,0 +1,123 @@
+---
+layout: post
+title:  "Issue 57"
+permalink: "/57"
+---
+
+## mmorph ##
+
+mmorph is described as an "online audio-visual workflow
+experiment". Think part music-video, part instrument, part game. It is
+a collaboration between Massive Music, Owen Hindley and Reactify Music
+and of interest to Web Audio-folks it is the first public facing
+project to use [Enzien Audio's Pure Data](https://enzienaudio.com/)
+compiler - a toolchain that can now generate Web Audio code alongside
+portable C code for the x86 and ARM platforms. The app is Chrome-only,
+but it is nevertheless a great example of the current state-of-art of
+Web Audio applications.
+
+- [mmorph](http://mmorph.massivemusic.com/)
+
+## Machine Learning for Musicians and Artists ##
+
+This free online course from Goldsmiths University released on the
+Kadenze platform introduces techniques from machine learning in the
+context of musical applications.
+
+> Have you ever wanted to build a new musical instrument that responded
+> to your gestures by making sound? Or create live visuals to accompany
+> a dancer? Or create an interactive art installation that reacts to the
+> movements or actions of an audience? If so, take this course!
+
+- [Machine Learning for Musicians and Artists](https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists/info)
+
+## Meyda 3.0.0 ##
+
+Also hailing originally from Goldsmiths the real-time audio feature
+extraction toolkit Meyda has reached its 3.0.0 milestone. Meyda works
+offline using nodejs and in real time using the Web Audio API. It
+supports many different feature extraction algorithms including
+zero-crossing rate and energy for time-domain signals, and power,
+skewness and spread in the frequency domain.
+
+- [https://github.com/hughrawlinson/meyda](https://github.com/hughrawlinson/meyda)
+
+## Yamaha Soundmondo: Web MIDI patch sharing app ##
+
+Yamaha's new Soundmondo application allows owners of Yamaha's
+synthesisers to download and share patches with other
+musicians. Thanks to the Web MIDI API (Chrome only) this is a simple
+as connecting your synth and visiting the Soundmondo website. The
+promise of the Web MIDI API was that it would allow instrument
+manufacturers to do away with clunky desktop software in favour of a
+more modern, web-based experience and it's really exciting to see a
+major player take a step in that direction.
+
+- [Soundmondo](https://soundmondo.yamahasynth.com/) (/via [factotumo](https://factotumo.com/2016/01/yamaha-bolsters-web-midi-with-soundmondo/))
+
+## Web Audio Conference 2016: early bird registration ##
+
+Early-bird registration for the second Web Audio conference to be held
+at Georgia Tech, ends on February 15th.
+
+- [http://webaudio.gatech.edu/](http://webaudio.gatech.edu/)
+
+## Chrome 48 released - with Web Audio method chaining ##
+
+Chrome 48 is out, and among the changes is support for a slightly
+sweeter method chaining syntax in the Web Audio API. Calls to the
+`connect` method now returns the passed in node or parameter, so we
+can build Web Audio graphs in a terser style:
+
+    ctx = new AudioContext
+    osc = ctx.createOscillator()
+    g1 = ctx.createGain()
+    g2 = ctx.createGain()
+
+    osc.connect(g1).connect(g2)
+
+- [Web Audio Method Chaining](https://googlechrome.github.io/samples/webaudio-method-chaining/index.html)
+
+## Starting the Audio Context on user action (iOS) ##
+
+If you've developed a Web Audio application and tested it on iOS, you
+might have hit this issue
+
+> On iOS, the Web Audio API requires sounds to be triggered from an
+> explicit user action, such as a tap. Calling noteOn() from an onload
+> event will not play sound.
+
+This small library from Yotam Mann listens for the first explicit user
+action, and starts the audio context in the background by connecting a
+silent oscillator node. A handy hack that should save some head-scratching.
+
+- [StartAudioContext](https://github.com/tambien/StartAudioContext)
+
+## Fourier Visualisations ##
+
+Fourier Analysis tells us that any waveform can be described as the
+addition of simple sine waves of different frequency and phase. This
+interactive visualisation from Ben Grawi shows how sawtooth, square
+and triangle waves can be approximated by summing together many sine
+waves. You can see how the approximation improves as more sine waves
+are added, see the coefficients of the Fourier series and hear the
+result.
+
+- [Fourier Visualisations](http://bgrawi.com/Fourier-Visualizations/) (/via [@tomstuart](https://twitter.com/tomstuart))
+
+## Virtual Oscilloscope ##
+
+A nice, simple oscilloscope application that cleverly uses the
+computer's soundcard as an input source (using `getUserMedia` on
+Chrome and Firefox). Freezing the input and adjusting the x and y
+scales lets you take measurements from the signal just like on a real,
+hardware oscilloscope.
+
+- [Virtual Oscilloscope](https://academo.org/demos/virtual-oscilloscope/)
+
+## Trump Donald ##
+
+It's taken a long time, but I think we've finally found Web Audio's
+"killer app".
+
+- [http://trumpdonald.org/](http://trumpdonald.org/)

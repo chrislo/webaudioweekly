@@ -1,0 +1,130 @@
+---
+layout: post
+title:  "Issue 47"
+permalink: "/47"
+---
+
+## The Digital Surgeons Web Audio Meetup ##
+
+A great write-up of a Web Audio meetup hosted by The Digital Surgeons
+at their New Haven office. There's some links to interesting digital
+video and game experiments, and it's great to get a little glimpse of
+the growing Web Audio community around the world.
+
+- [The Digital Surgeons Web Audio Meetup](http://www.digitalsurgeons.com/thoughts/technology/turn-your-browser-up-to-11-all-about-digital-surgeons-web-audio-meetup)
+
+## Cole Willsea's Web Audio Experiments ##
+
+An idiosyncratic and entertaining collection of sound art experiments
+from artist and developer
+[Cole Willsea](https://twitter.com/colewillsea). There's a lot of fun
+projects to explore here, and its always great to see people building
+creative, personal things on the web.
+
+- [http://www.shreddit-hard-co.re/](http://www.shreddit-hard-co.re/)
+
+## Flowkey ##
+
+Flowkey is a piano tutor application which uses either your computer's
+microphone and the Web Audio API, or Web MIDI if you have a MIDI
+keyboard, to work out which notes you're playing and provide you
+feedback to help you learn. Sign up and the first few lessons are
+free.
+
+- [http://www.flowkey.com/](http://www.flowkey.com/en)
+
+## Web Audio NPM packages ##
+
+I spent a bit of time hacking on the Web Audio performance tool [loopjs](https://github.com/loopjs)
+this week (more on that in a future issue). In doing so I noticed that
+author Matt McKegg has made a lot of the building blocks of that
+application into stand-alone NPM modules. In particular
+`wave-recorder` allows you to stream the output of an audio graph to
+the file system, and `audio-slot` is a FRP (functional reactive
+programming) wrapper around Web Audio nodes.
+
+- [https://www.npmjs.com/package/audio-slot](https://www.npmjs.com/package/audio-slot)
+- [https://www.npmjs.com/package/wave-recorder](https://www.npmjs.com/package/wave-recorder)
+
+## My Web Audio Reading List ##
+
+I am frequently asked whether I can recommend books to people who are
+interested in computer music, signal processing, synthesis and the
+other topics I cover here in Web Audio Weekly. As a little bonus this
+week, I thought I'd share with you the most-thumbed books on my
+bookshelf[^1].
+
+### Understanding Digital Signal Processing ###
+
+This is one of the most accessible and readable textbooks I've seen
+that introduces the principles of digital signal processing, covering
+such topics as sampling, the Fourier Transform, and digital filter
+design. While it doesn't shy away from the maths where required, all
+of the detail is motivated with clear, real-world examples.
+
+- [Understanding Digital Signal Processing. Richard G. Lyons](http://www.amazon.co.uk/gp/product/0137027419/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0137027419&linkCode=as2&tag=chrislowis-21)
+
+### Dance Music Manual: Tools, Toys, and Techniques ###
+
+Get past the slightly cheesy cover and blurb and this book is
+absolutely packed with practical advice on how to create digital music
+of all kinds. There's detailed sections on how synthesis works,
+blow-by-blow deconstructions of several genres of electronic music and
+great tips on recording and mastering.
+
+- [Dance Music Manual. Rick Snoman](http://www.amazon.co.uk/gp/product/0415825644/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0415825644&linkCode=as2&tag=chrislowis-21)
+
+### Computer Music ###
+
+This book takes a slightly more academic approach to computer music
+than in the Dance Music Manual, but they form a very complimentary
+partnership. If you're interested in computer music programming,
+especially in systems that pre-date and influence the the Web Audio
+API such as MAX/MSP or PureData, this book is an excellent
+introduction. It also serves as a good reference for particular forms
+of digital synthesis, with a great overview of FM synthesis in
+particular.
+
+- [Computer Music. Charles Dodge](http://www.amazon.co.uk/gp/product/0028646827/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0028646827&linkCode=as2&tag=chrislowis-21)
+
+### The Computer Music Tutorial ###
+
+Don't be mislead by the title. This isn't really a tutorial
+introduction to computer music, rather an exhaustive, encyclopedic
+survey of almost every aspect of the subject and its history. In some
+areas the detail is sufficient for you to apply what you've learnt,
+while in others it serves more as a starting point. The references to
+source materials in other books and journals are worth the price of
+the book alone. Curtis Roads edited the Computer Music Journal from
+1978-2000, and is uniquely qualified to have compiled this book. It
+probably won't be the first you buy, but sooner or later you'll want
+it in your library.
+
+- [The Computer Music Tutorial. Curtis Roads](http://www.amazon.co.uk/gp/product/0262680823/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0262680823&linkCode=as2&tag=chrislowis-21)
+
+### Welsh's Synthesizer Cookbook ###
+
+I love this slightly odd, labour-of-love self-published book from Fred
+Welsh. Half of the book contains patches for a generic 2-oscillator
+analogue synth which recreate, spookily at times, the sounds of real
+(and imaginary) instruments. The magic is in the first half though,
+where Welsh explains how to take a recording of a sound you like from
+a recording and learn how to recreate it with an analogue synth. Since
+almost all of the features of a classic analogue synth are available
+in the Web Audio API, the techniques are applicable to your code.
+
+- [http://synthesizer-cookbook.com/](http://synthesizer-cookbook.com/)
+
+## The Neuroscience of Drumming ##
+
+An interesting article on how learning to play the drums over a long
+period of time has a measurable impact on the function of the brain
+and the musicians sensitivity to rhythm and timing when they're away
+from the kit.
+
+- [http://www.openculture.com/2015/08/the-neuroscience-of-drumming.html](http://www.openculture.com/2015/08/the-neuroscience-of-drumming.html)
+
+[^1]: Some of the the links include my Amazon UK referrer code, so if
+you do decide to purchase I will receive a small kickback. Thank
+you. I've bought all of these books with my own money, and would
+recommend them to you even without the incentive!

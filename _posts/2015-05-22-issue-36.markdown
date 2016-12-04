@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Issue 36"
+permalink: "/36"
+---
+
+## Typedrummer ##
+
+Kyle Stetz creator of the [lissajous](http://lissajousjs.com) live
+coding environment has built this quirky drum machine which converts
+text into beats. Use `-` or `,` to insert pauses, and `()` for
+triplets.
+
+- [http://typedrummer.com/](http://typedrummer.com/)
+
+## Listen to Wikipedia edits ##
+
+Listen to a real time "sonification" of edits to Wikipedia. Bells are
+additions to Wikipedia while strings are subtractions. Green circles
+represent anonymous edits to the site, while white circles are edits
+from registered users. I was also surprised by the number of purple
+circles, which are edits from bots.
+
+- [http://listen.hatnote.com/](http://listen.hatnote.com/)
+
+## Web Audio API Developer Tools for Chrome ##
+
+Following in the footsteps of the excellent
+[Firefox Web Audio Editor](https://hacks.mozilla.org/2014/06/introducing-the-web-audio-editor-in-firefox-developer-tools/)
+comes this promising Chrome extension from Jaume Sanchez. It visualises
+Web Audio node graphs, and allows you to change their parameters.
+
+- [https://github.com/spite/WebAudioExtension](https://github.com/spite/WebAudioExtension)
+
+## Web Audio Slack Channel ##
+
+I've been enjoying the discussion in the new Web Audio Slack
+channel. It's a community of developers interested in audio on the
+web, and is a great place to find out if there is a Web Audio meet up
+planned near you.
+
+- [https://web-audio-slackin.herokuapp.com](https://web-audio-slackin.herokuapp.com)
+
+## Scrolling Through Sound ##
+
+At the second London Web Audio meet up, I was particularly impressed by
+[Ehsan Ziya](http://www.zya.cc/)'s demo of his "scrolling through
+sound" prototype. Ehsan considered how people typically interact with
+applications, and has experimented with mapping the ubiquitous scroll
+gesture to navigate through sound. Ehsan uses granular synthesis
+techniques to map the background audio to the speed and direction of
+the scroll, while reaching particular points in the page triggers
+audio events.
+
+- [http://zya.github.io/scrollsound/](http://zya.github.io/scrollsound/)
+
+## Web MIDI API available in Chrome 43 Beta ##
+
+The Web MIDI API is now available without setting any special flags in
+Chrome 43 Beta, which should mean we'll see it in the stable Chrome
+very soon. With the Firefox implementation
+[well under way](https://github.com/qdot/gecko-dev/tree/836897-webmidi)
+and this petition to the
+[Microsoft Edge developers](https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6508429-web-midi-api)
+having reached nearly 400 votes, this could be a great year for
+bringing MIDI to the web.
+
+- [Chrome 43 Beta](https://blog.chromium.org/2015/04/chrome-43-beta-web-midi-and-upgrading.html)
+
+## The Audio Processing Dog House ##
+
+Although aimed at iOS developers, this article from Jack Schaedler
+(author of the wonderful DSP primer
+[Circles, Sines and Signals](https://jackschaedler.github.io/circles-sines-signals/index.html))
+has a lot to offer any audio developer. It takes us through the
+building of a simple monophonic pitch-detection algorithm and explains,
+with interactive diagrams, all of the necessary theory to understand
+how it works.
+
+- [http://www.objc.io/issue-24/audio-dog-house.html](http://www.objc.io/issue-24/audio-dog-house.html)

@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Issue 20"
+permalink: "/20"
+---
+
+## Wavepot ##
+
+Wavepot describes itself as a digital audio workstation, but it's
+really more of a flexible live-coding environment. It's very slickly
+implemented with a number of bundled examples, with the developers
+requesting donations to help them build more. The code is closed
+source, but I assume, like CoffeeCollider featured in the last issue,
+that the generated samples are buffered into a `scriptProcessorNode`
+for playback. The Web Audio API provides many native nodes which are
+more efficient and achieve lower latency, and it would be interesting
+to see in the future if some of these live coding environments decide
+to take advantage of them.
+
+- [wavepot.com](http://wavepot.com/)
+
+## Web Audio Editor in Firefox ##
+
+We saw some sneaky previews of the new developer tools for Web Audio
+in previous issues of this newsletter, but Jordan Santell, developer
+of the tools on the Mozilla team, has now written up some more details
+over on their blog. The tools are already very useful and a lot of fun
+to play with, so its worth installing the FF32 preview to try them
+out.
+
+- [Introducing the Web Audio Editor in Firefox Developer Tools](https://hacks.mozilla.org/2014/06/introducing-the-web-audio-editor-in-firefox-developer-tools/)
+
+## Faust announces Web Audio support ##
+
+Faust is a functional programming language explicitly designed for
+implementing signal processing and audio applications. It is designed
+to allow signal processors to be described in notation that is as
+close to the underlying mathematics as possible. Faust is a compiled
+language, and with the latest release the Faust team have announced
+support for Web Audio as a compile target. The Faust compiler first
+generates `asm.js` code, which is a subset of JavaScript that can be
+optimised efficiently by many JavaScript engines. This code is then
+wrapped in a Web Audio `scriptProcessorNode`, where it can then be
+connected to the rest of a Web Audio graph. This opens up exciting
+possibilities for educational applications with Faust, and plug-in
+development.
+
+- [Faust and the Web Audio API](http://faust.grame.fr/index.php/component/content/article/7-news/79-faust-web-audio)
+
+## Making Music Mobile with the Web (Google I/O) ##
+
+A great presentation from Google I/O on the Web Audio API and how it
+inter-connects with other emerging technologies, WebRTC and
+`getUserMedia`, from the developers of Soundtrap (who I featured back
+in
+[issue 4](http://blog.chrislowis.co.uk/waw/2013/11/18/web-audio-weekly-4.html)).
+
+- [Google I/O 2014 - Making music mobile with the Web](https://www.youtube.com/watch?v=PMH1vM-dSc0)
+
+## Interactive timeline of synthesis ##
+
+A very Web 1.0 timeline of the history of synthesis over on the Bob
+Moog foundation website, nevertheless packed full of interesting
+photos and anecdotes. Note: the history of synthesis seems to stop
+with the Minimoog in 1970!
+
+- [Timeline of Synthesis](http://moogfoundation.org/timeline/) (/via @womensaudio)

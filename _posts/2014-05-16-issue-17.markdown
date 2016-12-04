@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Issue 17"
+permalink: "/17"
+---
+
+## Improve the Web Audio API by writing tests ##
+
+The W3C, who are standardising the Web Audio API and the Web MIDI API,
+have a comprehensive set of tests that browser vendors can use to make
+sure their implementations are compliant with the specification. The
+tests for the Web Audio and Web MIDI APIs are still at a very early
+stage though, and could really use your help. Writing tests, or
+porting them from the Webkit, Blink or Gecko code bases, is a great
+way to improve support for the APIs, and will make it easier for other
+vendors to add support. I wrote a blog post to show you how to get
+involved.
+
+- [Writing tests for the Web Audio API](http://blog.chrislowis.co.uk/2014/04/30/testing-web-audio.html)
+
+## Web Audio Editor in Firefox ##
+
+Mozilla are working on an extension to their developer tools which
+allows debugging and editing of Web Audio applications. It's only
+available in Firefox Nightly at the moment, and you have to enable it
+by clicking on the "cog" icon when you open the developer toolbar. It
+currently allows introspection of the graph of nodes within an
+AudioContext, and the editing of parameters of individual nodes. This
+looks like it will be an incredibly useful tool for Web Audio
+developers, and is definitely one to watch.
+
+- [A tweet showing a screenshot of the editor](https://twitter.com/f12devtools/status/459204549895782400/photo/1)
+- [https://nightly.mozilla.org/](https://nightly.mozilla.org/)
+
+## Visualising Audio with the Web Audio API ##
+
+One of the use cases used to inform the design of the Web Audio API
+was to allow sound and music to be turned into synchronised visuals in
+a straight forward way. The API has a built in AnalyserNode to allow
+time and frequency domain analysis on the fly. You can also use the
+ScriptProcessorNode to do more sophisticated analysis using your own
+JavaScript code. In this talk from last year's HTML5DevConf Jordan
+Santell covers all of those topics and more.
+
+- [Browser Dance Party: Visualizing Audio with the Web Audio API](https://www.youtube.com/watch?v=TdgBAhGmoH4)
+
+## Designing Godzilla's Scream ##
+
+The sound effects we hear in TV, film and games are often not created
+in the way we'd expect them to be. In the case of Godzilla, unable to
+find a real life giant lizard monster, the sound designers had to
+resort to a combination of clever techniques to generate the iconic
+noise.
+
+- [Designing Godzilla's scream](http://www.wired.com/2014/05/designing-godzillas-scream/) (/via @stuartmemo)
+
+## The New York School of Synthesis ##
+
+A series of videos on how to program synthesisers, including a lot of
+well-explained basics on oscillators, envelopes, envelope-controlled
+filters and more, most of which is directly applicable to programming
+the Web Audio API. The first video in the series starts pretty slowly,
+so skip ahead to the last third to see how to programme a string
+patch. As is customary for the final link of this newsletter, it also
+features a bloke with a beard.
+
+- [Intro to Synthesis Part 1](https://www.youtube.com/watch?v=atvtBE6t48M)

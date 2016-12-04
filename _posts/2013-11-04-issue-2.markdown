@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Issue 2"
+permalink: "/2"
+---
+
+## Firefox 25 released ##
+
+This week saw the release of Firefox 25, and the headline news was
+support for the Web Audio API! It's fantastic news for Web Audio, as
+having another implementation has really helped to drive the standard
+forwards. I'm really pleased for the Mozilla team, it's a great
+milestone. As well as the announcement, the team also released a great
+demo and blog post showcasing some of the 3D sound capabilities of the
+API. If you're at all interested in Web Audio, go and grab a copy of
+FF25, try some of your favourite demos and give some feedback.
+
+- [http://www.mozilla.org/en-US/firefox/25.0/releasenotes/](http://www.mozilla.org/en-US/firefox/25.0/releasenotes/)
+- [https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/](https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/)
+
+## Steller - a framework for composeable sound modules ##
+
+The Web Audio API provides the building blocks for processing and
+synthesis of audio, but one of it's design goals was to allow
+developers to build more specialised APIs on top of it. Steller, from
+Srikumar Subramanian, is an example of such an API. It follows the
+graph-based principle of the Web Audio API itself, buts adds powerful
+scheduling and graphics-synchronisation features. The demos are
+intriguing, and there's a live-coding environment for trying out the
+API.
+
+- [https://github.com/srikumarks/steller/ ](https://github.com/srikumarks/steller/ )
+
+## Novation/Focusrite working on cross-platform Web MIDI software ##
+
+Novation, who build popular MIDI controllers, among other things, are
+attempting to solve the problem of developing the control software for
+their equipment on multiple platforms by experimenting with Web MIDI
+and web-based applications. I think there's going to be some really
+interesting applications for "real world" musicians to connect their
+instruments to the web, download patches and share sounds with other
+people. MIDI is the common language that all of these devices speak,
+and bridging them to the web will be exciting. In this blog post, we
+get a interesting take on how manufacturers are starting to experiment
+with the API, and some of the challenges.
+
+- [http://focusritedevelopmentteam.wordpress.com/2013/10/31/cross-platform-with-web-midi/](http://focusritedevelopmentteam.wordpress.com/2013/10/31/cross-platform-with-web-midi/) (via Dave Hodder at Focusrite)
+
+## Listen to Conway's Game of Life ##
+
+Conway's Game of Life is an influential cellular automata experiment
+that illustrates how complex behaviour can emerge from the application
+of simple rules.  But what does it sound like? Patrick Borgeat built
+this version of Life but used Web Audio to turn each movement into
+sound.
+
+- [http://www.cappel-nord.de/webaudio/conways-melodies/](http://www.cappel-nord.de/webaudio/conways-melodies/)
+
+## Train Your Ears ##
+
+Experienced musicians, sound designers and studio engineers have an
+uncanny ability to explain how a complex set of audio transforms has
+been applied to create a particular sound. This recently-announced
+online course from Queen's University Belfast promises to train you to
+be able to do the same. It looks like an interesting course, is open
+for free registration and starts early in the new year on the UK's
+FutureLearn platform (disclaimer: I work for FutureLearn, but this
+genuinely looks like an interesting course!)
+
+- [https://www.futurelearn.com/courses/critical-listening-for-studio-production](https://www.futurelearn.com/courses/critical-listening-for-studio-production)

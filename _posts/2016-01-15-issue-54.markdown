@@ -1,0 +1,117 @@
+---
+layout: post
+title:  "Issue 54"
+permalink: "/54"
+---
+
+## Canopy - a Web Audio scratch pad ##
+
+Google's Hongchan Choi has developed this incredibly useful Web Audio
+scratch pad. As well as providing a place to write your code, there's
+also a handy zoom-able waveform visualisation to help debug any issues
+in the audio output. The tool comes with a built in audio node graph
+visualisation too, accessible using the "eye" icon, and a way to load
+a Github gist directly in to the editor. I can see myself making heavy
+use of this tool for my next project.
+
+- [http://hoch.github.io/canopy/](http://hoch.github.io/canopy/)
+
+## Modulator: A Web Audio modular synthesiser ##
+
+I love this modular synthesiser from Luis Crespo. The editing
+interface is polished and powerful, with each individual module having
+its own set of parameters that can be individually tweaked. There's a
+good selection of presets to help you learn how to use the synth, and
+a simple but effective way to save and load your own patches. The
+multi-octave arpeggiator is particularly fun.
+
+- [https://lcrespom.github.io/synth/](https://lcrespom.github.io/synth/)
+
+## Matt McKegg: I play the JavaScript ##
+
+Matt McKegg, author of the Web Audio live performance and composition
+tool [Loop Drop](http://loopjs.com/) gave this talk at JSConf.Asia
+2015 on the inspirations for his software, and how he uses the Web
+MIDI API to connect it to a wide range of controllers. Matt is really
+pushing the state-of-the-art with his software and his
+performances. One of the key take-aways from this talk is how the
+ubiquity of the web platform is allowing musicians to build their own
+tools that feel like the kind of instruments they've always wanted to
+play.
+
+- [https://www.youtube.com/watch?v=NL0nb8A8FDM](https://www.youtube.com/watch?v=NL0nb8A8FDM)
+
+## Monophonic Ringtone Synthesiser ##
+
+Do you miss the ring tone from your very first mobile phone? If so,
+this synth is for you. Hook up your MIDI keyboard and annoy your
+office mates or fellow commuters like it's 1997!
+
+- [http://outputchannel.com/monophonic-ringtone-synthesizer/](http://outputchannel.com/monophonic-ringtone-synthesizer/)
+
+## Little Drummer Toy ##
+
+Sorry for bringing this to you too late for the festive season, but
+this project from Ableton will fun at any time of the year!
+
+- [http://littledrummertoy.ableton.com/](http://littledrummertoy.ableton.com/)
+
+## 5:1 Web Audio demo from Dolby ##
+
+This small code snippet from Dolby Laboratories points at some
+interesting experiments they are running with Web Audio. If you're
+looking for an example of how to work with multi-channel output
+devices this code is a straight-forward starting point.
+
+- [https://github.com/DolbyDev/examples/tree/master/channels](https://github.com/DolbyDev/examples/tree/master/channels)
+
+## Making an interactive Web Audio slide-deck ##
+
+Sole Penadés's amazing WebGL and Web Audio-powered
+[slide deck](http://soledadpenades.com/files/t/2015_howa/) was one of
+my favourite Web Audio projects last year. In this video Sole explains
+how the slides were put together and how to use some of the tricks in
+your own projects.
+
+- [https://www.youtube.com/watch?v=CxYEWlVQ358](https://www.youtube.com/watch?v=CxYEWlVQ358)
+
+## Proper loudness metering on the web with EBU R128 ##
+
+> I hate squashed and over-compressed music. It leads to ear-fatigue
+> quickly, is often distorted and sounds dull and low-fi compared to
+> dynamic music.
+>
+> That’s why I created something called LoudEv, an open-source online
+> loudness evaluator, which is compliant to EBU R128.
+>
+> LoudEv uses the Web Audio API, Web Workers and the great wavesurfer.js
+> by katspaugh to do its thing: Analyzing an audio file (on the
+> client-side, no server upload necessary) and then creating a
+> two-dimensional loudness map of the song as well as a dynamics map.
+
+- [https://webaudiotech.com/2015/12/29/getting-ebu-r128-on-the-web/](https://webaudiotech.com/2015/12/29/getting-ebu-r128-on-the-web/)
+
+## Modern Approaches: Producers reveal their sound philosophies ##
+
+The Red Bull Music Academy are releasing a series of interesting
+interviews with top music producers on how they use effects, including
+compression and reverb, in their music. The techniques are illustrated
+with embedded soundcloud examples. A useful resource.
+
+- [http://daily.redbullmusicacademy.com/modern-approaches](http://daily.redbullmusicacademy.com/modern-approaches)
+
+## Exploring the Web Audio API with D3 ##
+
+This article from Scott Logic's William Ferguson explains how to
+combine the Web Audio API with the D3.js visualisation framework to
+analyse and visualise sound.
+
+- [http://blog.scottlogic.com/2016/01/06/audio-api-with-d3.html](http://blog.scottlogic.com/2016/01/06/audio-api-with-d3.html) (/via [@sonoport](https://twitter.com/sonoport))
+
+## Dear Architects: Sound Matters ##
+
+An interactive article from the New York Times that uses
+spatialised audio to illustrate the importance of sound, or the lack
+of it, in our built environment.
+
+- [http://www.nytimes.com/interactive/2015/12/29/arts/design/sound-architecture.html](http://www.nytimes.com/interactive/2015/12/29/arts/design/sound-architecture.html)

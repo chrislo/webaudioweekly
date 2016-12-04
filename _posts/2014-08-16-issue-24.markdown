@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Issue 24"
+permalink: "/24"
+---
+
+## I dropped my phone the screen cracked ##
+
+A great library from Bill Orcutt which wraps the Web Audio API in an
+idiosyncratic but powerful domain language. By removing a lot of the
+boilerplate, the "hello world" of Web Audio synthesis, a simple sine
+wave, becomes
+
+```
+__().sine().dac().play();
+```
+
+I'm quite excited about this library. I think it will be a very useful
+prototyping tool for playing around with Web Audio concepts in the
+developer console, for example. Check out Bill's demos on tumblr
+before diving into the Github project.
+
+- [http://idroppedmyphonethescreencracked.tumblr.com/](http://idroppedmyphonethescreencracked.tumblr.com/)
+- [https://github.com/billorcutt/i_dropped_my_phone_the_screen_cracked](https://github.com/billorcutt/i_dropped_my_phone_the_screen_cracked)
+
+## Plans to improve scriptProcessorNode ##
+
+The scriptProcessorNode in the Web Audio API is one of the most
+powerful but also most misused features. It allows us to use
+JavaScript to perform arbitrary processing on audio one buffer of
+samples at time. The problem is that this processing happens in the
+"main thread" of the browser. The passing of data between the script
+processor nodes and the other nodes in an audio graph introduces
+latency, and the performance of the code is susceptible to influence
+from whatever else the browser is doing at the time (updating the UI,
+for example). The W3C Audio working group are debating a proposal to
+introduce a new node which offloads this processing to a "worker".
+
+The details of the debate are hard to follow at times, but this is
+certainly one to watch since any changes are likely to have an
+influence on how we write certain Web Audio applications.
+
+- [AudioWorker proposal on Github](https://github.com/WebAudio/web-audio-api/issues/113#issuecomment-51493744)
+
+## Calculating BPM using Javascript and the Spotify Web API ##
+
+José Pérez read
+[Beat Detection Using JavaScript and the Web Audio API](http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/)
+and decided to hook it up to the Spotify API. You can search for a
+track from Spotify's catalogue and your browser will calculate the
+tempo. A simple but powerful demo.
+
+- [http://jmperezperez.com/beats-audio-api/](http://jmperezperez.com/beats-audio-api/)
+
+## p5.js ##
+
+Processing is a programming language for audio and visual
+applications. p5.js "is a JavaScript library that starts with the
+original goal of Processing, to make coding accessible for artists,
+designers, educators, and beginners, and reinterprets this for today's
+web.". I particularly interesting part of this project for us is the
+"p5.sound" library which makes working with one-shot samples and
+multi-node synthesis quite a bit easier.
+
+- [http://p5js.org/reference/#/libraries/p5.sound](http://p5js.org/reference/#/libraries/p5.sound) (/via [@floehopper](https://twitter.com/floehopper))
+
+## The art of the loop ##
+
+"Most current pop music is created not with live instruments, but from
+pre-formed, off the shelf chunks of music known as loops. Musician
+Matthew Herbert explores the art of the loop and the million-dollar
+industry that has grown up around it, and asks whether it is setting
+music makers free from the constraints of traditional instruments or
+killing creativity."
+
+- [http://www.bbc.co.uk/programmes/b03wgpyg](http://www.bbc.co.uk/programmes/b03wgpyg)

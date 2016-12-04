@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "Issue 34"
+permalink: "/34"
+---
+
+## Motion sensing using the Doppler effect ##
+
+The Doppler effect will be familiar to you if you've ever heard an
+emergency vehicle screaming past you at high speed. As the vehicle
+approaches the pitch of the sound increases, and as it speeds away, it
+falls. In this brilliant demo Daniel Rapp uses this effect to perform
+motion sensing using your computer's speakers, microphone and the Web
+Audio API.
+
+- [https://danielrapp.github.io/doppler/](https://danielrapp.github.io/doppler/) (/via [@hughrawlinson](https://twitter.com/hughrawlinson))
+
+## A comprehensive scheduling tool for Web Audio ##
+
+One of the strengths of the Web Audio API is in its support for
+precision scheduling of events. But you can only schedule audio events
+on the audio timeline. To synchronise these changes to changes in your
+user interface, you have to be quite careful. Chris Wilson's
+[A tale of two clocks](http://www.html5rocks.com/en/tutorials/audio/scheduling/)
+blog post shows you how to do this, but helpfully, Sebastien Piquemal
+has wrapped all of these techniques up in his WAAClock library, which
+has just reached version 0.5.
+
+- [https://github.com/sebpiq/WAAClock](https://github.com/sebpiq/WAAClock)
+
+## Audiocogs: Audio codecs for the web ##
+
+The Audiocogs team use JavaScript to build decoding libraries for a
+number of popular audio codecs, including MP3, ALAC, FLAC and
+AAC. This could be very useful if you want to support user-uploaded
+file playback, without worrying about whether the browser has the
+capabilities to play back natively.
+
+- [http://audiocogs.org/codecs/](http://audiocogs.org/codecs/) (/via [@pixelblend](https://twitter.com/pixelblend))
+
+## Detour hiring OS X engineer in SF to build text-driven audio sequencer ##
+
+*Sponsored post*
+
+[Detour](www.detour.com) is a new startup building a platform for
+location-based audio tours. As part of Detour, they're building the
+world's first text-driven audio sequencer, and are looking for someone
+to join their team in San Francisco to lead development.
+
+- [https://www.detour.com/jobs/osx-engineer](https://www.detour.com/jobs/osx-engineer)
+
+## Sonoport Sound Models ##
+
+At WAC15 Chinmay Pendharkar
+[talked about](http://medias.ircam.fr/x71a427) porting an audio engine
+from flash to the Web Audio API. They have now released the code for
+this engine. It has a set of functions for creating sound textures -
+by looping, triggering, scrubbing and extending audio - as well as
+some effects. It's all packaged up in CommonJS and AMD forms.
+
+- [https://github.com/Sonoport/soundmodels](https://github.com/Sonoport/soundmodels)
+
+## W3C Multi-device timing community group ##
+
+If you've ever tried to build web applications that require
+synchronisation of time between multiple devices, you'll know how hard
+it is to achieve with the current technology. The W3C MTCG has formed
+to bring together people and organisations who are interested in
+solving this problem in a unified way, and you may be interested to
+join or follow their work if you're working in this area.
+
+- [https://www.w3.org/community/webtiming/](https://www.w3.org/community/webtiming/)
+
+## Circles, Sines and Signals: A primer on DSP ##
+
+A solid knowledge of the techniques and theory of digital signal
+processing (DSP) is very helpful when working on computer audio. This
+fantastic collection of articles from Jack Schaedler is a
+comprehensive, interactive primer covering sampling, aliasing, the
+Nyquist theorem, Fourier transforms and more. A lot of people sent me
+this, and I can see why, the interactive diagrams and visualisations
+are wonderful and inspiring.
+
+- [https://jackschaedler.github.io/circles-sines-signals/](https://jackschaedler.github.io/circles-sines-signals/)

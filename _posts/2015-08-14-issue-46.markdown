@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Issue 46"
+permalink: "/46"
+---
+
+## AudioKeys: a QWERTY keyboard for Web Audio projects ##
+
+AudioKeys, a library from Kyle Stetz, allows you to map the keys on a
+standard QWERTY keyboard to musical notes. If you've built an
+instrument with the Web Audio API this allows anyone with a standard
+keyboard to play it. The library provides shortcuts for shifting the
+octave range of the keyboard and for setting the velocity of notes. It
+also solves some tricky problems such as what to do with notes when
+the user switches browser focus to another tab. It's event-based too,
+so it's easy to decouple from the rest of your code, or to combine
+with other input sources such as MIDI instruments.
+
+- [https://github.com/kylestetz/AudioKeys](https://github.com/kylestetz/AudioKeys)
+
+## Learning and tutorials ##
+
+### The Web Audio API: What is it? ###
+
+To accompany the Tuts+
+[video series on Web Audio](http://code.tutsplus.com/courses/add-sound-to-your-site-with-web-audio)
+from Stuart Memo, they're also publishing a series of blog posts,
+starting with this brief introduction to the API.
+
+- [http://code.tutsplus.com/tutorials/the-web-audio-api-what-is-it--cms-23735](http://code.tutsplus.com/tutorials/the-web-audio-api-what-is-it--cms-23735)
+
+### Web Audio Primer ###
+
+Andy Sylvester has written a series of tutorials on various aspects of
+the Web Audio API which use the `Theresa's Sound World` framework also
+created by Stuart Memo. The lessons are focussed on synthesis and
+building a simple instrument.
+
+- [https://github.com/andysylvester/TSW_WebAudioPrimer](https://github.com/andysylvester/TSW_WebAudioPrimer)
+
+## Web Audio Meet-up in Lausanne, Switzerland ##
+
+Cruncher, a web design agency in Lausanne, are hosting the first Swiss
+Web Audio meet-up on the 24th August 2015 at their offices. Contact
+Cruncher or @stephband for more information.
+
+- [https://twitter.com/cruncher](https://twitter.com/cruncher)
+- [https://twitter.com/stephband](https://twitter.com/stephband)
+
+## soundio: a standard way of creating music sequence data in JSON ##
+
+[Last week](http://blog.chrislowis.co.uk/waw/2015/08/07/web-audio-weekly-45.html)
+we heard about the work of the W3C's Music Notation Community Group
+and the effort to find a standard for exchanging sheet-music-like documents.
+
+Stephen Band pointed me at another interesting proposal in this
+space - a light-weight JSON format for exchanging note sequence
+information that is independent of the way that notation is presented
+visually. I can see an exchange format like this being very useful as
+an intermediate serialisation format for music sequencer applications,
+for example.
+
+- [https://github.com/soundio/music-json](https://github.com/soundio/music-json)
+
+## This is Not a Machine Learning ##
+
+An interesting essay and sound art piece that uses the Web Audio API
+to generate increasingly complex variations of an initial piece. The
+audio is synchronised to a visualisation built with `three.js`, and
+the source code is available to dive into in more depth.
+
+- [http://posttool.github.io/](http://posttool.github.io/)
+
+## Making a game: audio ##
+
+A great article from the developers of the `Blend4Web` game engine on
+how to create and record audio effects for a game. They also discuss
+how to synchronise those effects with the actions of the characters in
+the game. The authors confess that they are amateurs in this aspect of
+game design, but I think that makes the article a more interesting
+read as they really get into the practical details.
+
+- [https://www.blend4web.com/en/article/105/](https://www.blend4web.com/en/article/105/)

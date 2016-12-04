@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Issue 21"
+permalink: "/21"
+---
+
+## Flora Drift ##
+
+A fascinating procedural generated artwork from Luke Twyman which
+uses the Web Audio API to generate the accompanying music on the fly.
+
+- [http://whitevinyldesign.com/floradrift/](http://whitevinyldesign.com/floradrift/)
+
+## Jerusalem ##
+
+Jerusalem is a digital artwork from Paul Pfeiffer and Brian Fulkerson
+that revisits the most famous occasion in the sporting history of
+England, the 1966 World Cup final. Creative technologist
+[Nat Buckley](http://ntlk.net/) used the Web Audio API to mix the
+different background sound effects together, and used a variety of
+different fallbacks to support a wider range of browsers. The clear,
+unobfuscated source code makes for interesting reading.
+
+- [http://jerusalem.artangel.org.uk/](http://jerusalem.artangel.org.uk/)
+
+## How to Build a Supersaw Synthesizer ##
+
+An interesting blog post which recreates the "super saw" synth sound
+made famous by the JP-8000 synth from Roland. Zach Denton recreates
+the sound using a series of detuned sawtooth oscillators, and shows
+how to hook this up to a simple visual interface using CoffeeScript
+and CSS.
+
+- [http://noisehack.com/how-to-build-supersaw-synth-web-audio-api/](http://noisehack.com/how-to-build-supersaw-synth-web-audio-api/)
+
+## Coursera Course on Digital Sound Design ##
+
+This course starts tomorrow and looks to give a good overview of key
+topics in digital audio - including the fundamental acoustic
+principles, recording technology and synthesis.
+
+- [https://www.coursera.org/course/digitalsounddesign](https://www.coursera.org/course/digitalsounddesign)
+
+## Tuna Knobs ##
+
+Terrible name, interesting idea: a set of physical rotary controls
+that you can use with ipad music applications. It looks like the
+kickstarter project has been funded, so the Dutch design company
+responsible, Tweetonig, are accepting pre-orders. The Wired article
+gives some background.
+
+- [http://www.wired.co.uk/news/archive/2014-07/09/tuna-knobs](http://www.wired.co.uk/news/archive/2014-07/09/tuna-knobs)
+- [Tuna Knobs Kickstarter](https://www.kickstarter.com/projects/samuelverburg/tuna-knobs-stick-em-to-your-tablet-and-its-a-contr)

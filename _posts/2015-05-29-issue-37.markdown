@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Issue 37"
+permalink: "/37"
+---
+
+## Jazz.Computer ##
+
+Jazz Computer is an interactive song by Yotam Mann, author of the Web
+Audio toolkit library Tone.js, with visual design by Sarah
+Rothberg. You advance through the song, and its visuals, by scrolling
+through the page. This action changes the tempo and
+[transitions chords algorithmically](http://jazz.computer/info/). Web
+Audio hackers might like the [GUI mode](http://jazz.computer/#GUI)
+where the various parameters that control the piece can be tweaked.
+
+- [http://jazz.computer/](http://jazz.computer/)
+
+## Matt McKegg at CampJS ##
+
+Matt McKegg performed a live set of music and visuals at CampJS in
+Melbourne this week which from the
+[youtube](https://www.youtube.com/watch?v=mWXuD9IC0k4)
+[videos](https://www.youtube.com/watch?v=qIgwNhigsbM) that are
+available looked to go down a storm. He used his application for the
+performance `loopjs` which is a very polished sample looper, sequencer
+and synth rolled into one. I particularly like the way it can be
+expanded to work with different MIDI controllers, supporting the
+Novation Launchpad out of the box.
+
+- [https://github.com/mmckegg/loop-drop-app](https://github.com/mmckegg/loop-drop-app)
+
+## Learn Web Audio at the Web Audio School ##
+
+Also from Matt McKegg comes this series of interactive workshops
+teaching you the basics of Web Audio. Each lesson includes some
+theory, and some template code for you to complete. You know you've
+got the right answer when the sound you generate matches the reference
+provided. All of this can be completed directly in the browser without
+requiring an external editor, making it an excellent place to learn
+all about the API.
+
+- [http://mmckegg.github.io/web-audio-school/](http://mmckegg.github.io/web-audio-school/)
+
+## Synthesising Drum Sounds with the Web Audio API ##
+
+I wrote this article for Opera's developer blog about how to go about
+synthesising classic electronic drum sounds using the Web Audio API. I
+create a kick and snare sound, and then cheat a little bit by sampling
+a TR-808 hi-hat. I then show how to sequence these sounds together into
+a simple loop. Hopefully a fairly gentle introduction to the Web Audio
+API and the world of synthesis.
+
+- [https://dev.opera.com/articles/drum-sounds-webaudio/](https://dev.opera.com/articles/drum-sounds-webaudio/)
+
+## Practical Web Audio ##
+
+A thought-provoking opinion piece from Brian Rinaldi on how we could
+use Web Audio to enhance our day-to-day application development, and
+some of the resistance we'd face from people who's experience of audio
+on the web in the past has been a bad one (think auto-playing sounds
+and other gimmicks). As we push at the edges of what is possible with
+this technology, it's worth taking some time to get the basics right.
+
+- [http://developer.telerik.com/featured/practical-web-audio/](http://developer.telerik.com/featured/practical-web-audio/)
+
+## Molgav ##
+
+Molgav is a pattern sequencer and sampler with a lot of powerful
+features. I found the interface pretty hard to get to grips with at
+first, but the
+[introduction and tutorial video](http://molgav.nn.ru/rtfm/index.html)
+helps. Try some of the
+[examples](http://molgav.nn.ru/rtfm/index.html#examplesinfo) first to
+get a feel for it.
+
+- [http://molgav.nn.ru/](http://molgav.nn.ru/)
+
+## Juno 106 Emulator ##
+
+If you're itching to try the Web MIDI support in
+[Chrome 43](http://blog.chromium.org/2015/04/chrome-43-beta-web-midi-and-upgrading.html)
+you could do a lot worse than to hook up your keyboard to this Juno
+106 emulator for some classic, squelchy goodness.
+
+- [http://resistorsings.com/106/](http://resistorsings.com/106/)
+
+## Can I get an Amen? ##
+
+I spent some time recently listening to the Amen break, the classic 8
+seconds of percussion sampled on countless hip-hop records, for a talk
+I gave at ScotlandJS. It lead to me enjoying again
+[Nate Harrison's 2004 work 'Can I get an Amen?'](https://www.youtube.com/watch?v=5SaFTm2bcac)
+and this
+[BBC Radio 1 documentary](http://www.bbc.co.uk/programmes/p00rzp6w)
+from 2012.

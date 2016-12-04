@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Issue 1"
+permalink: "/1"
+---
+
+## Looping ##
+
+One of the first things to try if you're learning the Web Audio API is
+to load short samples and and loop them. It's an easy way to explore
+the power of sample-accurate scheduling, and gives you a platform to
+try out some more advanced effects.  Daniel Gagan has put together
+this looping demo, with accompanying blog post - there's a lot to
+learn by looking at the code.
+
+- [http://forestmist.org/share/web-audio-api-demo/](http://forestmist.org/share/web-audio-api-demo/)
+
+## Web MIDI synthesiser ##
+
+Chris Wilson, the editor of the Web MIDI specification, has proposed
+some additions to the spec.  He's added a example of how to build a
+simple MIDI synthesiser which shows how the Web MIDI and Web Audio
+specifications work together. It's early days for adoption of the API,
+but the demo should work in Chrome Canary.
+
+- [http://cwilso.github.io/web-midi-api/#a-simple-monophonic-sine-wave-midi-synthesizer](http://cwilso.github.io/web-midi-api/#a-simple-monophonic-sine-wave-midi-synthesizer)
+- [https://plus.google.com/+ChrisWilson/posts/cs4J6sS9qmJ](https://plus.google.com/+ChrisWilson/posts/cs4J6sS9qmJ)
+
+## Custom-shaped Online Noise Machines ##
+
+If you work in a noisy office, but find music too distracting, try
+these randomly generated noise sources. Dr. Stéphane Pigeon uses the
+Web Audio API where available to create and modify ambient noise. The
+code is unminified and well-explained, and shows how to process loops
+using a variety of Web Audio node types.
+
+- [http://mynoise.net/noiseMachines.php](http://mynoise.net/noiseMachines.php)
+
+## Building a Synthesizer with the Web Audio API ##
+
+The folks at Treehouse have written a tutorial on building a
+theremin-style synth. It's a nice example of hooking up Web Audio to a
+user interface.  I tried the demo on my android phone using Google
+Chrome, and I was surprised how well it worked with the touch
+interface. We might see some exciting audio applications coming to
+mobile soon!
+
+- [http://blog.teamtreehouse.com/building-a-synthesizer-with-the-web-audio-api](http://blog.teamtreehouse.com/building-a-synthesizer-with-the-web-audio-api)

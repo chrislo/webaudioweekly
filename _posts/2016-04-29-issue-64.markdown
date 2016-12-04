@@ -1,0 +1,143 @@
+---
+layout: post
+title:  "Issue 64"
+permalink: "/64"
+---
+
+## Jory Prum: 1975-2016 ##
+
+It is with great sadness that I mark the recent passing of Jory
+Prum. Jory was best-known for his sound engineering work at LucasArts
+where he created the sound tracks for well-loved games such as Sam &
+Max, Monkey Island and Grim Fandango. Jory was also an enthusiastic
+early adopter of Web Audio, contributing his experience with game
+audio to the early designs of the Web Audio API and collecting
+interesting links and articles on his
+[HTML5 Audio](http://www.html5audio.org/) blog. I was lucky to spend
+time with Jory through this shared interest and his warmth, generosity
+and enthusiasm will be missed by all who knew him.
+
+- [Remembering Jory Prum](http://designingsound.org/2016/04/remembering-jory-prum/)
+- [Double Fine, LucasArts audio legend Jory Prum dies, aged just 41](http://www.eurogamer.net/articles/2016-04-25-lucasarts-audio-legend-jory-prum-dies-aged-just-41)
+
+## Novation use Web MIDI to bring Circuit to the web ##
+
+[Circuit](https://uk.novationmusic.com/circuit/circuit) is a
+MIDI-controller, synth, sequencer and drum machine combined into a
+playable hardware interface. To allow more control over the device,
+Novation have built a Web MIDI-powered application that allows you to
+upload new samples as well as edit and share patches. It's exciting to
+see that this isn't a side-project for Novation. They've promoted the
+app heavily on their homepage showing the confidence they have in the
+stability and utility of Web MIDI.
+
+- [https://components.novationmusic.com/](https://components.novationmusic.com/)
+
+## mod-synth.io ##
+
+mod-synth.io is a really slick synthesiser application which allows
+you to build patches in a "modular" style by connecting oscillators,
+filters and other building blocks together. The UI is intuitive with a
+handy tutorial to help you get started. The synth has MIDI support so
+you can play using a real controller instead of the default QWERTY
+mapping, and you can save patches by logging in. One of the
+best-executed web synthesisers I've seen.
+
+- [http://mod-synth.io/](http://mod-synth.io/)
+
+## Cracked ##
+
+Way back in
+[issue 24](http://blog.chrislowis.co.uk/waw/2014/08/16/web-audio-weekly-24.html)
+we learned about Bill Orcutt's minimal DSL for chaining audio graphs -
+"I dropped my phone the screen cracked". Bill has now packaged the
+library up as a standalone OS X application, complete with MIDI
+interface, called Cracked. It combines a live-coding interface with
+MIDI inputs that, says Bill, "feels like a software equivalent to one
+of the cheap Silvertone or Kay guitars I use – something primitive and
+stripped down, where the inner workings are exposed and easily
+modifiable, and the music feels like it's being made by you rather
+than by the program.”
+
+Wire magazine carry more details of the backstory, and a demo video.
+
+- [https://github.com/billorcutt/Cracked](https://github.com/billorcutt/Cracked)
+- [http://www.thewire.co.uk/news/41540/bill-orcutt-releases-open-source-audio-programme](http://www.thewire.co.uk/news/41540/bill-orcutt-releases-open-source-audio-programme)
+
+## Mira ##
+
+From Active Studio and Plan8 comes Mira, a "meditative experience for
+web, mobile, physical installation and VR all using the same
+JavaScript codebase". Play with the application in the first link and
+read more about the technical details of this ambition project over on
+medium.
+
+- [http://mira.activetheory.net/](http://mira.activetheory.net/)
+- [Mira: Exploring the potential of the future web](https://medium.com/@activetheory/mira-exploring-the-potential-of-the-future-web-e1f7f326d58e#.ce355gdlz)
+
+## Envelope Generator ##
+
+`envelope-generator` is a library from Joe Sullivan to help you build
+envelopes for your Web Audio applications. An envelope is a series of
+parameter changes that you might apply, for example, to the volume of
+a sound to synthesise the rise and fall of a real instrument. The
+library lets you easily specify what are known as ADSR
+(attack-decay-sustain-release) envelopes without worrying about the
+fiddly parameter scheduling you'd have to do when working directly
+with the Web Audio API.
+
+- [http://joesul.li/van/envelope-generator/](http://joesul.li/van/envelope-generator/)
+
+## `midi-ports`: easy access to MIDI hardware ##
+
+A handy library to make it easier to work with attached MIDI devices,
+`midi-ports` provides inputID, outputID, name, and manufacturer of all
+attached devices as JS objects.
+
+- [https://www.npmjs.com/package/midi-ports](https://www.npmjs.com/package/midi-ports)
+
+## MIDI Logger - debugger console for MIDI ##
+
+Attach a MIDI device and quickly see which messages are being sent as
+you use it. Great for debugging Web MIDI applications or writing new
+device interfaces.
+
+- [http://outputchannel.com/midi-logger/](http://outputchannel.com/midi-logger/)
+
+## A curated list about Audio Visualisation ##
+
+A huge list of resources and links about visualising audio both on the
+web and elsewhere.
+
+- [https://github.com/willianjusten/awesome-audio-visualization](https://github.com/willianjusten/awesome-audio-visualization)
+
+## WKT Audio: Web Audio API file loader ##
+
+WKT Audio is a library which allows you to load a sound and a
+predefined part of a Web Audio node graph at the same time. For
+example, the following code loads two samples, and attaches them both
+to a gain node.
+
+    var resources = {
+      snare: "sounds/snare.mp3",
+      drum: "sounds/drum_loop.mp3",
+      nodes: function nodeGraph(sound) {
+        var gain = audioContext.createGain();
+        gain.gain.value = 0.5;
+        sound.connect(gain);
+        gain.connect(audioContext.destination);
+      }
+    }
+
+    var sound = wktAudioBatch(resources);
+    sound.snare.play();
+
+- [https://github.com/wktdev/WKT-Audio](https://github.com/wktdev/WKT-Audio)
+
+## Gregorian Voices: Early Roman Catholic Church Song Generator ##
+
+> If you wish, allow yourself to escape your busy life for a while,
+> and re-connect with yourself. Close your eyes, and let the ancient
+> sounds of Monks carry you away.
+
+- [Gregorian Voices](http://mynoise.net/NoiseMachines/gregorianChoirGenerator.php)

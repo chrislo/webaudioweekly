@@ -1,0 +1,120 @@
+---
+layout: post
+title:  "Issue 30"
+permalink: "/30"
+---
+
+This week I was in Paris for the 1st International Web Audio
+Conference, organised by IRCAM and Mozilla. It was a fantastic event
+bringing together developers, musicians, researchers and others for 3
+days of Web Audio fun. I thought I'd use this issue to share some of
+the themes that stood out to me at the conference. It's certainly not
+an exhaustive list, so I apologise in advance if I missed you or your
+favourite project out. The
+[full programme](http://wac.ircam.fr/program.html) of the conference
+is a good place to start exploring some of the other ideas that were
+presented.
+
+## Timing and Scheduling ##
+
+A common theme at the conference was how to work with time and
+scheduling in the Web Audio API. While the API provides a high-level
+interface for defining the audio node graph, the scheduling of audio
+events is fiddly. Inspired by Chris Wilson's
+[A Tale of Two Clocks](http://www.html5rocks.com/en/tutorials/audio/scheduling/)
+blog post, several authors demonstrated useful abstraction libraries
+at the conference.
+
+- Norbert Schnell and co-authors clearly describe the problem and
+  their solution in their paper
+  [Of Time Engines and Masters](http://wac.ircam.fr/pdf/wac15_submission_19.pdf). The
+  granular synthesis demos they gave at the conference clearly showed
+  the power of their library.
+- Chinmay Pendharkar and co-authors tackled scheduling too as part of
+  their
+  [port of a flash audio engine to Web Audio](http://wac.ircam.fr/pdf/wac15_submission_12.pdf).
+- Finally, Yotam Mann gave a fantastic overview and demo of his
+  [Tone.js](https://github.com/TONEnoTONE/Tone.js/) library which has
+  a very comprehensive set of functions for working with time and scheduling.
+
+## Audio Workers and custom DSP ##
+
+The ScriptProcessorNode solution to executing custom JavaScript audio
+code is deprecated, and was widely considered to have been a poor
+solution to this problem by those at the conference. The
+[proposal from Chris Wilson for an AudioWorker replacement](https://cwilso.github.io/web-audio-api/#the-audioworker)
+was met with a lot of excitement and support. Several of the papers
+presented dealt with how to compile existing DSP code into a form that
+could be used in the new AudioWorker node (or demonstrated the
+feasibility using the deprecated ScriptProcessorNode).
+
+- In particular I enjoyed the demonstration of a [port of CSound to the
+  Web Audio API](http://wac.ircam.fr/pdf/wac15_submission_14.pdf).
+- Paul Adenot, Mozilla developer and co-editor of the Web Audio spec
+  gave a
+  [great keynote speech](https://padenot.github.io/wac-14-keynote/#1)
+  on some of the challenges we face in improving the performance of
+  the Web Audio API to near native speeds.
+
+## Tools and Education ##
+
+I loved the theme of teaching and exploring that ran through the
+conference. It seems that the Web Audio API is gaining traction as a
+technology with with to teach music technology, computer programming
+and audio concepts.
+
+- [Braid](http://braid.nexusosc.com/) is a very polished drag-and-drop
+  tool for building and distributing instruments and interfaces
+  developed at Lousiana State University.
+- [EarSketch](http://wac.ircam.fr/pdf/wac15_submission_3.pdf) is used
+  to teach programming concepts by allowing students to build their
+  own digital audio workstation. The earlier desktop versions suffered
+  from cross-platform and installation issues in schools, so this new
+  port to the Web Audio API was undertaken to make it more accessible.
+- Kyle Stetz made the most impressive demo of the conference with
+  [Lissajous](http://lissajousjs.com/), the live coding environment he
+  has developed. Its concise API maps to Kyle's way of thinking about
+  how to compose music in real time and allows the expression of
+  musical ideas rapidly with minimal learning of syntax.
+- Joe Berkovitz talked about [NoteFlight](http://www.noteflight.com/)
+  a collaborative sheet-music editing application for musicians that
+  uses the Web Audio API extensively.
+- If you're not using the
+  [Firefox Web Audio developer tools](https://developer.mozilla.org/en-US/docs/Tools/Web_Audio_Editor)
+  yet, you should be. Jason Santell gave a
+  [great presentation](https://jsantell.github.io/web-audio-tools-2015/#1)
+  of all the new and upcoming features.
+
+## Performances ##
+
+The Web Audio gigs on Tuesday evening were surprising. Coming into the
+conference I'd expected several demos of live-coding environments and
+solo music performances made with the Web Audio API or related
+technologies. Instead, all of the gigs actually put the music making
+in the hands of the audience by using the Web Audio API on smart
+phones to create immersive, distributed soundscapes. I think for me
+the performances that worked best were the ones that involved less
+interactivity, as they allowed me spend time listening to the
+creations. [Ben Houge's](http://benhouge.com/) solo vocal rendition of
+his poem The Tomb of the Grammarian Lysias was accompanied by tones
+that moved around the performance space. Drops, by Sébastien
+Robaszkiewicz and Norbert Schnell, was a Brian Eno-style experience
+which allowed us to create melodies by tapping out simple rythms and
+then listening for their echoes on other devices from across the room.
+
+I expect to see more of this kind of experimention in the future, and
+enjoyed how it brought us all together in an unusual and musical way
+at the end of the conference.
+
+## Finally - Hya-Wave released ##
+
+While preparing for and attending the conference I haven't managed to
+get a newsletter out, which means I haven't been able to tell you
+about Hya-Wave - a new and extremely polished collaborative sample
+editor from Cristiano Belloni. There's a lot of potential use-cases
+for the Web Audio API in the area of collaborative tools for
+musicians, and it looks like Hya-Wave is just the start from
+Cristiano. Read more and try out the application linked from his
+introductory blog post.
+
+- [Hya-Wave released](https://blog.hya.io/hya-wave-released/)

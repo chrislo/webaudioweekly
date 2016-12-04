@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Issue 32"
+permalink: "/32"
+---
+
+## Google I/O 2015 Web Audio Demo ##
+
+As has become customary, the announcement page for Google's annual I/O
+conference is pretty spectacular. This year they have created a theme
+tune with animations and sound generated using the Web Audio API. You
+can click on the various 'instruments' to create your own
+variations. It's very impressive, and works really well in Safari,
+Firefox and Opera too.
+
+- [https://events.google.com/io2015/](https://events.google.com/io2015/)
+  (click on the equaliser to launch the demo)
+
+## Web Audio API in Node.js ##
+
+The Web Audio API implementation in Node.js has come on a little way
+since I last looked at it. It has basic support for AudioContexts and
+a handful of node types, with a clear, extensible architecture and a
+good test suite. There's still a lot of work to be done, but if being
+able to run Web Audio code on the server would be useful to you,
+contributions are welcomed.
+
+- [https://github.com/sebpiq/node-web-audio-api](https://github.com/sebpiq/node-web-audio-api)
+
+## Videos from Web Audio Conf ##
+
+The Web Audio Conference organisers have done a fantastic job of
+turning around the videos of all of the talks so quickly. Take a look
+at my writeup of the conference in
+[issue 30](http://blog.chrislowis.co.uk/waw/2015/01/31/web-audio-weekly-30.html)
+if you don't know where to start.
+
+- [Web Audio Conference videos](http://medias.ircam.fr/search/?q=WAC+-+1st+Web+Audio+Conference)
+
+## Benchmarking FFT performance ##
+
+Chinmay Pendharkar has been looking at various options for calculating
+Fast Fourier Transforms in JavaScript and has developed a benchmark
+suite to test them against one another. If you're looking to do some
+offline calculations in a Web Worker, or create some custom code in
+the now-deprecated ScriptProcessor node (keep an eye on the Audio
+Worker proposals!) this benchmark should be useful.
+
+- [http://chinpen.net/webaudiofftperf/](http://chinpen.net/webaudiofftperf/)
+
+## AudioCrawl ##
+
+AudioCrawl gathers together a lot of audio demos and projects in one
+place and makes them easy to find using tags. Although it mentions Web
+Audio these demos are not exclusively built using the Web Audio API
+(there's some flash in there too), but give a great overview of the
+creative possibilities of audio on the web.
+
+- [http://audiocrawl.co/](http://audiocrawl.co/)
+
+## Converse Rubber Tracks Sample Library ##
+
+Converse have released a massive, royalty free sample library. I have
+no idea what it has to do with shoes, but it uses the Web Audio API
+for auditioning the samples in the browser and is a great source of
+well-recorded sounds if you need some for your next project.
+
+- [https://www.conversesamplelibrary.com/](https://www.conversesamplelibrary.com/)

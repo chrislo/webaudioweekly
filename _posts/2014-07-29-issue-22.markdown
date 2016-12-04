@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Issue 22"
+permalink: "/22"
+---
+
+## Web Audio API changes in Chrome 36 ##
+
+With the release of Chrome 36, Google are continuing their move
+towards the standardised version of the Web Audio API that the W3C are
+developing. This is great news for developers who want to write Web
+Audio applications that will run everywhere the API is supported, but
+it's a slightly painful since it means some breaking changes to the
+API in version 36 of Chrome (the current stable version). If you're a
+developer, and haven't been following development versions of Chrome,
+now's a good time to go and have a look at your existing applications
+and make sure they'll still work.
+
+Chris Wilson, editor of the W3C Web Audio spec, and developer
+evangelist at Google, has written up a handy guide with all the things
+to look out for.
+
+- [http://updates.html5rocks.com/2014/07/Web-Audio-Changes-in-m36](http://updates.html5rocks.com/2014/07/Web-Audio-Changes-in-m36)
+
+## Dub delay effects with the Web Audio API ##
+
+I wrote a blog post on how to create dub delay effects using the Web
+Audio API. It's fun effect that uses cycles in the Web Audio graph,
+the interface with the `<audio>` tag, and a `delayNode`. Go and have a
+play and let me know what you think.
+
+-[Creating dub delay effects with the Web Audio API](http://blog.chrislowis.co.uk/2014/07/23/dub-delay-web-audio-api.html)
+
+## Integration of Web Audio with WebRTC ##
+
+As well as using the Web Audio API to generate sounds, we can also use
+it to process the audio from video and audio elements, as well as the
+audio captured from a microphone or other input source. Here's several
+short examples that show you how to use this new interface.
+
+-[Web Audio / WebRTC MediaStream integration](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/webrtc-integration.html) (/via @maboa)
+
+## Serving up files for the Web Audio API ##
+
+This short post from Will Villanueva shows you how to set up a node.js
+server to serve audio files that can be loaded in to the Web Audio API
+for later processing. For some people it's a real advantage to be able
+to write javascript on both the server and the client, and it's useful
+to be able to have full control over the MIME type used to serve files
+since not all browsers behave in the same way in this regard. This
+blog post guides you through the full stack with a simple example.
+
+-[The Web Audio API - From Node/Express to Your Browser](http://www.willvillanueva.com/the-web-audio-api-from-nodeexpress-to-your-browser/)
+
+## Nexus UI ##
+
+A toolkit for quickly creating interfaces that can be hooked up to Web
+Audio experiments. Nexus UI provides a variety of knobs, slides and
+control surfaces that can control Web Audio parameters or OSC
+messages. It's similar in someways to Charlie Robert's
+[interface.js](http://www.charlie-roberts.com/interface/index.html),
+so take a look at both projects if this sounds like something that
+would be useful to you.
+
+-[NexusUI](https://github.com/lsu-emdm/nexusUI)
+
+## SuperCollider is easy and so can you! ##
+
+Developer and musician Callum Gunn has started a series of tutorials
+on SuperCollider. SuperCollider is a musicians programming language
+with some similarities to the Web Audio API in its approach, but with
+a longer history. It's really interesting to read Callum's posts to
+learn about how to create interesting effects in both environments.
+
+-[SuperCollider is easy and so can you!](http://supercollider.calumgunn.com/) (/via @jgwhite)

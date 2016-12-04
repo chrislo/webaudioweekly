@@ -1,0 +1,107 @@
+---
+layout: post
+title:  "Issue 51"
+permalink: "/51"
+---
+
+## Hands on Web Audio ##
+
+Sole Penadés, Web Audio expert at Mozilla, has created this fantastic
+slide deck to introduce the Web Audio API and demonstrate its
+capabilities. Frustrated with having to leave a presentation to run
+demos, Sole has embedded all of the examples directly in the
+slides. 'Slides' doesn't really do this justice - it's more of an
+interactive audio application and a great overview of the capabilities
+of the Web Audio API and modern browsers in general.
+
+- [http://soledadpenades.com/files/t/2015_howa/](http://soledadpenades.com/files/t/2015_howa/)
+- [https://github.com/sole/howa](https://github.com/sole/howa)
+
+## Looplabs ##
+
+Looplabs is a collaborative music-making application built with the
+Web Audio API that allows you to listen to tracks made by other
+musicians, and then remix or create entirely new songs yourself in the
+built-in multitrack "studio". The studio itself is a
+slickly-implemented interface reminiscent of traditional desktop music
+software, with individual tracks, effect busses and a library of
+samples and loops. The integrated chat feature allows you to
+collaborate with other people on your composition in real time.
+
+- [http://looplabs.com/](http://looplabs.com/)
+
+## Web Audio JS Developer at Looplabs ##
+### Sponsored post ###
+
+Looplabs are reimagining what music can and should be with a
+collaborative, cloud based music production platform. They're looking
+for developers who are familiar with the Web Audio and Web MIDI APIs
+and have experience developing full stack JS applications.
+
+- [http://looplabs.com/team/](http://looplabs.com/team/)
+
+## pizzicato.js ##
+
+`pizzicato.js` is a Web Audio API wrapper from Alejandro Mantecon
+Guillen. It's designed to abstract away some of the boilerplate code
+required when working with the API directly, allowing the user to
+specify audio graphs and combinations of effects at a higher level:
+
+
+    var sawtoothWave = new Pizzicato.Sound({
+        wave: { type: 'sawtooth' }
+    });
+
+    var delay = new Pizzicato.Effects.Delay();
+    sawtoothWave.addEffect(delay);
+
+
+- [https://github.com/alemangui/pizzicato](https://github.com/alemangui/pizzicato)
+
+## Blend4Web adds Web Audio support ##
+
+Blend4Web is a development platform for interactive 3D applications on
+the web. With the latest version developer can exploit some of the
+features of the Web Audio API without having to program with it
+directly. The new audio features allow directional sound sources to be
+added to 3D models within the Blend4Web environment, which compile
+down to Web Audio node graphs for deployment to the browser.
+
+- [https://www.blend4web.com/en/article/159/](https://www.blend4web.com/en/article/159/)
+- [https://www.blend4web.com/doc/en/audio.html](https://www.blend4web.com/doc/en/audio.html)
+
+## New node chaining API now in Firefox Nightly ##
+
+A small but significant change to the Web Audio API specification
+means that calling `connect()` on a Node returns the destination. This
+means node graphs can be created by method chaining:
+
+    var ctx = new AudioContext();
+    var gain = context.createGain();
+    var delay = context.createDelay();
+
+    gain.connect(delay).connect(ctx.destination)
+
+
+The change has already been implemented in FireFox nightly.
+
+- [https://twitter.com/padenot/status/659238322363994112](https://twitter.com/padenot/status/659238322363994112)
+
+## Pitch shift the audio from any HTML5 video ##
+
+Foxdog studios have taken Chris Wilson's
+[pitch shift demo](https://github.com/cwilso/Audio-Input-Effects) and
+packages it up as a Google Chrome extension allowing you to alter the
+pitch of any HTML5 video source, for example those found on YouTube.
+
+- [Pitch shifter Chrome Extension](https://chrome.google.com/webstore/detail/pitch-shifter-html5-video/mpmkclglcbkjchakihfpblainfncennj)
+
+## Trent Reznor: Archetype of a Synthesizer ##
+
+I'm not a big Nine Inch Nails fan, but I did enjoy this YouTube video
+from Moog Music where Trent Reznor talks about his musical history and
+his relationship with synthesizers. The way he speaks about the quirks
+and character of his favourite synths is a refreshing antidote to the
+usual narrative that electronic instruments are dry and clinical.
+
+- [https://www.youtube.com/watch?v=zAGtlgwFdhM](https://www.youtube.com/watch?v=zAGtlgwFdhM&)

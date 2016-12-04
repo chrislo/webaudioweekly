@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "Issue 55"
+permalink: "/55"
+---
+
+## PolyRhythm: a poly-rhythm generator and visualiser ##
+
+A poly-rhythm is the simultaneous playing of two rhythms that we
+(depending on our cultural context) perceive as being unrelated, or
+not derived from one another - for example playing 5/4 time
+superimposed over 4/4 time. Examples are found in sub-Saharan African
+musical traditions and in modern jazz music. Peter van der Noord's app
+allows you to randomly generate poly-rhythms, create your own from
+scratch and visualise them as spinning disks.
+
+- [http://www.petervandernoord.nl/polyrhythm/](http://www.petervandernoord.nl/polyrhythm/)
+
+## Web Audio, the ugly click and the human ear ##
+
+When you first start playing with parameter automation in Web Audio a
+very common problem is the generation of "clicks" - unpleasant sounds
+caused by suddenly changing value of a parameter. In this article you
+can learn what causes these clicks, hear their effect and importantly
+learn how to avoid them.
+
+- [https://alemangui.github.io/blog/2015/12/26/ramp-to-value.html](https://alemangui.github.io/blog/2015/12/26/ramp-to-value.html)
+
+## Making a WebGL music video ##
+
+Charlie Gleason of the band Brightly has made some beautiful web-based
+music videos including
+[Tweetflight](http://tweetflight.wearebrightly.com/) and
+[I will never let you go](https://iwillneverletyougo.com/). In this
+detailed post he goes into more detail on the latter and how it was
+put together using WebGL, WebRTC, Three.js and the Imgur API.
+
+- [Making An Interactive Music Video With WebGL by @superhighfives](https://medium.com/@superhighfives/making-a-music-video-f60757ceb4cf#.ufpz9p8z6)
+
+## Luden's Beat Box ##
+
+This is a really-well executed MPC-style beat box implemented using
+Web Audio and the react framework. The beatbox is fun to play with,
+but the meat of the interest is in the reddit post that announced it -
+there the authors go into some detail on the architecture, the use of
+React and Webpack, and how they created a version that works on
+browsers where the Web Audio API is not supported.
+
+- [https://www.ludensbeatbox.com/](https://www.ludensbeatbox.com/)
+- [https://www.reddit.com/r/javascript/comments/41vvav/i_built_an_mpc_web_app_to_learn_es6_webaudio/](https://www.reddit.com/r/javascript/comments/41vvav/i_built_an_mpc_web_app_to_learn_es6_webaudio/)
+
+## Should your web audio app have a limiter? ##
+
+If you play several sounds at once, there's a good chance you will
+cause clipping - an unpleasant distorted sound caused by saturating
+the dynamic range of your output device. To avoid this, you can use a
+"limiter" - although as Sebastian Zimmer discusses in this blog post,
+it's not quite as simple as dropping a `DynamicsCompressorNode` into
+your node graph.
+
+- [https://webaudiotech.com/2016/01/21/should-your-web-audio-app-have-a-limiter/](https://webaudiotech.com/2016/01/21/should-your-web-audio-app-have-a-limiter/)
+
+## Pierre Boulez ##
+
+Pierre Boulez, the French composer, conductor and founder of the
+research institute at the centre of many of the most important
+advances in computer music IRCAM, passed away in January. The UK's
+Guardian carried an in-depth obituary, and the current director of
+IRCAM, Frank Madlener, shared his thoughts in French and English on
+the IRCAM website.
+
+- [http://www.theguardian.com/music/2016/jan/06/pierre-boulez](http://www.theguardian.com/music/2016/jan/06/pierre-boulez)
+- ["Do, react, and above all, don't repeat"](http://www.ircam.fr/creation.html?event=1594&L=1)
