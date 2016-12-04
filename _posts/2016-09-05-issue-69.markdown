@@ -2,6 +2,7 @@
 layout: post
 title:  "Issue 69"
 permalink: "/69"
+summary: "Recreating the sounds of Brian Eno and Steve Reich, the latest on AudioWorklets, remixing and more."
 ---
 
 ## Systems Music ##
