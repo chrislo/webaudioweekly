@@ -23,3 +23,26 @@ task :tl do
   # Copy to clipboard
   IO.popen('pbcopy', 'w') { |f| f << content }
 end
+
+desc "Get recent bookmarks from pinboard"
+task :pins do
+  require 'open-uri'
+  require 'date'
+  require 'dotenv'
+  Dotenv.load
+
+  N_DAYS = 90
+
+  (Date.today - N_DAYS..Date.today).reverse_each do |date|
+    url = "https://api.pinboard.in/v1/posts/get?tag=waw&dt=#{date.to_s}"
+    doc = Nokogiri::XML(open(url, http_basic_authentication: [ENV['PINBOARD_USER'], ENV['PINBOARD_PASSWORD']]))
+
+    posts = doc.xpath('//post')
+
+    posts.each do |post|
+      desc = post.attribute('description').value
+      href = post.attribute('href').value
+      puts "[#{desc.empty? ? 'No description' : desc}](#{href})"
+    end
+  end
+end
