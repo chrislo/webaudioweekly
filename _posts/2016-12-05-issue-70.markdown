@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "Issue 70"
+permalink: "/70"
+summary: "Generative audio, animal orchestras, Web Audio soundfonts, infinite drum machines."
+---
+
+## Sounds Fun - Jake Archibald plays with the Web Audio API ##
+
+I've read a lot of blog posts from people playing with the Web Audio
+API for the first time. They always make great introductions to the
+API for new developers. This one is a little different however, coming
+as it does from prolific open source developer and Google developer
+advocate Jake Archibald. Jake introduces some basic concepts from the
+API such as playing and looping sounds, but also uncovers some edge
+cases and gotchas that caught him (and no doubt all of us) out. One of
+his explorations into gaps at the start of decoded compressed audio
+[resulted in him raising this issue against the spec](https://github.com/WebAudio/web-audio-api/issues/1091). A
+great read.
+
+- [Sounds fun - JakeArchibald.com](https://jakearchibald.com/2016/sounds-fun/)
+
+## Music Eclipticalis - generate music from star maps ##
+
+Taking inspiration from John Cage's Atlas Eclipticalis this
+interactive musical score superimposes a stave over a map of the sky
+to generate a continuous musical piece from the position of stars in
+the sky. Brian Foo, the creator of this beautiful and meditative
+piece, has documented his work and approach in an accompanying blog
+post.
+
+- [Music Eclipticalis By Brian Foo](http://eclipticalis.com/)
+- [Music Eclipticalis: A Song Using the Position of the Stars As Seen From Earth](https://datadrivendj.com/tracks/stars)
+
+## Web Audio Weekly has a new home ##
+
+I've been developing a new website to hold the archives of this
+newsletter. It's pretty generic at the moment, but I'd like to add
+some tagging and searching functionality at some point to help you
+find interesting links from the archive.
+
+I've been pretty quiet in this newsletter for the last few months but
+I'd like to say thank you to all of you who have emailed me to
+encourage me to keep writing, it's much appreciated. I did find time
+recently to give an interview to the Art + Music + Technology podcast
+if you'd like to learn more about how I got involved with Web Audio
+and where I think we're going in the future.
+
+- [webaudioweekly.com](http://www.webaudioweekly.com)
+- [Art + Music + Technology : Podcast 143: Chris Lowis](http://artmusictech.libsyn.com/podcast-143-chris-lowis)
+
+
+## The infinite drum machine ##
+
+The AI experiments project from Google attempts to explain some of the
+approaches used in modern artificial intelligence and machine learning
+using sonic and visual demonstrations. In the infinite drum machine,
+Web Audio developer Yotam Mann (creator of the Tone.js library) and
+his collaborators explore how unsupervised clustering algorithms work
+by creating an interactive map of similar sounds.
+
+- [The Infinite Drum Machine - A.I. Experiments](https://aiexperiments.withgoogle.com/drum-machine)
+
+## Web Audio Font - Soundfont for Web Audio API ##
+
+Those of you who have been creating computer music for a long time may
+remember the Soundfont concept introduced in the Soundblaster sound
+cards popular in the '90s. A soundfont is essentially a file format for
+building wavetable synthesisers - digital instruments that use samples
+of real instruments as the basis of their synthesis.
+
+Srgy Surkv has used this concept to create a detailed sampled
+instruments that can be used with the Web Audio API. The library
+includes a full set of "general MIDI" style instruments - from
+acoustic grand pianos to drums via pan flutes, oboes and synths. A
+series of examples shows you how to use these instruments in your own
+applications.
+
+- [surikov/webaudiofont: Web Audio Font - Soundfont for Web Audio API](https://github.com/surikov/webaudiofont)
+
+## React and Web Audio ##
+
+If you are familiar with the React JavaScript framework and have been
+wondering how to use it for Web Audio applications, Joe Sullivan
+outlines his approach in this blog post.
+
+- [React and Web Audio](http://joesul.li/van/react-and-web-audio/)
+
+## Soundtracking a chess game using programmatic audio ##
+
+Ben Griffiths wanted to learn more about how music in computer games
+can be programmatically generated based on the action in the game itself. To learn more
+he wrote a music generator for Chess which uses a positional-evaluator
+to modify the harmonies of the music. The cacophony of explosions that
+proceed the eventual defeat of one player is a rare treat.
+
+- [https://techbelly.github.io/game-soundtrack/webaudio/](https://techbelly.github.io/game-soundtrack/webaudio/)
+
+## WaveNet: A Generative Model for Raw Audio ##
+
+A fascinating article from the DeepMind team that explores how audio
+can be generated using neural networks. Typical speech synthesis
+applications, for example, generate speech using a pre-prepared
+library of composite sounds. This approach is different - it generates
+sounds sample-by-sample at the level of the waveform itself having
+been trained on a vast library of examples. The paper explores how
+this can be extended to generative music.
+
+- [WaveNet: A Generative Model for Raw Audio](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
+
+## The Great Animal Orchestra ##
+
+An interactive application to accompany an exhibition by musician and
+bioacoustician Bernie Krause at the Fondation Cartier pour l'art
+contemporain. Explore the beautifully recorded sounds of nature
+arranged by landscape and frequency content.
+
+- [The Great Animal Orchestra](http://www.legrandorchestredesanimaux.com/)
