@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'set'
 
 desc "Put HTML of latest issue on clipboard for pasting into tinyletter"
 task :tl do
@@ -33,6 +34,8 @@ task :pins do
 
   N_DAYS = 90
 
+  excluded_links = all_links
+
   (Date.today - N_DAYS..Date.today).reverse_each do |date|
     url = "https://api.pinboard.in/v1/posts/get?tag=waw&dt=#{date.to_s}"
     doc = Nokogiri::XML(open(url, http_basic_authentication: [ENV['PINBOARD_USER'], ENV['PINBOARD_PASSWORD']]))
@@ -42,7 +45,22 @@ task :pins do
     posts.each do |post|
       desc = post.attribute('description').value
       href = post.attribute('href').value
-      puts "[#{desc.empty? ? 'No description' : desc}](#{href})"
+      unless excluded_links.include?(href)
+        puts "[#{desc.empty? ? 'No description' : desc}](#{href})"
+      end
     end
   end
+end
+
+def all_links
+  links = Set.new
+
+  Dir.glob('_site/*.html').each do |fn|
+    doc = Nokogiri::XML(open(fn))
+    doc.xpath('//a').map do |link|
+      links << link.attribute('href').value
+    end
+  end
+
+  links
 end
