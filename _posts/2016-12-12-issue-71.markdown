@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "Issue 71"
+permalink: "/71"
+summary: "Acid machines, virtual reality, GUIs for Web Audio graph design, sound art."
+---
+
+## Acid Machine 2 ##
+
+Acid Machine is an integrated music production environment featuring a
+sequencer hooked up to some classic-sounding emulations of TB-303
+synths and a drum machine with a full set of retro-sounding
+samples. If you've ever
+used
+[Rebirth from Propellerhead](https://www.propellerheads.se/rebirth)
+this arrangement will be very familiar to you. The app feels solid and
+intuitive (especially if you have familiarity with the
+machines/software it is emulating). An interesting feature is the
+availability of a paid-for [Electron](http://electron.atom.io/)
+powered desktop version which can load Rebirth `.RBS` files. I also
+love the implementation of a MIDI "learn" mode to map controller signals
+to the knobs and buttons of the virtual tools.... now I just need
+to
+[make a nice MIDI controller](http://djtechtools.com/2015/08/25/how-to-make-your-own-diy-midi-controller/) to
+play with it!
+
+- [Acid Machine 2](http://www.errozero.co.uk/acid-machine/)
+
+## Web Audio Designer - a GUI for building Web Audio node graphs ##
+
+Web Audio Designer allows you to specify the nodes, connections and
+parameters of a Web Audio graph using a GUI. You can preview what a
+graph will sound like using the play buttons on each node, and even
+provide some basic controller elements to test interactions and
+parameter choices. An incredibly useful feature is the ability to
+export the graph you have built as JavaScript ready to edit and
+incorporate into your application. If I could have anything else it
+would be an "oscilloscope" node to help visually debug parts of the
+graph.
+
+- [WebAudioDesigner](http://g200kg.github.io/WebAudioDesigner/)
+
+## Comet ##
+
+Comet is a web synthesiser with an experimental interface. It features
+a double oscillator with 5 waveform, detune and gain mix each,
+filters, customizable effects all wrapped up in a colourful animated
+interface.
+
+- [Comet](https://venerons.github.io/Comet/)
+- [Comet: Web Synthesis on Steroids](https://venerons.tumblr.com/post/131702920023/comet-web-synthesis-on-steroids)
+
+## Audio User Experience explorations from Codrops ##
+
+Codrops is a web design and development blog. Musical Interactions
+explores how mouse gestures and other user interactions can be mapped
+to audio. There's a lot of different ideas here and the code is
+available on Github if something inspires you.
+
+- [Musical Interactions](http://tympanus.net/Development/MusicalInteractions/#)
+
+## W3C Workshop on Web & Virtual Reality ##
+
+Virtual reality is a rapidly emerging technology that is being
+explored both on and off the web platform. On the web the challenge of
+positioning audio in the same virtual space as the visual is being
+tackled using Web Audio - notably through
+Google's [Omnitone](http://googlechrome.github.io/omnitone/#home)
+project. This report from a recent W3C workshop gives a broad overview
+of the state of the art of VR on the web.
+
+- [Report of W3C Workshop on Web & Virtual Reality](https://www.w3.org/2016/06/vr-workshop/report.html)
+
+## Don't Just Mix ##
+
+Another inspiring Chrome Experiment - this time from Chi Zeng who has
+built an impressive multi-channel digital audio workstation (DAW). All
+the features you'd expect are here - including multi-channel recording
+and playback, an effects bus, solo and muting of channels and
+non-linear editing of the audio.
+
+- [Chrome Experiments - Just Don't Mix by Chi Zeng](https://www.chromeexperiments.com/experiment/just-dont-mix)
+
+## webmusic-icons ##
+
+A set of public domain icons that you can use in your audio
+projects. Featuring a variety of synths, microphones, instruments and
+connectors.
+
+- [webmusic-icons](https://webmusicdevelopersjp.github.io/webmusic-icons/)
+
+## A Brief Survey of Sound Art ##
+
+A fantastic overview of the history of sound art from the avant garde
+ambient of the early 1900's to the experiments of contemporary artists
+today.
+
+- [Bring Da Noise: A Brief Survey of Sound Art – Kenneth Goldsmith](https://reaktorplayer.wordpress.com/2016/11/13/bring-da-noise-a-brief-survey-of-sound-art-kenneth-goldsmith/)
