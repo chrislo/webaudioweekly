@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "Issue 72: Best of 2016"
+permalink: "/72"
+summary: "A collection of my favourite projects, tutorials and libraries from 2016."
+---
+
+Here is a collection of my favourite Web Audio and Web MIDI projects,
+tutorials and libraries from 2016.
+
+## Applications ##
+
+- [Chrome Music Lab](https://musiclab.chromeexperiments.com/): A
+  collection of playful explorations of music theory designed for
+  children.
+- [Polyrhythm](http://www.petervandernoord.nl/polyrhythm/): I loved
+  this interactive exploration of polyrythmic rhythms. Mesmerising but
+  also educational.
+- [Circuit Components from Novation](https://components.novationmusic.com/):
+  Novation were one of the major music technology manufacturers to
+  embrace Web MIDI this year with Circuit Components, their web-based
+  tool to enhance their Circuit synthesiser.
+- [Gregorian Voices](http://mynoise.net/NoiseMachines/gregorianChoirGenerator.php):
+  Stéphane Pigeon has built some beautiful background noise generators
+  this year, perfect for relaxing or drowning out the sounds of a
+  noisy office. I loved this Gregorian Chant generator.
+- [scribble.audio](http://scribble.audio/): Kyle Stetz blends
+  innovative audio ideas with beautiful interfaces, such as in
+  Scribble, his keyboard-cum-sketchpad.
+- [loopjs](http://loopjs.com/): Loop Drop is a stand-alone
+  music making application from Matt McKegg built with Web Audio and
+  Electron. Matt has performed at numerous conferences and festivals
+  this year using this software.
+- [Djenerator: A metal breakdown generator](http://djen.co/):
+  algorithmic composition meets heavy metal in this
+  seriously-impressive mashup.
+- [Music Eclipticalis By Brian Foo](http://eclipticalis.com/):
+  Generate music from star maps in the style of John Cage's Atlas
+  Eclipticalis.
+
+## Tools & Libraries ##
+
+- [Canopy](http://hoch.github.io/canopy/): Google Web Audio developer
+  Hongchan Choi's Canopy tool is my go-to for debugging, evaluating
+  and playing with Web Audio code.
+- [Omnitone: Spatial audio on the web](https://google-opensource.blogspot.co.uk/2016/07/omnitone-spatial-audio-on-web.html):
+  The growing interest in VR on the web requires powerful tools for
+  spatial audio. Omnitone delivers these in the form of a library for
+  binaural sound.
+
+## Tutorials ##
+
+- [JavaScript Systems Music: Learning Web Audio by Recreating The Works of Steve Reich and Brian Eno](http://teropa.info/blog/2016/07/28/javascript-systems-music.html):
+  A wonderful article from Tero Parviainen on recreating the sounds
+  and composition techniques of Steve Reich and Brian Eno using Web
+  Audio.
+- [Avoiding Clicks](https://alemangui.github.io/blog/2015/12/26/ramp-to-value.html):
+  Probably the most frequently asked technical question I encounter is
+  "how do I avoid clicks and popping sounds when working with Web
+  Audio". This article tells you all you need to know.
+- [Beat Detection Using JavaScript and the Web Audio API](http://joesul.li/van/beat-detection-using-web-audio/):
+  A practical and well-written tutorial from Joe Sullivan that takes
+  you beyond the basics of Web Audio by showing you how to detect
+  beats in music.
+- [Clapping Music, featuring Soledad Penadés](http://peertopeer.io/videos/10-soledad-penades/watch/):
+  This in-depth tutorial from Peer to Peer screencasts featuring
+  Mozilla's Soledad Penadés is a great introduction to the Web Audio
+  API.
+
+## Talks ##
+
+- [Paul Adenot: Elements of Dance Music](https://www.youtube.com/watch?v=Ww0jTafmd_w):
+  A virtuoso talk from Paul Adenot, lead developer of the Web Audio
+  implementation at Mozilla. Paul builds a techno song from scratch,
+  in real time, using the Web Audio API.
+- [Tools For Thought](https://acko.net/files/gltalks/toolsforthought/):
+  A wonderful animated explanation of mathematical transformations,
+  including the Fourier Transform, visualised and turned into sound
+  using WebGL and Web Audio.
+- [Unexpected Musical Instruments](https://vimeo.com/170005228):
+  Attending SudWeb was one of my highlights of the year. I had a great
+  time and gave this talk on scratching, circuit bending, computer
+  music and the Web Audio API.
+
+## The End ##
+
+- [What If There Was A Dubstep Song But Instead Of The Drop There Was Just The Seinfeld Theme Song](https://soundcloud.com/chrstnandrkn).
