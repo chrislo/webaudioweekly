@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "Issue 73"
+permalink: "/73"
+summary: "Explore the radio of the world, micro-tonal scales, arpeggios and more."
+---
+
+## Radio Garden ##
+
+Explore the radio stations of the world with this application. As you
+spin the globe random radio stations from each location are played. I
+found it surprisingly addictive to explore the similarities in music
+played across the world but the huge differences in speech and local
+radio. The Creative Applications write up gives some more of the
+technical detail behind the project.
+
+- [radio.garden/][http://radio.garden/]
+- [Radio Garden – Radio in the age of globalisation and digitisation](http://www.creativeapplications.net/js/radio-garden-radio-in-the-age-of-globalisation-and-digitisation/)
+
+## WeTracker ##
+
+WeTracker is a faithful reconstruction of a 90's style Tracker
+application (and in particular is modelled after
+FastTracker2). Trackers were heavily used in the demoscene and could
+create compact, multi-sampled compositions for games. WeTracker has
+support for loading MOD files, so you can try playing some [songs from
+the
+[ModLand archive](http://modland.com/pub/modules/Fasttracker%202/). If
+you're interested in Tracker music Paul Gregory the author of
+WeTracker is looking for collaborators
+so [take a look at the repo](https://github.com/pgregory/wetracker).
+
+- [WeTracker demo song](http://wetracker.herokuapp.com/#/loadsong?play=1&url=http%3A%2F%2Fmodland.com%2Fpub%2Fmodules%2FFasttracker%25202%2F6Pac%2Four%20journey.xm)
+- [WeTracker documentation](https://pgregory.github.io/wetracker/)
+
+## Probe: AudioTool Online Sample Editor ##
+
+AudioTool have long provided
+an
+[online, collaborative music making platform](https://www.audiotool.com/) based
+on Flash. They have started work to migrate the tool to the web
+platform using the Web Audio API but for such a complicated
+application this is a huge amount of work. Recently they announced a
+stand-alone tool called Probe which acts as a fully-featured sample
+editor. The waveform zooming, selection and editing in particular is
+very fast and intuitive.
+
+- [Audiotool Launches Free Online Sample Editor](http://audiotool.tumblr.com/post/154758534597/audiotool-launches-free-online-sample-editor)
+
+## Chant by Waterplea ##
+
+An impressive ASCII-based multi-channel composition environment from
+the band Waterplea.
+
+- [Chant by Waterplea](http://www.waterplea.com/chant/)
+
+## Hebdomad ##
+
+Hebdomad is a Xenharmonic Musical Instrument - that is an instrument
+designed to allow you to explore the spaces between the standard 12
+notes used in a traditional western music octave. The application has
+a range of built in 7-note scales to try.
+
+- [Hebdomad](http://brianginsburg.com/hebdomad/#)
+
+## Musical Chord Progression Arpeggiator ##
+
+A fun application for exploring arpeggios in different styles and
+keys.
+
+- [CodePen - Musical Chord Progression Arpeggiator](http://codepen.io/jakealbaugh/full/qNrZyw/)
+
+## The original TETRIS game simulator ##
+
+This TETRIS clone implemented in JavaScript attempts to recreate the
+look and sounds of the original 1984 version for the DVK-2 computer.
+
+- [ytiurin/tetris: The original TETRIS game simulator](https://github.com/ytiurin/tetris)
+
+## 8-bit Music Theory ##
+
+The 8-bit Theory YouTube channel explores classic video game music to
+work out how and why it sounds the way it does.
+
+- [8-bit Music Theory YouTube channel](https://www.youtube.com/channel/UCeZLO2VgbZHeDcongKzzfOw)
