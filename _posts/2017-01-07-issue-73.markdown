@@ -14,7 +14,7 @@ played across the world but the huge differences in speech and local
 radio. The Creative Applications write up gives some more of the
 technical detail behind the project.
 
-- [radio.garden/][http://radio.garden/]
+- [radio.garden](http://radio.garden/)
 - [Radio Garden – Radio in the age of globalisation and digitisation](http://www.creativeapplications.net/js/radio-garden-radio-in-the-age-of-globalisation-and-digitisation/)
 
 ## WeTracker ##
