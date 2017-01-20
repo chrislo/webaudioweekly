@@ -65,7 +65,7 @@ Neuroscientists at MIT have discovered that the brain is particularly
 biased towards hearing and producing rhythms composed of simple
 ratios.
 
-- [How the brain perceives rhythm | MIT News](https://news.mit.edu/2017/how-brain-perceives-rhythm-1205)
+- [How the brain perceives rhythm: MIT News](https://news.mit.edu/2017/how-brain-perceives-rhythm-1205)
 - [Integer Ratio Priors on Musical Rhythm Revealed Cross-culturally by Iterated Reproduction. Jacoby, McDermott](http://dx.doi.org/10.1016/j.cub.2016.12.031)
 
 ## Mountain Pasture: The sound of the alps
