@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Issue 74"
+permalink: "/74"
+summary: "Earthquakes, glitches, visualisations, goats."
+---
+
+## Sound from earthquakes
+
+> There are about 1.4 million earthquakes every year
+>
+> Fortunately, the vast majority of them are low in magnitude, occur
+> in uninhabited areas or are centred deep in the Earth’s crust.
+>
+> earth.audio is a visualisation of all detected earthquakes over the
+> previous day. The events are shown in the order they happened during
+> the day, using the daily data feed from the US Geological Service
+> which is updated every five minutes.
+
+- [earth.audio/](http://earth.audio/)
+
+## Re-addressing Audio Analysis
+
+For the 12th day of the 12 devs of Christmas advent calendar, Ruth
+John explained how to visualise sounds using the Web Audio API. I must
+have missed this in the run up to Christmas, but it's a fantastic
+tutorial on building an animated level meter driven by the frequency
+content of audio.
+
+[Beat ‘dis: Re-addressing Audio Analysis – 12 Devs of Xmas](http://12devsofxmas.co.uk/2017/01/day-12-beat-dis-re-addressing-audio-analysis/)
+
+## A new website for tone.js
+
+Yotam Mann has created a new website for his extensive `tone.js`
+library. `tone.js` provides a slightly higher-level API on top of the
+Web Audio API with support for scheduling sounds, combining node
+graphs into reusable components, additional oscillator types and
+more. This new website for the library acts as an introduction and a
+tutorial.
+
+- [tonejs.github.io](https://tonejs.github.io/)
+
+## Dynamic game audio
+
+An in-depth article from Louis Philippe Dion on various techniques for
+creating dynamic game effects that react to the environment and
+circumstances the player finds themselves in. There's nothing Web
+Audio-specific in this article but the techniques for creating
+simulated acoustic environments can be applied using the Web Audio's
+`panner` and `convolver` nodes.
+
+- [Gamasutra: Dynamic audio in destructible levels in Rainbow Six: Siege](http://www.gamasutra.com/view/news/288565/Game_Design_Deep_Dive_Dynamic_audio_in_destructible_levels_in_Rainbow_Six_Siege.php)
+
+## Leander Herzog
+
+Leander Herzog is a visual and sound artist who also creates works for
+the web. These audio/visual pieces have a great lo-fi, glitchy
+aesthetic.
+
+[Leander Herzog](https://leanderherzog.ch/audio/)
+
+## How the brain perceives rhythm
+
+Neuroscientists at MIT have discovered that the brain is particularly
+biased towards hearing and producing rhythms composed of simple
+ratios.
+
+- [How the brain perceives rhythm | MIT News](https://news.mit.edu/2017/how-brain-perceives-rhythm-1205)
+- [Integer Ratio Priors on Musical Rhythm Revealed Cross-culturally by Iterated Reproduction. Jacoby, McDermott](http://dx.doi.org/10.1016/j.cub.2016.12.031)
+
+## Mountain Pasture: The sound of the alps
+
+On a day like today, I wish I were wandering alone in the alps, a
+babbling brook at my feet; the faint mewing of a goat for
+company. This is the next best thing.
+
+- [MyNoise: Mountain Pasture](https://mynoise.net/NoiseMachines/alpsMountainPastureSoundscapeGenerator.php)
