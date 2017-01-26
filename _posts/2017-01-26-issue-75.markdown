@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "Issue 75"
+permalink: "/75"
+summary: "Algorithmic music, visualisation and ADSR-envelope libraries, architectural acoustics."
+---
+
+## Mubert: algorithmically generated music
+
+Mubert creates an endless playlist of listenable electronic music in
+various styles including ambient, trap, deep house and trance. Being
+entirely computer generated the music is naturally somewhat
+generic-sounding but impressively orchestrated and listenable. I can
+see this application working great as interruption-blocking background
+music, or as part of a royalty-free soundtrack.
+
+- [Mubert: online music composer](http://mubert.com/en/)
+
+## Charanga seek full-time web audio developer
+
+[Charanga](http://charanga.com/) is recruiting a full-time web audio
+javascript developer to work in its Brighton, UK, seaside office (no remote
+work, sorry!). Salary up to £38.5K depending on experience. Closing date
+for [applications](http://charanga.com/jobs) is March 5th, 2017.
+
+They operate over 100 websites, a couple of iOS/Android apps, a PC, Mac and
+Linux desktop app and a suite of music education apps, all built with HTML,
+CSS and javascript.
+
+Charanga is used in more than 6500 schools in the UK, by tens of thousands
+of teachers and pupils, and we are currently expanding globally.
+
+Building web-audio applications to support curriculum, instrumental and
+electronic music-teaching in the classroom, your initial projects will be a
+secondary school composition and vocal recording application, and a
+music-theory training application.
+
+- [charanga.com/jobs](http://charanga.com/jobs) (sponsored link)
+
+## Fastidious Envelope Generator
+
+It's surprisingly difficult to create classic
+attack-decay-sustain-release (ADSR) envelopes using parameter
+automation in the Web Audio API. If you don't take care to
+consistently ramp gain to zero then pops and clicks can occur;
+scheduling all of the parameter changes needed for an envelope at an
+arbitrary point in the future is also a complex book-keeping
+exercise. This library abstracts away these implementation details and
+provides you instead with a higher-level interface for declaring
+parameter envelopes. A welcome addition to the Web Audio toolkit.
+
+- [fastidious-envelope-generator: Envelope generator for the Web Audio API](https://github.com/rsimmons/fastidious-envelope-generator)
+
+## Clubber - audio reactive visualizations
+
+Clubber is a JavaScript library that takes the hard work out of
+creating synced visualisations of audio. Connect the clubber node to
+another audio node in your Web Audio application and you can
+periodically request a variety of measures of the sound - for example
+the average energy of all active notes or a power-weighted average
+MIDI index. The github page for the library links to some fantastic
+demos.
+
+- [wizgrav/clubber: Application of music theory in audio reactive visualizations](https://github.com/wizgrav/clubber)
+
+## Book: JavaScript for Sound Artists
+
+This new book from William Turner and Steve Leonard looks
+interesting. It hasn't been published yet, and I haven't read a copy,
+but the table of contents promises a full-introduction to programming
+in JavaScript for non-programming artists followed by a tour of the
+features of the Web Audo API.
+
+- [JavaScript for Sound Artists: Learn to Code with the Web Audio API](http://amzn.to/2jC7s36)
+
+## DrumIt - create your own drum beats
+
+A fun grid-sequencer drum machine application with a variety of sample
+acoustic and electronic drum kits. You can save the patterns you come
+up with and export them as WAV files.
+
+- [DrumIt: create your own drum beats on any mobile device or desktop](http://drumit.site/)
+
+## Tonehack
+
+Tonehack is an exploration in timbre - how the tonal qualities of a
+sound can vary so much even when the pitch stays the same. It puts you
+in control of each harmonic of the sound by allowing you to draw the
+volume and pitch envelopes and how they vary with time. A large
+variety of presets helps to illustrate the theory.
+
+- [tonehack.com](http://tonehack.com/)
+
+## 99% Invisible: The Evolution of Architectural Acoustics
+
+The history of the study of reverberation covered beautifully in this
+20min podcast episode and show notes from the 99% Invisible team.
+
+- [Reverb: The Evolution of Architectural Acoustics](http://99percentinvisible.org/episode/reverb-evolution-architectural-acoustics/)
