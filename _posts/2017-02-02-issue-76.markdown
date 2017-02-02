@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "Issue 76"
+permalink: "/76"
+summary: "Finding Love, Space Echoes, playing the blues, Terry Riley."
+---
+
+## Finding Love ##
+
+> Finding Love is a fully interactive, Virtual Reality story that
+> transforms emotions into art. Moving through five distinct chapters,
+> you experience the journey purely through visuals and sound.
+
+For the full virtual-reality experience you'll need an Oculus Rift,
+HTC Vive or Google Cardboard device, but the experience is still
+pretty mesmerising when viewed in a regular browser. The case study
+gives all the technical details.
+
+- [Finding Love](https://findinglove.activetheory.net/)
+- [Finding Love: Case Study](https://medium.com/@activetheory/finding-love-b4cf6727721b#.q29rnzig4)
+
+## Charanga seek full-time web audio developer
+
+[Charanga](http://charanga.com/) is recruiting a full-time web audio
+javascript developer to work in its Brighton, UK, seaside office (no remote
+work, sorry!). Salary up to £38.5K depending on experience. Closing date
+for [applications](http://charanga.com/jobs) is March 5th, 2017.
+
+They operate over 100 websites, a couple of iOS/Android apps, a PC,
+Mac and Linux desktop app and a suite of music education apps, all
+built with HTML, CSS and JavaScript.
+
+Charanga is used in more than 6500 schools in the UK, by tens of
+thousands of teachers and pupils, and we are currently expanding
+globally.
+
+Building web-audio applications to support curriculum, instrumental
+and electronic music-teaching in the classroom, your initial projects
+will be a secondary school composition and vocal recording
+application, and a music-theory training application.
+
+- [charanga.com/jobs](http://charanga.com/jobs) (sponsored link)
+
+## You can play the blues! ##
+
+Jam along to a blues backing track with this fun guitar simulator. The
+application has done the hard work of picking the notes for you - you
+just have to choose which ones to play!
+
+- [The Bluesman: You can play the blues](http://codepen.io/gregh/full/zNzvOm/) (/via [@rumyra](https://twitter.com/Rumyra))
+
+## Web Audio Meetup in Berlin ##
+
+On the 22nd February SoundCloud are hosting another get-together for
+Web Audio enthusiasts at their office in Berlin.
+
+- [Web Audio Meetup #4 - Berlin Web Audio Meetup](https://www.meetup.com/Berlin-Web-Audio-Meetup/events/237368341/)
+
+## Inside the Roland RE-201 Space Echo ##
+
+An 3D, animated explanation of the inner workings of a classic Roland
+tape delay device.
+
+- [Inside the Roland RE-201 Space Echo](http://daily.redbullmusicacademy.com/specials/2016-inside-a-space-echo/)
+
+## Learn to code electronic music tools with JavaScript ##
+
+This free course from Goldsmiths University looks like it will be an
+excellent introduction into JavaScript programming and the Web Audio
+API.
+
+- [Learn to Code Electronic Music Tools with Javascript - Free online course](https://www.futurelearn.com/courses/electronic-music-tools)
+
+## Noises Online ##
+
+Create your own unique blend of relaxing, background-noise-blocking
+sounds to help you concentrate while you work.
+
+- [Online Background Noises • Masking Sounds • Relaxing Tones](https://noises.online/)
+
+## Beadz ##
+
+Beadz is an experimental, polymetric drum machine. Along with the
+familiar grid-style interface for laying out loops, you can also set a
+probability that each sound will be played, creating endlessly
+shifting rhythms from simple patterns.
+
+- [Beadz drum machine](https://heydon.github.io/beadz-drum-machine/)
+
+## Terry Riley's "In C" ##
+
+In this wonderful article, Tero Parviainen's explores Terry Riley's
+"In C" composition. "In C" provides each musician in an ensemble with
+a series of simple patterns and leaves the musicians to choose how
+many times they play each pattern and when to move on to the
+next. Tero explains how such simple rules, combined with the
+musicians' intuition and sensitivity leads to an endless number of
+interpretations of the piece. Beautiful interactive examples in the
+article let you hear these variations for yourself.
+
+- [Terry Riley's "In C"](http://teropa.info/blog/2017/01/23/terry-rileys-in-c.html)
