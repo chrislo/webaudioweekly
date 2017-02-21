@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Issue 77"
+permalink: "/77"
+summary: "Remixing orchestras, benchmarking web audio apps, game sound documentaries."
+---
+
+## Friday night is music night remixed ##
+
+For a special performance of film music broadcast by BBC Radio 2, BBC
+R&D created a prototype that allows the listener to 'zoom in' on
+sections of the orchestra. A total of 4 individual mixes of the
+recording were made and by zooming in on the video, the balance
+between the four is changed - this allows you to hear the strings,
+brass, woodwind or percussion in more detail.
+
+- [Friday Night is Music Night Remixed](http://radio2.prototyping.bbc.co.uk/player.html?video=starwars)
+
+## Charanga seek full-time web audio developer
+
+[Charanga](http://charanga.com/) is recruiting a full-time web audio
+javascript developer to work in its Brighton, UK, seaside office (no remote
+work, sorry!). Salary up to £38.5K depending on experience. Closing date
+for [applications](http://charanga.com/jobs) is March 5th, 2017.
+
+They operate over 100 websites, a couple of iOS/Android apps, a PC,
+Mac and Linux desktop app and a suite of music education apps, all
+built with HTML, CSS and JavaScript.
+
+Charanga is used in more than 6500 schools in the UK, by tens of
+thousands of teachers and pupils, and we are currently expanding
+globally.
+
+Building web-audio applications to support curriculum, instrumental
+and electronic music-teaching in the classroom, your initial projects
+will be a secondary school composition and vocal recording
+application, and a music-theory training application.
+
+- [charanga.com/jobs](http://charanga.com/jobs) (sponsored link)
+
+## Clubberize ##
+
+[Clubber](https://github.com/wizgrav/clubber/) is a library for the
+visualization of sound using frequency analysis. It abstracts away a
+lot of the complexity in building this kind of
+application. [Clubberize](https://github.com/wizgrav/clubberize) wraps
+a lot of the code in a modular way that makes it easy to use in your own projects.
+
+- [wizgrav/clubberize](https://github.com/wizgrav/clubberize)
+
+## In brief ##
+
+- [Moire](http://hughsk.io/moire-1/): A Web Audio / WebGL visualisation
+- [Experimenting with `speechSynthesis`](https://www.smashingmagazine.com/2017/02/experimenting-with-speechsynthesis/):
+  A brief introduction to the speech synthesis API.
+- [Work with groups of sounds in pizzicato.js](https://alemangui.github.io/pizzicato/#create-group): This update to the popular `pizzicato.js` library allows you to group multiple samples together and work with them at the same time.
+- [Audible Visuals](https://www.chromeexperiments.com/experiment/audible-visuals):
+  A collection of music visualisations based on the Archimedean spiral.
+- [DbMaj7](http://www.dbmaj7.com/resources/piano): A tool to help
+  musicians understand the relationship between chords and scales.
+
+## Web Audio benchmarks ##
+
+A suite of benchmarks designed to test the performance of "native" Web
+Audio code against various other methods of synthesising sound -
+including `ScriptProcessorNode` in the main thread, on a worker thread
+and using `WebAssembly`. This type of benchmark should be very useful
+when `ScriptProcessorNode` is eventually replaced with an
+`AudioWorklet` node.
+
+- [sebpiq/waa-benchmarks](https://github.com/sebpiq/waa-benchmarks)
+
+## Online tone generator ##
+
+A simple pure-tone generator - useful for tuning instruments, simple
+science experiments and testing audio equipment (including your own
+ears!)
+
+- [Tone Generator](http://www.szynalski.com/tone-generator/)
+
+## BEEP: A documentary history of game sound ##
+
+An award-winning documentary about the musicians, sound designers and
+programmers that have contributed to the history of computer game
+music. The full documentary is available to buy, but there's a trailer
+and a series of ["webisodes"](http://www.gamessound.com/movie.html)
+(full, unedited interviews) available for free.
+
+- [BEEP: A documentary history of game sound](http://www.gamessound.com/)
