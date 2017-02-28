@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "Issue 78"
+permalink: "/78"
+summary: "Tiny synths, ambisonics, formulas for chart success, the music of Zelda."
+---
+
+## Tinysynth
+
+Tinysynth is a complete implementation of the General MIDI instrument
+sets (including all those familiar presets from 90s keyboards: "slap
+bass", "new age pad", "gunshot" and friends). The really impressive
+thing here is that all of the instruments are synthesised using
+Oscillator nodes - not a single PCM sample has to be loaded. The demo
+page allows you to play some example tracks using multiple
+instruments. If you're looking for a light-weight set of instruments
+to synthesise music, look no further.
+
+- [WebAudio tinysynth](https://g200kg.github.io/webaudio-tinysynth/soundedit.html)
+
+## Charanga seek full-time web audio developer
+
+[Charanga](http://charanga.com/) is recruiting a full-time web audio
+javascript developer to work in its Brighton, UK, seaside office (no remote
+work, sorry!). Salary up to £38.5K depending on experience. Closing date
+for [applications](http://charanga.com/jobs) is March 5th, 2017.
+
+They operate over 100 websites, a couple of iOS/Android apps, a PC,
+Mac and Linux desktop app and a suite of music education apps, all
+built with HTML, CSS and JavaScript.
+
+Charanga is used in more than 6500 schools in the UK, by tens of
+thousands of teachers and pupils, and we are currently expanding
+globally.
+
+Building web-audio applications to support curriculum, instrumental
+and electronic music-teaching in the classroom, your initial projects
+will be a secondary school composition and vocal recording
+application, and a music-theory training application.
+
+- [charanga.com/jobs](http://charanga.com/jobs) (sponsored link)
+
+## Stopping an Oscillator at Cycle Completion
+
+A frequent problem developers face when first working with the Web
+Audio API is how to avoid the nasty click that occurs when you stop an
+oscillator. In this article Sebastian Zimmer takes a novel approach -
+why not calculate the time when the oscillator waveform naturally
+becomes silent ("crosses zero") and stop it then? Along the way you'll
+learn about basic calculations of waveforms in JS and how to start and
+stop Oscillators.
+
+- [Stopping a Web Audio oscillator at cycle completion](https://webaudiotech.com/2017/02/27/stopping-a-web-audio-oscillator-at-cycle-completion/)
+
+## JSAmbisonics
+
+Ambisonics is a technique for positioning sounds within a virtual
+environment. With the rise of Virtual Reality the technology is again
+coming into prominance. In this paper researchers from IRCAM in Paris
+and Aalto University in Finland explain what Ambisonics is and how it
+can be used in Web Audio applications using the JSAmbisonics library
+they developed and open-sourced as part of their research.
+
+- [JSAmbisonics: A Web Audio library for interactive spatial sound processing on the web](https://www.researchgate.net/publication/308761825_JSAmbisonics_A_Web_Audio_library_for_interactive_spatial_sound_processing_on_the_web)
+- [polarch/JSAmbisonics: A JS library for first-order ambisonic (FOA) and higher-order ambisonic (HOA) processing](https://github.com/polarch/JSAmbisonics)
+
+## Web Audio Boilerplate
+
+Sebastien Piquemal has put together this useful collection of code
+that smooths over the differences between browsers' implementations of
+the Web Audio API - making it easier to build Web Audio applications
+that work across different browsers, OS's and platforms.
+
+- [Web Audio Boilerplate](https://github.com/sebpiq/web-audio-boilerplate)
+
+## Free sounds from the European Space Agency
+
+The European Space Agency has recently made a huge number of images
+and sounds available in the public domain. If your next project needs
+a sound from another planet have a listen through their SoundCloud
+channel for inspiration.
+
+- [European Space Agency just gave away a bunch of space media for use](http://cdm.link/2017/02/european-space-agency-just-gave-away-a-bunch-of-space-media-for-use/)
+- [Sounds from space: ESA's official SoundCloud channel](https://soundcloud.com/esa/)
+
+## Noisli
+
+Noisli is an browser based background noise simulator with a
+difference - this one comes with a distraction-free text editor so you
+can block out the world and concentrate on your writing without
+leaving your browser tab.
+
+- [Noisli](https://www.noisli.com/)
+
+## Can you identify a formula for chart success?
+
+For the BBC4 documentary "The Secret Science of Pop" BBC R&D helped
+the production team analyse music to determine whether there were
+characteristics of timbre, tempo, pitch and rhythm that could
+accurately predict chart success. See whether they succeeded by
+watching tonight's documentary and read the details on their blog.
+
+- [Can you identify a forumula for chart success using music data?](https://twitter.com/BBCRD/status/834727859818217472?s=09)
+- [The Secret Science of Pop (BBC iPlayer)](http://www.bbc.co.uk/programmes/b08gk664)
+
+## Deconstructing gameboy soundtracks: The Legend of Zelda: Link’s Awakening
+
+The Nintendo Gameboy had very restrictive audio hardware: 4 channels
+of audio, 2 of which could only contain square waves, one that could
+only make noise and the fourth that had a programmable
+waveform. Despite these restrictions composers were able to come up
+with some very sophisticated soundtracks for their games. In this
+article Jason M. Yu deconstructs the soundtrack of "The Legend of
+Zelda: Link's Awakening" showing how by using strong motifs, clever
+variations and a lot of creativity a classic game soundtrack was
+created.
+
+- [Deconstructing: The 8 Dungeons of Link’s Awakening](http://jasonyu.me/links-awakening-dungeons/)
