@@ -1,0 +1,135 @@
+---
+layout: post
+title:  "Issue 79"
+permalink: "/79"
+summary: "Voice synthesis, 8-bit game music, polyphonic synthesisers and more."
+---
+
+## Pink Trombone: Real-time vocal synthesis
+
+Explore how human beings sing and talk with this amazing
+visualisation. Move the virtual tongue, control the hard and soft
+pallet, vary the size of the nasal cavity and alter the pitch of the
+voice box to create a huge range of convincing vocal sounds.
+
+- [Pink Trombone](http://dood.al/pinktrombone/)
+
+## Recreate 8-bit game music with the Web Audio API
+
+Greg Hovanesyan was inspired by a The 8-Bit Guy's YouTube videos
+(which I linked to in the last edition of Web Audio Weekly) and took
+on the challenge to recreate some classic 8 Bit music using the Web
+Audio API. The details of the simple 4-channel synths are fascinating,
+as is the process Greg took to convert MIDI files to JSON for
+rendering with the synth.
+
+- [Recreating legendary 8-bit games music with Web Audio API by Greg Hovanesyan on CodePen](http://codepen.io/gregh/post/recreating-legendary-8-bit-games-music-with-web-audio-api)
+
+## Web Audio Inspector
+
+Google's new Web Audio Inspector is now available on the Chrome web
+store. The extension adds a panel to Chrome Developer Tools that lets
+you inspect the live web audio graph of a web page. The parameters of
+each audio node can be Inspect properties of AudioNodes by clicking
+them. More information is available on Github under the Google
+organisation.
+
+- [Web Audio Inspector - Chrome Web Store](https://chrome.google.com/webstore/detail/web-audio-inspector/cmhomipkklckpomafalojobppmmidlgl)
+- [How to Use · google/audion Wiki](https://github.com/google/audion/wiki/How-to-Use)
+
+## Polyphonic Web Audio Synth
+
+A great-sounding polyphonic (it plays multiple notes at the same time)
+synthesiser with a range of built in presets.
+
+- [WASYN-1 : Web Audio Synth](http://www.errozero.co.uk/stuff/poly/)
+- [errozero/poly-synth: Polyphonic Web Audio Synth - Demo:](https://github.com/errozero/poly-synth)
+
+## Deadline extension for Web Audio Conference
+
+If you were planning to submit a paper or talk proposal to this year's
+Web Audio Conference (to be held August 21-23, 2017 at the Centre for
+Digital Music, Queen Mary University of London) not that the deadline
+for submissions has been extended. You now have until April 7th to
+submit, and up to the 14th to finish up your submission. The
+submission process might be a bit unfamiliar to some of you as it is
+modelled on processess used frequently for academic conferences. The
+last two conferences have had many submissions from developers and
+musicians though, so you should feel free to submit anything you think
+might be interested to the community.
+
+- [Web Audio Conference 2017: Call for submissions](http://wac.eecs.qmul.ac.uk/call-for-submissions/)
+
+## The best music pens on CodePen
+
+CodePen is an interactive environment for developing and sharing
+JavaScript apps. This blog post has a roundup of some of the best Web
+Audio-based experiments on the site.
+
+- [Some of the Best Music Pens on CodePen - CodePen Blog](https://blog.codepen.io/2017/03/17/best-music-pens-codepen/)
+
+## Peter Frazer's Web Audio experiments
+
+A collection of Web Audio examples of various synthesis techniques
+including Additive, subtractive and FM synthesis.
+
+- [Web Audio API Demo Instruments](http://www.peterfrazer.co.uk/webAudio/Level1/Instruments.html)
+
+## Sawtooth
+
+Sawtooth is a web application for recording, editing and storing
+sounds. You can build up and manage a private library of your own
+sounds, or share them with collaborators.
+
+- [Sawtooth.io](https://www.sawtooth.io/#/)
+
+## Demonstrations of Web Audio tube amplifier synthesis
+
+[Michel Buffa](http://users.polytech.unice.fr/~buffa/) has been
+working for a long time on a very detailed tube amplifier simulator
+using Web Audio. Michel has been testing the amp and performing some
+experiments to compare it to some more common hardware and software
+amps. You can get a sense for how well his amplifier simulator works
+in this demo on YouTube.
+
+- [Web Audio tube sounds - YouTube](https://www.youtube.com/watch?v=g2LzZh-_r8E)
+
+## node-web-audio-api looking for a new maintainer
+
+Sébastien Piquemal started work on an implementation of the Web Audio
+API in Node.js. The aim of this project is to allow the same API for
+to be used on both the client and the server. He's looking for a new
+maintainer to push the project forward - if you're interested in
+learning more about how the API is implemented under the hood, this
+would be a great project to contribute to.
+
+- [Sébastien Piquemal on Twitter: "handing-over node-web-audio-api to someone that has time to maintain it!](https://twitter.com/sebpiq/status/845677989471899648?s=09)
+
+## Build a music visualizer
+
+A fantastic tutorial on how to build visualisations of sound using
+WebGL and Web Audio.
+
+- [Build a Music Visualizer with the Web Audio API](https://noisehack.com/build-music-visualizer-web-audio-api/)
+
+## Bi-directional step sequencer
+
+Step sequencers usually work in a single direction - modelling time as
+flowing from left to right on the screen. With a simple twist this
+demo turns the sequencer into a grid. It's surprising how quickly
+interesting cross-rhythms can be programmed using this interface.
+
+- [Bi-directional step sequencer](http://codepen.io/jakealbaugh/pen/xqVrvE)
+
+## Creating dance music with JS & Node.js
+
+A very interesting talk from Walmik Deshpande. This project doesn't
+actually use the Web Audio API - rather, Walmik shows how MIDI events
+can be generated programmatically using a Node.js application and then
+hooks these events into Ableton to handle the synthesis. The takeaway
+here is that for many musical tasks it can be more intuitive to think
+in terms of simple programming concepts - loops, random number
+generation and so on - and to use those programs to create elements of
+a composition in a more traditional interface.
+
+- [Creating Electronic Dance Music with JS & Node.js - Walmik Deshpande](https://www.youtube.com/watch?v=iwuZzp_ZnLo&app=desktop)
