@@ -1,0 +1,105 @@
+---
+layout: post
+title:  "Issue 80"
+permalink: "/80"
+summary: "Learning music, polyphonic expression, jamming together, cybernetic synths."
+---
+
+## Get Started Making Music with Ableton
+
+This wonderful, interactive series of lessons helps you learn the
+basics of music composition and production. There's an emphasis on
+electronic music forms (this comes after all from the folks behind the
+ubiquitous Ableton Live music production software) but plenty to learn
+for anyone who is curious about how music is made.
+
+The Web Audio-powered examples in each section are beautifully
+executed and elevate what would be a textbook into something
+altogether richer and more effective.
+
+- [https://learningmusic.ableton.com/](https://learningmusic.ableton.com/)
+
+## mpe.js
+
+MIDI Polyphonic Expression (MPE) is an extension of the standard MIDI
+1.0 specification which allows individual notes within a chord to have
+independent pitch bend applied to them. The standard is implemented
+in, for example,
+ROLI's
+[Seaboard controller keyboard](https://roli.com/products/seaboard). Oscar
+Dub has written the `mpe.js` library to allow developers to access
+these capabilities using Web MIDI. The library is well documented with
+examples and a quick video gives a good overview of the concept.
+
+- [http://mpe.js.org/](http://mpe.js.org/)
+
+## Events
+
+- [A new Web Audio meetup in Portland, OR](https://www.meetup.com/Web-Audio-PDX/)
+- [SBCM 2017 : 16th Brazilian Symposium on Computer Music](http://wikicfp.com/cfp/servlet/event.showcfp?eventid=63768)
+- [Registration open for Web Audio Conference 2017 in London](http://wac.eecs.qmul.ac.uk/registration/)
+
+## Hacking Soundcloud
+
+Attila Haraszti's post explains how to automate interactions with the
+Soundcloud service to progressively alter an uploaded track based on
+user interactions. This sounds like the kind of thing that an API
+would be ideal for - but in lieu of that, because Soundcloud is a web
+application it is possible to add some user-interface tweaks that are
+a bit too niche for the company to include themselves and in doing so
+allow a digital artist to express themselves in the way they want to.
+
+- [https://haywirez.com/hacking-soundcloud/](https://haywirez.com/hacking-soundcloud/)
+
+## Google Doodle for Oskar Fischinger’s 117th Birthday
+
+This recent Google Doodle uses Web Audio to celebrate the birthday of
+Oskar Wilhelm Fischinger (22 June 1900 – 31 January 1967) a pioneer of
+animation, motion graphics and musical artwork. The doodle is a
+4-voice step sequencer with beautiful animations that pulse in time
+with your composition.
+
+- [Oskar Fischinger’s 117th Birthday](https://www.google.com/doodles/oskar-fischingers-117th-birthday)
+
+## Jam Together
+
+Jam Together is an online service from Kevin Decock that allows
+musicians to collaborate together with each other in private
+"rooms". The app works with a midi controller, but also with the
+regular computer keyboard. You can currently play with a piano, a
+synth, and a drum pad and "more instruments are definitely in the
+pipeline" according to Kevin. Jam Together are looking
+
+- [https://jam-together-phoenix.herokuapp.com/](https://jam-together-phoenix.herokuapp.com/)
+
+## WebbyJam
+
+Japanese freelance developer Hiroyuki Takakura has created this
+music-making application which combines a chord generator, rhythm box
+and sequencer together in an application which puts the emphasis on
+fun, simple music making. I was a little confused by the acronym DTM
+at first - apparently this is how computer music is referred to in
+Japan (it stands
+for
+[Desk Top Music / デスクトップミュージック](https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF)).
+
+## Choirplayer needs your help
+
+Choirplayer is a multitrack music player from Peter Woods which is
+specifically designed for choirs. It features timed lyrics for each
+part and the ability to mute and solo tracks - very useful features
+when you are learning or rehearsing a part. The application is still
+in development and Peter is looking for some help to develop it
+further. If you can help hit reply and I'll put you in touch with
+Peter.
+
+- [Choirplayer](http://web.choirplayer.com:8080/waveform-playlist/stem-tracks-s3.html)
+
+## This cybernetic synth contains a brain grown from the inventor’s cells
+
+> The core of this synthesizer was grown in a lab from actual living
+> cells sliced right out of its creator. Skin cells are transformed
+> into stem cells which then form a neural network – one that exists
+> not in code, but in actual living tissue.
+
+- [This cybernetic synth contains a brain grown from the inventor’s cells](http://cdm.link/2017/05/cybernetic-synth-contains-brain-grown-inventors-cells/)
