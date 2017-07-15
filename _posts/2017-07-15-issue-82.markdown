@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Issue 82"
+permalink: "/82"
+summary: "Generative music, musical posters, UI toolkits, mobile sound design."
+---
+
+## NexusUI 2.0
+
+Ben Taylor has released version 2 of NexusUI - a library for creating user interfaces for Web Audio applications. Buttons, dials, sliders and toggles are provided as well as some more audio-specific elements such as a grid sequencer and oscilloscope. The library has had a ground-up rewrite resulting in a cleaner, more intuitive API - so it's a perfect time to take a look even if you've used Nexus before.
+
+- [NexusUI API](https://nexus-js.github.io/ui/api/)
+
+## Computerized Forms
+
+Daniel Givens innovative project pairs music visualisation with poster designs from noted illustrators. The results are gently pulsating, abstract and beautiful.
+
+- [Computerized Forms](http://computerizedforms.com/)
+
+## Dancing Markov Gymnopédies
+
+Tero Parviainen takes Erik Satie's series of three minimalist piano compositions The Gymnopédies and trains a Markov chain which can generate similar sounding compositions endlessly. This CodePen is a tantalising preview of Tero's upcoming Web Audio Conference talk on Generative music.
+
+- [Dancing Markov Gymnopédies](https://codepen.io/teropa/pen/bRqYVj/)
+
+## Web Audio Conference 2017 Programme
+
+The full programme for Web Audio Conference 2017 in London has now been finalised. Tickets are available at the conference website.
+
+- [Programme – Web Audio Conference 2017](http://wac.eecs.qmul.ac.uk/programme/)
+
+## How to enhance mobile interactions with sound design
+
+A detailed article from Facebook sound designer Will Littlejohn on how to use sounds to enhance mobile applications. I was surprised to learn how frequently these subtle sound designs are used throughout Facebook's applications.
+
+- [How to enhance mobile interactions with sound design](https://medium.com/facebook-design/how-to-enhance-mobile-interactions-with-sound-design-3c3b30e98177)
+
+## Tune Status
+
+In Tune Status a unique piece of music is generated based on live data from London's transport network. The better the service the more harmonious the music. Discord ensues as lines are suspended and trains are delayed.
+
+- [Tune Status by Ben Langham](http://tunestatus.co.uk/)
+
+## Do Androids Dream of Electric Guitars?
+
+Pitchfork's Jayson Greene gives a detailed overview of recent research into new "Artifical Intelligence" approaches to generating music. The article looks at Sony's Flow Machines project as well as the Magenta initiative lead by Google.
+
+- [Do Androids Dream of Electric Guitars? Exploring the Future of Musical A.I.](http://pitchfork.com/features/overtones/10091-do-androids-dream-of-electric-guitars-exploring-the-future-of-musical-ai/)
