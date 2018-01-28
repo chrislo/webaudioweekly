@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Issue 84"
+permalink: "/84"
+summary: "AudioWorklets, generative music and engineering fun."
+---
+
+## Generative Music
+
+A fantastic interactive slide deck by Tero Parviainen from a talk he gave at Loop Berlin. Tero dives into the history of generative music and explains how Steve Reich, Brian Eno, John Cage, Terry Riley and others built systems that generated music. And of course the whole thing is peppered with interactive, web-audio powered illustrations.
+
+- [How Generative Music Works: A Perspective](https://teropa.info/loop/)
+
+## Save the date: Web Audio Conference 2018
+
+The 2018 Web Audio Conference will be held from September 19th to the 21st in Berlin, Germany. Sign up to the newsletter or follow the twitter account for more details as they are announced.
+
+- [@webaudioconf](https://twitter.com/WebAudioConf/status/954370456894820352)
+- [webaudioconf.com](http://webaudioconf.com/)
+
+## AudioWorklet lands in Chrome Beta
+
+The big news in Web Audio while I've been away has been the release of the first implementations of the long-awaited AudioWorklet node. [AudioWorklet](https://webaudio.github.io/web-audio-api/#AudioWorklet) is a node type within the Web Audio API that allows developers to supply arbitrary JavaScript or WebAssembly code to process process audio on the audio rendering thread. In effect, allowing you to create your own custom nodes.
+
+The implementation is available in Chrome Beta behind an experimental flag and to get you started the Chrome team have written a number of basic demos
+
+- [AudioWorket demos in Chrome Beta](https://googlechromelabs.github.io/web-audio-samples/audio-worklet/index.html)
+
+If you want to learn more about the possibilities this opens up, Hongchan Choi of Chrome's Web Audio team gave a in-depth talk at WebAudioPDX
+
+- [AudioWorklet :: What, Why, and How - Hongchan Choi](https://www.youtube.com/watch?v=g1L4O1smMC0)
+
+Paul Adenot from Mozilla has been heavily involved in specifying the AudioWorklet implementation and you can follow the progress of the Firefox implementation on Bugzilla
+
+- [Bug 1062849 - Implement AudioWorklets for Web Audio API](https://bugzilla.mozilla.org/show_bug.cgi?id=1062849)
+
+The implementations are still experimental at this stage but early adopters are already starting to run with it and are creating some interesting experiments. In particular the [webaudiomodules.org](https://www.webaudiomodules.org/blog/wam-story/) team have been working with Stéphane Letz, co-author of FAUST and Michel Buffa to propose a standardised way of writing "plugins" for Web Audio - a sort of [VST](https://en.wikipedia.org/wiki/Virtual_Studio_Technology) for Web Audio. There's a demo video showing a simulated DX7 synth, an Oberheim OBX, a FAUST zita_verb and several Web Audio plugins
+
+- [Pedalboard host for WebAudio plugins](https://www.youtube.com/watch?v=elbjh6tBK6U)
+
+## Web Audio step sequencer
+
+Garren Smith's first Web Audio project is this cool chord step sequencer. Garren, if you're reading, it'd be great to learn more about how you built it and to hear your thoughts on learning to use the Web Audio API!
+
+- [garrensmith.com/posts/sequencer](http://garrensmith.com/posts/sequencer)
+
+## Synth Master Tatsuya Takahashi On Engineering Fun
+
+An interview with Tatsuya Takahashi from NPR on why real things that make noise are fun.
+
+- [Analog for the people](https://www.npr.org/sections/therecord/2017/12/22/569092364/analog-for-the-people-synth-master-tatsuya-takahashi-on-engineering-fun)
