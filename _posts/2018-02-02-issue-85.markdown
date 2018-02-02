@@ -53,4 +53,4 @@ The Conditional Orchestra, by Richard Bultitude, is an art project that combines
 Sunposts in a virtual installation created with Web Audio and WebGL to accompany Jeff Snyder's album of the same name. The visualisations created to compliment each track are really mesmerising and the whole album, released last Monday, is available on Bandcamp.
 
 - [Sunspots](http://sunspots.scattershot.org/)
-- [Sunspots | Jeff Snyder | bandcamp](https://jeffsnyder.bandcamp.com/album/sunspots)
+- [Sunspots by Jeff Snyder on bandcamp](https://jeffsnyder.bandcamp.com/album/sunspots)
