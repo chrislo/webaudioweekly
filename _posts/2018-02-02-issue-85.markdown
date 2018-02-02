@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Issue 85"
+permalink: "/85"
+summary: "Changes in Chrome 66, user data at Novation, procedural sound generation, conditional orchestras."
+---
+
+## Chrome 66 will require user gestures to enable Web Audio
+
+A heads up for anyone testing their Web Audio applications against Chrome Canary: in a bid to stop audio from auto-playing Web Audio contexts will not process audio events until a user gesture has been received in the browser tab. It looks like this change is scheduled to land in Chrome 66, but if you are testing your application against Chrome's Canary channel you may notice that audio currently won't play. There's some discussion about how exactly this will work on the Chromium bug tracker, but it looks likely that some changes to application code will need to be made.
+
+- [WebAudio user-gesture warning for audio context prevents any audio output](https://bugs.chromium.org/p/chromium/issues/detail?id=807017)
+
+## Learning from real data: Novation's Circuit
+
+Novation's Chief Scientist Dave Hodder collected anonymous usage data from one of Novation's premier hardware music tools, the Circuit, and used it to learn more about how musicians play the instrument "in the wild". Dave discusses patterns in timbre and tempo and creates an interesting Web Audio-powered visualisation of the most popular beats. I really enjoyed Dave's discussion on the ethics of collecting this kind of data, and how Novation base their decisions on how musicians really use their instruments.
+
+- [Circuit’s Big Data – Novation // Notes – Medium](https://medium.com/novation-notes/circuits-big-data-74675c7c973c)
+
+## Blendwave: A sampler for audiovisual authors
+
+Werther Azevedo from Brazillian indie game studio [midipixel](http://site.midipixel.com/en/) has just released Blendwave - a sampler and sound editor specifically designed for audiovisual authors such as game developers, animators and video makers. Werther has concentrated on keeping the tool simple and streamlined and has been getting user feedback at the recent Global Game Jam.
+
+- [Blendwave](http://beta.blendwave.net/?p=wavePanel)
+
+## Heavy blog: articles on procedural sound generation
+
+The folks at [enzienaudio](https://enzienaudio.com/) have started a new blog. The first two articles focus on procedural sound generation with Web Audio. I really loved the "Zip me up Captain" article on simulating the sound of a zipper - complete with a simulated, draggable zip!
+
+- [heavy blog](https://enzienaudio.com/blog/)
+
+## In Brief
+
+- [Sequence Creator with Web Audio API](https://codepen.io/jkantner/pen/pWOMVO/): A great "pen" showing the UI and Web Audio code for a chord sequence generator.
+- [web-audio-oscillators](https://github.com/lukehorvat/web-audio-oscillators): An npm package that provides a whole selection of oscillator types above-and-beyond those included with the Web Audio API.
+- [Super Oscillator](https://github.com/lukehorvat/super-oscillator): An interactive, 3D music synthesizer for the Web!
+
+## Drummer's Pulse: A metronome for drummers
+
+Drummer's Pulse is a slick, web-based metronome designed specifically for drummers. There's a neat "tap" function to set the tempo, adjustable sliders for whole, quarter, eighth and triplet patterns, selectable click sounds, MIDI output and more. It's great to see a really well-designed, single purpose application that uses Web Audio and is therefore available on any device.
+
+- [Drummer's Pulse](https://drummers-pulse.com/)
+
+## The Conditional Orchestra
+
+The Conditional Orchestra, by Richard Bultitude, is an art project that combines generative music with meterological data. Using your location, the software fetches data about the current weather. Many parameters such as air pressure, temperature and cloud cover act as the seeds for randomly generated music. Richard discusses the inspiration and technical details in a detailed blog post.
+
+- [The conditional orchestra](https://theconditionalorchestra.com/)
+- [Making the conditional orchestra](https://medium.com/@pointbmusic/making-the-conditional-orchestra-df3149b17d23)
+
+## Sunspots
+
+Sunposts in a virtual installation created with Web Audio and WebGL to accompany Jeff Snyder's album of the same name. The visualisations created to compliment each track are really mesmerising and the whole album, released last Monday, is available on Bandcamp.
+
+- [Sunspots](http://sunspots.scattershot.org/)
+- [Sunspots | Jeff Snyder | bandcamp](https://jeffsnyder.bandcamp.com/album/sunspots)
