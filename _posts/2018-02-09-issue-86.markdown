@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Issue 86"
+permalink: "/86"
+summary: "50 Jahre Hitparade, visualising sound, envelope generation, 1-bit music."
+---
+
+## 50 years of the Swiss Music Charts ##
+
+Ever wondered what was top of the charts in Switzerland on your birthday? Me too! We're in luck - this interactive visualisation allows you to zoom back through musical time and discover happy or sad songs. The star-chart constellations are actually showing the progression of an individual song through the charts. An article (in German) accompanies the experience and delves deeper into the data.
+
+- [50 Jahre Hitparade](https://50-jahre-hitparade.ch/)
+- [50 Jahre Hitparade - Analysis](https://50-jahre-hitparade.ch/analysis/)
+
+## Help build the future of video & audio streaming
+### Sponsored post
+
+Mux is building an API for video and audio streaming that's easy for developers and optimized by machine learning. They're looking for full-time engineers in the San Francisco Bay area (or willing to move there) to join their team of media experts, including the creator of Video.js and engineers from YouTube, Twitch, Facebook, and Brightcove.
+
+- [http://mux.com/jobs](http://mux.com/jobs)
+
+## An Advanced ADSR envelope node for WebAudio
+
+ADSRNode is a really useful single-purpose library for creating "attack-decay-sustain-release" envelope generators in WebAudio. If you've ever tried to do this yourself you'll appreciate how fiddly it can be to get right. This library should save you a lot of time if you're building a virtual instrument.
+
+- [voidqk/adsrnode: Advanced ADSR envelope node for WebAudio](https://github.com/voidqk/adsrnode)
+
+## Visualising Sound: The FFT
+
+A two-part series looking in detail at how to create visualisations of sound by analysing its frequency content. The article covers using `three.js` for visualisation and the WebAudio API for the frequency analysis.
+
+- [Visualizing Sound (pt1): The FFT](https://www.unicornsfartpixels.com/posts/2017-10-25audio-fft/)
+- [Visualizing Sound (pt2): Three.js](https://www.unicornsfartpixels.com/posts/2018-01-01fftthree/)
+
+## Exploring Arabic micro-tonality with Web Audio
+
+Karim Ratib sent me two Web Audio applications which are based around micro-tonal scales found in Arabic music.
+
+The first application is a virtual keyboard designed specifically to make it easier to play with classical middle-eastern scales (also known as Maqam/Makam).
+
+The second, Karim's own app Sheet Player, allows sheet music with Arabic microtones to be played via an in-browser synth or Web MIDI.
+
+- [awtar.me](http://awtar.me/)
+- [Sheet Player](https://ethereum.karimratib.me:8080/)
+
+## In Brief
+
+- [winamp2-js](https://github.com/captbaritone/winamp2-js/tree/master/js): A faithful reproduction of the classic audio player - the perfect project if you want to listen to digital music like it's 1998.
+- [Guitar Effects in Rust](http://rickyhan.com/jekyll/update/2018/02/06/rust-guitar-pedal-effects-dsp.html): I don't write Rust, but I still found this article on creating real-time guitar effects very interesting.
+- [Technical analysis of top podcasts](https://podnews.net/article/podcast-analysis): James Cridland took recent episodes of the most popular podcasts and looked at whether they were recorded in mono or stereo, their bit-rate and loudness.
+
+## The Sound of 1-bit: Technical Constraint and Musical Creativity on the 48k Sinclair ZX Spectrum
+
+A wonderful article looking into how sound designers and programmers overcome the limitations of early computer hardware to create memorable game music. I loved the discussion of "fake polyphony" - rapidly switching between the melody and a pedal note to give the illusion of multiple notes being played at the same time.
+
+- [The Sound of 1-bit: Technical Constraint and Musical Creativity on the 48k Sinclair ZX Spectrum](https://www.gamejournal.it/the-sound-of-1-bit-technical-constraint-as-a-driver-for-musical-creativity-on-the-48k-sinclair-zx-spectrum/)
