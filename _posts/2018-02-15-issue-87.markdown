@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Issue 87"
+permalink: "/87"
+summary: "Learn about waveforms, react audio tools, MIDI controllers, Furby organs."
+---
+
+## Let's Learn About Waveforms ##
+
+A fantastic [explorable explanation](http://worrydream.com/ExplorableExplanations/) all about the physics of sound. Josh Comeau explains how sound is represented in terms of frequency and amplitude and how we often visualise that as a "waveform". You'll also learn about phase and some of the counter-intuitive things that happen when you add waveforms together. It's all presented as a slick, reactive document with audio to accompany the visuals.
+
+- [Let's Learn About Waveforms](http://waveforms.surge.sh/)
+
+## Web Audio Conference 2018: Call for submissions ##
+
+If you'd like to present or run a tutorial at this year's Web Audio Conference in Berlin, the call for submissions is now open. You have until April 23rd to get your submission in and there is some financial assistance available to folks from underrepresented groups.
+
+- [WAC 2018: Call for Submissions](http://webaudioconf.com/call-for-submissions/)
+
+## React Audio Tools ##
+
+A set of `react.js` components to build audio applications with the Web Audio and Web MIDI APIs. This library is under heavy development so expect some rapid changes. You can get a sense of what the library provides [in the demo application](http://react-audio-tools.surge.sh/).
+
+- [react-audio-tools](https://github.com/ambewas/react-audio-tools)
+
+## Onsets and Frames: Dual-Objective Piano Transcription ##
+
+Another really interesting application of "deep learning" techniques to music. The authors have improved on the state-of-the-art for piano transcription - the system can listen to a piece of performed piano music and generate a MIDI file with a much lower error rate than has previously been possible. The results are very impressive. /via [@tomajwinter](https://twitter.com/tomajwinter).
+
+- [Onsets and Frames: Dual-Objective Piano Transcription](https://magenta.tensorflow.org/onsets-frames)
+
+## controllers.cc ##
+
+> Controllers.cc is a website for comparing MIDI controllers and small MIDI keyboards to help you find the right controller.
+
+- [controllers.cc](https://controllers.cc/)
+
+## The Furby Organ: A musical instrument made from Furbies ##
+
+This enthusiastic gentleman hacked together dozens of circuit-bent Furbies to create a unique musical instrument. As you do. /via [@skratchdot](https://twitter.com/skratchdot)
+
+- [The Furby Organ: A musical instrument made from Furbies](https://www.youtube.com/watch?v=GYLBjScgb7o)
