@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Issue 88"
+permalink: "/88"
+summary: "Infinite synths, audio-worklet live coding, three.js, education."
+---
+
+## Midifinity ##
+
+> Every URL on this website contains a unique synthesizer. Play the synthesizer using your QWERTY keyboard or by clicking the on-screen keyboard.
+
+A fun new project from designer and developer [Kyle Stetz](http://kylestetz.com/) who's previous Web Audio projects include [typedrummer](http://typedrummer.com/) and  [scribble.audio](http://scribble.audio/).
+
+- [midifinity](http://midifinity.grindselect.com/)
+
+## Audio Worklet Live Coding ##
+
+If you want to experiment with the new Audio Worklet implementation that is available, experimentally, in Google Chrome this live-coding playground lets you get started quickly. The [Audio Worklet](https://webaudio.github.io/web-audio-api/#AudioWorklet) specification allows you to create your own custom Web Audio nodes and implement their behaviour in JavaScript. There's a bit of boiler plate which this tool takes care of so you can play around with the interesting processing code.
+
+- [Audio Worklet Live Coding](https://acarabott.github.io/audio-worklet-live-coding/)
+
+## three.js and the Web Audio API ##
+
+A great codepen example by front-end developer [Ellen Probst](http://ellenprobst.com/) showing how to send the output of a `three.js` [AudioAnalyser](https://threejs.org/docs/#api/audio/AudioAnalyser) (which wraps the Web Audio API) to animation paramaters.
+
+- [Threejs and Web Audio Api: A Pen By Ellen](https://codepen.io/EllenProbst/pen/RQQmJK)
+
+## How Music Works: Interactive Music Theory Lessons ##
+
+A self-guided introduction to Music Theory complete with interactive examples to play with. I particularly enjoyed the explanation of harmony that visualised the ratio between note frequencies.
+
+- [How Music Works: Interactive Music Theory Lessons](https://www.lightnote.co/)
+
+## Web Audio API Tutorial ##
+
+A guided series of lessons that take you though the concepts of the Web Audio API and include example code that you can modify. This project reminded me of the great [Web Audio School](http://mmckegg.github.io/web-audio-school/) but where that takes a outcome-focussed approach ("Play a short sequence of notes") this tutorial structures the lessons around specific API calls.
+
+- [Web Audio API Tutorial](https://web-audio-api.firebaseapp.com/)
+
+## YUME ##
+
+> YUME is an interactive web experience created to promote the album 'Yume' by ambient artist Helios. Floating rock shards become tactile music controllers, which also manipulate the environment. Different scenes can be freely explored, each one with a different feel/sound.
+
+Made by design studio [White Vinyl Design](http://whitevinyldesign.com/)
+
+- [yume](http://www.unseen-music.com/yume/)
