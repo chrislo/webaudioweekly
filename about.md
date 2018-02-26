@@ -16,6 +16,4 @@ mature, full-featured additions to the web platform.
 
 I collect news, demos and stories and share them with the community
 here and [through my email newsletter](/subscribe). Please
-[send me contributions by email](mailto:chris@webaudioweekly.com) or
-by
-[raising an issue on github](https://github.com/chrislo/webaudioweekly/issues). You can also [find Web Audio Weekly on twitter](https://twitter.com/webaudioweekly).
+[send me contributions by email](mailto:chris@webaudioweekly.com). You can also [find Web Audio Weekly on twitter](https://twitter.com/webaudioweekly).
