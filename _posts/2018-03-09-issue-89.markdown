@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Issue 89"
+permalink: "/89"
+summary: "Loopstations, launchpads, soundsheets, grains and beeps."
+---
+
+## Soundcycle ##
+
+Maximilian Torggler is a beatboxer who decided to create a browser-based "loop station" application as a lower-cost alternative to dedicated hardware. The source code has recently been open-sourced and Maximilian is looking for contributors to help with further development.
+
+- [Soundcycle](https://scriptify.github.io/soundcycle/)
+- [Soundcycle: a web audio project in search of astronauts](https://blog.hellojs.org/soundcycle-a-web-audio-project-in-search-for-astronauts-ec9b663dabba)
+
+## Launchpad Arcade ##
+
+A new Web Audio / Web MIDI experience from Novation. The Launchpad Arcade is an online player that lets your remix tracks right in the browser. You can trigger samples using your computer's keyboard or, if you have a supported Novation device and Google Chrome, using Web MIDI.
+
+- [Novation Launchpad Arcade](https://intro.novationmusic.com/)
+
+## Sheets of Sound ##
+
+> An editor/generator for single cycle waveforms for hardware, software and samplers
+
+- [Sheets of Sound](http://scw.sheetsofsound.com/editor.html)
+- [Introduction to Sheets of Sound](http://scw.sheetsofsound.com/)
+
+## Granular Audio Synthesis ##
+
+A great introduction to Granular Synthesis. This synthesis technique starts by chopping up a sound into tiny "grains". By playing back the individual grains at different speeds and repeating them it is possible, amongst other effects, to change the pitch and playback time of a sound independently. The blog post is written by a game developer and uses C++ code examples, but the principles apply more generally.
+
+- [Granular Audio Synthesis](https://blog.demofox.org/2018/03/05/granular-audio-synthesis/)
+
+## Why We Bleep ##
+
+A new podcast that interviews electronic musicians and equipment makers.
+
+> It's inspired by an eternal struggle to get better at making music. To better understand the mysterious, unique and amazing people behind the equipment and music that we love. And to better understand where music making might be going.
+
+- [whywebleep.com](https://www.whywebleep.com/) [/via [@floehopper](https://twitter.com/floehopper)]
