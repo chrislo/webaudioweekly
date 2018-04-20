@@ -32,9 +32,7 @@ task :pins do
   require 'dotenv'
   Dotenv.load
 
-  N_DAYS = 90
-
-  excluded_links = all_links
+  N_DAYS = 30
 
   (Date.today - N_DAYS..Date.today).reverse_each do |date|
     url = "https://api.pinboard.in/v1/posts/get?tag=waw&dt=#{date.to_s}"
@@ -43,11 +41,19 @@ task :pins do
     posts = doc.xpath('//post')
 
     posts.each do |post|
-      desc = post.attribute('description').value
-      href = post.attribute('href').value
-      unless excluded_links.include?(href)
-        puts "[#{desc.empty? ? 'No description' : desc}](#{href})"
-      end
+      title = post.attribute('description').value
+      link = post.attribute('href').value
+      body = post.attribute('extended').value
+
+      title = title.empty? ? 'No title' : title
+      body = body.empty? ? 'No body' : body
+
+      puts "## #{title}"
+      puts ''
+      puts body
+      puts ''
+      puts "- [#{title}](#{link})"
+      puts ''
     end
   end
 end
