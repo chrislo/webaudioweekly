@@ -56,7 +56,7 @@ The keynote speakers for this year's Web Audio Conference have been announced. I
 
 The in-development [WebUSB standard](https://wicg.github.io/webusb/) provides some exciting opportunities to connect hardware devices to the web platform. In this blog post Ashish Dubey uses WebAudio to analyse incoming audio, sends messages over WebUSB to an arduino, which in turn lights an array of LEDs.
 
-- [Web of audio visualization devices | Ashish Dubey's Blog](https://ashishdubey.xyz/2018/04/01/webaudio-viz-webusb.html)
+- [Web of audio visualization devices](https://ashishdubey.xyz/2018/04/01/webaudio-viz-webusb.html)
 
 ## fluX: A nano API for generative music in the browser
 
