@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "Issue 91"
+permalink: "/91"
+summary: "AudioWorklet, barbershops, nano-APIs, pink bubbles."
+---
+
+## AudioWorklet now available in Chrome 66
+
+Google's implementation of the long-awaited [AudioWorklet](https://webaudio.github.io/web-audio-api/#audioworklet) part of the Web Audio specification is now available in Chrome stable with the release of Chrome 66. I think we'll start seeing more experimentation now it is available to Chrome users without having to enable feature flags. The Firefox implementation is being actively worked on too. You can track its progress [on bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1062849).
+
+- [New in Chrome 66 - Google Developers](https://developers.google.com/web/updates/2018/04/nic66)
+- [Chromelabs - AudioWorklet examples](https://googlechromelabs.github.io/web-audio-samples/audio-worklet/)
+
+## Junior Product Manager for Novation
+### Sponsored post
+
+> Focusrite have an exciting opportunity for a junior product manager to join our incredibly successful product team, and take ownership of part of our Novation product portfolio. You will be part of the Product Team, and contribute to the definition and delivery of the Product Strategy needed to meet the Company’s Vision and future growth plans.  For your roadmap you will own each product lifecycle from concept through to end of life, making sure you have the right products in the market at the right time.  This position will report to the Head of Product for Novation. Together you will be engaging at all levels of the business, from segment team to operational board, to define and implement your product strategy, roadmaps and priorities.
+
+- [Junior Product Manager for Novation](https://jobs.focusrite.com/focusrite/Job/?a=217D5D432.0)
+
+## Codepen Corner
+
+There are so many amazing Web Audio demos shared on [codepen.io](https://codepen.io). Here are some I've seen in the last few weeks.
+
+- [Going Forward](https://codepen.io/chambaz/pen/jzjwbd) by Adam Chambers uses Web GL, the voice synthesizer API and access to your web cam to create an ambient experience.
+- [Latent Cycles](https://codepen.io/teropa/full/rdoPbG/) by Tero Parviainen is an experiment in generative music using the Google Magenta MusicVAE model and `tensorflow.js`.
+- [Video Music](https://codepen.io/jakealbaugh/full/ZxLKvG/) by Jake Albaugh uses the average hue from your camera to change the chords in an arpeggiator.
+
+And if you like the concept of that last example, you'll also enjoy this [Video Theremin](https://officinetesla.it/webaudio/vvox/) project ([code on github](https://github.com/officinetesla/vvox))
+
+## Oppen Do Down
+
+Jim Andrews has ported a piece of interactive music he wrote in 2000 using [Adobe Director](https://en.wikipedia.org/wiki/Adobe_Director) to the Web Audio API. Oppen Do Down is a barbershop/scat-style composition which gives the listener control over the layering of voices. As well as enjoying the composition you can also learn from Jim's experiences of building it in two companion blog posts.
+
+- [Oppen Do Down](http://vispo.com/vismu/oppen)
+- [Event Scheduling in the Web Audio API](http://netartery.vispo.com/?p=1997)
+- [Oppen Do Down – first Web Audio API piece](http://netartery.vispo.com/?p=1996)
+
+## virtual-audio-graph
+
+Back in [issue 49](http://www.webaudioweekly.com/49) I featured Ben Hall's library `virtual-audio-graph`. It's a library for declaratively manipulating the Web Audio API by storing its "virtual state". If you're familiar with how `react` and other modern JS frameworks use a virtual DOM for a similar purpose, the principles will be familiar to you.
+
+The API has changed quite a lot since issue 49, and Ben has written a comprehensive guide to working with the library. If you're looking for a way to manage the complexity of large audio graphs, it's worth taking some time to study this library.
+
+- [benji6/virtual-audio-graph](https://github.com/benji6/virtual-audio-graph)
+- [virtual-audio-graph tutorial and demos](https://virtual-audio-graph.netlify.com)
+
+## WAC2018 keynote speakers and submission deadline
+
+The keynote speakers for this year's Web Audio Conference have been announced. I'm really excited to hear these talks from Ruth John and Chris Rogers in Berlin in the autumn. You have until April 23rd to submit a talk too.
+
+- [WAC2018 Keynote Speakers](https://webaudioconf.com/speakers)
+
+## Web of audio visualization devices
+
+The in-development [WebUSB standard](https://wicg.github.io/webusb/) provides some exciting opportunities to connect hardware devices to the web platform. In this blog post Ashish Dubey uses WebAudio to analyse incoming audio, sends messages over WebUSB to an arduino, which in turn lights an array of LEDs.
+
+- [Web of audio visualization devices | Ashish Dubey's Blog](https://ashishdubey.xyz/2018/04/01/webaudio-viz-webusb.html)
+
+## fluX: A nano API for generative music in the browser
+
+fluX is a purpose-built API that runs in the browser and can be used to generate music. The library has support for generating sequences of notes, specifying their pitch and volume and has support for built-in software synths and external MIDI devices.
+
+- [pd3v/fluX: A nano API for generative music in the browser](https://github.com/pd3v/fluX)
+
+## Noisy Pink Bubbles
+
+Noisy Pink Bubbles is a "bouncing ball synth experiment". Its author David explains:
+
+> Users can add new balls to the canvas, add "bumpers" and design a scene. By playing the keyboard you can adjust pitches and arpeggiate chords, for example "C" is C major, and "c" is C minor, and so on. So as the bubbles bounce, you can type C, G, a, F, C to "play" the bubbles. Layout starts random, but the canvas can be cleared to design scenes with any kind of rhythm and syncopation.
+
+- [Noisy Pink Bubbles](https://moxious.github.io/noisy-pink-bubbles/index.html)
+- [moxious/noisy-pink-bubbles](https://github.com/moxious/noisy-pink-bubbles)
