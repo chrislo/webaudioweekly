@@ -32,9 +32,9 @@ task :pins do
   require 'dotenv'
   Dotenv.load
 
-  N_DAYS = 30
+  since = Date.parse(ENV['SINCE']) || (Date.today - 30)
 
-  (Date.today - N_DAYS..Date.today).reverse_each do |date|
+  (since..Date.today).reverse_each do |date|
     url = "https://api.pinboard.in/v1/posts/get?tag=waw&dt=#{date.to_s}"
     doc = Nokogiri::XML(open(url, http_basic_authentication: [ENV['PINBOARD_USER'], ENV['PINBOARD_PASSWORD']]))
 
