@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Issue 92"
+permalink: "/92"
+summary: "Chrome's Autoplay policy, guitar tuning, Csound in the browser."
+---
+
+## Chrome autoplay policy changes broke Web Audio applications
+
+In the recently released version of Google's Chrome browser (version 66) a change was introduced to restrict the auto-playing of audio in web pages until after a user interacts with the page. The new autoplay policy is designed to minimise intrusive auto-playing advertisements and videos, but it has also meant that a [large number of Web Audio applications](https://bugs.chromium.org/p/chromium/issues/detail?id=840866), including many on Google's own "Chrome experiments" site broke.
+
+After some consideration Google [rolled back](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes) the changes, but intend to reintroduce them in Chrome 70, scheduled [for later in the year](https://www.chromestatus.com/features/schedule).
+
+In short, the Web Audio `audiocontext` is paused by default and can only be `resume`d after a user interaction, and fixing applications is in most cases fairly straightforward - if they are still actively maintained. [This snippet](https://gist.github.com/surma/301c9c377aaf90a3fdae615d4840bb2e) provides a confirmation dialogue, for example. In some cases, such as installation-type experiences there is no sensible place to ask for a user interaction, and these are harder to fix.
+
+While I think the change to the autoplay policy was done with the right intention, the communication hasn't been great. The change was [noted in the release notes](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes) although there has been some suggestion that this was added post-hoc. I also find it ironic that over the years of Web Audio standard development there has been serious objections from the Chrome team whenever "breaking changes" to the spec were suggested - but with this release they've broken their own rule in a big way. I know there's internal disagreement about how this policy should interact with Web Audio at Google, and with the input from developers and the wider community hopefully a compromise solution can be found.
+
+## How To: Tune a Guitar
+
+A lovely "explorable explanation" from the Interactive Data Lab at the Univeristy of Washington. Learn how to tune a guitar with a tuner and by ear and discover along the way how to listen for the characteristic beating sound when the tuning is almost, but not quite, correct.
+
+- [How To: Tune a Guitar](https://mathisonian.github.io/idyll/how-to-tune-a-guitar/)
+
+## In Brief
+
+- [Circular Ripples](http://circular-ripples.timpulver.de/): Tim Pulver has created this Web Audio / Web GL experiment. A relaxing, generative musical piece inspired by droplets falling into a pond and powered by a Markov chain.
+- [Landscape](http://landscape.cartoonbeats.com): Rua Haszard has created this animated accompaniment to their own compositions using sample-based sequencing syncronised with the animation.
+- [Use the Raspberry Pi Zeros as a USB MIDI device](http://andrewnicolaou.co.uk/posts/2016/pi-zero-midi-3-two-things-at-once): A detailed explanation from Andrew Nicolaou on how to build your own MIDI controller from a Rasperry PI.
+- [Web Wall Whispers](https://www.webwallwhispers.net/): "an interactive web-based soundwork, conceived as a virtual high-quality exploration of a mural, that generates a different interactive musical composition at every access"
+- [Instruments for Live Performance](https://instruments.kunstmusik.com/): Some experiments into using HTML5 and touch input to create multi-touch instruments designed for live performance settings.
+- [Falling Thirds](http://christopheralcock.github.io/falling3rds/): An ambient music app by Christopher Alcock.
+- [Discreet Music](https://mezoistvan.github.io/discreetmusic/): A branching, generative musical experience.
+- [Web Audio Modules](http://www.webaudiomodules.org/): An effort to standardise interfaces for custom-written Web Audio code so that code can interoperate more easily. Think "VST plugins for the web".
+- [Loops](http://loops.solam.co/): A browser-based collective music performance system that enables improvised audio visual performances where participants play their computers or smartphones.
+
+## Mozilla's "Intent to implement" AudioWorklet
+
+Confirmation that Mozilla are working on and intend to implement the new Audio Worklet node. Status of the implementation can be followed [on bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=1062849).
+
+- [Intent to implement: AudioWorklet](https://groups.google.com/forum/#!msg/mozilla.dev.platform/EtjfqRd9FI0/30DfQ3c6DgAJ)
+
+## Live coding with Csound in the browser
+
+[Csound](https://csound.com/) is one of the major computer music systems first developed at MIT in the 1980's. Recent efforts to compile the Csound core to Web Assembly (WASM) have allowed its functionality to be made accessible in a in-browser live-coding environment. And recent advances in support for the Audio Worklet node will bring significant performance improvements. You can live-coding with Csound yourself and read more details in the links below.
+
+- [live.csound.com](https://live.csound.com/)
+- [More details](https://github.com/kunstmusik/csound-live-code/blob/master/doc/intro.md)
+
+## Digital Signal Processing Playground
+
+The DSP Playground exposes the guts of an Audio Worklet node in a simple interface which allows you to write your own JavaScript code to directly generate and manipulate sound, without having to implement the boilerplate yourself. The addition of an oscilloscope and frequency analyser make this a really useful tool for learning and teaching. The playground relies on Audio Worklets so a recent version of Chrome is currently required.
+
+- [Audio DSP Playground](https://acarabott.github.io/audio-dsp-playground/)
+
+## The Time Lag Accumulator
+
+> The Time Lag Accumulator is a musical system that messes with time. Every note you play is repeated over and over every few seconds, until it gradually fades out. This means you can play a duet with the you from the past.
+
+- [The Time Lag Accumulator](https://codepen.io/teropa/full/WjPEBw)
