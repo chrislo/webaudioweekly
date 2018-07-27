@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Issue 93"
+permalink: "/93"
+summary: "Worklets, Push controllers, intellectualism vs. generative art, MIDI glockenspiels."
+---
+
+- [Muzoti](https://www.muzoti.com/): Jeremy Leach has created Muzoti based on his long experience of algorithmic composition. It automatically generates classical-style compositions with counterpoint and chord progressions in the browser.
+- [AudioWorklet Design Patterns](https://developers.google.com/web/updates/2018/06/audio-worklet-design-pattern): Hongchan Choi (one of the engineers responsible for AudioWorklets at Google) shares his tips on how to write code to be run inside AudioWorklets.
+- [Kajsa Lindgren - WOMB](https://www.inanimate.world/): "WOMB is a musical narration for abstracted ears and bodies – engulfing a listener simultaneously in subaquatic sonic environments, distant dreams of childhoods, memories and voices from the unknown: where time and space fold into each other."
+- [Pushsynth](https://www.garrensmith.com/posts/pushsynth): A web-based synthesiser designed to be used with Ableton's Push MIDI controller. The author, Garren Smith, has also [open sourced](https://github.com/garrensmith/abletonpush) the library for working with the Push.
+- [Intellectualism Hurts Generative Art](http://www.tylerlhobbs.com/writings/intellectualism-and-generative-art): An interesting essay by Tyler Hobbs discussing the relationship between generative art and art criticism. "How do you make an image that speaks to the viewer? This is the question that's at the heart of artwork, and it is impressively tricky to pin down."
+- [Tenori-Off](https://tenori-off.glitch.me/): Fun, glitchy, 8-bit style synth and drum sequencer. I lost a lot of time to this!
+- [Web Audio Conference 2018 | Berlin](https://webaudioconf.com/): Tickets and full program now available.
+- [DSP Audio's worklet editor](https://dsp.audio/editor/): Like jsfiddle or codepen but specifically for Audio Worklet code, `dsp.audio` allows code to be edited and shared, but also connected immediately to a software keyboard or MIDI controller.
+- [I discovered a browser bug](https://jakearchibald.com/2018/i-discovered-a-browser-bug/): A detailed story of how Jake Archibald found a bug in browsers (related to Web Audio) and got it fixed.
+- [A MIDI glockenspiel](https://twitter.com/rbnman/status/1003752626004135936/video/1): Want.
+- [Europa by Reason](https://www.propellerheads.se/europa): Europa, Reason's "Infinitely powerful spectral wavetable synth" plug-in for DAWs, is playable live in the browser so customers can "try before they buy". Over in the Web Audio slack channel the developer of this web version explained that all of the audio code is shared between the "real" browser plugin and this web version by cross-compiling to JS.
+- [Sporth](https://iclc.livecodenetwork.org/2017/cameraReady/sporth.pdf): is a stack-based language for audio synthesis.
+- [Immersive Web Weekly](https://immersivewebweekly.com/): A weekly newsletter of articles about the world of immersive computing on the web, VR/AR in browsers, and all things WebXR.
