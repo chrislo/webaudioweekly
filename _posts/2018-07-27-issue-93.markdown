@@ -11,7 +11,7 @@ summary: "Worklets, Push controllers, intellectualism vs. generative art, MIDI g
 - [Pushsynth](https://www.garrensmith.com/posts/pushsynth): A web-based synthesiser designed to be used with Ableton's Push MIDI controller. The author, Garren Smith, has also [open sourced](https://github.com/garrensmith/abletonpush) the library for working with the Push.
 - [Intellectualism Hurts Generative Art](http://www.tylerlhobbs.com/writings/intellectualism-and-generative-art): An interesting essay by Tyler Hobbs discussing the relationship between generative art and art criticism. "How do you make an image that speaks to the viewer? This is the question that's at the heart of artwork, and it is impressively tricky to pin down."
 - [Tenori-Off](https://tenori-off.glitch.me/): Fun, glitchy, 8-bit style synth and drum sequencer. I lost a lot of time to this!
-- [Web Audio Conference 2018 | Berlin](https://webaudioconf.com/): Tickets and full program now available.
+- [Web Audio Conference 2018](https://webaudioconf.com/): Tickets and full program now available.
 - [DSP Audio's worklet editor](https://dsp.audio/editor/): Like jsfiddle or codepen but specifically for Audio Worklet code, `dsp.audio` allows code to be edited and shared, but also connected immediately to a software keyboard or MIDI controller.
 - [I discovered a browser bug](https://jakearchibald.com/2018/i-discovered-a-browser-bug/): A detailed story of how Jake Archibald found a bug in browsers (related to Web Audio) and got it fixed.
 - [A MIDI glockenspiel](https://twitter.com/rbnman/status/1003752626004135936/video/1): Want.
