@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Issue 94"
+permalink: "/94"
+summary: "Low-latency audio on Windows, Machine learning for drummers, oscillators that oscillate."
+---
+
+- [Feature Request: Low-latency WASAPI input for web audio on Windows](https://bugs.chromium.org/p/chromium/issues/detail?id=316908): This chromium issue was first raised back in 2013 but there's been some recent activity to suggest that low-latency audio might be on its way to Chrome on Windows. This is a big deal for web audio applications that rely on recording and playback.
+- [Machine Learning for Drummers](http://blog.petersobot.com/machine-learning-for-drummers): A really interesting and in-depth blog post that explains how to extract "features" from audio and use them to build a classifier that recognise different types of drum samples (snare, hi-hat etc). Although the application is musically-motivated these techniques are used widely in machine learning, so this is a good introduction if you've been wanting to learn more about that field.
+- [BeepBox](https://wwww.beepbox.co/): BeepBox is an online tool for sketching and sharing chiptune melodies.
+- [krimple/ng-iot-synth-demo](https://github.com/krimple/ng-iot-synth-demo): A synthesiser and drum machine demo that uses RxJS, Angular 6 and WebMIDI.
+- [Knobcon](https://www.knobcon.com/): "if you are interested in electronic-based or experimental music and the tools used to create it, this is the place for you". It also has a silly name. September 7-9 in Chicago.
+- [CodePen - Oscillator Oscillator](https://codepen.io/terabaud/full/ZRybwg/): A fun exploration of different ways of modulating oscillators.
+- [Oat the Goat](http://oatthegoat.co.nz/): An interactive, animated story book build with web technologies and designed to be watched together by parents and children. The story explores the power of kindness and is designed to start conversations about bullying with young children.
