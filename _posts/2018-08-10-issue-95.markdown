@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Issue 95"
+permalink: "/95"
+summary: "Neural beatbox, SunVox, Brian Eno."
+---
+
+- [JavaScript SunVox Player](http://warmplace.ru/soft/sunvox/jsplay/): Alexander Zolotov has ported his highly optimised SunVox modular synthesiser library to JavaScript and put up some impressive demos.
+- [Neural Beatbox](https://codepen.io/naotokui/pen/NBzJMW): This codepen uses a neural network to generate percussion sounds and patterns from recordings of your voice.
+- [Circuit Patch Share](https://circulate.neuma.studio/): A full patch editor and sharing platform for the Novation Circuit powered by WebMIDI.
+- [Behringer DeepMind Studio](https://deepremind.neuma.studio/): From the same author, Fabio Barbon, a patch-sharer, downloader and sample editor for the Behringer DeepMind synthesiser.
+- [Simulation software automatically creates the sounds emanating from virtual objects](https://eandt.theiet.org/content/articles/2018/08/simulation-software-automatically-creates-the-sounds-emanating-from-virtual-objects/): Computers are now capable of creating incredible, almost life-like simulations of virtual scenes. But creating the corresponding audio to go along with them is hard. Academics at Stanford are working on the problem. There's more information and video demos on [the paper's website](https://graphics.stanford.edu/projects/wavesolver/) /via [HoT4Radio](https://mobile.twitter.com/HoT4Radio)
+- [DANCEMUSIC WTF-300](http://dancemusic.wtf/): Think you know your Tech House from your Nu Skool Breaks? Time to find out.
+- [Brian Eno - CelebrityAccess](https://celebrityaccess.com/2018/07/19/brian-eno/): An interesting interview with Brian Eno. "I always bring everything to a little conclusion when I am working on it." /via [@teropa](https://twitter.com/teropa/)
+- [A DSL for Music](https://jeremydormitzer.com/blog/a-dsl-for-music/): An interesting look at how to create domain-specific languages that map perfectly to your own way of thinking about creating music. The implementation language is Haskell In the article but the principles are transferable.
+- [Keeping a Ball Bouncing With 4 Mics](https://electrondust.com/2018/07/22/stepper-juggler/): This contraption can keep track of a bouncing ping-pong ball's location by measuring the difference in time it takes the sound of the bounce to reach 4 microphones. /via [@techbelly](https://github.com/techbelly)
