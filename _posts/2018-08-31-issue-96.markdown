@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Issue 96"
+permalink: "/96"
+summary: "Incredible spinners, digital filters, MIDI nostalgia."
+---
+
+- [Incredible Spinners](https://incredible-spinners.glitch.me/): Tero Parviainen continues his exploration of generative music and machine learning with this beautiful work that uses a deep neural network to generate music by sampling a /latent space/. A [twitter thread](https://twitter.com/teropa/status/1034841670913802242) has more details and examples.
+- [Building a Single Song Player](https://serversideup.net/building-a-single-song-player/): A tutorial on how to use [Amplitude.js](https://github.com/521dimensions/amplitudejs) to build a simple single-song HTML music player.
+- [Web Audio Conference 2018 diversity tickets](https://diversitytickets.org/events/241): If you or someone you know could benefit from support to attend Web Audio Conference this year, the call for "diversity tickets" closes on the 31st.
+- [BitMidi](https://feross.org/bitmidi/): Listen to a huge archive of nostalgic MIDI songs rendered using a port of the libtimidity C library to JavaScript using Web Assembly. Read more in the blog post, or cut to the chase with [this banger](https://bitmidi.com/michael-jackson-billie-jean-mid).
+- [OLPC's free sound samples](http://wiki.laptop.org/go/Sound_samples): A large archive of sound samples created for the OLPC project.
+- [Introduction to Digital Filters](https://karlhiner.com/jupyter_notebooks/intro_to_digital_filters/): A really in-depth but accessible look at the theory of digital filters presented in the form of an interactive Jupyter notebook.
+- [Rave - Artificial Intelligent DJ](https://rave.dj/): This application automatically, and somewhat magically, creates mixes from two different tracks.
+- [AudioWorklet: The future of web audio](https://drive.google.com/file/d/1-SZvEESLa7SgqqjW7ACdIXZRS4YHTQAR/view): Hongchan Choi's ICMC paper on the implementation of AudioWorklets.
