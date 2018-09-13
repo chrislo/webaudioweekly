@@ -48,12 +48,7 @@ task :pins do
       title = title.empty? ? 'No title' : title
       body = body.empty? ? 'No body' : body
 
-      puts "## #{title}"
-      puts ''
-      puts body
-      puts ''
-      puts "- [#{title}](#{link})"
-      puts ''
+      puts "- [#{title}](#{link}): #{body}"
     end
   end
 end

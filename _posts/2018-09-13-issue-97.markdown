@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Issue 97"
+permalink: "/97"
+summary: "Pure Data compilers, declarative audio graphs, Mellotrons."
+---
+
+- [The heavy hvcc compiler for Pure Data patches](https://github.com/enzienaudio/hvcc): A new compiler for [Pure Data](http://puredata.info/) patches which targets a number of platforms including Unity, VST and, using a ScriptProcessor, Web Audio. This is a mature and full-featured toolchain which allows PD users to build sound applications for multiple platforms, and work is underway to target [Emscripten and AudioWorklet](https://twitter.com/hochsays/status/1039574100774023168).
+- [r-audio: Declarative, reactive and flexible Web Audio graphs in React](https://medium.com/bbc-design-engineering/r-audio-declarative-reactive-and-flexible-web-audio-graphs-in-react-102c44a1c69c): A new declarative, react/web-component based framework for building audio applications from BBC R&D. The full code and detailed examples are [on github](https://github.com/bbc/r-audio).
+- [Bellwoods](https://bellwoods.xyz/): An immersive game in just 13kb of JavaScript featuring a generative Web Audio soundtrack.
+- [WDS-1: Web Drum Sequencer](https://stufreen.github.io/web-drum-sequencer/): A cool drum-sequencer built with React and Web Audio.
+- [Hacklily sheet music editor](https://www.hacklily.org/): A port of [Lillypond](http://lilypond.org/) to the browser to allow creation of beautiful, professionally-typeset sheet music.
+- [Create Electronic Dance Music with JavaScript](https://youtu.be/SySdchiCjsQ): A great talk from Walmik Deshpande at the April meeting of js.la.
+- [textbeat](https://github.com/flipcoder/textbeat/blob/master/README.md): A plain-text sequencer and interactive music environment based on the Tracker paradigm.
+- [p5.js Web Editor](https://medium.com/processing-foundation/hello-p5-js-web-editor-b90b902b74cf): The folks behind the Processing language have released a new web-based interactive programming environment.
+- [The Mellotron In Action](https://www.youtube.com/watch?v=VsEso9JagdQ): The Mellotron was a tape-loop "sampler". It's flute sound will be familiar if you've ever heard Strawberry Fields Forever by The Beatles. This video is a fun walk-through of how the Mellotron worked.
+- [It's hard to know why music gives pleasure: is that the point?](https://aeon.co/essays/its-hard-to-know-why-music-gives-pleasure-is-that-the-point): "We know music is pleasurable, the question is why? Many answers have been proposed: perhaps none are quite right."
