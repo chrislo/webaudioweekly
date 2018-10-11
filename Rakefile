@@ -32,7 +32,8 @@ task :pins do
   require 'dotenv'
   Dotenv.load
 
-  since = Date.parse(ENV['SINCE']) || (Date.today - 30)
+  date = ENV['SINCE'] || (Date.today - 30).to_s
+  since = Date.parse(date)
 
   (since..Date.today).reverse_each do |date|
     url = "https://api.pinboard.in/v1/posts/get?tag=waw&dt=#{date.to_s}"
