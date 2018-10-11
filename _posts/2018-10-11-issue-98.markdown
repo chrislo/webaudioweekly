@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Issue 98"
+permalink: "/98"
+summary: "Web Audio Conference 2018 and lots more"
+---
+
+## Web Audio Conference 2018
+
+I really enjoyed attending the recent Web Audio Conference in Berlin - it was great to catch up with some old friends and make some new ones. The conference seemed to go very smoothly and had a friendly, diverse crowd - a credit to the organising team's efforts.
+
+Most of the talks are [available to watch online in a YouTube channel](https://www.youtube.com/playlist?list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz) so rather than link to them all individually I thought I'd give my own summary of some of the key themes, and highlight a few of my personal favourites.
+
+I really enjoyed talks about the playful, joyous side of music making and in particular some of the experiments with generative music. Ruth John's [keynote](https://www.youtube.com/watch?v=55ewLshu5xo&index=2&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) set the theme with an exploration of the value of "formats" in music and having tangible things to listen to even in an increasingly digital age. [Lisa Passing](https://www.youtube.com/watch?v=vQOtLFDDDS8&index=3&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) spoke of generative experiments and individual expression through music. I was particularly looking forward to Tero Parvianen's [talk on neural networks and generative music](https://www.youtube.com/watch?v=HKRJuz6o2uY&index=7&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) and wasn't disappointed - it was a fantastic, accessible introduction to AI and music. And Mathieu Henri's [wonderful code-golfing version of a Brain Eno classic](https://www.youtube.com/watch?v=Lxho0sjXrKY&index=13&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) put a huge smile on my face.
+
+The Web Audio API is old enough now that it has a history of its own. It was fantastic to see Chris Rogers again and [his keynote](https://www.youtube.com/watch?v=iXxxQYOicy8&index=20&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) on the early days of the API's development is a lovely record of how far the technology has come. Paul Adenot's [keynote](https://cdn.rawgit.com/padenot/wac-18-slides/gh-pages/index.html#1) (slides only) brought us up to date with the changes this year and plans for the future.
+
+There was a lot of interest and discussion around developing a standard for sharing code between Web Audio applications in a manner similar to how VST plugins work in music production software. This standard is being called Web Audio Modules (WAM) and there's already a [community site](https://www.webaudiomodules.org/) with a lot of examples. Michel Buffa's [talk on the standard](https://www.youtube.com/watch?v=5D5aQozfxvI&index=21&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) is a good way to get an overview. I saw a lot of interesting demos during the demo session that show various ways that synths and audio effects from different developers can be connected together.
+
+With an implementation of the [Audio Worklet](https://webaudio.github.io/web-audio-api/#audioworkletnode) specification already in the wild in Chrome there were a number of talks investigating various ways of using the new node, with a particular emphasis on cross-compiling various languages to run in the new node - including [CSound](https://www.youtube.com/watch?v=OLTBTDOXfjA&index=11&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s). Charlie Roberts has implemented his audio processing language to Audio Worklets and [his talk](https://www.youtube.com/watch?v=izXcd4kw0Ds&index=12&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&t=0s) goes over some of the challenges. He also found time to [wow the audience](https://www.youtube.com/watch?v=qi8VX6GawLM&list=PLQ9S5oqvpyWm2-HDGnQWWlX30pqYlb_Rz&index=18) with a live-programming session at the concert.
+
+## News and Links
+
+### Lots of new examples added to the MDN Web Audio docs
+
+Ruth John [@Rumyra](https://twitter.com/Rumyra) has been updating the Web Audio API docs For MDN recently. She has also built a few demos as well!
+
+There's a [beginner's article](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API) which creates a boombox, and introduces the Web Audio API, and it's concepts. A [more advanced tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques) which teaches you how to build a step sequencer including creating sound, filters, envelopes and scheduling. She has also created a [3D panner demo](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics) to cover spacialisation.
+
+And if that's not enough, there's also a demo and supporting article about the [IIR Filter node](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters#IIR_versus_biquad_filters).
+
+There's a [new article which talks about best practices](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Best_practices) and as MDN is open source if there's anything you want to add, you can easily go and add it. The same goes for all the MDN Web Audio docs, if you feel like there's something needs updating, it is open and you can do so.
+
+### Re-implementing the Stereo Panner node
+
+Chris Guttandin's fantastic [standardized-audio-context](https://github.com/chrisguttandin/standardized-audio-context) library smooths over many of the inconsistencies between browser implementations of the Web Audio API. In this article Chris talks about adding stereo panner node support for safari (which doesn't implement this node natively) using a clever combination of gain and mixer nodes.
+
+- [Reimplenting the stero panner node](https://media-codings.com/articles/reimplementing-the-stereo-panner-node):
+
+### Slang
+
+A new project from Kyle Stetz:
+
+> I've always wanted to write a programming language from scratch, but as someone who didn't study computer science I find it incredibly intimidating. Discovering Ohm.js changed my mind; its incredible editor and approachable JS API make it possible to experiment quickly with a lot of feedback. This project is my first pass at building a language and runtime environment from start to finish.
+
+- [slang.kylestetz.com/](http://slang.kylestetz.com/)
+- [github.com/kylestetz/slang](https://github.com/kylestetz/slang)
+
+### In Brief
+
+- [Web Audio Generator](https://github.com/ISNIT0/webaudio-generator): Generate web audio code using a graphical interface.
+- [Chirp](https://messenger.chirp.io/): Chirp, the magical "data over sound" toolkit now has a Web Audio / Web Assembly version for use in web apps. I was really impressed by the demo of this at Web Audio Conference.
+- [Web Audio Conference, Berlin 2018](https://samm.io/web-audio-conference-berlin-2018/): Jörge's write up of the recent Web Audio conference.
+- [Audio visualisation with the Web Audio API and React](https://www.twilio.com/blog/audio-visualisation-web-audio-api--react)
+- [Announcing the web-sys crate! | Rust and WebAssembly](https://rustwasm.github.io/2018/09/26/announcing-web-sys.html): Write Rust to generate WebAssembly with access to all of the Web's APIs including Web Audio.
+- [Web Audio Mixer](https://jamesfiltness.github.io/web-audio-mixer/): A cool multi-track mixer application.
+- [Papers from ICLR 2019 Submissions on Generative Models for Music and Audio](http://www.ymer.org/amir/2018/09/29/papers-from-iclr-2019-submissions-on-generative-models-for-music-and-audio/)
