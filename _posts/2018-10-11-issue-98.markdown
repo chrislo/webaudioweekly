@@ -52,6 +52,6 @@ A new project from Kyle Stetz:
 - [Chirp](https://messenger.chirp.io/): Chirp, the magical "data over sound" toolkit now has a Web Audio / Web Assembly version for use in web apps. I was really impressed by the demo of this at Web Audio Conference.
 - [Web Audio Conference, Berlin 2018](https://samm.io/web-audio-conference-berlin-2018/): Jörge's write up of the recent Web Audio conference.
 - [Audio visualisation with the Web Audio API and React](https://www.twilio.com/blog/audio-visualisation-web-audio-api--react)
-- [Announcing the web-sys crate! | Rust and WebAssembly](https://rustwasm.github.io/2018/09/26/announcing-web-sys.html): Write Rust to generate WebAssembly with access to all of the Web's APIs including Web Audio.
+- [Announcing the web-sys crate: Rust and WebAssembly](https://rustwasm.github.io/2018/09/26/announcing-web-sys.html): Write Rust to generate WebAssembly with access to all of the Web's APIs including Web Audio.
 - [Web Audio Mixer](https://jamesfiltness.github.io/web-audio-mixer/): A cool multi-track mixer application.
 - [Papers from ICLR 2019 Submissions on Generative Models for Music and Audio](http://www.ymer.org/amir/2018/09/29/papers-from-iclr-2019-submissions-on-generative-models-for-music-and-audio/)
