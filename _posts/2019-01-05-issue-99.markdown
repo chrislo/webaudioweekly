@@ -13,6 +13,7 @@ This happened last Autumn, but I haven't mentioned it in the newsletter yet. The
 
 
 ## QA Engineer (Audio Hardware & Software Testing) for Focusrite/Novation
+
 ### Sponsored post
 
 > Focusrite are looking for a passionate and motivated QA Engineer to join our highly respected Quality Assurance team. You will be working to ensure that our new products meet the high standards of Quality, Ease of Use, and Reliability that our customers have come to expect from us.
