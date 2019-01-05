@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Issue 99"
+permalink: "/99"
+summary: "Reverb, snapshot testing, cheese."
+---
+
+## HTML5 Web Audio API becomes Candidate Recommendation
+
+This happened last Autumn, but I haven't mentioned it in the newsletter yet. The W3C Web Audio API specification is now a Candidate Recommendation. This is effectively a "feature freeze" for the version 1 of the specification - to give chance for interested parties to offer feedback based on implementations of the spec. It also acts as a line in the sand for the Audio Group to [start collecting ideas for the next version](https://github.com/WebAudio/web-audio-api/issues?q=is%3Aopen+is%3Aissue+label%3A%22Proposed+v.next%22). I know how hard the whole team have worked on getting the spec to this point, in particular the editors and chairs at the time Raymond, Paul, Matt and Joe. Amazing work everyone!
+
+- [W3C Invites Implementations of Web Audio API](https://www.w3.org/blog/news/archives/7292)
+
+
+## QA Engineer (Audio Hardware & Software Testing) for Focusrite/Novation
+### Sponsored post
+
+> Focusrite are looking for a passionate and motivated QA Engineer to join our highly respected Quality Assurance team. You will be working to ensure that our new products meet the high standards of Quality, Ease of Use, and Reliability that our customers have come to expect from us.
+
+> There is currently scope for either a junior, or more senior role within the team (the latter requiring some relevant professional experience).
+
+- [QA Engineer (Audio Hardware & Software Testing)](https://focusrite.workable.com/j/1F96826113)
+
+## Reverb and the Web Audio API
+
+A two-part blog post series by Anton Miselaytes on various techniques for generating reverb (synthesising the effect of an acoustic space). Including the theory and practice of convolution reverb and various algorithmic reverb approaches.
+
+- [Convolution Reverb and Web Audio API](https://itnext.io/convolution-reverb-and-web-audio-api-8ee65108f4ae)
+- [Algorithmic Reverb and Web Audio API](https://itnext.io/algorithmic-reverb-and-web-audio-api-e1ccec94621a)
+
+## Audio snapshot testing
+
+If you're looking for a technique to help you write automated tests for your web audio application one approach is to compare the generated audio output with a known-good "snapshot". This github repo is a proof-of-concept of that approach.
+
+- [salomvary/audio-snapshot-testing: Audio snapshot testing proof of concept](https://github.com/salomvary/audio-snapshot-testing)
+
+## Web Audio at the 2018 Audio Developers Conference
+
+There were a number of Web Audio related presentations at the 2018 Audio Developers Conference including [Magnus Berger on Building rack extensions for MacOS, Windows, mobile, web and hardware](https://www.youtube.com/watch?v=rcV9zLFzt4s), [Oli Larkin on Bringing VirtualCZ to the Web](https://www.youtube.com/watch?v=IRLxMhksUZ0) and [Jari Kleimola on JUCE plugins for web browsers](https://www.youtube.com/watch?v=ORIpeFQqR9c).
+
+## An interview with Kahlil Lechelt and Jan Monschke from NESTED LOOPS
+
+NESTED LOOPS are a band that create all of their music and visualisations using web technologies. Learn more about how they do it in this Changelog podcast interview.
+
+- [JS Party #52: Nest 'dem loops featuring Kahlil Lechelt and Jan Monschke from NESTED LOOPS - Changelog](https://changelog.com/jsparty/52)
+
+## W3C Audio Community Group
+
+If you're interested in shaping the future development of the Web Audio API the W3C have set up a new Audio Community Group to help you discuss your ideas and feedback with the folks who standardise and implement the API.
+
+- [Audio Community Group](https://www.w3.org/community/audio-comgp/)
+
+## WebbyJam
+
+Hiroyuki Takakura wrote to tell me that WebbyJam, the easy-to-use composition app, has some new performance improvements and has received some significant new features such as creating guitar diagrams and saving and sharing your compositions.
+
+- [webbyjam.com](https://www.webbyjam.com/)
+
+## In Brief
+
+- [music-fns](https://www.npmjs.com/package/music-fns): music-fns is a JavaScript music utility library that contains small music notation related functions
+- [Browser EQ](https://chrome.google.com/webstore/detail/browser-eq/odamhgdipmfelnoclggflemkjkigdnhe): A chrome extension giving you a graphic equaliser for any playing audio or video source implemented using the Web Audio API
+- [Implementing AudioWorklets with React](https://hackernoon.com/implementing-audioworklets-with-react-8a80a470474): helping you integrate the new AudioWorklet API with the React UI framework.
+- [New Web Audio tutorials on MDN](https://developer.mozilla.org/en-US/profiles/Rumyra): Ruth John spent some time last year writing a bunch of new Web Audio tutorials for the Mozilla Developer Network site. They're great!
+- [Being fast and light: Using binary data to optimise libraries on the client and the server](https://ada.is/blog/2017/07/19/being-fast-and-light-using-binary-data-to-optimise-libraries-on-the-client-and-the-server/): If you're shipping large amounts of audio data between client and server using a binary format can dramatically improve performance. This post shows you how.
+- [Make Music themed HackSpace magazine](https://hackspace.raspberrypi.org/issues/14): The latest issue of HackSpace magazine (a free PDF version is available) has some great articles on building your own synthesiser.
+- [Tone.js sound design for HexGL](https://luisbergmann.com/hexgl_/): Luis Bergmann has used Tone.js to add sound effects to the open-source racing game HexGL (Chrome only).
+- [Ring the Web](http://makker.hu/RingTheWeb/): Real-world push-buttons that can influence the web.
+- [Co-operative FM Synth](http://kbalazs.periszkopradio.hu/egyeb/websynth/): Control a synthesiser with anyone on the web.
+- [freqi](https://www.npmjs.com/package/freqi): A javascript library for generating sets of frequencies to use with the Web Audio API.
+
+## Cheesy Music
+
+> A Swiss cheesemaker has embarked on an experiment to test the impact of music on Emmental, one of the most famous cheeses in Switzerland
+
+- [Swiss experiment with sound to make cheese tastier](https://m.phys.org/news/2018-11-cheesy-music-swiss-cheese-tastier.html)
