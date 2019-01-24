@@ -7,7 +7,7 @@ task :tl do
   system("bundle exec jekyll b")
 
   # Find the latest post
-  last_issue = Dir.glob('_site/[0-9][0-9].html').
+  last_issue = Dir.glob('_site/[0-9][0-9][0-9].html').
                map {|f| File.basename(f, '.*') }.
                map(&:to_i).
                sort.
