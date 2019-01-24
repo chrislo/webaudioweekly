@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Issue 100"
+permalink: "/100"
+summary: "I can't believe it's been that long."
+---
+
+- [Realtime Annotations & Visualizations in Live Coding Performance](https://charlieroberts.github.io/annotationsAndVisualizations/): An interactive essay/paper from Charlie Roberts who is doing fascinating work in the live-coding space. Charlie's Gibber environment embeds visualisations directly into the code editor to make the live-coding experience more musical.
+- [standardized-audio-context](https://github.com/chrisguttandin/standardized-audio-context/): Chris Guttandin's perennially useful `standardized-audio-context` smooths out the inconsistencies between browser implementations of the Web Audio API so you can just "code to the spec". Recent commits have added (in a very clever way) support for the PannerNode in Safari.
+- [Kord](http://okaybenji.github.io/kord/): A warm-sounding chord synth that puts the emphasis on harmonic names (I, II, ii, I6 etc). The little cog icon allows lots of tweaking of the synth's parameters.
+- [WDS-1: Web Drum Sequencer](https://wds-1.com/): An addictive, well-implemented drum sequencer with some pleasing presets.
+- [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html): A novel, animated introduction to Fourier Transforms and their uses - including in audio.
+- [Sequential Cross-Fade Visualizer](http://demos.joshuabolitho.com/cross-fader/): An interesting visualisation of a method for cross fading between multiple sound sources.
+- [Trigger Riot](https://petervdn.github.io/trigger-riot/dist/): A work-in-progress Web Audio implementation of the "clock divider, clock multiplier, step injector, time shifter, clock shifter, pulse-width modulator, ... arithmetic probability processor" eurorack module [thing](http://tiptopaudio.com/trigger-riot/).
+- [Safari, Firefox, Edge, Chrome: How To Stream Real Time Lossless Audio](https://blog.mixanalog.com/how-to-stream-lossless-audio-in-safari): A detailed look at how to stream lossless audio to browsers from the mixanalog team.
+- [MIDI 2.0™](https://www.midi.org/articles-old/the-midi-manufacturers-association-mma-and-the-association-of-music-electronics-industry-amei-announce-midi-2-0tm-prototyping): The name for the next generation of MIDI has been decided and after what must have taken considerable deliberation they've chosen "MIDI 2.0". More excitingly there's a whole host of new features (auto-configuration, new DAW/web integrations, extended resolution, increased expressiveness, tighter timing) to update the venerable old standard for the future.
+- [One Minute Jazz Lesson](https://www.youtube.com/watch?v=QIKAPVqDths&list=PL7D9i_VsmDAQE1jJPsXmWYaEf5y6Wl8FQ): I hadn't seen these until [Rob](https://twitter.com/robd) put me on to them. Now I can't unsee them.
