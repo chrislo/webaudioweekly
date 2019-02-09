@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Issue 101"
+permalink: "/101"
+summary: "A new autoplay policy for Firefox, trackers, oscillators, deep learning, cheese."
+---
+
+## Blog Posts
+
+- [Firefox 66 to block automatically playing audible video and audio](https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audible-video-and-audio/): Firefox intend to implement an autoplay policy for Audio and Video content in Firefox 66. At the moment this won't affect Web Audio applications that play sound using the `AudioContext` but a policy for this is planned for "sometime in 2019". We looked at the controversy surrounding a similar policy in Chrome in [issue 92](https://www.webaudioweekly.com/92).
+- [Making Reverb with the Web Audio API](http://blog.gskinner.com/archives/2019/02/reverb-web-audio-api.html): an article on how to implement reverberation effects using Web Audio. Typically we'd use a convolution filter (implemented using the `ConvolverNode` in Web Audio) to add reverberation, but this article improves our understanding of how and why this works by using delays and filters to create our own reverb.
+- [Affecting images using the Web Audio API](https://medium.com/statuscode/a-gift-of-sound-and-vision-affecting-images-using-the-web-audio-api-108f247d508e): What happens when you pass an image through a guitar pedal?
+- [Audio classification with Keras](https://blogs.rstudio.com/tensorflow/posts/2019-02-07-audio-background/): An in-depth look at using machine learning to classify audio using Neural Networks (via TensorFlow) to learn the features. The blog post uses the R language but there's a lot of generally applicable knowledge here.
+
+## Projects
+
+- [webaudio-macronodes](https://github.com/g200kg/webaudio-macronodes): A handy selection of common effects (delay, equalisation, phasing, distortion etc.) implemented with the Web Audio API and wrapped in constructors that work in the same way as the "built in" node types.
+- [A browser-based Korg Monotron Duo clone](https://elas7.github.io/monotron/): Lovely, simple browser-based synth. Read more about the project [on reddit](https://www.reddit.com/r/synthesizers/comments/am17s1/i_made_a_browserbased_korg_monotron_duo_clone/).
+- [Nudrum](https://nudrum.netlify.com/): Nudrum is designed to help students and teachers learn more about multirhythm and multimeter music. The full source code for the project is [on Github](https://github.com/toboko/nudrum-drum-machine).
+- [Tracker Radio: Spotify for Tracker Mods](https://indigobeetle.pythonanywhere.com): A browse-able interface for a huge archive of classic "tracker" music. It plays the entire [modland.com](modland.com) archive using the [WeTracker](http://www.wetracker.xyz/) WebAudio engine.
+- [Bassoon Tracker](https://www.stef.be/bassoontracker/): An Amiga-style tracker implemented in the browser. The [source code is on github](https://github.com/steffest/bassoontracker). Amazing.
+- [schlae/snark-barker](https://github.com/schlae/snark-barker): If you're feeling really nostalgic you *could* build your own 100% compatible replica of the SoundBlaster sound card.
+- [Makkeróni](http://makker.hu/makkeroni/): A linux shell-like live coding system. There's a huge amount to play with here, type `help` to get started.
+- [Visualising Noise](https://ramesaliyev.com/visual-noises/): Visualise (but sadly not auralize) common noise generation algorithms in 1D and 2D.
+- [Veremin  -  A Browser-based Video Theremin](https://medium.com/ibm-watson-data-lab/veremin-a-browser-based-video-theremin-1548b63200c): Wave your hands in the air and create music - using Deep Learning, PoseNet models, your webcam and the Web Audio API.
+- [flarp/better-oscillator](https://github.com/Flarp/better-oscillator): The `OscillatorNode` in the Web Audio API is intended for musical applications so generates waveforms that are band-limited. Sometimes, however, it is useful to have the pure mathematical waveforms. This library generates those, with some additional handy features such as pulse-width modulation and syncing, using an `AudioWorklet`. I'm not sure it's "better" as it solves a different problem - but handy nonetheless.
+
+## Cheese
+
+- [How Shapes & Sounds Can Change What You Taste](https://culturecheesemag.com/article/flavor-science-shape-sound-taste): In [issue 99](https://webaudioweekly.com/99) we learnt about the effect of music on the taste of Emmental. [Ben](http://benhouge.com/), who confused our taste buds in a wonderful way at the last Web Audio Conference dinner, shared with me this article from Cheese Magazine.
