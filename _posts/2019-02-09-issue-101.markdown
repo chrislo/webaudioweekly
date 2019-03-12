@@ -25,6 +25,7 @@ summary: "A new autoplay policy for Firefox, trackers, oscillators, deep learnin
 - [Veremin  -  A Browser-based Video Theremin](https://medium.com/ibm-watson-data-lab/veremin-a-browser-based-video-theremin-1548b63200c): Wave your hands in the air and create music - using Deep Learning, PoseNet models, your webcam and the Web Audio API.
 - [flarp/better-oscillator](https://github.com/Flarp/better-oscillator): The `OscillatorNode` in the Web Audio API is intended for musical applications so generates waveforms that are band-limited. Sometimes, however, it is useful to have the pure mathematical waveforms. This library generates those, with some additional handy features such as pulse-width modulation and syncing, using an `AudioWorklet`. I'm not sure it's "better" as it solves a different problem - but handy nonetheless.
 
+
 ## Cheese
 
 - [How Shapes & Sounds Can Change What You Taste](https://culturecheesemag.com/article/flavor-science-shape-sound-taste): In [issue 99](https://webaudioweekly.com/99) we learnt about the effect of music on the taste of Emmental. [Ben](http://benhouge.com/), who confused our taste buds in a wonderful way at the last Web Audio Conference dinner, shared with me this article from Cheese Magazine.
