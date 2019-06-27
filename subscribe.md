@@ -7,23 +7,7 @@ permalink: /subscribe/
 You can get the latest issue of Web Audio Weekly as an email by
 signing up to the newsletter. In addition to what you see on here on
 the website, there's sometimes some exlusive extra content just for
-subscribers. The newsletter version is powered by Tinyletter and I'll
+subscribers. The newsletter version is powered by Sender and I'll
 never share your email address with anyone else.
 
-<div id="form-main">
-  <div id="form-div">
-    <form class="form" id="form1" action="https://tinyletter.com/webaudioweekly" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/webaudioweekly', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-
-      <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="tlemail" placeholder="Email" />
-      </p>
-
-      <input type="hidden" value="1" name="embed"/>
-
-      <div class="submit">
-        <input type="submit" value="SUBSCRIBE" id="button-blue"/>
-        <div class="ease"></div>
-      </div>
-    </form>
-  </div>
-</div>
+<style type="text/css"> .subscription-form input { display: inline-block; padding: 4px; font-size: 13px; line-height: 18px; color: #555555; border: 1px solid #ccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; margin-bottom: 10px; } .checkbox_wrapper { display: inline-block; padding: 4px; width: 100%; } .subscription-form input.checkbox_type, .subscription-form .checkbox_label { width: auto; vertical-align: middle; margin-top: 0px; margin-bottom: 0px; } .subscription-form .checkbox_label { display: inline-block; line-height: 18px; margin-left: 4px; font-size: 12px; font-family: arial; color: #29484f; } .subscription-form input { color: #000000; background-color: #ffffff; border: 1px solid #c4c4c4; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; } .btn-grad { background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); background: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); background: linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); } .subscription-form-fields { margin-top: 15px; } .subscription-form { width: 400px; border: 2px solid #a3a3a3; border-radius: 10px; padding: 20px; margin: 0 auto; background-color: #ffffff; } .subscription-form h4 { font-family: arial; color: #565656; font-size: 20px; margin-top: 0px; } .subscription-thank-you { font-family: arial; color: #29484f; font-size: 12px; } .subscription-form-content { font-family: arial; color: #29484f; font-size: 12px; } .subscription-form button { margin-top: 5px; border-radius: 5px; padding: 10px; display: block; text-align: center; border: none; width: 100%; color: #ffffff; background-color: #aa2500; font-size: 20px; font-family: arial; } .sender-sub-main { display: table; width: 100%; height: 100%; } .sender-sub-inner { display: table-cell; vertical-align: middle; } .sender-link-wrapper { display: block; position: relative; margin-top: 16px; } .sender-link { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 12px; text-decoration: none !important; color: #555; } .sender-link img { width: 16px; height: 16px; margin-right: 2px; vertical-align: text-bottom; } </style> <div class="sender-sub-main"> <div class="sender-sub-inner"> <div class="subscription-form"> <h4 class="dont-break-out">Web Audio Weekly</h4> <div class="subscription-form-fields"> <div class="subscription-form-content"> Fill in your email to receive the Web Audio Weekly newsletter! </div> <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/4793/3d2e5ace" method="POST"> <div class="subscription-form-fields" id="subscription-form-fields"> <input name="email" class="email_type" id="email" data-label="Email" placeholder="Email" required> </div> <button type="submit" class="btn-grad dont-break-out">Subscribe</button> </form> </div> <span class="sender-link-wrapper"> <a class="sender-link" href="http://sender.net" title="Email marketing services"> <img src="https://app.sender.net/favicon.png"> <span>Powered by Sender</span> </a> </span> </div> </div> </div>
