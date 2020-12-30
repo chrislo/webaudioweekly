@@ -1,0 +1,1 @@
+Hello! I hope you enjoy this week's newsletter. And if you're attending WAC '19 in Trondheim, have a great conference. If you've got links you'd like to share, or any feedback on the newsletter, hit reply to get in touch. -- Chris.

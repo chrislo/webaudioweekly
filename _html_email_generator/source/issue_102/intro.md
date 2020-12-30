@@ -1,0 +1,1 @@
+I've been quiet for a while but thought I'd get back on the wagon with a new look and some new mailing list software behind the scenes. I hope you enjoy! If you've got projects you'd like to share, hit reply to get in touch. -- Chris.

@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Web Audio Weekly</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/email.css" />
+  </head>
+
+  <body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+    <table class="head-wrap" bgcolor="#f4de50">
+      <tr>
+	<td></td>
+	<td class="header container" align="">
+
+	  <div class="content">
+	    <table bgcolor="#f4de50" >
+	      <tr>
+		<td><img src="https://www.webaudioweekly.com/img/logo.png" width="50px"/></td>
+		<td align="right"><h6 class="collapse">Web Audio Weekly</h6></td>
+	      </tr>
+	    </table>
+	  </div>
+	</td>
+	<td></td>
+      </tr>
+    </table>
+
+    <table class="body-wrap" bgcolor="">
+      <tr>
+	<td></td>
+	<td class="container" align="" bgcolor="#FFFFFF">
+
+	  <div class="content">
+	    <table>
+	      <tr>
+		<td>
+		  <h1>Hello!</h1>
+		  <% if intro %>
+		  <p class="lead"><%= intro.output %></p>
+		  <% else %>
+		  <p class="lead">Thank you for subscribing to Web Audio Weekly. Check out <a href="https://www.webaudioweekly.com">our archives</a> for issues you may have missed and let your friends know they can <a href="https://www.webaudioweekly.com/subscribe">subscribe</a> by forwarding them this newsletter.</p>
+		  <% end %>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+
+	  <% items[0..1].each do |item| %>
+	  <div class="content">
+	    <table bgcolor="">
+	      <tr>
+		<td>
+		  <h4><a href="<%= item.url %>"><%= item.title %></a></h4>
+		  <h5><small><%= item.author.upcase %></small></h5>
+		  <%= item.content %>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+	  <% end %>
+
+	  <!-- callout -->
+	  <div class="content"><table bgcolor="">
+	      <tr>
+		<td>
+		  <p class="callout">Did you know you can advertise in Web Audio Weekly? <a href="https://www.webaudioweekly.com/advertise/">Find out more! &raquo;</a>
+		  </p>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+	  <!-- /callout -->
+
+	  <% items[2..].each do |item| %>
+	  <div class="content">
+	    <table bgcolor="">
+	      <tr>
+		<td>
+		  <h4><a href="<%= item.url %>"><%= item.title %></a></h4>
+		  <h5><small><%= item.author.upcase %></small></h5>
+		  <%= item.content %>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+	  <% end %>
+
+	  <hr />
+
+	  <div class="content meta">
+	    <table bgcolor="" cellpadding="" align="left">
+	      <tr>
+		<td>
+		  <h4 class="small">What's this?</h5>
+		  <p>Web Audio Weekly is a newsletter about audio on the web platform, curated by <a href="https://chrislowis.co.uk">Chris Lowis</a>. Check out the <a href="https://webaudioweekly.com">archives</a> for issues you may have missed and let your friends know they can <a href="https://www.webaudioweekly.com/subscribe">subscribe</a> by forwarding them this newsletter.</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <h4 class="small">Support</h5>
+		  <p>
+		    <a href="https://www.buymeacoffee.com/chrislowis" target="_blank">
+		      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 30%;"/>
+		    </a>
+		  </p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <h4 class="small">Elsewhere</h5>
+		  <p>
+		  <ul class="">
+		    <li><a href="https://www.webaudioweekly.com">Previous issues</a></li>
+		    <li><a href="https://twitter.com/webaudioweekly">Twitter</a></li>
+		    <li><a href="mailto:chris@webaudioweekly.com">Email</a></li>
+		  </ul>
+		  </p>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+	</td>
+      </tr>
+
+      <div class="clear"></div>
+      <table class="footer-wrap">
+	<tr>
+	  <td></td>
+	  <td class="container">
+	    <div class="content">
+	      <table>
+		<tr>
+		  <td align="center">
+		    <p>
+		      <a href="{$unsubscribe_link}"><unsubscribe>Unsubscribe</unsubscribe></a>
+		    </p>
+		  </td>
+		</tr>
+	      </table>
+	    </div>
+	  </td>
+	  <td></td>
+	</tr>
+      </table>
+    </table>
+  </body>
+</html>
