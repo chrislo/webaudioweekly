@@ -2,4 +2,4 @@ _site
 .sass-cache
 .jekyll-metadata
 /.env
-html_email_generator/output/*
+_html_email_generator/output/*
