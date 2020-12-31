@@ -7,3 +7,5 @@ round to including them all in the coming weeks.
 If you'd like to help me devote more time to this newsletter please
 consider [buying me a
 coffee](https://www.buymeacoffee.com/chrislowis).
+
+In the meantime, stay safe and look after each other -- Chris
