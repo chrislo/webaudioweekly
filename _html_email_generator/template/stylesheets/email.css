@@ -49,6 +49,18 @@ p.callout {
 	color: #2BA6CB;
 }
 
+span.sponsor {
+    font-weight:normal;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 60%;
+    border: 1px solid #f8eb96;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.1;
+    color: #6f6f6f;
+    padding: 4px;
+}
+
 table.social {
 /*      padding:15px; */
 	background-color: #ffffff;

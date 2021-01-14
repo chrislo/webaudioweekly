@@ -59,6 +59,19 @@
 	  </div>
 	  <% end %>
 
+	  <% if sponsor %>
+	  <div class="content">
+	    <table bgcolor="">
+	      <tr>
+		<td>
+		  <h4><a href="<%= sponsor.url %>"><%= sponsor.title %></a></h4>
+		  <h5><small><%= sponsor.author.upcase %></small> <span class="sponsor">sponsored</span></h5>
+		  <%= sponsor.content %>
+		</td>
+	      </tr>
+	    </table>
+	  </div>
+	  <% else %>
 	  <!-- callout -->
 	  <div class="content"><table bgcolor="">
 	      <tr>
@@ -72,7 +85,7 @@
 	      </tr>
 	    </table>
 	  </div>
-	  <!-- /callout -->
+	  <% end %>
 
 	  <% items[2..].each do |item| %>
 	  <div class="content">

@@ -26,6 +26,17 @@ if File.exist?(intro_file)
   intro = Metadown.render(File.read(intro_file))
 end
 
+sponsor_file = File.join(source_directory, 'sponsor.md')
+if File.exist?(sponsor_file)
+  data = Metadown.render(File.read(sponsor_file))
+  sponsor = Issue.new(
+    data.metadata['url'],
+    data.metadata['title'],
+    data.metadata['author'],
+    data.output
+  )
+end
+
 template = ERB.new(File.read('template/newsletter.html.erb'))
 result = template.result(binding)
 File.open('output/output.html', 'w') { |file| file.write(result) }
