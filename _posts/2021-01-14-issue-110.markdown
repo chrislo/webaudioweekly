@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Issue 109"
-permalink: "/109"
-summary: "Musical Venn diagrams, SuperCollider in the browser, classic Roland sounds."
+title:  "Issue 110"
+permalink: "/110"
+summary: "Infinite break beats, browser-based instruments, C64 SID emulators"
 ---
 
   <body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !important; height: 100%; margin: 0; padding: 0;">
