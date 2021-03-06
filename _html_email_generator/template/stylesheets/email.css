@@ -156,6 +156,11 @@ blockquote {
   border-left: 3px solid ##f4de50;
 }
 
+code {
+  font-family: monospace;
+  background: #eeeeee;
+}
+
 /* -------------------------------------
 		SIDEBAR
 ------------------------------------- */
