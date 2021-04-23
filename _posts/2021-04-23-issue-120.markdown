@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Issue 119"
-permalink: "/119"
-summary: "Rhythmic mini-languages, FM synthesis, morse code."
+title: "Issue 120"
+permalink: "/120"
+summary: "Endless acid, WAC2021, webassembly, noise."
 ---
 
   <body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !important; height: 100%; margin: 0; padding: 0;">
