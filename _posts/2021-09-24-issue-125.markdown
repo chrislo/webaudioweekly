@@ -1,0 +1,218 @@
+---
+layout: post
+title: "Issue 125"
+permalink: "/125"
+summary: "Generative music, waveguides, voice models"
+---
+
+  <body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !important; height: 100%; margin: 0; padding: 0;">
+    <table class="head-wrap" bgcolor="#f4de50" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+      <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+  <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;"></td>
+  <td class="header container" align="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto; padding: 0;">
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="#f4de50" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;"><img src="https://www.webaudioweekly.com/img/logo.png" width="50px" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 100%; margin: 0; padding: 0;" /></td>
+      <td align="right" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;"><h6 class="collapse" style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; margin: 0; padding: 0; line-height: 1.1; color: #444; font-weight: 900; font-size: 14px; text-transform: uppercase;">Web Audio Weekly</h6></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+    <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;"></td>
+      </tr>
+    </table>
+
+    <table class="body-wrap" bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+      <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+    <td class="container" align="" bgcolor="#FFFFFF" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto; padding: 0;">
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h1 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 200; font-size: 44px; margin: 0 0 15px; padding: 0;">Hello!</h1>
+
+        <p class="lead" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 17px; line-height: 1.8; margin: 0 0 10px; padding: 0;"></p><p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">I hope this issue finds you well. Thanks for subscribing and sending me links to include in the newsletter - I really appreciate all of your support. This issue is sponsored by Interval, who are looking for WebAudio and WebRTC engineers. Check out their post below for details.</p>
+
+<p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">-- Chris</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://grooveful.io/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Grooveful</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">GONÇALO ABREU</small></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">Grooveful is one of a series of practice tools for musicians being developed by Gonçalo Abreu. You can program drum patterns, schedule tempo changes or humanise the beat. To practice your own sense of tempo, schedule the beat to drop out for a number of bars and then join back in again. Take a look at <a href="https://fretful.io/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">fretful.io</a> to practice scales, chords and intervals.</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://holly.mirror.xyz/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Holly+</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">HOLLY HERNDON</small></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">Artist and composer Holly Herndon has released <a href="https://holly.plus/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Holly+</a> a tool to allow other artists to make artwork using her voice. The tool allows you to upload an audio file and receive a download of the music sung using Holly's processed voice. The tool uses a deep neural network voice model trained on Holly's voice. The project site has detailed discussion of the motivation for the project, the implications of ownership and an experiment to share ownership using a DAO (Decentralised Autonomous Organization).</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://interval.com/jobs/frontend-eng-2021" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">WebAudio/WebRTC Engineer at Interval</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">INTERVAL</small> <span class="sponsor" style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; margin: 0; padding: 4px; border: 1px solid #f8eb96; font-weight: normal; text-transform: uppercase; border-radius: 2px; font-size: 60%; line-height: 1.1; color: #6f6f6f;">sponsored</span></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;"><a href="https://interval.com" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Interval.com</a> is hiring software engineers with a particular focus on WebAudio and WebRTC. We're a small, Sequoia-backed team with founding engineers who've joined us from Apple, Stripe and other top engineering teams. Our platform is already enabling dozens of fitness creators to build their communities, stream classes, and earn a living. We're a remote-first company with the option to work in our sunny Mission, SF office.</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://musicboxfun.com/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Music Box Fun</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">BRYAN BRAUN</small></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">Music Box Fun is a beautiful digital recreation of a mechanical paper-tape <a href="https://musicboxfun.com/guides/diy-music-box" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">music box</a>. It allows you to easily create and share music box compositions in a charming, elegant interface that I really love.</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://www.noteshaper.io/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Noteshaper</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">SEIJI NAIR</small></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">Noteshaper is a generative music application that creates compositions from 6 parameters. Developed by Seiji Nair it's one of a number of <a href="https://www.seijinair.com/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">interesting audio-visual artworks</a>.</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://mostwanted.show/syndication" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">10 Most Wanted</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">GAV RICHARDS</small></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">10 Most Wanted is a syndicated radio show that can be customised for each radio station that decides to broadcast it. Rather than receiving an audio file the station instead installs an Electron app, using Web Audio, which creates the show to the station's requirements from a library of pre-recorded segments, music and bespoke content.</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://www.osar.fr/notes/waveguides/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Notes on Waveguide Synthesis</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">PIERRE CUSA</small></h5>
+        <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">In this explanation of waveguide synthesis, Pierre Cusa uses interactive examples to help the reader understand the theory and mathematics of pysical modelling. The examples are created using <a href="https://paulbatchelor.github.io/proj/sporth.html" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Sporth</a> a stack-based audio programming language that can be included in interactive notebooks using <a href="https://github.com/pac-dev/dspnote" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">dsp-note</a>.</p>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;"><a href="https://www.washingtonpost.com/arts-entertainment/interactive/2021/the-visitors-ragnar-kjartansson-oral-history/" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">An oral history of Ragnar Kjartansson's masterpiece</a></h4>
+        <h5 style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 900; font-size: 17px; margin: 0 0 15px; padding: 0;"><small style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; margin: 0; padding: 0;">WASHINGTON POST</small></h5>
+        <blockquote style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; border-left-width: 3px; border-left-color: #f4de50; border-left-style: solid; margin: 10px 0 10px 30px; padding: 0 0 0 15px;">
+
+<p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">In the summer of 2012, the artist Ragnar Kjartansson gathered a group of musicians at Rokeby, a historic estate in the Hudson Valley. By the end of the week, they had created a multiscreen video installation that has been acclaimed as one of the defining works of our time.</p>
+</blockquote>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+
+
+      <hr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #f8eb96; margin: 0; padding: 0;" />
+
+      <div class="content meta" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+        <table bgcolor="" cellpadding="" align="left" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 class="small" style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;">What's this?
+        </h4><p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">Web Audio Weekly is a newsletter about audio on the web platform, curated by <a href="https://chrislowis.co.uk" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Chris Lowis</a>. Check out the <a href="https://www.webaudioweekly.com" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">archives</a> for issues you may have missed and let your friends know they can <a href="https://www.webaudioweekly.com/subscribe" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">subscribe</a> by forwarding them this newsletter.</p>
+      </td>
+          </tr>
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 class="small" style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;">Support
+        </h4><p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">
+            <a href="https://www.buymeacoffee.com/chrislowis" target="_blank" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 30%; font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 100%; margin: 0; padding: 0;" />
+          </a>
+        </p>
+      </td>
+          </tr>
+          <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <h4 class="small" style="font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; line-height: 1.1; color: #000; font-weight: 500; font-size: 23px; margin: 0 0 15px; padding: 0;">Elsewhere
+        </h4><p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">
+        </p><ul class="" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">
+          <li style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; list-style-position: inside; margin: 0 0 0 5px; padding: 0;"><a href="https://www.webaudioweekly.com" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Previous issues</a></li>
+          <li style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; list-style-position: inside; margin: 0 0 0 5px; padding: 0;"><a href="https://twitter.com/webaudioweekly" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Twitter</a></li>
+          <li style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; list-style-position: inside; margin: 0 0 0 5px; padding: 0;"><a href="mailto:chris@webaudioweekly.com" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;">Email</a></li>
+        </ul>
+
+      </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+      </tr>
+
+      <div class="clear" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; display: block; clear: both; margin: 0; padding: 0;"></div>
+      <table class="footer-wrap" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; clear: both !important; margin: 0; padding: 0;">
+    <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;"></td>
+      <td class="container" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto; padding: 0;">
+        <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; max-width: 600px; display: block; margin: 0 auto; padding: 15px;">
+          <table style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; width: 100%; margin: 0; padding: 0;">
+      <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <td align="center" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+          <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 15px; line-height: 1.8; margin: 0 0 10px; padding: 0;">
+            <a href="{$unsubscribe_link}" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; color: #2BA6CB; margin: 0; padding: 0;"><unsubscribe style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;">Unsubscribe</unsubscribe></a>
+          </p>
+        </td>
+      </tr>
+          </table>
+        </div>
+      </td>
+      <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif; margin: 0; padding: 0;"></td>
+    </tr>
+      </table>
+    </table>
+
+  </body>
