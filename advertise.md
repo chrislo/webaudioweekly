@@ -4,7 +4,7 @@ title: Advertise
 permalink: /advertise/
 ---
 
-Each issue of Web Audio Weekly is sent out by email to over 2,000
+Each issue of Web Audio Weekly is sent out by email to over 3,000
 subscribers and it is one of the most widely-read sources of news for
 Web Audio, Web MIDI and related technologies. Many more read the
 newsletter on the web. Running an advert in Web Audio Weekly is a great
