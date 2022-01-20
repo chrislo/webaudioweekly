@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Issue 126"
-permalink: "/126"
+title: "Issue 127"
+permalink: "/127"
 summary: "Web Audio Conf 2022, Web MIDI in FF nightly, Alienation dances"
 ---
 
