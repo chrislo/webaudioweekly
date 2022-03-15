@@ -9,4 +9,19 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script>
+   (function (s, e, n, d, er) {
+     s['Sender'] = er;
+     s[er] = s[er] || function () {
+       (s[er].q = s[er].q || []).push(arguments)
+     }, s[er].l = 1 * new Date();
+     var a = e.createElement(n),
+	 m = e.getElementsByTagName(n)[0];
+     a.async = 1;
+     a.src = d;
+     m.parentNode.insertBefore(a, m)
+   })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+   sender('815ea1de022720')
+  </script>
 </head>
