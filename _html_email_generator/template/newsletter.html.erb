@@ -50,9 +50,9 @@
 	    <table bgcolor="">
 	      <tr>
 		<td>
-		  <h4><a href="<%= item.url %>"><%= item.title %></a></h4>
-		  <h5><small><%= item.author.upcase %></small></h5>
-		  <%= item.content %>
+		    <h4><a href="<%= item.url %>"><%= item.title %></a></h4>
+		    <% if item.author %><h5><small><%= item.author.upcase %></small></h5><% end %>
+		    <%= item.content %>
 		</td>
 	      </tr>
 	    </table>
@@ -89,8 +89,8 @@
 	    <table bgcolor="">
 	      <tr>
 		<td>
-		  <h4><a href="<%= item.url %>"><%= item.title %></a></h4>
-		  <h5><small><%= item.author.upcase %></small></h5>
+		    <h4><a href="<%= item.url %>"><%= item.title %></a></h4>
+		    <% if item.author %><h5><small><%= item.author.upcase %></small></h5><% end %>
 		  <%= item.content %>
 		</td>
 	      </tr>
