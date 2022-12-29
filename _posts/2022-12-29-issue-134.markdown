@@ -2,7 +2,7 @@
 layout: post
 title: "Issue 134"
 permalink: "/134"
-summary: ""
+summary: "Parametric EQ, RNBO, Ditterjoy"
 ---
 
 
