@@ -1,0 +1,193 @@
+* DONE 1
+Hi!
+
+I'm working on a web synthesizer under the working title Audio-motion interface that generates sound using smartphone gestures in the space. You can check this here (with network latency):
+
+https://ami.stranno.su
+
+or watch the video-demo here:
+
+https://youtu.be/H1ryDYgeoOs
+
+Maybe it will be interesting for the community.
+
+Best wishes, Max
+
+* DONE 2
+
+Hello!
+My name is Valentin and I want to submit app which uses Web Audio Api.
+
+PulseQueue - minimalistic web-application for creating electronic music with virtual analog synthesizers.
+https://valent-in.github.io/pulseq/
+Initially designed as sketching tool for mobile devices. Simple enough but capable to produce something bigger than 1-2 bar loop.
+
+GitHub page (also contains short manual)
+https://github.com/valent-in/pulseq/
+
+* DONE 3
+
+Hey Chris, I hope you are doing well. Continuing our conversation on LinkedIn over here.
+
+Our team is drafting a series on Web Audio API, and the first blog is live.
+
+You can read the blog here - https://dyte.io/blog/web-audio-api/. I would love to know what you think about this.
+
+Cheers!
+Prasad
+
+* DONE 4
+
+Thanks for hosting the Web Audio Weekly newsletter, we are enjoying it a lot.
+
+We would like to draw your attention to our project “A Web Audio API implementation in Rust” which is nearing a v1 release. We think it could be a fit for your newsletter.
+
+The project has two goals:
+
+    Provide a library implementing the Web Audio API, which is not tied to the browser. This means you can utilize the library for command line applications, desktop games, distributed music systems etc.
+
+    Provide NodeJs bindings to the library, so existing javascript code utilizing the Web Audio API can be run both inside the browser and outside the browser.
+
+
+Our work was previously presented at the Web Audio Conference 2022:
+
+Paper: https://zenodo.org/record/6767674
+
+Talk: https://www.youtube.com/watch?v=p1rRAMv3Ytg
+
+We believe that with the current state of the library, it is reasonably feature complete, performant and tested. You can check out the project at https://github.com/orottier/web-audio-api-rs
+
+This has been a work in progress for the past year and a half, mostly by us (Otto Rottier - Software Engineer and audio enthusiast, and Benjamin Matuszewski from the IRCAM Institute France) and a few external contributors.
+
+We would be very proud if you could mention the project in your newsletter. If there is any extra information that you would need, please let us know!
+
+Best regards
+
+Benjamin and Otto
+
+* DONE 5
+
+Hello Chris
+My name is Sergey, and I am a developer of wavetable synth based on Web Audio API.
+I will be really glad if you add my synth into your Web Audio Weekly news.
+
+Synth consists of 2 oscillators with up to 8 voices in each, with detune and wavetables support.
+It also does support gain envelope, voicing, portamento, legato and basic Web Audio filters.
+As well it's possible to use this synth with midi keyboards by Web MIDI API.
+Currently I am working on creating a custom AudioWorklet oscillator which will support wavetables(for automatisation), don't you mind being updated with new versions?
+
+link to code: https://github.com/qvantor/waveform
+demo: https://waveformaudio.netlify.app/
+
+Thank you in advance!
+
+--
+Sergey Nikolaev
+JavaScript developer
+
+* DONE 6
+
+Hi Chris!
+
+Hope you are doing well. I have just run a course in building motion sensor controlled smartphone instruments with WebAudioXML and P5js. It turned out really well, especially the opportunity to do all the coding online and sharing the instruments directly with a URL. I also made a tutorial series where I present the platform and the appropriate WebAudioXML syntax along a bunch of small DEMO application. Everything is available as open source. Please have a look if you think it could be interesting for the community.
+
+Video tutorials:
+https://youtube.com/playlist?list=PLQ9EtICrzxGrSvOLUT9Ibgrd07ColSu8m
+
+All material and online editor:
+https://editor.p5js.org/hanslindetorp/collections/tc8WifSwa
+
+Thanks for all your work with the newsletter!
+
+With best wishes,
+Hans Lindetorp
+
+* DONE 7
+
+Hey Chris,
+
+Thanks for including a link to my recent “Acid Hit” project in the last newsletter.
+
+I thought I’d draw your attention to the other works on the pisongs.com site. There are three long-form web audio works in there. Each one uses the first billion digits of pi as a pseudorandom source for determining the course of the 114-year long songs.
+
+Here’s a press release on the 2020 work:
+https://pisongs.com/press-release-2020.pdf
+
+“Earth Music”, The most recent work, uses a combination of synthesized sounds and environmental field recordings. Like “Acid Hit” it also features generative artwork by Jeffrey Ventrella.
+
+- Canton
+
+* DONE 8
+
+Hi Chris,
+Hope you're doing well. You shared a previous project of mine on issue 127 (The Alienation Dance web song). Here's a new app you could share in your newsletter: https://app.kurku.tech
+
+Kurku is a body-tracking web midi controller. The beta version is currently openly available for people to test it.
+
+Here's a demo video hooked up to Ableton Live that shows what it can do: https://youtu.be/ilXhMrsUQ7w
+
+Have a great day
+
+Francisco
+
+* DONE 9
+
+Amazing inspiration, like always. Thanks, Chris.
+Just so you know, a couple of months ago I released a small fun thing you could be interested in.
+https://raphaelbastide.com/sleng-teng-modulator/
+It’s a simple tribute to the Sleng Teng Riddim, made with tone.js
+
+FYI, I am also working on this live coding app called été.
+The main idea is to introduce live «typing» as a percussive, more spontaneous addition to live coding. Explanations here.
+But it’s a bit early to communicate it to your audience, it just so you know!
+(use the bottom right play button) https://raphaelbastide.com/ete/#Y29uZmlnOgogIGNvbW1lbnQ6IFdlbGNvbWUgdG8g6XTpIHYwLjUKICBzeW50aDoKICAgIG5vdGU6IGtleQogICAgdHlwZTogc2luZQogICAgZHVyOiAwLjEKICAgIGdhaW46IDAuNQogICAgdHJlOiAwCiAgICBlbnY6CiAgICAgIC0gMAogICAgICAtIDEKICAgICAgLSAwCiAgc3luY1RvOiBudWxsCiAgZXhlOiBudWxsCiAgbW9kZTogdHlwZQpwYXR0ZXJuczoKICAtIGlkOiAwCiAgICBjeWNsZTogMQogICAgc3RhcnRUaW1lOiAxNjY0Mjk1NTM3MjUyCiAgICBrZXlzOgogICAgICAtIGlkOiAxCiAgICAgICAga2V5Q29kZTogODUKICAgICAgICBub3RlOiBbc29sdmUoJCAlIDE2ICogNDQwKSwgODBdCiAgICAgICAgb2Zmc2V0OiAwCiAgICAgICAgcGFuOiAwCiAgICAgICAgc3ludGg6CiAgICAgICAgICB0eXBlOiBbInNpbmUiLCAic2F3dG9vdGgiXQogICAgICAgICAgZHVyOiAwLjEKICAgICAgICAgIGdhaW46IDAuNQogICAgICAgICAgdHJlOiAwCiAgICAgICAgICBlbnY6CiAgICAgICAgICAgIC0gMAogICAgICAgICAgICAtIDEKICAgICAgICAgICAgLSAwCiAgICAgICAgc3RhcnRUaW1lOiAxNjY0Mjk1NTM3MzIyCiAgICBlbmRUaW1lOiAxNjY0Mjk1NTM4OTA2CiAgICBkdXJhdGlvbjogMTYwCg==
+
+Cheers from Paris.
+
+* DONE 10
+
+https:/o/developer.chrome.com/en/blog/audiocontext-setsinkid/
+
+* DONE 11
+
+https://github.com/blechdom/webaudio-controls-react-typescript
+
+* DONE 12
+
+All, Firefox now has an implementation of https://w3c.github.io/autoplay/, that allows determining whether an AudioContext/Media Element is allowed to play, or whether if you were to create one, you would be allowed to start it. I made a very small example here: https://paul.cx/public/autoplay-detection.html (look at the source and the js console). This is currently in Nightly 110, and stable Firefox with this feature will be released on the 14th of February this year.
+
+For us AudioContext users, it's useful to know if an AudioContext is "suspended" because it's been prevented from starting, or because it's extremely slow to start (or even if it's been suspended explicitly, although we could also track this separately).
+
+https://w3c.github.io/autoplay/
+
+* DONE 13
+
+https://www.learnyourchords.com/
+
+* DONE 14
+
+https://muzic-sage.vercel.app/
+
+* DONE 15
+
+https://brandnewbox.com/inthestacks/
+
+* 16
+
+https://strudel.tidalcycles.org/?1fNyWkyFvCiB
+
+* 17 DONE
+
+https://www.theguardian.com/environment/2023/jan/05/flutes-synths-a-human-voice-how-should-electric-vehicles-sound
+
+* 18 DONE
+
+https://nathan.ho.name/posts/sound-synthesis-with-l-systems/
+
+* 19
+
+https://reactflow.dev/blog/react-flow-and-the-web-audio-api/ /via https://github.com/chrisguttandin
+
+* DONE 20
+
+https://github.com/satelllte/audioparam-visualization
